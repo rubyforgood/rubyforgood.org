@@ -1,0 +1,33 @@
+<section class="service-area pt-100 pb-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 text-center pb-40 ">
+                <div class="section-title service-title">
+                    <h2>All Featured</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form,words which don't look even slightly believable.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for feature in site.features %}
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50 ">
+                <div class="services-box">
+                    <div class="services-img">
+                        <img src="{{feature.image}}" class="img-fluid" alt="{{feature.title}}">
+                    </div>
+                    <div class="services-content">
+                        <div class="card-title">
+                            <h5><a href="{{feature.url}}">{{feature.title}}</a></h5>
+                        </div>
+                        <div class="card-text">
+                            <p>{{feature.description}}</p>
+                        </div>
+                        <a href="{{feature.url}}" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

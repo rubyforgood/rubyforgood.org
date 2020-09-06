@@ -1,0 +1,50 @@
+<div class="widget">
+    <h4 class="widget-title">Recent Posts</h4>
+    <div class="sidebar-rc-post">
+        <ul>
+           {% for post in site.posts limit:"5" %}
+            <li>
+                <div class="rc-post-thumb">
+                    <a href="{{post.url}}">
+                        <img src="{{post.post_image}}" alt="{{post.title}}"/>
+                    </a>
+                </div>
+                <div class="rc-post-content">
+                    <h4>
+                        <a href="{{post.url}}">{{post.title}}</a>
+                    </h4>
+                    <div class="widget-date">{{post.date | date_to_long_string}}</div>
+                </div>
+            </li>
+           {% endfor %}
+        </ul>
+    </div>
+</div>
+<div class="widget">
+    <h4 class="widget-title">Banner Advertise</h4>
+    <div class="widget-banner">
+      {% include advertise.html %}
+    </div>
+</div>
+<div class="widget">
+    <h4 class="widget-title">Categories</h4>
+    <div class="widget-link">
+        <ul class="sidebar-link">
+          {% for category in site.categories %}
+            {% assign category_name = category[0] %}
+            <li>
+              <a class="text-capitalize" href="/category/{{ category_name | slugify }}/">{{ category_name | replace: "-", " " }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+<div class="widget">
+    <h4 class="widget-title">Popular Tags</h4>
+    <div class="widget-tags">
+        <div class="sidebar-tad">
+            {{site | tag_cloud}}
+        </div>
+    </div>
+</div>
+

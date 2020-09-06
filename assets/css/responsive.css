@@ -1,0 +1,324 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+.wrapper-box.wrapper-padding {
+	padding: 0 20px;
+}
+
+
+
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+.wrapper-box.wrapper-padding {
+	padding: 0;
+}
+
+.md-margin {
+	margin-top: 50px;
+}
+blockquote::before {
+	left: 40px;
+}
+blockquote::after {
+	right: 40px;
+}
+blockquote {
+	padding: 0 85px;
+}
+.team-info h3 {
+	font-size: 16px;
+	margin-bottom: 2px;
+}
+.team-info span {
+	font-size: 12px;
+}
+.section-title.service-title p {
+	padding: 0 100px;
+}
+.about-info-text p {
+	padding: 0 60px;
+}
+.features-wrap {
+	padding: 40px 30px;
+}
+.client-text {
+	padding: 0 148px;
+}
+
+
+
+
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.wrapper-box.wrapper-padding {
+	padding: 0;
+}
+.top-btn {
+	display: none;
+}
+.menu-area {
+	padding: 20px 0;
+}
+.logo img {
+	margin-top: 20px;
+}
+.slider-content h1 {
+	font-size: 54px;
+}
+.slider-content p {
+	font-size: 15px;
+}
+.slider-bg {
+	height: 600px;
+}
+.about-img img {
+	width: 100%;
+}
+blockquote::before {
+	display: none;
+}
+blockquote::after {
+	display: none;
+}
+blockquote {
+	padding: 0 10px;
+}
+.section-title.service-title p {
+	padding: 0 0px;
+}
+.single-cta i {
+	margin-top: 6px;
+}
+.cta-text h4 {
+	font-size: 18px;
+}
+.cta-text span {
+	font-size: 12px;
+}
+.footer-pattern img {
+	width: 100%;
+}
+.about-info-text p {
+	padding: 0;
+	font-size: 16px;
+}
+.contact-form-title p {
+	width: 70%;
+}
+.call-to-action a {
+	padding: 18px 30px;
+}
+.related-project-title.section-title p {
+	padding: 0;
+	width: 100%;
+}
+.features-wrap {
+	padding: 40px 30px;
+}
+.client-text {
+	padding: 0 ;
+}
+.client-text::before,.client-text::after {
+	display: none;
+}
+.menu-margin-bottom {
+	margin-bottom: 0;
+}
+.call-to-action h3 {
+	font-size: 26px;
+}
+.sm-mt {
+	margin-top: 60px;
+}
+.sticky {
+	position: static;
+}
+
+
+
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+.header-top.blue-bg {
+	padding: 10px 0;
+}
+.sticky {
+	position: static;
+}
+.wrapper-box.wrapper-padding {
+	padding: 0;
+}
+.top-btn {
+	display: none;
+}
+.menu-area {
+	padding: 20px 0;
+}
+.logo img {
+	margin-top: 20px;
+}
+.slider-content h1 {
+	font-size: 40px;
+}
+.slider-content p {
+	font-size: 14px;
+}
+.btn {
+	padding: 15px 25px;
+}
+.slider-bg {
+	height: 480px;
+}
+.about-img img {
+	width: 100%;
+}
+.section-title.service-title p {
+	padding: 0;
+}
+.services-img img {
+	width: 100%;
+}
+.portfolio-thumb img {
+	width: 100%;
+}
+blockquote::before {
+	display: none;
+}
+blockquote::after {
+	display: none;
+}
+blockquote {
+	padding: 0;
+}
+.footer-pattern img {
+	width: 100%;
+}
+.about-info-text h2 {
+	font-size: 24px;
+}
+.about-info-text p {
+	padding: 0;
+	font-size: 14px;
+}
+.contact-form-title p {
+	width: 100%;
+}
+.breadcrumb-title.sm-size h2 {
+	font-size: 28px;
+}
+.related-project-title.section-title p {
+	padding: 0;
+	width: 100%;
+}
+.display-none{
+	display: none;
+}
+.client-text {
+	padding: 0 ;
+	font-size: 14px;
+}
+.client-text::before,.client-text::after {
+	display: none;
+}
+.white-text h3 {
+	font-size: 30px;
+}
+.slider-content h1 {
+	font-size: 36px;
+}
+.portfolio-menu {
+	display: none;
+}
+.home-three-about {
+	margin-top: 0;
+	padding-top: 0;
+}
+.slider-two-bg {
+	height: 600px;
+}
+.menu-margin-bottom {
+	margin-bottom: 0;
+}
+.call-to-action h3 {
+	font-size: 26px;
+}
+.blog-title {
+	font-size: 24px;
+}
+.sm-d {
+	display: none !important;
+}
+.sm-mt {
+	margin-top: 60px;
+}
+.comments-reply {
+	padding-left: 0;
+}
+.comments-avatar {
+	float: none;
+	width: 83px;
+	margin-bottom: 20px;
+}
+.comments-text {
+	padding-left: 0;
+}
+.comments-avatar img {
+	width: 100%;
+}
+
+
+
+
+
+}
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+.about-info-text h2 {
+	font-size: 35px;
+}
+.slider-content h1 {
+	font-size: 40px;
+}
+.portfolio-menu {
+	display: block;
+}
+.home-three-about {
+	margin-top: -265px;
+	padding-top: 15px;
+}
+.sm-d {
+	display: inline-block !important;
+}
+.comments-avatar {
+	float: left;
+	width: 103px;
+}
+.comments-avatar img {
+	width: 100%;
+}
+.comments-text {
+	overflow: hidden;
+	padding-left: 30px;
+}
+.comments-reply {
+	padding-left: 130px;
+}
+
+
+
+
+
+
+
+}

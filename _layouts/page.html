@@ -1,0 +1,29 @@
+---
+layout: default
+---
+{% include header.html %}
+<main> 
+<!-- breadcrumb-area -->
+<section class="breadcrumb-area grey-bg" style="background-image:url({{site.cover_image}})">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-8 col-md-6">
+                <div class="breadcrumb-title sm-size">
+                    <h2>{{page.title}}</h2>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 text-left text-md-right">
+                <div class="breadcrumb">
+                    <ul>
+                        <li><a href="{{site.url}}">Home</a></li>
+                        <li class="text-white pl-1">Pages /</li>
+                        <li class="text-white pl-1">{{page.title}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{content}}
+</main>

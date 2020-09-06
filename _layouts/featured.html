@@ -1,0 +1,25 @@
+---
+layout: page
+---
+
+<div class="services-area pt-100 pb-65">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4">
+             {% include sidebar.html %}
+            </div>
+            <div class="col-xl-8 col-lg-8">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="service-details mb-40">
+                            {% if page.image %}
+                             <img class="mb-30" src="{{page.image}}" alt="{{page.title}}">
+                            {% endif %}
+                        </div>
+                        {{content}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

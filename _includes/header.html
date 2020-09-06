@@ -1,0 +1,48 @@
+<header>
+    {% include header_top.html %}
+    <div id="sticky-header" class="menu-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5">
+                    <div class="logo">
+                        <a href="{{site.url}}"><img src="{{site.logo}}" class="img-fluid" alt="{{site.title}}"></a>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-9 text-right">
+                    <div class="main-menu">
+                      {% include navigation.html %}
+                    </div>
+                </div>
+                <div class="col-xl-1 col-lg-1 d-none d-lg-block">
+                    <div class="menu-icon">
+                        <i class="icofont-search-1" data-toggle="modal" data-target="#search-modal"></i>
+                        <a href="#" class="menu-tigger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mobile-menu"></div>
+                </div>
+            </div>
+            <div class="offcanvas-menu">
+             {% include offcanvas_menu.html %}
+            </div>
+            <div class="offcanvas-overly"></div>
+        </div>
+    </div>
+</header>
+<!-- Modal Search -->
+<div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <form>
+                <input type="text" id="search-input" placeholder="Search blog posts..">
+                <button><i class="fa fa-search"></i></button>
+            </form>
+            <ul id="results-container"></ul>
+        </div>
+    </div>
+</div>

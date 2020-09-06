@@ -1,0 +1,40 @@
+<section class="blog-area grey-bg pt-100 pb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 text-center pb-40">
+                <div class="section-title service-title">
+                    <h2>Latest Blog</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form,words which don't look even slightly believable.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for post in site.posts limit:"3" %}
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="blog-wrapper home-blog-wrapper white-bg">
+                    <div class="blog-thumb">
+                        <a href="{{post.url}}">
+                            <img src="{{post.post_image}}" alt="{{post.title}}"/>
+                        </a>
+                    </div>
+                    <div class="meta-info">
+                        <ul>
+                            <li class="posts-time">{{post.date | date_to_long_string}}</li>
+                        </ul>
+                    </div>
+                    <div class="blog-content home-blog">
+                        <h2 class="blog-title">
+                            <a href="{{post.url}}">{{post.title}}</a>
+                        </h2>
+                        <p>{{excerpt | truncatewords:"25"}}</p>
+                    </div>
+                    <div class="link-box home-blog-link">
+                        <a href="{{post.url}}">Read More</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
