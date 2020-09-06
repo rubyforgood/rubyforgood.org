@@ -14,10 +14,12 @@ github_url: https://github.com/rubyforgood/
 linkedin_url: https://www.linkedin.com/company/ruby-for-good/
 # instagram_url: 
 twitch_url: https://www.twitch.tv/rubyforgood
-logo: "/assets/img/logo/logo.png"
-logo_2: "/assets/img/logo/logo_2.png"
+classic-logo: "/assets/img/logos/classic-logo.png"
+white-logo: "/assets/img/logos/white-logo.png"
+special-logo: "/assets/img/logos/special-logo.png"
 # mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
 # mailchimp_input_name: "b_307862c135e4548eecf86f389_342411fb35"
+# TODO: Get MailChimp info
 
 # permalink: "/:title"
 
