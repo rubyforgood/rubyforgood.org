@@ -1,0 +1,18 @@
+<!-- TODO: Translate CSS and JS over from other template -->
+
+<section class="grey-bg pb-70 pt-100">
+  <div class="container">
+    <div class="row">
+      {% for overview in site.data.overviews %}
+      <div class="col-xl-4 col-lg-4 mb-30 iconText">
+        <div class="{{ overview.shape }}">
+          <i class="{{ overview.icon }}"></i>
+          <h3>{{ overview.title }}</h3>
+          <p>{{ overview.desc }}</p>
+        </div>
+        <!-- <div class="two spacing"></div> -->
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

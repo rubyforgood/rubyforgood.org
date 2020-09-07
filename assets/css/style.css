@@ -6,7 +6,8 @@
 
 /* CSS Index
 -----------------------------------
-1. Theme default css
+0. Custom Meg Styling
+1. Theme Default CSS
 2. Header
 3. Slider
 4. About
@@ -24,13 +25,68 @@
 
 
 
-/* 1. Theme default css */
+/* 0. Custom Meg Styling
+------------------------------ */
+
+/* Set font for responsiveness 
+------------------------------
+Most browsers set their default font size to 16px, so if we set ours at 62.5% of that it will come out to 10px. From there, it's a lot easier to calculate rem sizing. Plus if someone changes their default browser settings, our site is coded to respond to it automatically.
+*/
+html {
+	font-size: 62.5%;
+}
+
+/* Icon styling for overview-columns section */
+.iconText .icon-text-circle {
+  text-align: center;
+}
+.iconText .icon-text-circle i {
+  box-sizing: content-box;
+  margin-bottom: 2.5rem;
+  font-size: 3.42857rem;
+  width: 3.42857rem;
+  height: 3.42857rem;
+  color: #FFFFFF;
+  background-color: #03777e;
+  border: 3px solid #51a4a1;
+  display: inline-block;
+  padding: 30px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+  -webkit-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+}
+.iconText .icon-text-circle i:before {
+  margin: 0;
+}
+.iconText .icon-text-circle h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.iconText .icon-text-simple i {
+  font-size: 3.42857rem;
+  float: left;
+  color: #e0e0e0;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+}
+.iconText .icon-text-simple h3,
+.iconText .icon-text-simple p {
+  margin-left: 73px;
+}
+
+
+/* 1. Theme Default CSS */
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
  body {
 	font-family: 'Poppins', sans-serif;
 	font-weight: normal;
 	font-style: normal;
-	font-size: 16px;
+	font-size: 1.6rem;
 }
 .img {
 	max-width: 100%;
@@ -65,12 +121,12 @@ a:focus,
 a:hover,
 .portfolio-cat a:hover,
 .footer -menu li a:hover {
-	color: #2B96CC;
+	color: #51a4a1;
 	text-decoration: none;
 }
 a,
 button {
-	color: #1696e7;
+	color: #03777e;
 	outline: medium none;
 }
 button:focus,input:focus,input:focus,textarea,textarea:focus{outline: 0}
@@ -103,23 +159,23 @@ h6 a {
 	color: inherit;
 }
 h1 {
-	font-size: 40px;
+	font-size: 4rem;
 	font-weight: 500;
 }
 h2 {
-	font-size: 35px;
+	font-size: 3.5rem;
 }
 h3 {
-	font-size: 28px;
+	font-size: 2.8rem;
 }
 h4 {
-	font-size: 22px;
+	font-size: 2.2rem;
 }
 h5 {
-	font-size: 18px;
+	font-size: 1.8rem;
 }
 h6 {
-	font-size: 16px;
+	font-size: 1.6rem;
 }
 ul {
 	margin: 0px;
