@@ -1,7 +1,7 @@
 ---
 layout: featured
 title: Responsive design
-image: /assets/img/features/03.jpg
+image: /assets/img/theme-stock/features/03.jpg
 description: Responsive design parturient denouncing pleasure and praising pain was born and I will give you a complete.
 ---
 

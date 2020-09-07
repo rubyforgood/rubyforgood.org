@@ -5,7 +5,7 @@ date: 2019-02-09 20:37:13 +0600
 tags: technology education
 categories: [tips, tech]
 author: ecuelass_chapman
-post_image: "/assets/img/blog/08.jpg"
+post_image: "/assets/img/theme-stock/blog/08.jpg"
 ---
 
 <h5>Easily choose from thousan of free themes </h5>

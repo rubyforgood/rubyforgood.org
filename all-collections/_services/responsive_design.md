@@ -1,8 +1,8 @@
 ---
 layout: featured
 title: Responsive design
-icon: /assets/img/icons/ambulance-solid.svg
-image: /assets/img/services/03.jpg
+icon: /assets/img/theme-stock/icons/ambulance-solid.svg
+image: /assets/img/theme-stock/services/03.jpg
 description: Responsive design parturient denouncing pleasure and praising pain was born and I will give you a complete.
 ---
 

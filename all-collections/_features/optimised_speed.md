@@ -1,7 +1,7 @@
 ---
 layout: featured
 title: Optimised for speed
-image: /assets/img/features/01.jpg
+image: /assets/img/theme-stock/features/01.jpg
 description: Condimentum consectetur quaerat parturient denouncing pleasure and praising pain was born and I will give you a complete.
 ---
 

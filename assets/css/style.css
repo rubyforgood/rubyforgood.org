@@ -759,7 +759,7 @@ label {
 	padding: 50px 30px;
 }
 .features-wrap:hover {
-	background-image: url(../img/about/5.jpg);
+	background-image: url(../img/theme-stock/about/5.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: local;

@@ -1,7 +1,7 @@
 ---
 layout: featured
 title: Highly customizable
-image: /assets/img/features/04.jpg
+image: /assets/img/theme-stock/features/04.jpg
 description: Highly customizable parturient denouncing pleasure and praising pain was born and I will give you a complete.
 ---
 

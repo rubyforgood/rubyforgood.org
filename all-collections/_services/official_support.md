@@ -1,8 +1,8 @@
 ---
 layout: featured
 title: Official Support
-icon: /assets/img/icons/american-sign-language-interpreting-solid.svg
-image: /assets/img/services/02.jpg
+icon: /assets/img/theme-stock/icons/american-sign-language-interpreting-solid.svg
+image: /assets/img/theme-stock/services/02.jpg
 description: Dedicated support quaerat parturient denouncing pleasure and praising pain was born and I will give you a complete.
 ---
 

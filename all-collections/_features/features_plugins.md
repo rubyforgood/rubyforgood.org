@@ -1,7 +1,7 @@
 ---
 layout: featured
 title: Features & plugins
-image: /assets/img/features/05.jpg
+image: /assets/img/theme-stock/features/05.jpg
 description: Features & plugins parturient denouncing pleasure and praising pain was born and I will give you a complete.
 ---
 

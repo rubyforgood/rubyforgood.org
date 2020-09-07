@@ -1,7 +1,7 @@
 ---
 layout: featured
 title: Dedicated support
-image: /assets/img/features/02.jpg
+image: /assets/img/theme-stock/features/02.jpg
 description: Dedicated support quaerat parturient denouncing pleasure and praising pain was born and I will give you a complete.
 ---
 
