@@ -4,31 +4,31 @@
   url: /
   submenu:
   - text: Home 2
-    url: /pages/index-2
+    url: /pages/theme-pages/index-2
   - text: Home 3
-    url: /pages/index-3
+    url: /pages/theme-pages/index-3
 - text: About
-  url: /pages/about
+  url: /pages/theme-pages/about
 - text: Blog
-  url: /pages/blog
+  url: /pages/theme-pages/blog
 - text: Services
-  url: /pages/services
+  url: /pages/theme-pages/services
 - text: Pages
   url: /
   submenu:
   - text: Services
-    url: /pages/services
+    url: /pages/theme-pages/services
   - text: Service Details
-    url: /pages/services-details
+    url: /pages/theme-pages/services-details
   - text: Portfolio
-    url: /pages/portfolio   
+    url: /pages/theme-pages/portfolio   
   - text: Portfolio Details
-    url: /pages/portfolio-details 
+    url: /pages/theme-pages/portfolio-details 
   - text: About Us
-    url: /pages/about
+    url: /pages/theme-pages/about
   - text: Contact
-    url: /pages/contact
+    url: /pages/theme-pages/contact
   - text: 404
-    url: /pages/404
+    url: /pages/theme-pages/404
 - text: Contact
-  url: /pages/contact
+  url: /pages/theme-pages/contact
