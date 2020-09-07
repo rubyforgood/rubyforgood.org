@@ -1,0 +1,75 @@
+- image: assets/img/supporters/1password-slider.png
+  name: 1Password
+  link_to: https://1password.com/
+- image: assets/img/supporters/clarity-services-inc-slider.png
+  name: Clarity Services, Inc.
+  link_to: https://www.clarityservices.com/
+- image: assets/img/supporters/custom-ink-slider.png
+  name: CustomInk
+  link_to: https://www.customink.com/
+- image: assets/img/supporters/digitalocean-slider.png
+  name: DigitalOcean
+  link_to: https://www.digitalocean.com/
+- image: assets/img/supporters/excella-slider.png
+  name: Excella
+  link_to: https://www.excella.com/
+- image: assets/img/supporters/flatiron-school-slider.png
+  name: Flatiron School
+  link_to: https://flatironschool.com/
+- image: assets/img/supporters/framebridge-slider.png
+  name: Framebridge
+  link_to: https://www.framebridge.com/
+- image: assets/img/supporters/george-mason-university-slider.png
+  name: George Mason University, College of Humanities and Social Sciences
+  link_to: https://chss.gmu.edu/
+- image: assets/img/supporters/georgetown-university-slider.png
+  name: Georgetown University
+  link_to: https://www.georgetown.edu/
+- image: assets/img/supporters/github-light-slider.png
+  name: GitHub
+  link_to: https://github.com/
+- image: assets/img/supporters/godaddy-slider.png
+  name: GoDaddy
+  link_to: https://www.godaddy.com/
+- image: assets/img/supporters/heroku-slider.png
+  name: Heroku
+  link_to: https://www.heroku.com/
+- image: assets/img/supporters/honeybadger-slider.png
+  name: Honeybadger
+  link_to: https://www.honeybadger.io/
+- image: assets/img/supporters/linode-slider.png
+  name: Linode
+  link_to: https://www.linode.com/
+- image: assets/img/supporters/mapbox-slider.png
+  name: Mapbox
+  link_to: https://www.mapbox.com/
+- image: assets/img/supporters/new-relic-slider.png
+  name: New Relic
+  link_to: https://newrelic.com/
+- image: assets/img/supporters/optoro-light-slider.png
+  name: Optoro
+  link_to: https://www.optoro.com/
+- image: assets/img/supporters/ordway-labs-slider.png
+  name: Ordway Labs
+  link_to: https://www.ordwaylabs.com/
+- image: assets/img/supporters/pardot-engineering-slider.png
+  name: Pardot Engineering
+  link_to: https://www.pardot.com/
+- image: assets/img/supporters/sevatec-slider.png
+  name: Sevatec
+  link_to: https://www.sevatec.com/
+- image: assets/img/supporters/sticker-mule-light-slider.png
+  name: Sticker Mule
+  link_to: https://www.stickermule.com/
+- image: assets/img/supporters/stsi-slider.png
+  name: Solution Technology Systems, Inc.
+  link_to: https://stsiinc.com/
+- image: assets/img/supporters/taphere-technology-slider.png
+  name: TapHere! Technology
+  link_to: http://www.taphere.com/
+- image: assets/img/supporters/vibes-slider.png
+  name: Vibes
+  link_to: https://www.vibes.com/
+- image: assets/img/supporters/xo-group-light-slider.png
+  name: XO Group
+  link_to: https://www.theknotww.com/
