@@ -1,34 +1,42 @@
-#Please use the main menu items under the "text"
-
-- text: Home
-  url: /
+- text: About Us
+  url: /pages/about-us/landing-page
   submenu:
-  - text: Home 2
-    url: /pages/theme-pages/index-2
-  - text: Home 3
-    url: /pages/theme-pages/index-3
-- text: About
-  url: /pages/theme-pages/about
-- text: Blog
-  url: /pages/theme-pages/blog
-- text: Services
-  url: /pages/theme-pages/services
-- text: Pages
-  url: /
+  - text: Our Team
+    url: /pages/about-us/our-team
+  - text: Our Board
+    url: /pages/about-us/our-board
+  - text: The News
+    url: /pages/about-us/the-news
+  - text: Our Blog
+    url: /pages/about-us/our-blog
+  - text: Contact Us
+    url: /pages/about-us/contact-us
+- text: Our Work
+  url: /pages/our-work/landing-page
   submenu:
-  - text: Services
-    url: /pages/theme-pages/services
-  - text: Service Details
-    url: /pages/theme-pages/services-details
-  - text: Portfolio
-    url: /pages/theme-pages/portfolio   
-  - text: Portfolio Details
-    url: /pages/theme-pages/portfolio-details 
-  - text: About Us
-    url: /pages/theme-pages/about
-  - text: Contact
-    url: /pages/theme-pages/contact
-  - text: 404
-    url: /pages/theme-pages/404
-- text: Contact
-  url: /pages/theme-pages/contact
+  - text: Impact
+    url: /pages/our-work/impact
+  - text: Skills-Based Volunteering
+    url: /pages/our-work/skills-based-volunteering
+- text: Events
+  url: /pages/events/landing-page
+  submenu:
+  - text: Ruby in DC
+    url: /pages/events/ruby-in-dc
+  - text: Ruby by the Bay
+    url: /pages/events/ruby-by-the-bay
+- text: Join Us
+  url: /pages/join-us/landing-page
+  submenu:
+  - text: Volunteer
+    url: /pages/join-us/volunteer
+  - text: Sponsorships
+    url: /pages/join-us/sponsorships
+  - text: Non-Profit Partners
+    url: /pages/join-us/non-profit-partners
+  - text: GitHub Sponsorships
+    url: /pages/join-us/github-sponsorships
+  - text: Coding Retreats
+    url: /pages/join-us/coding-retreats
+- text: Give
+  url: /pages/give
