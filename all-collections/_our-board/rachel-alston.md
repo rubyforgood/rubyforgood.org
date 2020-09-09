@@ -1,7 +1,7 @@
 ---
 layout: page
 
-name: Ruby Rails
+name: Rachel Alston
 position: Gooder
 photo: /assets/img/stock/300x400.png
 email: ruby@email.com

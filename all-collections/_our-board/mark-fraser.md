@@ -1,8 +1,8 @@
 ---
 layout: page
 
-name: Ruby Rails
-position: Gooder
+name: Mark Fraser
+position: Babywearing/Board
 photo: /assets/img/stock/300x400.png
 email: ruby@email.com
 social:

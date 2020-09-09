@@ -1,8 +1,8 @@
 ---
 layout: page
 
-name: Ruby Rails
-position: Gooder
+name: Zoe Rivka Panagopoulos
+position: Product Manager, CASA
 photo: /assets/img/stock/300x400.png
 email: ruby@email.com
 social:

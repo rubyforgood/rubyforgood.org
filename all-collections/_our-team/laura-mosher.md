@@ -1,8 +1,8 @@
 ---
 layout: page
 
-name: Ruby Rails
-position: Gooder
+name: Laura Mosher
+position: Product Manager, Terrastories
 photo: /assets/img/stock/300x400.png
 email: ruby@email.com
 social:
