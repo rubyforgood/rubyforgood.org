@@ -1,0 +1,62 @@
+<!-- Copied from impact-item.html in the Devoll theme -->
+
+<div class='container'>
+
+  <!-- Photo slider -->
+  <div class='row'>
+    <div class='col'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for slide in page.slider %}
+          <div class='slide'>
+            <img alt="{{ slide.alt }}" src="{{ slide.src }}" />
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div><!-- /col -->
+  </div><!-- /row -->
+
+  <!-- <div class='spacing'></div> -->
+
+  <div class='row'>
+
+    <div class='col-lg-8'>
+      <h3>{{ page.title }}</h3>
+      <p>{{ page.mission }}</p>
+      <p>{{ page.built_by_rfg }}</p>
+      <p>{{ page.scope_and_impact }}</p>
+      <!-- <div class='spacing'></div> -->
+      <a class='button small' href=''>Visit website</a>
+    </div><!-- /col-lg-8 -->
+
+    <div class='col-lg-4'>
+      <ul class='info'>
+        <li>
+          <strong>Non-Profit Partner:</strong>
+          {{ page.non_profit_partner }}
+        </li>
+        <li>
+          <strong>Years Active:</strong>
+          {{ page.years }}
+        </li>
+        <li>
+          <!-- <div class='spacing'></div> -->
+          <a href='' title='previous'>
+            <i class='icon-left-open'></i>
+          </a>
+          <a href='portfolio.html' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='' title='next'>
+            <i class='icon-right-open'></i>
+          </a>
+        </li>
+      </ul>
+    </div><!-- /col-lg-4 -->
+
+  </div><!-- /row -->
+
+  <!-- <div class='four spacing'></div> -->
+
+</div>
