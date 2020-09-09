@@ -38,12 +38,76 @@ cover_image: "/assets/img/theme-stock/bg/page-title.jpg"
 # Collections
 collections_dir: all-collections
 collections:
-  features:  # TODO: Template collection --> to be removed before deployment
+  features:  # TODO: Template collection --> to be removed before deploy
     output: true
     permalink: /:name
-  services:  # TODO: Template collection --> to be removed before deployment
+  services:  # TODO: Template collection --> to be removed before deploy
     output: true
     permalink: /:name
+  non-profit-partners:
+    output: true
+    permalink: /:collection/:path
+  our-board:
+    output: true
+    permalink: /:collection/:path
+  our-projects:
+    output: true
+    permalink: /:collection/:path
+  our-team:
+    output: true
+    permalink: /:collection/:path
+
+# Front Matter Defaults
+defaults:
+  # Blog Post Defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comments: true
+      share: true
+  # News Article Defaults
+  # - scope:
+  #     path: "_posts"
+  #     type: posts
+  #   values:
+  #     layout: post
+  #     comments: true
+  #     share: true
+  # Non-Profit Partners Defaults
+  - scope:
+      path: "_non-profit-partners"
+      type: non-profit-partners
+    values:
+      layout: page
+      comments: false
+      share: false
+  # Our Board Defaults
+  - scope:
+      path: "_our-board"
+      type: our-board
+    values:
+      layout: page
+      comments: false
+      share: false
+  # Our Projects Defaults
+  - scope:
+      path: "_our-projects"
+      type: our-projects
+    values:
+      layout: page
+      comments: false
+      share: false
+  # Our Team Defaults
+  - scope:
+      path: "_our-team"
+      type: our-team
+    values:
+      layout: page
+      comments: false
+      share: false
+
 
 ########################################################
 # Site configuration for the Jekyll 3 Pagination Gem
