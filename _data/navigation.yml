@@ -1,5 +1,5 @@
 - text: About Us
-  url: /pages/about-us/landing-page
+  url: /pages/about-us
   submenu:
   - text: Our Team
     url: /pages/about-us/our-team
@@ -12,21 +12,21 @@
   - text: Contact Us
     url: /pages/about-us/contact-us
 - text: Our Work
-  url: /pages/our-work/landing-page
+  url: /pages/our-work
   submenu:
   - text: Impact
     url: /pages/our-work/impact
   - text: Skills-Based Volunteering
     url: /pages/our-work/skills-based-volunteering
 - text: Events
-  url: /pages/events/landing-page
+  url: /pages/events
   submenu:
   - text: Ruby in DC
     url: /pages/events/ruby-in-dc
   - text: Ruby by the Bay
     url: /pages/events/ruby-by-the-bay
 - text: Join Us
-  url: /pages/join-us/landing-page
+  url: /pages/join-us
   submenu:
   - text: Volunteer
     url: /pages/join-us/volunteer
