@@ -78,15 +78,20 @@ html {
   margin-left: 7.3rem;
 }
 
-/* Title Parentheses Decoration */
-/* .title-parens::before {
-  content: "{";
+/* Section Title Headers */
+.title-header {
+  position: relative;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+.title-header::before {
+  content: "{ ";
   color: #03777e;
 }
-.title-parens::after {
-  content: "}";
+.title-header::after {
+  content: " }";
   color: #03777e;
-} */
+}
 
 
 /* ---------------- 1. Theme Default CSS ---------------- */
@@ -902,13 +907,6 @@ label {
 	line-height: 1;
 }
 .post-comments .theme-section-title h2 {
-  position: absolute;
-  left: 0;
-  width: 6rem;
-  height: 2px;
-  background: #f2454e;
-  bottom: -2.5rem;
-} */
 	margin-bottom: 1.5rem;
 }
 .theme-section-title.service-title p {
@@ -989,17 +987,6 @@ label {
 	padding: 2rem;
 	padding-top: 0rem;
 }
-/* .service-title h2::before {
-	content: "";
-	position: absolute;
-	left: 0;
-	width: 6rem;
-	height: 2px;
-	background: #f2454e;
-	bottom: -2.5rem;
-	right: 0;
-	margin: auto;
-} */
 .services-img {
 	margin-bottom: 2.5rem;
 	overflow: hidden;
