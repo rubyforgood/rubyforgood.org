@@ -894,14 +894,14 @@ label {
 
 
 /* ---------------- 4. About ---------------- */
-.section-title h2 {
+.theme-section-title h2 {
 	position: relative;
 	margin-bottom: 4.5rem;
 	display: inline-block;
 	font-weight: 600;
 	line-height: 1;
 }
-/* .section-title h2::before {
+.post-comments .theme-section-title h2 {
   position: absolute;
   left: 0;
   width: 6rem;
@@ -909,10 +909,9 @@ label {
   background: #f2454e;
   bottom: -2.5rem;
 } */
-.post-comments .section-title h2 {
 	margin-bottom: 1.5rem;
 }
-.section-title.service-title p {
+.theme-section-title.service-title p {
 	padding: 0 19rem;
 	margin-bottom: 1rem;
 }
@@ -1337,7 +1336,7 @@ label {
 	margin: 0;
 	letter-spacing: .0.8rem;
 }
-.related-project-title.section-title p {
+.related-project-title.theme-section-title p {
 	padding: 0 ;
 	width: 60%;
 	margin: 0 auto 6rem;
