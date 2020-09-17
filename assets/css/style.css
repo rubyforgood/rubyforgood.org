@@ -1729,7 +1729,8 @@ label {
 }
 .blog-content.home-blog h2 {
 	font-size: 1.8rem;
-	margin-bottom: 1rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1rem;
 }
 .blog-content.home-blog p {
 	margin-bottom: 1rem;
