@@ -785,7 +785,7 @@ label {
 	width: 2.5rem;
 	background: #fff;
 }
-.slider-active .slick-dots li.slick-active button{
+.slider-active .slick-dots li.slick-active button {
   background: #03777e;
   outline: 0;
 }
@@ -888,7 +888,7 @@ label {
 	padding: 2rem;
 	padding-top: 0rem;
 }
-.service-title h2::before {
+/* .service-title h2::before {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -898,7 +898,7 @@ label {
 	bottom: -2.5rem;
 	right: 0;
 	margin: auto;
-}
+} */
 .services-img {
 	margin-bottom: 2.5rem;
 	overflow: hidden;
