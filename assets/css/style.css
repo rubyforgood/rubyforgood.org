@@ -79,6 +79,15 @@ html {
   margin-left: 7.3rem;
 }
 
+/* Title Parentheses Decoration */
+/* .title-parens::before {
+  content: "{";
+  color: #03777e;
+}
+.title-parens::after {
+  content: "}";
+  color: #03777e;
+} */
 
 /* 1. Theme Default CSS */
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
