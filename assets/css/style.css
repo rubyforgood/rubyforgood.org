@@ -1182,6 +1182,10 @@ label {
 	background-position: center;
 	background-attachment: fixed;
 }
+.counter-section h2.title-header + p,
+.counter-section h2 {
+  color: #fff;
+}
 .single-counter span {
 	font-size: 4.8rem;
 	color: #f2454e;
@@ -1200,7 +1204,7 @@ label {
 	font-size: 1.6rem;
 	margin: 0;
 	text-transform: capitalize;
-	font-weight: 500;
+	font-weight: 400;
 }
 
 
