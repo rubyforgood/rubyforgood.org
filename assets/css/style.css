@@ -1359,7 +1359,7 @@ label {
 	border-bottom: 1px solid #373636;
 }
 .single-cta i {
-	color: #f2454e;
+	color: #51a4a1;
 	font-size: 3rem;
 	float: left;
 	margin-top: 0.8rem;
@@ -1459,7 +1459,7 @@ label {
 	bottom: -1.5rem;
 	height: 2px;
 	width: 5rem;
-	background: #f2454e;
+	background: #03777e;
 }
 .footer-widget ul li {
 	display: inline-block;
@@ -1480,7 +1480,7 @@ label {
 }
 .subscribe-form input {
 	width: 100%;
-	padding: 1.4rem 2.8rem;
+	padding: 1.6rem 2.8rem;
 	background: #2E2E2E;
 	border: 1px solid #2E2E2E;
 	color: #fff;
@@ -1488,9 +1488,9 @@ label {
 .subscribe-form button {
     position: absolute;
     right: 0;
-    background: #f2454e;
+    background: #51a4a1;
     padding: 1.3rem 2rem;
-    border: 1px solid #f2454e;
+    border: 3px solid #03777e;
     top: 0;
 }
 .subscribe-form button i {
@@ -1508,7 +1508,7 @@ label {
 	color: #878787;
 }
 .copyright-text p a{
-	color: #f2454e;
+	color: #03777e;
 }
 
 
