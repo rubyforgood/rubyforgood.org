@@ -361,10 +361,12 @@ label {
 }
 .main-menu ul li a {
 	color: #020d26;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	padding: 3.5rem 0;
 	display: block;
-	font-weight: 600;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
 	position: relative;
 }
 .main-menu.second-menu ul li a {
@@ -405,15 +407,17 @@ label {
 	margin: 0;
 	border-bottom: 1px solid rgba(0,0,0,0.08);
 }
-.main-menu ul li .sub-menu li:last-child{
+.main-menu ul li .sub-menu li:last-child {
 	border: none;
 }
 .main-menu ul li .sub-menu li a {
 	padding: 1rem 1.5rem;
 	text-align: left;
-	font-weight: 600;
+	font-weight: 700;
 	position: relative;
-	font-size: 1.3rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
 }
 .main-menu.second-menu ul li .sub-menu li a {
 	color: #020d26;
@@ -424,7 +428,8 @@ label {
 .transparent-menu ul li .sub-menu li a {
 	color: #020d26;
 }
-.main-menu ul li .sub-menu li a::before {
+/* Remove dash on hover */
+/* .main-menu ul li .sub-menu li a::before {
 	position: absolute;
 	left: 0.6rem;
 	color: #f2454e;
