@@ -21,6 +21,8 @@
 13. Contact
 14. Blog
 15. Pagination
+16. ScrollUp
+17. Results
 */
 
 
@@ -2200,7 +2202,7 @@ blockquote {
 }
 
 
-/* ---------------- 5. Results ---------------- */
+/* ---------------- 17. Results ---------------- */
 #results-container {
 	margin-top: 2.5rem;
 }
