@@ -12,8 +12,6 @@ social:
     icon: twitter
   - link: https://github.com/rubyforgood
     icon: github
-  - link: 
-    icon: pinterest
   - link: https://www.linkedin.com/company/ruby-for-good
     icon: linkedin
   - link: 
@@ -22,6 +20,8 @@ social:
     icon: twitch
   - link: 
     icon: dev-to
+  - link: 
+    icon: youtube
 
 quote: "Taking MINASWAN to heart!"
 
