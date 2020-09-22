@@ -1,58 +1,29 @@
 <section class="team-area grey-bg pt-100 pb-70">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12 text-center pb-40">
-                <div class="theme-section-title service-title">
-                    <h2>Our Team</h2>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,words which don't look even slightly believable.</p>
-                </div>
-            </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-9 col-md-12 text-center pb-40">
+        <div class="title-header">
+          <h2>Our Team</h2>
+          <p>Read below to learn more about our amazing team members who keep things running day in and day out at Ruby for Good.</p>
         </div>
-        <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
-                <div class="single-team text-center "  >
-                    <div class="team-img">
-                        <img src="{{site.baseurl}}/assets/img/theme-stock/team/01.jpg" alt="">
-                    </div>
-                    <div class="team-info">
-                        <h3>Tanvir Raihan</h3>
-                        <span>Web Designer</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
-                <div class="single-team text-center "  >
-                    <div class="team-img">
-                        <img src="{{site.baseurl}}/assets/img/theme-stock/team/02.jpg" alt="">
-                    </div>
-                    <div class="team-info">
-                        <h3>Jackson Nash</h3>
-                        <span>Massagist</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
-                <div class="single-team text-center "  >
-                    <div class="team-img">
-                        <img src="{{site.baseurl}}/assets/img/theme-stock/team/03.jpg" alt="">
-                    </div>
-                    <div class="team-info">
-                        <h3>Jon Doe</h3>
-                        <span>Web Develpoer</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
-                <div class="single-team text-center "  data-wow-delay=".8s">
-                    <div class="team-img">
-                        <img src="{{site.baseurl}}/assets/img/theme-stock/team/04.jpg" alt="">
-                    </div>
-                    <div class="team-info">
-                        <h3>Jackson Nash</h3>
-                        <span>Massagist</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+    <div class="row">
+      {% for team-member in site.our-team %}
+      <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+        <div class="single-team text-center">
+          <a href="{{ team-member.url }}">
+            <div class="team-img">
+              <img src="{{site.baseurl}}{{ team-member.photo }}" alt="{{ team-member.name }}">
+            </div>
+            <div class="team-info">
+              <h3>{{ team-member.name }}</h3>
+              <span>{{ team-member.position }}</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </section>

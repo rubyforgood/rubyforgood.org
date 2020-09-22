@@ -81,18 +81,21 @@ html {
 }
 
 /* Section Title Headers */
-.title-header {
+.title-header > h2 {
   position: relative;
   margin-bottom: 2rem;
   font-weight: 300;
 }
-.title-header::before {
+.title-header > h2::before  {
   content: "{ ";
   color: #03777e;
 }
-.title-header::after {
+.title-header > h2::after  {
   content: " }";
   color: #03777e;
+}
+.title-header > h2 > p {
+  padding: 0 2rem;
 }
 
 
@@ -911,10 +914,6 @@ label {
 .post-comments .theme-section-title h2 {
 	margin-bottom: 1.5rem;
 }
-.theme-section-title.service-title p {
-	padding: 0 19rem;
-	margin-bottom: 1rem;
-}
 .about-info-text h2 {
 	margin-bottom: 2.3rem;
 	text-transform: capitalize;
@@ -1408,7 +1407,7 @@ label {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background: #000;
+	background: #03777e;
 	left: 0;
 	top: 0;
 	opacity: 0;
@@ -1423,13 +1422,14 @@ label {
 .team-info {
 	background: #fff;
 	position: absolute;
-	bottom: -7.5rem;
+	bottom: -12rem;
 	width: 90%;
 	left: 0;
 	right: 0;
 	margin: auto;
 	transition: .5s;
-	padding: 1rem 0;
+  padding: 1rem 0;
+  border: solid 2px #f2454e;
 }
 .single-team:hover .team-info {
 	bottom: 1.4rem;
