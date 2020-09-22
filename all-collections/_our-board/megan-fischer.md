@@ -1,7 +1,8 @@
 ---
 layout: page
 
-name: Megan Fischer
+first_name: Megan
+last_name: Fischer
 position: Gooder
 photo: /assets/img/stock/300x400.png
 email: ruby@email.com

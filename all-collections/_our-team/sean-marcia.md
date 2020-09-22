@@ -1,7 +1,8 @@
 ---
 layout: page
 
-name: Sean Marcia
+first_name: Sean
+last_name: Marcia
 position: Founder and Badass
 photo: /assets/img/people/sean-marcia.png
 email: sean@rubyforgood.org

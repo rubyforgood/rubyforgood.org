@@ -1,7 +1,8 @@
 ---
 layout: page
 
-name: Edwin Mak
+first_name: Edwin
+last_name: Mak
 position: Technical Project Manager, DiaperBase
 photo: /assets/img/stock/300x400.png
 email: ruby@email.com

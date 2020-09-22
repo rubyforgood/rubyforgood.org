@@ -1,7 +1,8 @@
 ---
 layout: page
 
-name: Zoe Rivka Panagopoulos
+first_name: Zoe
+last_name: Rivka Panagopoulos
 position: Product Manager, CASA
 photo: /assets/img/stock/300x400.png
 email: ruby@email.com

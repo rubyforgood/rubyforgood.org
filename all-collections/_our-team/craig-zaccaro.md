@@ -1,7 +1,8 @@
 ---
 layout: page
 
-name: Craig Zaccaro
+first_name: Craig
+last_name: Zaccaro
 position: Director of Projects
 photo: /assets/img/stock/300x400.png
 email: ruby@email.com

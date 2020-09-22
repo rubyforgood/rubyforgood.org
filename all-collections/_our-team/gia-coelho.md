@@ -1,7 +1,8 @@
 ---
 layout: page
 
-name: Gia Coelho
+first_name: Gia
+last_name: Coelho
 position: Product Manager, DiaperBase
 photo: /assets/img/stock/300x400.png
 email: ruby@email.com

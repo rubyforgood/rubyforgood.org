@@ -1,9 +1,9 @@
 ---
 layout: page
 
-first_name: Linda
-last_name: Goldstein
-position: Technical Project Manager, CASA
+first_name: Meghan
+last_name: Gutshall
+position: Gooder
 photo: /assets/img/stock/300x400.png
 email: ruby@email.com
 social:

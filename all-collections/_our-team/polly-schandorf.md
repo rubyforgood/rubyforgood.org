@@ -1,7 +1,8 @@
 ---
 layout: page
 
-name: Polly Schandorf
+first_name: Polly
+last_name: Schandorf
 position: Director of Projects
 photo: /assets/img/stock/300x400.png
 email: ruby@email.com

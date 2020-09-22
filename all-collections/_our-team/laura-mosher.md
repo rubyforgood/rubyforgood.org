@@ -1,7 +1,8 @@
 ---
 layout: page
 
-name: Laura Mosher
+first_name: Laura
+last_name: Mosher
 position: Product Manager, Terrastories
 photo: /assets/img/stock/300x400.png
 email: ruby@email.com

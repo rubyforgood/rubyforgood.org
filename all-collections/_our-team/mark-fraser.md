@@ -1,7 +1,8 @@
 ---
 layout: page
 
-name: Mark Fraser
+first_name: Mark
+last_name: Fraser
 position: Babywearing/Board
 photo: /assets/img/stock/300x400.png
 email: ruby@email.com

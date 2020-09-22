@@ -1,7 +1,8 @@
 ---
 layout: page
 
-name: Ian Norris
+first_name: Ian
+last_name: Norris
 position: Technical Project Manager, Terrastories
 photo: /assets/img/stock/300x400.png
 email: ruby@email.com

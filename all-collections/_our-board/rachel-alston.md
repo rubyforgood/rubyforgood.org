@@ -1,7 +1,8 @@
 ---
 layout: page
 
-name: Rachel Alston
+first_name: Rachel
+last_name: Alston
 position: Gooder
 photo: /assets/img/stock/300x400.png
 email: ruby@email.com
