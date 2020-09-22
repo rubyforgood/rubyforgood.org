@@ -1,7 +1,8 @@
 ---
 layout: page
 
-name: Ruby Rails
+first_name: Ruby
+last_name: Rails
 position: Gooder
 photo: /assets/img/stock/300x400.png
 email: ruby@email.com
