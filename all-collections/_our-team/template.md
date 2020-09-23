@@ -8,25 +8,35 @@ photo: /assets/img/stock/300x400.png
 email: ruby@email.com
 social:
   - link: 
-    icon: facebook
+    handle: 
+    icon: facebook-f
   - link: http://twitter.com/RubyforGood
+    handle: "@RubyforGood"
     icon: twitter
   - link: https://github.com/rubyforgood
+    handle: "/rubyforgood"
     icon: github
   - link: https://www.linkedin.com/company/ruby-for-good
-    icon: linkedin
+    handle: "/ruby-for-good"
+    icon: linkedin-in
   - link: 
+    handle: 
     icon: instagram
   - link: https://www.twitch.tv/rubyforgood
+    handle: "@rubyforgood"
     icon: twitch
   - link: 
-    icon: dev-to
+    handle: 
+    icon: dev
   - link: 
+    handle: 
     icon: youtube
 
 quote: "Taking MINASWAN to heart!"
 
-description: "Tell us about yourself!"
+write_up:
+  - paragraph: "Tell us about yourself!"
+  - paragraph: "Tell us about yourself!"
 
 facts:
   - fact: 
