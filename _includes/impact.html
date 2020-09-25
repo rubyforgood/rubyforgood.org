@@ -1,15 +1,5 @@
-<section class="team-area grey-bg pt-100 pb-70">
+<section class="pb-70">
   <div class="container">
-
-    <div class="row justify-content-center">
-      <div class="col-xl-9 col-md-12 text-center pb-40">
-        <div class="title-header">
-          <h2>Impact</h2>
-          <p>See how Ruby for Good has made and continues to make a lasting impact on the global community.</p>
-        </div>
-      </div><!-- /col-xl-9 col-md-12 -->
-    </div><!-- /row -->
-
     <div class="row">
       {% assign projects = site.our-projects | sort: "title" %}
       {% for project in projects %}
@@ -27,6 +17,5 @@
       </div><!-- /col-xl-3 col-lg-3 col-md-6 -->
       {% endfor %}
     </div><!-- /row -->
-
   </div><!-- /container -->
 </section>
