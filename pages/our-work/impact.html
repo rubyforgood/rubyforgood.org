@@ -3,10 +3,4 @@ layout: page
 title: Impact
 ---
 
-{% for project in site.our-projects %}
-  <h2>
-    <a href="{{ project.url }}">
-      {{ project.title }} - {{ project.non_profit_partner }}
-    </a>
-  </h2>
-{% endfor %}
+{% include impact.html %}
