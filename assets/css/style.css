@@ -1183,8 +1183,8 @@ label {
 	background-position: center;
 	background-attachment: fixed;
 }
-.counter-section h2.title-header + p,
-.counter-section h2 {
+.counter-section.title-header > h2 + p,
+.counter-section.title-header > h2 {
   color: #fff;
 }
 .single-counter span {
