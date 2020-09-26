@@ -1,15 +1,7 @@
-<section class="blog-area grey-bg pt-100 pb-70">
+<section class="blog-area grey-bg pb-70">
   <div class="container">
     <div class="row">
-      <div class="col-xl-12 text-center pb-40">
-        <div class="title-header">
-          <h2>Our Recent Posts</h2>
-          <p>See what's new with Ruby for Good!</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      {% for post in site.posts limit:"3" %}
+      {% for post in site.posts limit: "3" %}
       <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
         <div class="blog-wrapper home-blog-wrapper white-bg">
           <div class="blog-thumb">
