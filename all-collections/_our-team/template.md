@@ -51,4 +51,4 @@ facts:
     icon: 
 ---
 
-{% include team_member.html %}
+{% include about_us/team_member.html %}

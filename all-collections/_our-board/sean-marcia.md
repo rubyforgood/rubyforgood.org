@@ -34,4 +34,4 @@ facts:
     icon: smile-wink
 ---
 
-{% include board_member.html %}
+{% include about_us/board_member.html %}
