@@ -1649,13 +1649,13 @@ h4.team-member-facts {
     position: absolute;
     right: 0;
     background: #51a4a1;
-    padding: 1.3rem 2rem;
+    padding: 0.75rem 1.5rem 0.55rem 1.3rem;
     border: 3px solid #03777e;
     top: 0;
 }
 .subscribe-form button i {
 	color: #fff;
-	font-size: 2.2rem;
+	font-size: 3.5rem;
 	transform: rotate(-6deg);
 }
 .copyright-area {
