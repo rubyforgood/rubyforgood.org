@@ -2255,16 +2255,19 @@ blockquote {
 	position: absolute;
 	right: 5rem;
 	bottom: 5rem;
-	background: #000;
-	width: 4rem;
-	height: 4rem;
+	background: #fdd14a;
+	width: 5rem;
+	height: 5rem;
 	text-align: center;
-	color: #fff;
-	line-height: 4rem;
-	font-size: 2rem;
+	color: #f2454e;
+	line-height: 5rem;
+  font-size: 2.5rem;
+  font-weight: 900;
+  border: solid 2px #f2454e;
 }
 #scrollUp:hover {
-	background: #f2454e;
+  background: #f2454e;
+  color: #fdd14a;
 }
 
 
