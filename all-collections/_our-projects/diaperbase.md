@@ -18,4 +18,4 @@ slider:
     src: assets/img/non-profit-partners/st-louis-diaper-bank.jpg
 ---
 
-{% include project.html %}
+{% include our_work/project.html %}
