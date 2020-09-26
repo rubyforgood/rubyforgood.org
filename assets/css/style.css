@@ -434,13 +434,13 @@ label {
 	display: inline-block;
 }
 .top-btn a {
-    text-transform: capitalize;
-    background: #f2454e;
-    padding: 1rem 1.5rem;
-    margin-left: 1.5rem;
-    font-size: 1.4rem;
-    font-weight: 600;
-    display: inline-block;
+  text-transform: capitalize;
+  background: #f2454e;
+  padding: 1rem 1.5rem;
+  margin-left: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  display: inline-block;
 }
 
 /* Call to Action */
