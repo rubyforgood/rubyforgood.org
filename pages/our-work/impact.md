@@ -8,4 +8,4 @@ categories: "inventory management", "women's rights", "children & families", "ad
 
 {% include section_header.html %}
 {% include our_work/projects_filter.html %}
-{% include our_work/impact.html %}
+{% include our_work/projects.html %}
