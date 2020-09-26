@@ -38,12 +38,6 @@ cover_image: "/assets/img/theme-stock/bg/page-title.jpg"
 # Collections
 collections_dir: all-collections
 collections:
-  features:  # TODO: Template collection --> to be removed before deploy
-    output: true
-    permalink: /:name
-  services:  # TODO: Template collection --> to be removed before deploy
-    output: true
-    permalink: /:name
   non-profit-partners:
     output: true
     permalink: /:collection/:path
