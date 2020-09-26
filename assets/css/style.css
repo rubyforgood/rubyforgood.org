@@ -98,6 +98,26 @@ html {
   padding: 0 2rem;
 }
 
+/* Theme background colors */
+  .red-bg {
+    background: #f2454e;
+  }
+  .lt-red-bg {
+    background: #e57460;
+  }
+  .teal-bg {
+    background: #03777e;
+  }
+  .lt-teal-bg {
+    background: #51a4a1;
+  }
+  .yellow-bg {
+    background: #fdd14a;
+  }
+  .white-bg {
+    background: #ffffff;
+  }
+
 
 /* ---------------- 1. Theme Default CSS ---------------- */
 @font-face {
