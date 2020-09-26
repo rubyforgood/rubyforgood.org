@@ -1568,15 +1568,20 @@ h4.team-member-facts {
 }
 .footer-social-icon a {
 	color: #fff;
-	font-size: 1.6rem;
+	font-size: 2rem;
 	margin-right: 1.5rem;
 }
 .footer-social-icon i {
-	height: 4rem;
-	width: 4rem;
+	height: 5rem;
+	width: 5rem;
 	text-align: center;
-	line-height: 3.8rem;
-	border-radius: 50%;
+	line-height: 4.8rem;
+  border-radius: 50%;
+  background-color: #f2454e;
+}
+.footer-social-icon a:hover > i {
+  line-height: 4.4rem;
+  border: solid 2px #fdd14a;
 }
 .facebook-bg {
 	background: #1977F2;
