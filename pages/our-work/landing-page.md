@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Our Work
-permalink: "/pages/our-work"
+permalink: /pages/our-work
 ---

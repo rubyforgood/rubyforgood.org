@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Join Us
-permalink: "/pages/join-us"
+permalink: /pages/join-us
 ---

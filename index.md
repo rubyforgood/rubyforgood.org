@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% include header_custom.html %}
 <main>
   {% include home/slider.html %}
