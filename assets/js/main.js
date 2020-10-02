@@ -126,6 +126,23 @@
     ]
   });
 
+  // supporter slider
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+
   // isotope
   $(".portfolio-active").imagesLoaded(function() {
     var $grid = $(".portfolio-active").isotope({
