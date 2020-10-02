@@ -23,6 +23,7 @@
 15. Pagination
 16. ScrollUp
 17. Results
+18. Our Supporters
 */
 
 
@@ -1078,7 +1079,7 @@ label {
 }
 .owl-carousel .owl-item img {
 	display: block;
-	width: inherit;
+	width: 100%
 }
 .cta-area {
 	background-position: center top;
@@ -1409,7 +1410,7 @@ label {
 }
 .owl-carousel .owl-item .single-clients img {
 	display: inline-block;
-	width: inherit;
+	width: 950%;
 }
 
 
@@ -2290,3 +2291,7 @@ blockquote {
 	text-transform: capitalize;
 	font-weight: 600;
 }
+
+/* ---------------- 18. Our Supporters ---------------- */
+/* https://kenwheeler.github.io/slick/ */
+/* https://github.com/kenwheeler/slick/ */

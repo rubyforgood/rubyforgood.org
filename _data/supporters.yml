@@ -25,7 +25,7 @@
 - image: assets/img/supporters/georgetown-university-slider.png
   name: Georgetown University
   link_to: https://www.georgetown.edu/
-- image: assets/img/supporters/github-light-slider.png
+- image: assets/img/supporters/github-dark-slider.png
   name: GitHub
   link_to: https://github.com/
 - image: assets/img/supporters/godaddy-slider.png
@@ -46,7 +46,7 @@
 - image: assets/img/supporters/new-relic-slider.png
   name: New Relic
   link_to: https://newrelic.com/
-- image: assets/img/supporters/optoro-light-slider.png
+- image: assets/img/supporters/optoro-dark-slider.png
   name: Optoro
   link_to: https://www.optoro.com/
 - image: assets/img/supporters/ordway-labs-slider.png
@@ -58,7 +58,7 @@
 - image: assets/img/supporters/sevatec-slider.png
   name: Sevatec
   link_to: https://www.sevatec.com/
-- image: assets/img/supporters/sticker-mule-light-slider.png
+- image: assets/img/supporters/sticker-mule-dark-slider.png
   name: Sticker Mule
   link_to: https://www.stickermule.com/
 - image: assets/img/supporters/stsi-slider.png
@@ -70,6 +70,6 @@
 - image: assets/img/supporters/vibes-slider.png
   name: Vibes
   link_to: https://www.vibes.com/
-- image: assets/img/supporters/xo-group-light-slider.png
+- image: assets/img/supporters/xo-group-dark-slider.png
   name: XO Group
   link_to: https://www.theknotww.com/
