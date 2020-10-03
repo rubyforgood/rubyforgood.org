@@ -603,16 +603,19 @@ label {
 }
 
 .main-menu ul li .sub-menu {
-    position: absolute;
-    top: 110%;
-    left: 0;
-    background: #fff;
-    z-index: 1;
-    width: 24rem;
-    opacity: 0;
-    visibility: hidden;
-    transition: .3s;
-    border-top: 3px solid #f2454e;
+	position: absolute;
+	top: 110%;
+	left: 0;
+	background: #fff;
+	z-index: 1;
+	width: 24rem;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s;
+  border-top: 3px solid #f2454e;
+  border-right: 1px solid rgba(0,0,0,0.12);
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+  border-left: 1px solid rgba(0,0,0,0.12);
 }
 
 .main-menu.second-menu ul li .sub-menu {
@@ -626,9 +629,9 @@ label {
 }
 
 .main-menu ul li .sub-menu li {
-    display: block;
-    margin: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+	display: block;
+	margin: 0;
+	border-bottom: 1px solid rgba(0,0,0,0.12);
 }
 
 .main-menu ul li .sub-menu li:last-child {
@@ -2018,11 +2021,11 @@ h4.team-member-facts {
 /* ---------------- 12. Breadcrumb ---------------- */
 
 .breadcrumb-area {
-    background-size: cover;
-    background-position: center;
-    height: 30rem;
-    display: flex;
-    align-items: center;
+	background-size: cover;
+	background-position: center;
+	height: 15rem;
+	display: flex;
+	align-items: center;
 }
 
 .breadcrumb {

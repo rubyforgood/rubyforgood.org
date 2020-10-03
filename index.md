@@ -20,12 +20,12 @@ blocks:
     description: Take it from the companies below. These folks recognize the difference we're making and are dedicated to helping us continue our mission. Are you?
 ---
 
-{% include header_custom.html %}
+{% include mixins/header_custom.html %}
 <main>
   {% include home/slider.html %}
   {% include home/overview_columns.html %}
   {% for block in page.blocks %}
-    {% include home/block_header.html %}
+    {% include mixins/block_header.html %}
     {% include home/{{ block.type }}.html %}
   {% endfor %}
 </main>
