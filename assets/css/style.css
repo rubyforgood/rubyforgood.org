@@ -1476,7 +1476,8 @@ h4.team-member-quote {
 h3.team-member-header {
   position: relative;
   font-size: 2.4rem;
-	padding-bottom: 0.8rem;
+  font-weight: 400;
+	padding-bottom: 1rem;
   letter-spacing: 0.3rem;
 }
 .team-member-header::before  {
@@ -1492,7 +1493,7 @@ h5.team-member-contacts {
 	color: #000;
   text-align: center;
   letter-spacing: 0.3rem;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
 }
 h5.team-member-contacts i {
   padding-bottom: 1rem;
@@ -1508,6 +1509,11 @@ h4.team-member-facts {
   text-align: center;
   letter-spacing: 0.3rem;
   padding-bottom: 0.8rem;
+}
+.bio-box {
+  max-width: 60%;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 }
 
 
