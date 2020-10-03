@@ -525,7 +525,10 @@ label {
 	opacity: 0;
 	visibility: hidden;
 	transition: .3s;
-	border-top: 3px solid #f2454e;
+  border-top: 3px solid #f2454e;
+  border-right: 1px solid rgba(0,0,0,0.12);
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+  border-left: 1px solid rgba(0,0,0,0.12);
 }
 .main-menu.second-menu ul li .sub-menu {
 	border-top: 3px solid #020d26;
@@ -538,7 +541,7 @@ label {
 .main-menu ul li .sub-menu li {
 	display: block;
 	margin: 0;
-	border-bottom: 1px solid rgba(0,0,0,0.08);
+	border-bottom: 1px solid rgba(0,0,0,0.12);
 }
 .main-menu ul li .sub-menu li:last-child {
 	border: none;
