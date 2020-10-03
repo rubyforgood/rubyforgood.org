@@ -1,8 +1,8 @@
-<section class="pt-100">
+<section class="{% if page.bg %}{{ page.bg }}{% endif %} pt-100">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-xl-9 col-md-12 text-center pb-40">
-        <div class="title-header">
+      <div class="col-xl-9 col-md-12 text-center pb-30">
+        <div class="title-header {% if title.styling %}{{ title.styling }}{% endif %}">
           <h2>{{ page.title }}</h2>
           <p>{{ page.description }}</p>
         </div>
