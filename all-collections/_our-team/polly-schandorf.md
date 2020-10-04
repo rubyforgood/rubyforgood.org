@@ -5,7 +5,7 @@ first_name: Polly
 last_name: Schandorf
 position: Director of Projects and Go-Getter
 photo: /assets/img/stock/300x400.png
-email: ruby@email.com
+email: polly@rubyforgood.org
 social:
   - link: 
     handle: 
@@ -23,7 +23,7 @@ social:
     handle: 
     icon: instagram
   - link: 
-    handle: "@rubyforgood"
+    handle: 
     icon: twitch
   - link: 
     handle: 
