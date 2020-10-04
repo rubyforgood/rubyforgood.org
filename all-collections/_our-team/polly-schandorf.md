@@ -7,30 +7,15 @@ position: Director of Projects and Go-Getter
 photo: /assets/img/stock/300x400.png
 email: ruby@email.com
 social:
-  - link: 
-    handle: 
-    icon: facebook-f
-  - link: 
-    handle: 
+  - link: https://twitter.com/N3rdyTeacher
+    handle: N3rdyTeacher
     icon: twitter
-  - link: 
-    handle: 
+  - link: https://github.com/pollygee
+    handle: pollygee
     icon: github
-  - link: 
-    handle: 
+  - link: https://www.linkedin.com/in/psileo
+    handle: psileo
     icon: linkedin-in
-  - link: 
-    handle: 
-    icon: instagram
-  - link: 
-    handle: 
-    icon: twitch
-  - link: 
-    handle: 
-    icon: dev
-  - link: 
-    handle: 
-    icon: youtube
 
 quote: "Taking MINASWAN to heart!"
 
