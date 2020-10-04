@@ -1821,7 +1821,8 @@ h5.team-member-contacts i {
 }
 
 h5.team-member-contacts>a:hover>i.fas,
-h5.team-member-contacts>a:hover>i.fab {
+h5.team-member-contacts>a:hover>i.fab,
+h5.team-member-contacts>a:hover>i.far {
     color: #fdd14a;
     transition: all 0.3s ease-out 0s;
 }
