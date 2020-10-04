@@ -3,7 +3,7 @@ layout: page
 title: Our Blog
 pagination: 
   enabled: true
-  collection: blog-posts
+  collection: posts
 permalink: /pages/about-us/our-blog
 ---
 

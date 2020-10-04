@@ -55,7 +55,7 @@ collections:
 defaults:
   # Blog Post Defaults
   - scope:
-      path: "_blog-posts"
+      path: "_posts"
       type: posts
     values:
       layout: post
@@ -115,7 +115,7 @@ pagination:
   debug: false
 
   # The default document collection to paginate if nothing is specified ('posts' is default)
-  collection: 'blog-posts'
+  collection: 'posts'
 
   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
   per_page: 6
@@ -138,7 +138,7 @@ pagination:
   sort_reverse: true
 
   # Optional: The default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
-  category: 'blog-posts'
+  category: 'posts'
 
   # Optional: The default tag to use, omit to disable
   tag: ''
