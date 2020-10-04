@@ -25,11 +25,6 @@ blocks:
     description: See how Ruby for Good produces impactful results.
     bg: lt-teal-bg
     style: counter-section title-header
-  - type: blog_area
-    title: Our Recent Posts
-    description: See what's new with Ruby for Good!
-    bg: grey-bg
-    style: 
   - type: our_supporters
     title: Our Supporters
     description: Take it from the companies below. These folks recognize the difference we're making and are dedicated to helping us continue our mission. Are you?
