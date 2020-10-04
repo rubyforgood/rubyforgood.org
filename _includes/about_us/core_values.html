@@ -1,16 +1,15 @@
 <section class="{% if block.bg %}{{ block.bg }}{% endif %} pb-70">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
+  <div class="container">
+    <div class="row">
+      {% for value in site.data.about_us.values %}
       <div class="col-4 mb-30 iconText">
-            {% for value in site.data.values %}
-                <div class="{{ value.shape }}">
-                    <i class="{{ value.icon }}"></i>
-                    <h3>{{ value.title }}</h3>
-                    <p>{{ value.description }}</p>
-                </div>
-            </div>
-            {% endfor %}
+        <div class="{{ value.shape }}">
+          <i class="{{ value.icon }}"></i>
+          <h3>{{ value.title }}</h3>
+          <p>{{ value.description }}</p>
         </div>
-    </div>
+      </div><!-- /col-4 -->
+      {% endfor %}
+    </div><!-- /row -->
+  </div><!-- /container -->
 </section>
