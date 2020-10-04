@@ -2,14 +2,14 @@
   <div class="container">
     <div class="row">
       {% for overview in site.data.overviews %}
-      <div class="col-xl-4 col-lg-4 mb-30 iconText">
+      <div class="col-4 mb-30 iconText">
         <div class="{{ overview.shape }}">
           <i class="{{ overview.icon }}"></i>
           <h3>{{ overview.title }}</h3>
           <p>{{ overview.description }}</p>
         </div>
-      </div>
+      </div><!-- /col-4 -->
       {% endfor %}
-    </div>
-  </div>
+    </div><!-- /row -->
+  </div><!-- /container -->
 </section>

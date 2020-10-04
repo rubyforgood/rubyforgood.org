@@ -1,0 +1,18 @@
+{% assign gooders = site.data.about_us.about_gooders %}
+
+<section class="{% if block.bg %}{{ block.bg }}{% endif %} pb-70 pb-100">
+  <div class="container">
+    <div class="row">
+      {% for gooder in gooders %}
+      <div class="col-4 text-center">
+        <img src="{{ site.baseurl }}{{ gooder.gooder_img }}" class="img-fluid">
+      </div><!-- /col-4 -->
+      <div class="col-8 text-center">
+        {% for content in gooder.gooder_content %}
+          <p>{{ content.paragraph }}</p>
+        {% endfor %}
+      </div><!-- /col-8 -->
+      {% endfor %}
+    </div><!-- /row -->
+  </div><!-- /container -->
+</section>
