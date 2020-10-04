@@ -91,12 +91,13 @@ html {
 }
 
 
-/* Section Title Headers */
+/* Page Title Headers */
 
 .title-header>h2 {
     position: relative;
     margin-bottom: 2rem;
     font-weight: 300;
+    font-size: 4.8rem;
 }
 
 .title-header>h2::before {
@@ -111,6 +112,30 @@ html {
 
 .title-header>h2>p {
     padding: 0 2rem;
+}
+
+
+/* Block Title Headers */
+
+.block-header>h2 {
+  position: relative;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 3.6rem;
+}
+
+.block-header>h2::before {
+  content: "{ ";
+  color: #03777e;
+}
+
+.block-header>h2::after {
+  content: " }";
+  color: #03777e;
+}
+
+.block-header>h2>p {
+  padding: 0 2rem;
 }
 
 
