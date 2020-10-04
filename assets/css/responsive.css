@@ -37,7 +37,7 @@ blockquote {
 .team-info span {
 	font-size: 12px;
 }
-.section-title.service-title p {
+.theme-section-title.service-title p {
 	padding: 0 100px;
 }
 .about-info-text p {
@@ -91,7 +91,7 @@ blockquote::after {
 blockquote {
 	padding: 0 10px;
 }
-.section-title.service-title p {
+.theme-section-title.service-title p {
 	padding: 0 0px;
 }
 .single-cta i {
@@ -116,7 +116,7 @@ blockquote {
 .call-to-action a {
 	padding: 18px 30px;
 }
-.related-project-title.section-title p {
+.related-project-title.theme-section-title p {
 	padding: 0;
 	width: 100%;
 }
@@ -182,7 +182,7 @@ blockquote {
 .about-img img {
 	width: 100%;
 }
-.section-title.service-title p {
+.theme-section-title.service-title p {
 	padding: 0;
 }
 .services-img img {
@@ -216,7 +216,7 @@ blockquote {
 .breadcrumb-title.sm-size h2 {
 	font-size: 28px;
 }
-.related-project-title.section-title p {
+.related-project-title.theme-section-title p {
 	padding: 0;
 	width: 100%;
 }

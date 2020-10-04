@@ -5,7 +5,7 @@ email: info@rubyforgood.org
 copyright_name: Ruby for Good
 description: > # this means to ignore newlines until "baseurl:"
   Making the world gooder.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: '' # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # facebook_url: 
 twitter_url: https://twitter.com/RubyforGood
@@ -38,12 +38,6 @@ cover_image: "/assets/img/theme-stock/bg/page-title.jpg"
 # Collections
 collections_dir: all-collections
 collections:
-  features:  # TODO: Template collection --> to be removed before deploy
-    output: true
-    permalink: /:name
-  services:  # TODO: Template collection --> to be removed before deploy
-    output: true
-    permalink: /:name
   non-profit-partners:
     output: true
     permalink: /:collection/:path
@@ -69,7 +63,7 @@ defaults:
       share: true
   # News Article Defaults
   # - scope:
-  #     path: "_posts"
+  #     path: "_news-articles"
   #     type: posts
   #   values:
   #     layout: post

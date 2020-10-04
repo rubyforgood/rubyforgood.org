@@ -1,0 +1,24 @@
+- title: Inclusivity and Equity
+  description: "Ruby for Good values inclusivity and equity for all, and strives above all else to ensure that our contributors, partners, stakeholders, and sponsors—who we lovingly refer to as gooders—are treated with respect and dignity. We seek out the inclusion of differences as learning opportunities and ensure that words and actions matter."
+  shape: icon-text-circle
+  icon: fas fa-heartbeat
+- title: Commitment to Our Contributors
+  description: "We truly value the generosity of our contributors that make the work of Ruby for Good possible. We believe in supporting them with meaningful and ongoing opportunities for impact, growth, and leadership, and enable them to reach their full potential, uplifting them in their careers and academic pursuits, and engaging them through their contributions."
+  shape: icon-text-circle
+  icon: far fa-handshake
+- title: Commitment to Our Non-Profit Partners
+  description: "Our non-profit partner organizations serve critical missions in the most vulnerable communities nationwide. We believe in the vitality of their work and bolster the efforts and effectiveness by providing open source solutions that increase efficiency and drive impact."
+  shape: icon-text-circle
+  icon: fas fa-gift
+- title: Communication
+  description: "We value honest and direct communication as essential to articulating our vision and goals, bolstering strong relationships, overcoming challenges, and collaborating with our contributors, nonprofit partners, and companies and foundations that believe in our mission."
+  shape: icon-text-circle
+  icon: fas fa-laptop
+- title: Agency
+  description: "We believe in the potential of all technologists, of all skill levels, from all walks of life, that enrich our collaborative work environment. We commit to making full use of our own agency as individuals and as an organization in service of our goals and making the world gooder."
+  shape: icon-text-circle
+  icon: fas fa-users
+- title: Impact
+  description: "Affecting large-scale, long term change requires ongoing innovation, learning, and sustained effort. We hold ourselves to meaningful and measurable outcomes, evaluate our successes and challenges openly, and act on what we learn, to drive intrinsic change."
+  shape: icon-text-circle
+  icon: fas fa-globe

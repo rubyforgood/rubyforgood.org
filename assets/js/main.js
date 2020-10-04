@@ -219,13 +219,13 @@
         items: 3
       },
       767: {
-        items: 5
+        items: 4
       },
       991: {
-        items: 6
+        items: 4
       },
       1000: {
-        items: 6
+        items: 4
       }
     }
   });
