@@ -1,13 +1,12 @@
-<section class="pb-70 pt-100">
+<section class="{% if block.bg %}{{ block.bg }}{% endif %} pb-70">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <div class="title-header">
+      <div class="col-4 mb-30 iconText">
                     <h2>Core Values</h2>
                 </div>
             </div>
             {% for value in site.data.values %}
-            <div class="col-xl-4 col-lg-4 mb-30 iconText">
                 <div class="{{ value.shape }}">
                     <i class="{{ value.icon }}"></i>
                     <h3>{{ value.title }}</h3>
