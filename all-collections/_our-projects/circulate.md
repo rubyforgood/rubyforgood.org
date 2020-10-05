@@ -1,10 +1,10 @@
 ---
 title: Circulate
-image: /assets/img/stock/600x400.png
-non_profit_partner: Ruby for Good
-years: 2020, 2019
+image: /assets/img/projects/circulate-logo.jpg
+non_profit_partner: Chicago Tool Library
+years: 2020
 categories: inventory management, children & families, community building
-mission: "Tell us about the project!"
+mission: "Circulate is an operating system for lending libraries."
 built_by_rfg: "Tell us about the project!"
 scope_and_impact: "Tell us about the project!"
 

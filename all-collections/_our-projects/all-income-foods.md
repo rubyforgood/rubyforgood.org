@@ -1,10 +1,10 @@
 ---
 title: All Income Foods
-image: /assets/img/stock/600x400.png
+image: /assets/img/projects/all-income-foods-logo.png
 non_profit_partner: Ruby for Good
-years: 2020, 2019
-categories: inventory management, women's rights, children & families, advocacy, conservation, domestic violence, extinction prevention, community building, foster care, youth issues
-mission: "Tell us about the project!"
+years: 2015
+categories: children & families, community building, youth issues
+mission: "An app that lists places that accept food stamps."
 built_by_rfg: "Tell us about the project!"
 scope_and_impact: "Tell us about the project!"
 

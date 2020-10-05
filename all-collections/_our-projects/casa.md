@@ -2,7 +2,7 @@
 title: Court Appointed Special Advocates (CASA)
 image: /assets/img/projects/casa-logo.jpg
 non_profit_partner: Ruby for Good
-years: 2020, 2019
+years: 2020
 categories: inventory management, children & families, advocacy, domestic violence, community building, foster care, youth issues
 mission: "Tell us about the project!"
 built_by_rfg: "Tell us about the project!"

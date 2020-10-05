@@ -1,12 +1,12 @@
 ---
 title: Babywearing
-image: /assets/img/projects/babywearing-logo.jpg
-non_profit_partner: Ruby for Good
-years: 2020, 2019
+image: /assets/img/projects/babywearing-logo.png
+non_profit_partner: Mid-Atlantic Babywearing
+years: 2019, 2020
 categories: inventory management, children & families, community building, youth issues
-mission: "Tell us about the project!"
-built_by_rfg: "Tell us about the project!"
-scope_and_impact: "Tell us about the project!"
+mission: "The Mid-Atlantic Babywearing organization is dedicated to supporting the wearing of babies and toddlers for all caregivers. The MAB Volunteers love holding their babies, toddlers and older children close with baby carriers and work to spread that joy throughout the south-eastern and south-central areas of Pennsylvania."
+built_by_rfg: "This project aims to provide MAB with a new Lending Library that is more cost effective and provides the same capabilities as their existing system with an emphasis on tailoring the experience to better suit the needs of this organization."
+scope_and_impact: "Currently being used by Mid-Atlantic Babywearing, this app is multi-tenant and will soon be used by other babywearing groups."
 
 slider:
   - slide: 
