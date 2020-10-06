@@ -1,12 +1,16 @@
 ---
 title: Freeforest
-image: /assets/img/stock/600x400.png
-non_profit_partner: Ruby for Good
+image: /assets/img/projects/ffs_logo_small.png
+non_profit_partner: Free Forrest School
+link: https://www.freeforestschool.org/
 years: 2020, 2019
-categories: inventory management, women's rights, children & families, advocacy, conservation, domestic violence, extinction prevention, community building, foster care, youth issues
-mission: "Tell us about the project!"
-built_by_rfg: "Tell us about the project!"
-scope_and_impact: "Tell us about the project!"
+categories: children & families, conservation, community building, youth issues
+mission: "Research shows nature play benefits children’s health, supporting social-emotional, physical, and cognitive development and wellness. Yet time spent outdoors in unstructured play is at an all-time low and many children face significant barriers to playing in nature.
+
+ 
+We believe all children deserve to play and explore in nature. We pursue equitable access to nature play for all children by mobilizing grassroots leaders and partnering with school districts, cities and community organizations."
+built_by_rfg: "Our project will help parents and teachers (or maybe even kids!) find Free Forest School service areas wherever they might be. We're going to use Mapbox, so if you've ever wanted to learn some GIS work with your Rails and/or JavaScript, or played hooky to be in the great outdoors, this project is for you!"
+scope_and_impact: ""
 
 slider:
   - slide: 
