@@ -7,5 +7,4 @@ categories: [inventory management, women's rights, children & families, advocacy
 ---
 
 {% include mixins/section_header.html %}
-{% include our_work/projects_filter.html %}
 {% include our_work/projects.html %}
