@@ -62,7 +62,7 @@ defaults:
       share: true
   # News Article Defaults
   # - scope:
-  #     path: "_news-articles"
+  #     path: "_posts"
   #     type: posts
   #   values:
   #     layout: post
