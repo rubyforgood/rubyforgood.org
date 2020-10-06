@@ -5,19 +5,19 @@ first_name: Polly
 last_name: Schandorf
 position: Director of Projects and Go-Getter
 photo: /assets/img/stock/300x400.png
-email: ruby@email.com
+email: polly@rubyforgood.org
 social:
   - link: 
     handle: 
     icon: facebook-f
-  - link: 
-    handle: 
+  - link: https://twitter.com/N3rdyTeacher
+    handle: N3rdyTeacher
     icon: twitter
-  - link: 
-    handle: 
+  - link: https://github.com/pollygee
+    handle: pollygee
     icon: github
-  - link: 
-    handle: 
+  - link: https://www.linkedin.com/in/psileo
+    handle: psileo
     icon: linkedin-in
   - link: 
     handle: 
