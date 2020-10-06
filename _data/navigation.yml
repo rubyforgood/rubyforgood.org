@@ -1,5 +1,16 @@
 - text: About Us
   url: /pages/about-us
+  submenu:
+  - text: Our Team
+    url: /pages/about-us/our-team
+  - text: Our Board
+    url: /pages/about-us/our-board
+  - text: The News
+    url: /pages/about-us/the-news
+  - text: Our Blog
+    url: /pages/about-us/our-blog
+  - text: Contact Us
+    url: /pages/about-us/contact-us
 - text: Our Work
   url: /pages/our-work
   submenu:
@@ -7,10 +18,23 @@
     url: /pages/our-work/impact
   - text: Skills-Based Volunteering
     url: /pages/our-work/skills-based-volunteering
+- text: Events
+  url: /pages/events
+  submenu:
+  - text: Ruby in DC
+    url: /pages/events/ruby-in-dc
+  - text: Ruby by the Bay
+    url: /pages/events/ruby-by-the-bay
 - text: Join Us
   url: /pages/join-us
   submenu:
+  - text: Volunteer
+    url: /pages/join-us/volunteer
+  - text: Sponsorships
+    url: /pages/join-us/sponsorships
   - text: Non-Profit Partners
     url: /pages/join-us/non-profit-partners
+  - text: Coding Retreats
+    url: /pages/join-us/coding-retreats
 - text: Donate
   url: /pages/donate

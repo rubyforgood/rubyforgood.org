@@ -1,0 +1,24 @@
+<section class="team-area grey-bg pb-70">
+  <div class="container">
+
+    <div class="row">
+      {% assign team-members = site.our-team | sort: "last_name" %}
+      {% for team-member in team-members %}
+      <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+        <div class="single-team text-center">
+          <a href="{{ team-member.url }}">
+            <div class="team-img">
+              <img src="{{site.baseurl}}{{ team-member.photo }}" alt="{{ team-member.first_name }} {{ team-member.last_name }}">
+            </div>
+            <div class="team-info">
+              <h3>{{ team-member.first_name }} {{ team-member.last_name }}</h3>
+              <span>{{ team-member.position }}</span>
+            </div>
+          </a>
+        </div>
+      </div><!-- /col-xl-3 col-lg-3 col-md-6 -->
+      {% endfor %}
+    </div><!-- /row -->
+
+  </div><!-- /container -->
+</section>

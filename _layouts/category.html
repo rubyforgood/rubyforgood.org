@@ -1,0 +1,51 @@
+---
+layout: page
+title: Category Page
+pagination:
+  enabled: true
+---
+<section class="service-area pt-100 pb-50">
+  <div class="container">
+      <div class="row">
+        {% for post in page.posts %}
+          <div class="col-md-6 mb-50 ">
+              <div class="services-box">
+                  {% if post.post_image %}
+                  <div class="services-img">
+                      <img src="{{post.post_image}}" class="img-fluid" alt="{{post.title}}">
+                  </div>
+                  {% endif %}
+                  <div class="services-content">
+                      <div class="card-title">
+                          <h2 class="blog-title"><a href="{{post.url}}">{{post.title}}</a></h2>
+                      </div>
+                      <div class="card-text">
+                          <p>{{post.excerpt | strip_html | truncatewords:"30"}}</p>
+                      </div>
+                      <a href="{{post.url}}" class="btn">Read More</a>
+                  </div>
+              </div>
+          </div>
+        {% endfor %}
+      </div>
+  </div>
+</section>
+<!-- services-cta -->
+<section class="services-cta grey-bg pt-50 pb-20">
+  <div class="container">
+      <div class="row align-items-center">
+          <div class="col-md-9 mb-30">
+              <div class="call-to-action">
+                  <h3>We Are Honest & Hard Working Team</h3>
+                  <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt</p>
+              </div>
+          </div>
+          <div class="col-md-3 mb-30">
+              <div class="call-to-action">
+                  <a href="#" class="btn">download now</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- counter-area -->

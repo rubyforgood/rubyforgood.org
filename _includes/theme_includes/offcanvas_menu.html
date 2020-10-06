@@ -1,0 +1,27 @@
+<span class="menu-close"><i class="fas fa-times"></i></span>
+<ul>
+    {% for links in site.data.navigation %}
+       {% if links.text contains "Pages" %}
+         {% for submenu in links.submenu %}
+         <li><a href="{{submenu.url}}">{{submenu.text}}</a></li>
+         {% endfor %}
+       {% endif %}
+    {% endfor %}
+</ul>
+<div class="side-social">
+    {% if site.facebook_url %}
+    <a href="{{site.facebook_url}}"><i class="fab fa-facebook-f"></i></a>
+    {% endif %}
+    {% if site.twitter_url %}
+    <a href="{{site.twitter_url}}"><i class="fab fa-twitter"></i></a>
+    {% endif %}
+    {% if site.pinterest_url %}
+    <a href="{{site.pinterest_url}}"><i class="fab fa-pinterest-p"></i></a>
+    {% endif %}
+    {% if site.linkedin_url %}
+    <a href="{{site.linkedin_url}}"><i class="fab fa-linkedin-in"></i></a>
+    {% endif %}
+    {% if site.instagram_url %}
+    <a href="{{site.instagram_url}}"><i class="fab fa-instagram"></i></a>
+    {% endif %}
+</div>
