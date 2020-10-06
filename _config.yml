@@ -17,9 +17,8 @@ twitch_url: https://www.twitch.tv/rubyforgood
 classic-logo: "/assets/img/logos/classic-logo.png"
 white-logo: "/assets/img/logos/white-logo.png"
 special-logo: "/assets/img/logos/special-logo.png"
-# mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
-# mailchimp_input_name: "b_307862c135e4548eecf86f389_342411fb35"
-# TODO: Get MailChimp info
+mailchimp_list: "https://rubyforgood.us8.list-manage.com/subscribe/post?u=2eec95e401f96687d14f4af24&amp;id=65f831bb77"
+mailchimp_input_name: "b_2eec95e401f96687d14f4af24_65f831bb77"
 
 # permalink: "/:title"
 

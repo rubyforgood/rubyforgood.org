@@ -1,57 +1,25 @@
 <footer class="footer-section">
   <div class="container">
-    <!-- Start top footer section -->
-    <div class="footer-line pt-80 pb-20">
-      <div class="row">
-        <div class="col-xl-4 col-md-4 mb-30">
-          <div class="single-cta">
-            <i class="fas fa-map-marker-alt"></i>
-            <div class="cta-text">
-              <h4>Find us</h4>
-              <span>1010 Avenue, NY 90001, USA</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4 col-md-4 mb-30">
-          <div class="single-cta">
-            <i class="fas fa-phone"></i>
-            <div class="cta-text">
-              <h4>Call us</h4>
-              <span>989-554-6987</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4 col-md-4 mb-30">
-          <div class="single-cta">
-            <i class="far fa-envelope-open"></i>
-            <div class="cta-text">
-              <h4>Mail us</h4>
-              <span>mail@example.com</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End top footer section -->
+  {% include mixins/footer_top.html %}
     <div class="footer-content pt-50 pb-30">
       <div class="footer-pattern">
-        <img src="{{site.baseurl}}/assets/img/theme-stock/footer/footer_map.png" alt="">
+        <img src="{{ site.baseurl }}/assets/img/theme-stock/footer/footer_map.png" alt="world map">
       </div>
       <div class="row">
         <div class="col-xl-4 col-lg-4 mb-50">
           <div class="footer-widget">
             <div class="footer-logo">
-              <a href="{{site.url}}"><img src="{{site.white-logo}}" class="img-fluid" alt="{{site.title}}"></a>
+              <a href="{{ site.baseurl }}"><img src="{{ site.white-logo }}" class="img-fluid" alt="{{ site.title }}"></a>
             </div>
             <div class="footer-text">
               <p>Making the world gooder.</p>
             </div>
             <div class="footer-social-icon">
               <span>Follow us</span>
-              <a href="{{site.linkedin_url}}"><i class="fab fa-linkedin-in"></i></a>
-              <a href="{{site.twitter_url}}"><i class="fab fa-twitter"></i></a>
-              <a href="{{site.github_url}}"><i class="fab fa-github"></i></a>
-              <a href="{{site.twitch_url}}"><i class="fab fa-twitch"></i></a>
+              <a href="{{ site.linkedin_url }}"><i class="fab fa-linkedin-in"></i></a>
+              <a href="{{ site.twitter_url }}"><i class="fab fa-twitter"></i></a>
+              <a href="{{ site.github_url }}"><i class="fab fa-github"></i></a>
+              <a href="{{ site.twitch_url }}"><i class="fab fa-twitch"></i></a>
             </div>
           </div>
         </div>
@@ -61,16 +29,14 @@
               <h3>Useful Links</h3>
             </div>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">about</a></li>
-              <li><a href="#">services</a></li>
-              <li><a href="#">portfolio</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Our Services</a></li>
-              <li><a href="#">Expert Team</a></li>
-              <li><a href="#">Contact us</a></li>
-              <li><a href="#">Latest News</a></li>
+              <li><a href="{{ site.url }}">Home</a></li>
+              <li><a href="{{ site.baseurl }}/pages/donate">Donate</a></li>
+              <li><a href="{{ site.baseurl }}/pages/about-us">About</a></li>
+              <li><a href="{{ site.baseurl }}/pages/our-work">Our Work</a></li>
+              <li><a href="{{ site.baseurl }}/pages/join-us">Join Us</a></li>
+              <li><a href="{{ site.baseurl }}/pages/events">Events</a></li>
+              <li><a href="{{ site.baseurl }}/pages/about-us/contact-us">Contact us</a></li>
+              <li><a href="{{ site.baseurl }}/pages/about-us/our-blog">Our Blog</a></li>
             </ul>
           </div>
         </div>
@@ -80,7 +46,7 @@
               <h3>Subscribe</h3>
             </div>
             <div class="footer-text mb-25">
-              <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+              <p>Get the latest updates, early notice for event registrations, and other Ruby for Good news!</p>
             </div>
             {% include mixins/subscribe.html %}
           </div>
@@ -88,26 +54,5 @@
       </div>
     </div>
   </div>
-  <div class="copyright-area">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-          <div class="copyright-text">
-            <p>Copyright &copy; 2019, All Right Reserved <a href="#">Trade</a></p>
-          </div>
-        </div>
-        <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-          <div class="footer-menu">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Terms</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Policy</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  {% include mixins/copyright_bar.html %}
 </footer>
