@@ -142,27 +142,27 @@ html {
 /* Theme background colors */
 
 .red-bg {
-    background: #f2454e;
+    background-color: #f2454e;
 }
 
 .lt-red-bg {
-    background: #e57460;
+    background-color: #e57460;
 }
 
 .teal-bg {
-    background: #03777e;
+    background-color: #03777e;
 }
 
 .lt-teal-bg {
-    background: #51a4a1;
+    background-color: #51a4a1;
 }
 
 .yellow-bg {
-    background: #fdd14a;
+    background-color: #fdd14a;
 }
 
 .white-bg {
-    background: #ffffff;
+    background-color: #ffffff;
 }
 
 
@@ -430,13 +430,13 @@ label {
 }
 
 ::-moz-selection {
-    background: #444;
+    background-color: #444;
     color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background: #444;
+    background-color: #444;
     color: #fff;
     text-shadow: none;
 }
@@ -462,7 +462,7 @@ label {
 
 .btn {
     -moz-user-select: none;
-    background: #f2454e;
+    background-color: #f2454e;
     border: medium none;
     border-radius: 0;
     color: #fff;
@@ -531,7 +531,7 @@ label {
 
 .top-btn a {
     text-transform: capitalize;
-    background: #f2454e;
+    background-color: #f2454e;
     padding: 1rem 1.5rem;
     margin-left: 1.5rem;
     font-size: 1.4rem;
@@ -569,7 +569,7 @@ label {
 /* Menu Area */
 
 .menu-area {
-    background: #fff;
+    background-color: #fff;
 }
 
 .second-menu-area {
@@ -631,7 +631,7 @@ label {
 	position: absolute;
 	top: 110%;
 	left: 0;
-	background: #fff;
+	background-color: #fff;
 	z-index: 1;
 	width: 24rem;
 	opacity: 0;
@@ -729,14 +729,14 @@ label {
 .menu-icon .menu-tigger span {
     height: 2px;
     width: 2.2rem;
-    background: #000;
+    background-color: #000;
     display: block;
     margin-bottom: 0.5rem;
     transition: .3s;
 }
 
 .menu-icon.second-menu-icon .menu-tigger span {
-    background: #fff;
+    background-color: #fff;
 }
 
 .menu-icon .menu-tigger span:last-child {
@@ -779,7 +779,7 @@ label {
 }
 
 .transparent-bg.sticky {
-    background: #111;
+    background-color: #111;
 }
 
 
@@ -811,11 +811,11 @@ label {
 }
 
 .transparent-menu .menu-tigger span {
-    background: #fff;
+    background-color: #fff;
 }
 
 .transparent-menu .menu-tigger:hover span {
-    background: #f2454e;
+    background-color: #f2454e;
 }
 
 .menu-icon i:hover {
@@ -894,7 +894,7 @@ label {
     height: 100%;
     width: 30rem;
     z-index: 999;
-    background: #00081b;
+    background-color: #00081b;
     top: 0;
     padding: 3rem;
     transition: .5s;
@@ -966,7 +966,7 @@ label {
     position: absolute;
     border: none;
     right: 0;
-    background: #f2454e;
+    background-color: #f2454e;
     padding: 0.8rem 1.4rem;
     top: 0;
 }
@@ -977,7 +977,7 @@ label {
 
 .offcanvas-overly {
     position: fixed;
-    background: #000;
+    background-color: #000;
     top: 0;
     left: 0;
     height: 100%;
@@ -1008,7 +1008,7 @@ label {
     content: "";
     width: 100%;
     height: 100%;
-    background: #000;
+    background-color: #000;
     opacity: .7;
 }
 
@@ -1024,7 +1024,7 @@ label {
     content: "";
     width: 100%;
     height: 100%;
-    background: #000;
+    background-color: #000;
     opacity: .7;
 }
 
@@ -1110,11 +1110,11 @@ label {
     padding: 0;
     height: 3px;
     width: 2.5rem;
-    background: #fff;
+    background-color: #fff;
 }
 
 .slider-active .slick-dots li.slick-active button {
-    background: #03777e;
+    background-color: #03777e;
     outline: 0;
 }
 
@@ -1202,7 +1202,7 @@ label {
 
 .home-three-about {
     margin-top: -15rem;
-    background: #fff;
+    background-color: #fff;
     position: relative;
     padding-top: 1.5rem;
 }
@@ -1256,7 +1256,7 @@ label {
 }
 
 .services-box a.btn:hover {
-    background: #000;
+    background-color: #000;
     border: 1px solid #000;
     color: #fff;
 }
@@ -1270,7 +1270,7 @@ label {
     left: -2rem;
     padding: 0;
     border: 0;
-    background: #f2454e;
+    background-color: #f2454e;
     height: 4rem;
     width: 4rem;
     text-align: center;
@@ -1343,7 +1343,7 @@ label {
     font-weight: 600;
     padding: 2rem 3rem;
     line-height: 1;
-    background: #f2454e;
+    background-color: #f2454e;
     margin: 0;
 }
 
@@ -1539,7 +1539,7 @@ label {
     top: 0;
     height: 100%;
     width: 100%;
-    background: #000;
+    background-color: #000;
     opacity: 0;
     transition: .3s;
     z-index: 9
@@ -1729,7 +1729,7 @@ label {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #03777e;
+    background-color: #03777e;
     left: 0;
     top: 0;
     opacity: 0;
@@ -1745,7 +1745,7 @@ label {
 }
 
 .team-info {
-    background: #fff;
+    background-color: #fff;
     position: absolute;
     bottom: -12rem;
     width: 90%;
@@ -1837,7 +1837,7 @@ h4.team-member-facts {
 /* ---------------- 11. Footer ---------------- */
 
 .footer-section {
-    background: #151414;
+    background-color: #151414;
     position: relative;
 }
 
@@ -1923,39 +1923,39 @@ h4.team-member-facts {
 }
 
 .facebook-bg {
-    background: #1977F2;
+    background-color: #1977F2;
 }
 
 .twitter-bg {
-    background: #27A1F2;
+    background-color: #27A1F2;
 }
 
 .github-bg {
-    background: #000000;
+    background-color: #000000;
 }
 
 .linkedin-bg {
-    background: #2867B1;
+    background-color: #2867B1;
 }
 
 .twitch-bg {
-    background: #9146FF;
+    background-color: #9146FF;
 }
 
 .pinterest-bg {
-    background: #E61D28;
+    background-color: #E61D28;
 }
 
 .instagram-bg {
-    background: #C04181;
+    background-color: #C04181;
 }
 
 .google-bg {
-    background: #DD4B39;
+    background-color: #DD4B39;
 }
 
 .reddit-bg {
-    background: #F04922;
+    background-color: #F04922;
 }
 
 .footer-widget-heading h3 {
@@ -1973,7 +1973,7 @@ h4.team-member-facts {
     bottom: -1.5rem;
     height: 2px;
     width: 5rem;
-    background: #03777e;
+    background-color: #03777e;
 }
 
 .footer-widget ul li {
@@ -2000,7 +2000,7 @@ h4.team-member-facts {
 .subscribe-form input {
     width: 100%;
     padding: 1.6rem 2.8rem;
-    background: #2E2E2E;
+    background-color: #2E2E2E;
     border: 1px solid #2E2E2E;
     color: #fff;
 }
@@ -2008,7 +2008,7 @@ h4.team-member-facts {
 .subscribe-form button {
     position: absolute;
     right: 0;
-    background: #51a4a1;
+    background-color: #51a4a1;
     padding: 0.75rem 1.5rem 0.55rem 1.3rem;
     border: 3px solid #03777e;
     top: 0;
@@ -2021,7 +2021,7 @@ h4.team-member-facts {
 }
 
 .copyright-area {
-    background: #202020;
+    background-color: #202020;
     padding: 2.5rem 0;
 }
 
@@ -2157,7 +2157,7 @@ h4.team-member-facts {
 /* ---------------- 14. Blog ---------------- */
 
 .blog-wrapper {
-    background: #fff;
+    background-color: #fff;
     overflow: hidden;
     padding: 2rem;
 }
@@ -2268,7 +2268,7 @@ h4.team-member-facts {
 /* Sidebar */
 
 .widget {
-    background: #fff;
+    background-color: #fff;
     overflow: hidden;
     padding: 1rem;
 }
@@ -2287,7 +2287,7 @@ h4.team-member-facts {
 }
 
 .widget-title::before {
-    background: #e2e2e2 none repeat scroll 0 0;
+    background-color: #e2e2e2 none repeat scroll 0 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -2303,7 +2303,7 @@ h4.team-member-facts {
 }
 
 .sidebar-form form input {
-    background: #f8f9fa;
+    background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     color: #ccc;
     padding: 1rem 0;
@@ -2319,7 +2319,7 @@ h4.team-member-facts {
 }
 
 .sidebar-form form button {
-    background: #222 none repeat scroll 0 0;
+    background-color: #222 none repeat scroll 0 0;
     border: 0 none;
     color: #fff;
     font-size: 2rem;
@@ -2333,7 +2333,7 @@ h4.team-member-facts {
 }
 
 .sidebar-form form button:hover {
-    background: #f2454e;
+    background-color: #f2454e;
 }
 
 .sidebar-rc-post ul li {
@@ -2412,7 +2412,7 @@ h4.team-member-facts {
 /* .widget-social{} */
 
 .widget-social a {
-    background: #000 none repeat scroll 0 0;
+    background-color: #000 none repeat scroll 0 0;
     color: #fff;
     display: inline-block;
     font-size: 1.9rem;
@@ -2424,23 +2424,23 @@ h4.team-member-facts {
 }
 
 .widget-social a.facebook {
-    background: #3b5998;
+    background-color: #3b5998;
 }
 
 .widget-social a.twitter {
-    background: #1da1f2;
+    background-color: #1da1f2;
 }
 
 .widget-social a.instagram {
-    background: #dd4b39;
+    background-color: #dd4b39;
 }
 
 .widget-social a.googleplus {
-    background: #dd4b39;
+    background-color: #dd4b39;
 }
 
 .widget-social a.linkedin {
-    background: #0077b5;
+    background-color: #0077b5;
 }
 
 .widget-social a:hover {
@@ -2508,7 +2508,7 @@ h4.team-member-facts {
 }
 
 .sidebar-tad a {
-    background: #f8f9fa;
+    background-color: #f8f9fa;
     color: #222;
     display: inline-block;
     font-size: 1.1rem;
@@ -2520,7 +2520,7 @@ h4.team-member-facts {
 }
 
 .sidebar-tad a:hover {
-    background: #f2454e;
+    background-color: #f2454e;
     color: #fff;
 }
 
@@ -2581,7 +2581,7 @@ blockquote {
 }
 
 .blog-post-tag>a:hover {
-    background: #f2454e;
+    background-color: #f2454e;
     border-color: #f2454e;
     color: #fff;
 }
@@ -2661,7 +2661,7 @@ blockquote {
 }
 
 .comments-text>a:hover {
-    background: #f2454e;
+    background-color: #f2454e;
     border-color: #f2454e;
     color: #fff;
 }
@@ -2719,7 +2719,7 @@ blockquote {
 }
 
 .pagination ul>li>a {
-    background: #FFF;
+    background-color: #FFF;
     font-size: 1.4rem;
     color: #3b3b3b;
     font-weight: 700;
@@ -2736,7 +2736,7 @@ blockquote {
 .pagination ul>.active>a,
 .pagination ul>.active>span {
     color: #fff;
-    background: #f2454e;
+    background-color: #f2454e;
     border-color: #f2454e;
     outline: 0;
     box-shadow: none;
@@ -2749,7 +2749,7 @@ blockquote {
     position: absolute;
     right: 5rem;
     bottom: 5rem;
-    background: #fdd14a;
+    background-color: #fdd14a;
     width: 5rem;
     height: 5rem;
     text-align: center;
@@ -2761,7 +2761,7 @@ blockquote {
 }
 
 #scrollUp:hover {
-    background: #f2454e;
+    background-color: #f2454e;
     color: #fdd14a;
 }
 
