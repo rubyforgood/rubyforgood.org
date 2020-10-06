@@ -1,4 +1,36 @@
-monica_powell:
+- meg_gutshall:
+    first_name: Meg
+    last_name: Gutshall
+    position: 
+    email: meg@rubyforgood.org
+    social:
+    - link: 
+      handle: 
+      icon: facebook-f
+    - link: 
+      handle: 
+      icon: twitter
+    - link: 
+      handle: 
+      icon: github
+    - link: 
+      handle: 
+      icon: linkedin-in
+    - link: 
+      handle: 
+      icon: instagram
+    - link: 
+      handle: 
+      icon: twitch
+    - link: 
+      handle: 
+      icon: dev
+    - link: 
+      handle: 
+      icon: youtube
+    bio: Software engineer. Always smiling. Spanish speaker. Book junkie. Crossword puzzler. Avid animal lover. Philly all the way. I take advice with a grain of salt and a shot of tequila.
+    image: /assets/images/author-img1.jpg
+- monica_powell:
     name: Monica Powell
     email: monica@aboutmonica.com
     facebook: http://facebook.com/monica_powell
@@ -7,8 +39,7 @@ monica_powell:
     reddit: http://reddit.com/monica_powell 
     bio: Monica Powell is a web technologist that cares about increasing the visiblity of underestimated individuals in technology.
     image: /assets/images/author-img1.jpg
-  
-themeix:
+- themeix:
     name: Themeix
     email: themeix@gmail.com
     facebook: http://facebook.com/themeix
@@ -17,8 +48,7 @@ themeix:
     reddit: http://reddit.com/themeix 
     bio: Themeix received the &#35;GIRLBOSS award from Sophia Amoruso’s Girl Boss Foundation. She’s currently focusing on making tech more.
     image: /assets/images/author-img11.jpg
-
-waltor_gottera:
+- waltor_gottera:
     name: Waltor Gottera
     email: waltorgottera@gmail.com
     facebook: http://facebook.com/waltorgottera
@@ -27,8 +57,7 @@ waltor_gottera:
     reddit: http://reddit.com/waltorgottera 
     bio: Waltor Gottera received the &#35;GIRLBOSS award from Sophia Amoruso’s Girl Boss Foundation. She’s currently focusing on making tech more.
     image: /assets/images/author-img6.jpg
-
-ecuelass_chapman:
+- ecuelass_chapman:
     name: Ecuelass Chapman
     email: ecuelasschapman@gmail.com
     facebook: http://facebook.com/wcuelass
@@ -37,8 +66,7 @@ ecuelass_chapman:
     reddit: http://reddit.com/wcuelass 
     bio: ecuelass_chapman received the &#35;GIRLBOSS award from Sophia Amoruso’s Girl Boss Foundation. She’s currently focusing on making tech more.
     image: /assets/images/author-img7.jpg
-
-aaron_potts:
+- aaron_potts:
     name: Aaron Potts
     email: aaron_potts@gmail.com
     facebook: http://facebook.com/aaronpotts
