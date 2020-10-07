@@ -4,8 +4,8 @@ image: /assets/img/stock/600x400.png
 non_profit_partners:
   - name: "Ruby for Good"
     src: https://www.rubyforgood.org
-website: 
-github_repo: 
+website:
+github_repo:
 years:
   - year: 2020
   - year: 2019

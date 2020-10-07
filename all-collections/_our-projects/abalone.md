@@ -1,13 +1,13 @@
 ---
 title: Abalone
-image: /assets/img/projects/abalone-logo.png
+image: /assets/img/projects/impact/abalone-logo.png
 non_profit_partners:
   - name: "Bodega Marine Laboratory"
     src: https://marinescience.ucdavis.edu/bml/about
   - name: "Puget Sound Restoration Fund"
     src: https://restorationfund.org/programs/pintoabalone/
-website: 
-github_repo: 
+website: https://abalone-staging.herokuapp.com/
+github_repo: https://github.com/rubyforgood/abalone
 years:
   - year: 2020
   - year: 2019
@@ -23,7 +23,7 @@ mission:
 built_by_rfg:
   - paragraph: "This application will enable groups to add data either through CSV upload or through the web interface. Groups can view reports and visual representations of key data. Future plans include giving groups the ability to generate custom reports on the fly."
 scope_and_impact:
-  - paragraph: "The abalone app will support Bodega Marine Laboratory and Puget Sound Restoration Fund keep White Abalone and Pinto Abalone from going extinct."
+  - paragraph: "The abalone app will help Bodega Marine Laboratory and Puget Sound Restoration Fund keep White Abalone and Pinto Abalone from going extinct."
 
 slider:
   - src: /assets/img/projects/abalone-gary.png
