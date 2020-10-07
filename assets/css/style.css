@@ -2787,8 +2787,49 @@ blockquote {
 
 /* ---------------- 18. Our Supporters ---------------- */
 
-
 /* https://kenwheeler.github.io/slick/ */
-
-
 /* https://github.com/kenwheeler/slick/ */
+
+
+/* ---------------- 19. Projects ---------------- */
+
+.project-header > p {
+  padding: 0 2rem;
+}
+
+h1.project-header {
+  position: relative;
+  margin-top: 2.4rem;
+  margin-bottom: 1.2rem;
+  font-weight: 300;
+  font-size: 4rem;
+}
+
+h1.project-header::before {
+  content: "{ ";
+  color: #03777e;
+}
+
+h1.project-header::after {
+  content: " }";
+  color: #03777e;
+}
+
+h2.project-header {
+  margin-top: 2.4rem;
+  margin-bottom: 1.2rem;
+  font-size: 2.4rem;
+  letter-spacing: 0.3rem;
+}
+
+h3.project-sidebar-header {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+}
+
+.project-sidebar > p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

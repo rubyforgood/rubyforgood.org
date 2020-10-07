@@ -1,48 +1,58 @@
-<!-- Copied from impact-item.html in the Devoll theme -->
+<section class="white-bg pt-50 pb-70">
+  <div class="container">
 
-<div class='container'>
-  <div class='row'>
+    <!-- TODO: Insert photo gallery slider here -->
 
-  <!-- <div class='spacing'></div> -->
+    <div class="row">
+  
+      <div class="col-8">
+        <h1 class="project-header text-center">{{ page.title }}</h1>
 
-  <div class='row'>
+        <h2 class="project-header">Mission</h2>
+        {% for content in page.mission %}
+          <p>{{ content.paragraph }}</p>
+        {% endfor %}
 
-    <div class='col-lg-8'>
-      <h3>{{ page.title }}</h3>
-      <p>{{ page.mission }}</p>
-      <p>{{ page.built_by_rfg }}</p>
-      <p>{{ page.scope_and_impact }}</p>
-      <!-- <div class='spacing'></div> -->
-      <a class='button small' href=''>Visit website</a>
-    </div><!-- /col-lg-8 -->
+        <h2 class="project-header">Built by Ruby for Good</h2>
+        {% for content in page.built_by_rfg %}
+          <p>{{ content.paragraph }}</p>
+        {% endfor %}
 
-    <div class='col-lg-4'>
-      <ul class='info'>
-        <li>
-          <strong>Non-Profit Partner:</strong>
-          {{ page.non_profit_partner }}
-        </li>
-        <li>
-          <strong>Years Active:</strong>
-          {{ page.years }}
-        </li>
-        <li>
-          <!-- <div class='spacing'></div> -->
-          <a href='' title='previous'>
-            <i class='icon-left-open'></i>
-          </a>
-          <a href='portfolio.html' title='back to work list'>
-            <i class='icon-layout'></i>
-          </a>
-          <a href='' title='next'>
-            <i class='icon-right-open'></i>
-          </a>
-        </li>
-      </ul>
-    </div><!-- /col-lg-4 -->
+        <h2 class="project-header">Scope and Impact</h2>
+        {% for content in page.scope_and_impact %}
+          <p>{{ content.paragraph }}</p>
+        {% endfor %}
 
-  </div><!-- /row -->
+        <!-- TODO: Insert button links here -->
+      </div><!-- /col-8 -->
 
-  <!-- <div class='four spacing'></div> -->
-
-</div>
+      <div class="col-4">
+        <ul>
+          <li class="project-sidebar">
+            {% if page.non_profit_partners.size > 1 %}
+              <h3 class="project-sidebar-header">Non-Profit Partners:</h3>
+            {% else %}
+              <h3 class="project-sidebar-header">Non-Profit Partner:</h3>
+            {% endif %}
+            {% for partner in page.non_profit_partners %}
+            <p><a href="{{ partner.src }}" target="_blank">{{ partner.name }}</a></p>
+            {% endfor %}
+          </li>
+          <li class="project-sidebar">
+            <h3 class="project-sidebar-header">Years Active:</h3>
+            {% for num in page.years %}
+              <p>{{ num.year }}</p>
+            {% endfor %}
+          </li>
+          <li class="project-sidebar">
+            <h3 class="project-sidebar-header">Project Categories:</h3>
+            {% for cat in page.categories %}
+              <p>{{ cat.category }}</p>
+            {% endfor %}
+          </li>
+        </ul>
+      </div><!-- /col-4 -->
+  
+    </div><!-- /row -->
+  </div><!-- /container -->
+</section>
