@@ -1,6 +1,6 @@
 ---
 title: Freeforest
-image: /assets/img/projects/ffs_logo_small.png
+image: /assets/img/projects/impact/ffs_logo_small.png
 non_profit_partner: Free Forrest School
 link: https://www.freeforestschool.org/
 years: 2020, 2019

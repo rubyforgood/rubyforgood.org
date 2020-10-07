@@ -1,6 +1,6 @@
 ---
 title: Humane Society of Fairfax
-image: /assets/img/stock/600x400.png
+image: /assets/img/projects/impact/humane-society-logo.jpg
 non_profit_partner: Humane Society of Fairfax
 years: 2015
 categories: animals, community building

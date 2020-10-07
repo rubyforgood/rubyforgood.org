@@ -1,6 +1,6 @@
 ---
 title: Mutual Aid
-image: /assets/img/stock/600x400.png
+image: /assets/img/projects/impact/mutual-aid.png
 non_profit_partner: Ruby for Good
 years: 2020, 2019
 categories: inventory management, women's rights, children & families, advocacy, conservation, domestic violence, extinction prevention, community building, foster care, youth issues

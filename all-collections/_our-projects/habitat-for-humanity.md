@@ -1,6 +1,6 @@
 ---
 title: Habitat for Humanity
-image: /assets/img/projects/habitat-for-humanity-no-logo.gif
+image: /assets/img/projects/impact/habitat-for-humanity-no-logo.gif
 non_profit_partner: Habitat for Humanity of New Orleans
 years: 2018, 2017, 2016
 categories: children & families, community building

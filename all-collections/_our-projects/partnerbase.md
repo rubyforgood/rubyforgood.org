@@ -1,6 +1,6 @@
 ---
 title: PartnerBase
-image: /assets/img/projects/partner-base-logo.svg
+image: /assets/img/projects/impact/partner-base-logo.svg
 non_profit_partner: Ruby for Good
 years: 2020, 2019
 categories: inventory management, children & families, community building, youth issues
