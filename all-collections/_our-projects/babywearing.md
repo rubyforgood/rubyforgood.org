@@ -10,11 +10,11 @@ scope_and_impact: "Currently being used by Mid-Atlantic Babywearing, this app is
 
 slider:
   - slide: 
-    alt: "Alt text here"
-    src: assets/img/non-profit-partners/pdx-diaper-bank.jpg
+    alt: ""
+    src: 
   - slide: 
-    alt: "More alt text here"
-    src: assets/img/non-profit-partners/st-louis-diaper-bank.jpg
+    alt: ""
+    src: 
 ---
 
 {% include our_work/project.html %}

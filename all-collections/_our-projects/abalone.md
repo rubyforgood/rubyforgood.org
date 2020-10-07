@@ -18,8 +18,11 @@ slider:
     alt: "Gary the white abalone, and our mascott."
     src: assets/img/non-profit-partners/abalone-gary.png
   - slide: 
-    alt: "More alt text here"
-    src: assets/img/non-profit-partners/abalone-logo.png
+    alt: "Tagged pinto abalone."
+    src: /assets/img/projects/abalone-pinto-tagged.JPG
+  - slide: 
+    alt: "Reasearch lab."
+    src: /assets/img/projects/abalone-lab.JPG
 ---
 
 {% include our_work/project.html %}

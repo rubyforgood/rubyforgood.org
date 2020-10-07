@@ -11,11 +11,11 @@ scope_and_impact: "Currently, our app is bing used by PG CASA only, but we will 
 
 slider:
   - slide: 
-    alt: "Alt text here"
-    src: assets/img/non-profit-partners/pdx-diaper-bank.jpg
+    alt: ""
+    src: /assets/img/projects/casa-youth.jpg
   - slide: 
-    alt: "More alt text here"
-    src: assets/img/non-profit-partners/st-louis-diaper-bank.jpg
+    alt: ""
+    src: 
 ---
 
 {% include our_work/project.html %}

@@ -1,6 +1,6 @@
 ---
 title: Coral Gardeners
-image: /assets/img/stock/600x400.png
+image: /assets/img/projects/coral-gardens-logo.webp
 non_profit_partner: Ruby for Good
 years: 2020, 2019
 categories: inventory management, conservation, extinction prevention
