@@ -1,12 +1,22 @@
 ---
 title: Baltimore Arts
-image: /assets/img/stock/600x400.png
-non_profit_partner: Ruby for Good
-years: 2015
-categories: children & families, community building
-mission: "Tell us about the project!"
-built_by_rfg: "Tell us about the project!"
-scope_and_impact: "Tell us about the project!"
+image:
+non_profit_partners:
+  - name:
+    src:
+website:
+github_repo:
+years:
+  - year: 2015
+categories:
+  - category: "children & families"
+  - category: "community building"
+mission:
+  - paragraph:
+built_by_rfg:
+  - paragraph:
+scope_and_impact:
+  - paragraph:
 
 slider:
   - src:

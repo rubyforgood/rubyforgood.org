@@ -1,16 +1,26 @@
 ---
 title: Denver GrowHaus
-image: /assets/img/projects/GrowHaus-Logo.png
-non_profit_partner: The GrowHaus
-link: https://www.thegrowhaus.org/
-years: 2015
-categories: children & families, advocacy, youth issues
-mission: "The GrowHaus’ food distribution programs offer healthy and affordable food options."
-built_by_rfg: "A statistics recording and tracking application made for the folks at The Growhaus."
-scope_and_impact: ""
+image: /assets/img/projects/impact/growhaus-logo.png
+non_profit_partners:
+  - name: "The GrowHaus"
+    src: https://www.thegrowhaus.org/
+website:
+github_repo: https://github.com/rubyforgood/growhaus_stats
+years:
+  - year: 2015
+categories:
+  - category: "children & families"
+  - category: "advocacy"
+  - category: "youth issues"
+mission:
+  - paragraph: "The GrowHaus’ food distribution programs offer healthy and affordable food options."
+built_by_rfg:
+  - paragraph: "A statistics recording and tracking application made for the folks at The GrowHaus."
+scope_and_impact:
+  - paragraph: 
 
 slider:
-  - src: /assets/img/projects/GrowHaus-action.jpg
+  - src: /assets/img/projects/growhaus-action.jpg
     alt: "GrowHaus in action."
   - src:
     alt:
