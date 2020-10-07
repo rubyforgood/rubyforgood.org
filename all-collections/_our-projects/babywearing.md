@@ -9,12 +9,10 @@ built_by_rfg: "This project aims to provide MAB with a new Lending Library that 
 scope_and_impact: "Currently being used by Mid-Atlantic Babywearing, this app is multi-tenant and will soon be used by other babywearing groups."
 
 slider:
-  - slide: 
-    alt: ""
-    src: 
-  - slide: 
-    alt: ""
-    src: 
+  - src:
+    alt:
+  - src:
+    alt:
 ---
 
 {% include our_work/project.html %}

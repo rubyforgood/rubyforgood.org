@@ -9,12 +9,10 @@ built_by_rfg: "Ruby For Good built a new website for The Humane Society of Fairf
 scope_and_impact: ""
 
 slider:
-  - slide: 
-    alt: "Alt text here"
-    src: /assets/img/projects/humane-society-dog.jpg
-  - slide: 
-    alt: "More alt text here"
-    src: /assets/img/projects/humane-society-kittens.jpg
+  - src:
+    alt:
+  - src:
+    alt:
 ---
 
 {% include our_work/project.html %}

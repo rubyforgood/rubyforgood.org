@@ -29,10 +29,10 @@ scope_and_impact:
   - paragraph: "Tell us about the project!"
 
 slider:
-  - src: /assets/img/projects/abalone-lab.jpg
-    alt: "Alt text here"
-  - src: /assets/img/projects/abalone-pinto-tagged.jpg
-    alt: "More alt text here"
+  - src:
+    alt:
+  - src:
+    alt:
 ---
 
 {% include our_work/project.html %}

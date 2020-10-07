@@ -10,12 +10,10 @@ built_by_rfg: "Ruby for Good has built a volunteer management system to provide 
 scope_and_impact: "Currently, our app is bing used by PG CASA only, but we will be adding more groups soon.  There are over 900 CASA organizations in the country, we wish to help any of those that need help managing their volunteers."
 
 slider:
-  - slide: 
-    alt: ""
-    src: /assets/img/projects/casa-youth.jpg
-  - slide: 
-    alt: ""
-    src: 
+  - src: /assets/img/projects/casa-youth.jpg
+    alt:
+  - src:
+    alt:
 ---
 
 {% include our_work/project.html %}

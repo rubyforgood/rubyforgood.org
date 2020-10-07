@@ -9,12 +9,10 @@ built_by_rfg: "Volunteers will use this app to sign in and out of work sites by 
 scope_and_impact: ""
 
 slider:
-  - slide: 
-    alt: "Alt text here"
-    src: assets/img/non-profit-partners/pdx-diaper-bank.jpg
-  - slide: 
-    alt: "More alt text here"
-    src: assets/img/non-profit-partners/st-louis-diaper-bank.jpg
+  - src:
+    alt:
+  - src:
+    alt:
 ---
 
 {% include our_work/project.html %}

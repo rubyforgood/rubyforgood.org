@@ -10,12 +10,10 @@ DiaperBase, along with its partner app, PartnerBase (created in 2018),  that ena
 scope_and_impact: "Serving over 100 diaper banks, period supply, and food banks, and other organizations, with a cumulative reach of over 2 million children and families, and over 50,000 women served."
 
 slider:
-  - slide: 
-    alt: "Alt text here"
-    src: assets/img/non-profit-partners/pdx-diaper-bank.jpg
-  - slide: 
-    alt: "More alt text here"
-    src: assets/img/non-profit-partners/st-louis-diaper-bank.jpg
+  - src:
+    alt:
+  - src:
+    alt:
 ---
 
 {% include our_work/project.html %}

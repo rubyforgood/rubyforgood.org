@@ -10,12 +10,10 @@ built_by_rfg: "A statistics recording and tracking application made for the folk
 scope_and_impact: ""
 
 slider:
-  - slide: 
+  - src: /assets/img/projects/GrowHaus-action.jpg
     alt: "GrowHaus in action."
-    src: /assets/img/projects/GrowHaus-action.jpg
-  - slide: 
-    alt: ""
-    src: 
+  - src:
+    alt:
 ---
 
 {% include our_work/project.html %}

@@ -17,12 +17,10 @@ built_by_rfg: "There is content and information hard-coded in many of the views 
 scope_and_impact: "Currently being used by one lending library, our goal is to make this software available to other lending librarys."
 
 slider:
-  - slide: 
-    alt: "Alt text here"
-    src: assets/img/non-profit-partners/pdx-diaper-bank.jpg
-  - slide: 
-    alt: "More alt text here"
-    src: assets/img/non-profit-partners/st-louis-diaper-bank.jpg
+  - src:
+    alt:
+  - src:
+    alt:
 ---
 
 {% include our_work/project.html %}

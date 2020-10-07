@@ -9,12 +9,10 @@ built_by_rfg: ""
 scope_and_impact: ""
 
 slider:
-  - slide: 
-    alt: ""
-    src: 
-  - slide: 
-    alt: ""
-    src: 
+  - src:
+    alt:
+  - src:
+    alt:
 ---
 
 {% include our_work/project.html %}

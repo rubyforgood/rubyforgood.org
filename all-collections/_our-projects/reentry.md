@@ -14,12 +14,10 @@ This project aims to create a more maintainable data aggregation and distributio
 scope_and_impact: ""
 
 slider:
-  - slide: 
-    alt: ""
-    src: 
-  - slide: 
-    alt: ""
-    src: 
+  - src:
+    alt:
+  - src:
+    alt:
 ---
 
 {% include our_work/project.html %}
