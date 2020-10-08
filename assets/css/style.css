@@ -460,30 +460,58 @@ label {
 
 /* Button Styles */
 
-.btn {
-    -moz-user-select: none;
-    background-color: #f2454e;
-    border: medium none;
-    border-radius: 0;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1.2rem;
-    font-weight: 800;
-    letter-spacing: 1px;
-    line-height: 1;
-    margin-bottom: 0;
-    padding: 1.8rem 4rem;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transition: all 0.3s ease 0s;
-    vertical-align: middle;
-    white-space: nowrap;
+.btn-primary {
+  -moz-user-select: none;
+  background-color: #f2454e;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: inline-block;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  white-space: nowrap;
 }
 
-.btn:hover {
-    color: #fff;
+.btn-primary:hover {
+  background-color: #e57460;
+  color: #fff;
+}
+
+.btn-secondary {
+  -moz-user-select: none;
+  background-color: #03777e;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: inline-block;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.btn-secondary:hover {
+  background-color: #51a4a1;
+  color: #fff;
 }
 
 
@@ -1047,6 +1075,32 @@ label {
     margin-bottom: 3.5rem;
 }
 
+.btn-slider {
+  -moz-user-select: none;
+  background-color: #f2454e;
+  color: #fff;
+  border: medium none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 1.8rem 3.6rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.btn-slider:hover {
+  color: #fff;
+}
+
 
 /* Slick Next/Prev Buttons */
 
@@ -1466,8 +1520,8 @@ label {
     background-attachment: fixed;
 }
 
-.counter-section.title-header>h2+p,
-.counter-section.title-header>h2 {
+.counter-section.block-header > h2 + p,
+.counter-section.block-header > h2 {
     color: #fff;
 }
 
@@ -1486,7 +1540,7 @@ label {
     margin-top: 0.7rem;
 }
 
-.single-counter>p {
+.single-counter > p {
     color: #ddd;
     font-size: 1.6rem;
     margin: 0;
