@@ -1,20 +1,33 @@
 ---
 title: Voices of Consent
-image: /assets/img/projects/voices-of-consent-logo.jpg
-non_profit_partner: Ruby for Good
-years: 2020, 2019
-categories: women's rights, children & families, advocacy, domestic violence, community building, youth issues
-mission: "Tell us about the project!"
-built_by_rfg: "Tell us about the project!"
-scope_and_impact: "Tell us about the project!"
+image: /assets/img/projects/impact/voices-of-consent-logo.jpg
+non_profit_partners:
+  - name: "Ruby for Good"
+    src: https://www.rubyforgood.org
+website:
+github_repo:
+years:
+  - year: 2020
+categories:
+  - category: "women's rights"
+  - category: "children & families"
+  - category: "advocacy"
+  - category: "domestic violence"
+  - category: "community building"
+  - category: "youth issues"
+mission:
+  - paragraph: "Tell us about the project!"
+  - paragraph: "Tell us more about the project!"
+built_by_rfg:
+  - paragraph: "Tell us about the project!"
+scope_and_impact:
+  - paragraph: "Tell us about the project!"
 
 slider:
-  - slide: 
-    alt: "Alt text here"
-    src: assets/img/non-profit-partners/pdx-diaper-bank.jpg
-  - slide: 
-    alt: "More alt text here"
-    src: assets/img/non-profit-partners/st-louis-diaper-bank.jpg
+  - src:
+    alt:
+  - src:
+    alt:
 ---
 
 {% include our_work/project.html %}

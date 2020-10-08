@@ -55,18 +55,6 @@
     <meta content="{{ site.cover_image }}" property="og:image">
   {% endif %}
 
-  {% if page.tag %}
-    {% for tag in page.tag %}
-      <meta content="{{ tag }}" property="article:tag">
-    {% endfor %}
-  {% endif %}
-
-  {% if page.categories %}
-    {% for category in page.categories limit:1 %}
-      <meta content="{{ category }}" property="article:section">
-    {% endfor %}
-  {% endif %}
-
   {% if page.date %}
     <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
   {% endif %}	

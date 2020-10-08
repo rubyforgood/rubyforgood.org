@@ -1,20 +1,29 @@
 ---
 title: All Income Foods
-image: /assets/img/projects/all-income-foods-logo.png
-non_profit_partner: Ruby for Good
-years: 2015
-categories: children & families, community building, youth issues
-mission: "An app that lists places that accept food stamps."
-built_by_rfg: "Tell us about the project!"
-scope_and_impact: "Tell us about the project!"
+image: /assets/img/projects/impact/all-income-foods-logo.png
+non_profit_partners:
+  - name: "Ruby for Good"
+    src: https://www.rubyforgood.org
+website:
+github_repo: https://github.com/SnapFresh/SnapFresh
+years:
+  - year: 2015
+categories:
+  - category: "children & families"
+  - category: "community building"
+  - category: "youth issues"
+mission:
+  - paragraph: "An app that lists places that accept food stamps."
+built_by_rfg:
+  - paragraph:
+scope_and_impact:
+  - paragraph:
 
 slider:
-  - slide: 
-    alt: "Alt text here"
-    src: assets/img/non-profit-partners/pdx-diaper-bank.jpg
-  - slide: 
-    alt: "More alt text here"
-    src: assets/img/non-profit-partners/st-louis-diaper-bank.jpg
+  - src:
+    alt:
+  - src:
+    alt:
 ---
 
 {% include our_work/project.html %}

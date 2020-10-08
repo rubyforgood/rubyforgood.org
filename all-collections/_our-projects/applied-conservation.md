@@ -1,20 +1,29 @@
 ---
 title: Applied Conservation
-image: /assets/img/projects/applied-conservation-logo-small.png
-non_profit_partner: Ruby for Good
-years: 2018, 2019
-categories: conservation, community building
-mission: "An application to help organize and plan reservation projects."
-built_by_rfg: "Tell us about the project!"
-scope_and_impact: "Tell us about the project!"
+image: /assets/img/projects/impact/applied-conservation-logo.png
+non_profit_partners:
+  - name: "Applied Conservation"
+    src:
+website:
+github_repo: https://github.com/rubyforgood/applied-conservation
+years:
+  - year: 2019
+  - year: 2018
+categories:
+  - category: "conservation"
+  - category: "community building"
+mission:
+  - paragraph: "An application to help organize and plan reservation projects."
+built_by_rfg:
+  - paragraph:
+scope_and_impact:
+  - paragraph:
 
 slider:
-  - slide: 
-    alt: "Alt text here"
-    src: assets/img/non-profit-partners/pdx-diaper-bank.jpg
-  - slide: 
-    alt: "More alt text here"
-    src: assets/img/non-profit-partners/st-louis-diaper-bank.jpg
+  - src:
+    alt:
+  - src:
+    alt:
 ---
 
 {% include our_work/project.html %}
