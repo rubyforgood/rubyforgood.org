@@ -412,7 +412,11 @@ ul {
 }
 
 li {
-    list-style: none
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 2.6rem;
+    color: #7e7e7e;
+    list-style: none;
 }
 
 hr {
@@ -2847,8 +2851,15 @@ blockquote {
 
 /* ---------------- 19. Projects ---------------- */
 
-.project-header > p {
+.project-header + p + ul,
+.project-header + ul > li {
   padding: 0 2rem;
+}
+
+li.project-content {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin: 0 4rem;
 }
 
 h1.project-header {
