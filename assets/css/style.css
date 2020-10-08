@@ -1520,8 +1520,8 @@ label {
     background-attachment: fixed;
 }
 
-.counter-section.title-header>h2+p,
-.counter-section.title-header>h2 {
+.counter-section.block-header > h2 + p,
+.counter-section.block-header > h2 {
     color: #fff;
 }
 
@@ -1540,7 +1540,7 @@ label {
     margin-top: 0.7rem;
 }
 
-.single-counter>p {
+.single-counter > p {
     color: #ddd;
     font-size: 1.6rem;
     margin: 0;
