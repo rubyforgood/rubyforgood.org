@@ -18,7 +18,7 @@ mission:
 built_by_rfg:
   - paragraph: "Volunteers will use this app to sign in and out of work sites by entering a touch-based signature on their smartphone. The technical details will be decided by the team as a group, but this JS widget for taking signatures is promising (try it on your phone): https://github.com/szimek/signature_pad"
 scope_and_impact:
-  - paragraph:
+  - paragraph: 
 
 slider:
   - src:

@@ -1,31 +1,22 @@
 ---
 title: RSpec-Rails
-image: /assets/img/stock/600x400.png
+image: /assets/img/projects/impact/rspec_rails_logo.png
 non_profit_partners:
-  - name: "Ruby for Good"
-    src: https://www.rubyforgood.org
-website:
-github_repo:
+  - name: "RSpec-Rails"
+    src: https://github.com/rspec/rspec-rails
+website: https://rspec.info/
+github_repo: https://github.com/rspec/rspec-rails
 years:
-  - year: 2020
+  - year: 2017
 categories: 
-  - category: "inventory management"
-  - category: "women's rights"
-  - category: "children & families"
-  - category: "advocacy"
-  - category: "conservation"
-  - category: "domestic violence"
-  - category: "extinction prevention"
-  - category: "community building"
-  - category: "foster care"
-  - category: "youth issues"
+  - category: "open source"
 mission:
-  - paragraph: "Tell us about the project!"
-  - paragraph: "Tell us more about the project!"
+  - paragraph: "RSpec is a testing framework for Ruby on Rails."
+  - paragraph: 
 built_by_rfg:
-  - paragraph: "Tell us about the project!"
+  - paragraph: "Ruby For Good had a team helping work on this open source project during our event."
 scope_and_impact:
-  - paragraph: "Tell us about the project!"
+  - paragraph: ""
 
 slider:
   - src:
