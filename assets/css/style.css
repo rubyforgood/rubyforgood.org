@@ -1515,37 +1515,37 @@ label {
 /* ---------------- 7. Counter ---------------- */
 
 .counter-area {
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .counter-section.block-header > h2 + p,
 .counter-section.block-header > h2 {
-    color: #fff;
+  color: #fff;
 }
 
 .single-counter span {
-    font-size: 4.8rem;
-    color: #f2454e;
+  font-size: 4.8rem;
+  color: #f2454e;
 }
 
 .counter {
-    color: #fff;
-    display: block;
-    font-family: 'Poppins', sans-serif;
-    font-size: 3.6rem;
-    font-weight: 700;
-    margin-bottom: 0;
-    margin-top: 0.7rem;
+  color: #fff;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 0.7rem;
 }
 
 .single-counter > p {
-    color: #ddd;
-    font-size: 1.6rem;
-    margin: 0;
-    text-transform: capitalize;
-    font-weight: 400;
+  color: #ddd;
+  font-size: 1.6rem;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 
