@@ -1,6 +1,6 @@
 ---
 title: Coral Gardeners
-image: /assets/img/projects/impact/coral-gardeners-logo.webp
+image: /assets/img/projects/impact/coral-gardeners-logo.png
 non_profit_partners:
   - name: "Coral Gardeners"
     src: https://www.coralgardeners.org/
