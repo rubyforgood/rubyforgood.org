@@ -32,6 +32,7 @@
           </ul>
         {% endfor %}
 
+        {% if page.scope_and_impact %}
         <h2 class="project-header">Scope and Impact</h2>
         {% for content in page.scope_and_impact %}
           <p>{{ content.paragraph }}</p>
@@ -42,6 +43,7 @@
             {% endfor %}
           </ul>
         {% endfor %}
+        {% endif %}
 
         {% if page.website %}
         <a class="btn btn-primary mx-4 mt-5" href="{{ page.website }}" type="button" target="_blank">Website</a>
