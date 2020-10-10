@@ -16,7 +16,6 @@ mission:
 built_by_rfg:
   - paragraph: "Ruby For Good built a new website for The Humane Society of Fairfax."
 scope_and_impact:
-  - paragraph:
 
 slider:
   - src:

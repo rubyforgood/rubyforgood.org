@@ -12,11 +12,9 @@ categories:
   - category: "open source"
 mission:
   - paragraph: "RSpec is a testing framework for Ruby on Rails."
-  - paragraph: 
 built_by_rfg:
   - paragraph: "Ruby For Good had a team helping work on this open source project during our event."
 scope_and_impact:
-  - paragraph: ""
 
 slider:
   - src:
