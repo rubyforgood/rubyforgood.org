@@ -7,7 +7,7 @@ non_profit_partners:
 website:
 github_repo:
 years:
-  - year: 2020
+  - year: 2019
 categories:
   - category: "women's rights"
   - category: "children & families"
@@ -21,7 +21,6 @@ mission:
 built_by_rfg:
   - paragraph: "Ruby for Good has built a tracking and inventory management application."
 scope_and_impact:
-  - paragraph: ""
 
 slider:
   - src:

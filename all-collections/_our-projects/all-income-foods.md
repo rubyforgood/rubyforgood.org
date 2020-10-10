@@ -17,7 +17,6 @@ mission:
 built_by_rfg:
   - paragraph:
 scope_and_impact:
-  - paragraph:
 
 slider:
   - src:

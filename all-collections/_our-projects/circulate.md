@@ -13,7 +13,13 @@ categories:
   - category: "children & families"
   - category: "community building"
 mission:
-  - paragraph: "Circulate is an operating system for lending libraries. It is in the early stages of development. It currently provides Member signup, including optional payment via Square, inventory management, including item photos and configurable borrowing rules, item loaning to members, including fine calculation, volunteer shift scheduling, and gift membership generation and redemption."
+  - paragraph: "Circulate is an operating system for lending libraries. It is in the early stages of development. It currently provides the following functionality:"
+  - list:
+    - li: "Member signup, including optional payment via Square"
+    - li: "Inventory management, including item photos and configurable borrowing rules"
+    - li: "Item loaning to members, including fine calculation"
+    - li: "Volunteer shift scheduling"
+    - li: "Gift membership generation and redemption"
 built_by_rfg:
   - paragraph: "There is content and information hard-coded in many of the views that is specific to The Chicago Tool Library, for which the software is being initially developed. Ruby For Good is working on these specifics to make their way into configuration or user-editable content so that the software is easily used by other lending libraries."
 scope_and_impact:

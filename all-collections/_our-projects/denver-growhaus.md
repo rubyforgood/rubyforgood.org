@@ -17,7 +17,6 @@ mission:
 built_by_rfg:
   - paragraph: "A statistics recording and tracking application made for the folks at The GrowHaus."
 scope_and_impact:
-  - paragraph: 
 
 slider:
   - src: /assets/img/projects/growhaus-action.jpg

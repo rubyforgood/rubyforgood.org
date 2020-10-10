@@ -12,42 +12,49 @@
         {% for content in page.mission %}
           <p>{{ content.paragraph }}</p>
           {% if content.list %}
-          <ul>
-            {% assign list = content.list %}
-            {% for item in list %}
-              <li class="project-content">{{ item.li }}</li>
-            {% endfor %}
-          </ul>
+            <ul>
+              {% assign list = content.list %}
+              {% for item in list %}
+                <li class="project-content">{{ item.li }}</li>
+              {% endfor %}
+            </ul>
           {% endif %}
         {% endfor %}
 
         <h2 class="project-header">Built by Ruby for Good</h2>
         {% for content in page.built_by_rfg %}
           <p>{{ content.paragraph }}</p>
-          <ul>
-            {% assign list = content.list %}
-            {% for item in list %}
-              <li>{{ item.li }}</li>
-            {% endfor %}
-          </ul>
+          {% if content.list %}
+            <ul>
+              {% assign list = content.list %}
+              {% for item in list %}
+                <li class="project-content">{{ item.li }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
         {% endfor %}
 
-        <h2 class="project-header">Scope and Impact</h2>
-        {% for content in page.scope_and_impact %}
-          <p>{{ content.paragraph }}</p>
-          <ul>
-            {% assign list = content.list %}
-            {% for item in list %}
-              <li>{{ item.li }}</li>
-            {% endfor %}
-          </ul>
-        {% endfor %}
+        {% if page.scope_and_impact %}
+          <h2 class="project-header">Scope and Impact</h2>
+          {% for content in page.scope_and_impact %}
+            <p>{{ content.paragraph }}</p>
+            {% if content.list %}
+              <ul>
+                {% assign list = content.list %}
+                {% for item in list %}
+                  <li class="project-content">{{ item.li }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
 
         {% if page.website %}
-        <a class="btn btn-primary mx-4 mt-5" href="{{ page.website }}" type="button" target="_blank">Website</a>
+          <a class="btn btn-primary mx-4 mt-5" href="{{ page.website }}" type="button" target="_blank">Website</a>
         {% endif %}
+
         {% if page.github_repo %}
-        <a class="btn btn-secondary mx-4 mt-5" href="{{ page.github_repo }}" type="button" target="_blank">GitHub</a>
+          <a class="btn btn-secondary mx-4 mt-5" href="{{ page.github_repo }}" type="button" target="_blank">GitHub</a>
         {% endif %}
       </div><!-- /col-8 -->
 
