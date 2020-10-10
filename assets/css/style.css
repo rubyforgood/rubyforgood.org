@@ -139,30 +139,72 @@ html {
 }
 
 
-/* Theme background colors */
-
-.red-bg {
-    background-color: #f2454e;
+/* Logo colors */
+.red-salsa {
+  color: #f2454e;
+}
+.terra-cotta {
+  color: #e57460;
+}
+.skobeloff {
+  color: #03777e;
+}
+.cadet-blue {
+  color: #51a4a1;
+}
+.maize-crayola {
+  color: #fdd14a;
+}
+.white {
+  color: #ffffff;
 }
 
-.lt-red-bg {
-    background-color: #e57460;
-}
 
-.teal-bg {
-    background-color: #03777e;
+/* Site palette */
+.red-darker {
+  color: #af0b13;
 }
-
-.lt-teal-bg {
-    background-color: #51a4a1;
+.red-dark {
+  color: #e41822;
 }
-
-.yellow-bg {
-    background-color: #fdd14a;
+.red {
+  color: #f2454e;
 }
-
-.white-bg {
-    background-color: #ffffff;
+.red-light {
+  color: #fb6971;
+}
+.red-lighter {
+  color: #fd9499;
+}
+.teal-darker {
+  color: #004a4e;
+}
+.teal-dark {
+  color: #016267;
+}
+.teal {
+  color: #03777e;
+}
+.teal-light {
+  color: #168f95;
+}
+.teal-lighter {
+  color: #34989d;
+}
+.yellow-darker {
+  color: #ba8f0b;
+}
+.yellow-dark {
+  color: #edbb1f;
+}
+.yellow {
+  color: #fdd14a;
+}
+.yellow-light {
+  color: #fddb6d;
+}
+.yellow-lighter {
+  color: #ffe698;
 }
 
 
