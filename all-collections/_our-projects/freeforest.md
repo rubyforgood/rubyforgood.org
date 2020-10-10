@@ -20,7 +20,7 @@ mission:
 built_by_rfg:
   - paragraph: "Our project will help parents and teachers (or maybe even kids!) find Free Forest School service areas wherever they might be. We're going to use Mapbox, so if you've ever wanted to learn some GIS work with your Rails and/or JavaScript, or played hooky to be in the great outdoors, this project is for you!"
 scope_and_impact:
-  - paragraph:
+  - paragraph: 
 
 slider:
   - src:

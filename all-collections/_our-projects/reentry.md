@@ -1,11 +1,11 @@
 ---
 title: Reentry
-image:
+image: /assets/img/stock/600x400.png
 non_profit_partners:
   - name: "Here 4 Reentry"
     src: https://here4reentry.com
 website:
-github_repo:
+github_repo: "https://github.com/rubyforgood/reentry"
 years:
   - year: 2017
   - year: 2016
