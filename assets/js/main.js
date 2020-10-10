@@ -249,25 +249,6 @@
     });
   }
 
-  function projectSlider() {
-    var ProjectSlider = $(".project-slider");
-    ProjectSlider.slick({
-      autoplay: true,
-      autoplaySpeed: 5000,
-      fade: true,
-      prevArrow:
-        '<button type="button" class="slick-prev"><i class="icofont-long-arrow-left"></i>Prev</button>',
-      nextArrow:
-        '<button type="button" class="slick-next"><i class="icofont-long-arrow-right"></i>Next</button>',
-      arrows: false,
-      dots: true,
-      responsive: [
-        { breakpoint: 767, settings: { dots: false, arrows: false } }
-      ]
-    });
 
-  }
-  projectSlider();
-
-
+  
 })(jQuery);
