@@ -20,7 +20,6 @@ mission:
 built_by_rfg:
   - paragraph: "Tracking restoration activities is a manual process involving the use of an underwater writing board, which then has to be transferred to a log booking system. This process is lengthy and labor intensive, and requires staff to perform calculations to determine the current status of their coral tables. It is also relatively opaque, making historical information and trends very difficult to access and assess."
 scope_and_impact:
-  - paragraph: 
 
 slider:
   - src:
