@@ -5,6 +5,19 @@ description:
 bg: 
 style: 
 permalink: /pages/our-work
+blocks:
+  - type: impact
+    title: Impact
+    bg: wite-bg
+  - type: skills_based_volunteering
+    title: Skills Based Volunteering
+    bg: grey-bg
 ---
 
-{% include mixins/section_header.html %}
+{% include our_work/landing_page.html %}
+{% for block in page.blocks %}
+  {% if block.title %}
+  {% include mixins/block_header.html %}
+  {% endif %}
+  {% include our_work/{{ block.type }}.html %}
+{% endfor %}
