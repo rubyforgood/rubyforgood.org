@@ -3019,6 +3019,7 @@ h3.project-sidebar-header {
 /* ---------------- 21. Impact ---------------- */
 
 .single-project {
+  background-color: #fdd14a;
   position: relative;
   width: 25.5rem;
   height: 25.5rem;
