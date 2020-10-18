@@ -25,6 +25,9 @@
 16. ScrollUp
 17. Results
 18. Our Supporters
+19. Projects
+20. Project Sliders
+21. Impact
 */
 
 
@@ -3011,4 +3014,46 @@ h3.project-sidebar-header {
 .owl-carousel .owl-item .single-item img {
   display: inline-block;
   width: 100%;
+}
+
+/* ---------------- 21. Impact ---------------- */
+
+.single-project {
+  position: relative;
+  width: 25.5rem;
+  height: 25.5rem;
+  overflow: hidden;
+  padding: 2rem;
+  border: 2px solid #fdd14a;
+  border-radius: 2.5%;
+  -webkit-box-shadow: 5px 7px 4px rgb(186, 143, 11);
+  -moz-box-shadow: 5px 7px 4px rgb(186, 143, 11);
+  box-shadow: 5px 7px 4px rgb(186, 143, 11);
+}
+
+.project-info {
+  background-color: rgba(242, 69, 78, 0.8);
+  position: absolute;
+  bottom: -12rem;
+  width: 85%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: .5s;
+  padding: 1rem;
+  border: solid 2px #af0b13;
+  border-radius: 3%;
+  -webkit-box-shadow: inset 1px 1px 10px #af0b13, inset -1px -1px 10px #af0b13;
+  -moz-box-shadow: inset 1px 1px 10px #af0b13, inset -1px -1px 10px #af0b13;
+  box-shadow: inset 1px 1px 10px #af0b13, inset -1px -1px 10px #af0b13;
+}
+
+.single-project:hover .project-info {
+  bottom: 2rem;
+}
+
+.project-info h3 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
