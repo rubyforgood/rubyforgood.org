@@ -18,9 +18,27 @@ built_by_rfg:
 scope_and_impact:
 
 slider:
-  - src:
+  - src: /assets/img/projects/hsfc/birds.jpg
     alt:
-  - src:
+  - src: /assets/img/projects/hsfc/chinchilla.jpg
+    alt:
+  - src: /assets/img/projects/hsfc/dog-1.jpg
+    alt:
+  - src: /assets/img/projects/hsfc/dog-2.jpg
+    alt:
+  - src: /assets/img/projects/hsfc/guinea-pigs.jpg
+    alt:
+  - src: /assets/img/projects/hsfc/horses.jpg
+    alt:
+  - src: /assets/img/projects/hsfc/kittens-1.jpg
+    alt:
+  - src: /assets/img/projects/hsfc/kittens-2.jpg
+    alt:
+  - src: /assets/img/projects/hsfc/kittens-3.jpg
+    alt:
+  - src: /assets/img/projects/hsfc/puppy.jpg
+    alt:
+  - src: /assets/img/projects/hsfc/swimming-pups.jpg
     alt:
 ---
 
