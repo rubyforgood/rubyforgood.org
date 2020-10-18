@@ -1,6 +1,6 @@
 ---
 title: Circulate
-image: /assets/img/projects/impact/circulate-logo.jpg
+image: /assets/img/projects/impact/circulate-logo.png
 non_profit_partners:
   - name: "Chicago Tool Library"
     src: https://chicagotoollibrary.org/
