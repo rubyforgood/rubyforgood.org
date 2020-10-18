@@ -22,10 +22,22 @@ built_by_rfg:
 scope_and_impact:
 
 slider:
-  - src:
-    alt:
-  - src:
-    alt:
+  - src: /assets/img/projects/free-forest-school/boardwalk.jpg
+    alt: "Kids from HCPP enjoy their field trip while walking on a nature boardwalk."
+  - src: /assets/img/projects/free-forest-school/caitlin-chicago.jpg
+    alt: "A young girl splashes in the muddy shallows on a creek."
+  - src: /assets/img/projects/free-forest-school/leaves.jpg
+    alt: "A child plays in a pile of fall leaves."
+  - src: /assets/img/projects/free-forest-school/log-crossing.jpg
+    alt: "A girl cautiously crosses a log, acting as a natural balance beam across a creek. Free Forest School of Durango. Photo by Katherine Dudley."
+  - src: /assets/img/projects/free-forest-school/running.jpg
+    alt: "Three children run through the woods."
+  - src: /assets/img/projects/free-forest-school/story-time.jpg
+    alt: "Free Forest School director Elizabeth Corinth reading at Circle Time. Image by Homeless Children’s Playtime Project (HCPP)."
+  - src: /assets/img/projects/free-forest-school/turtles.jpg
+    alt: "Toddlers investigate a turtle."
+  - src: /assets/img/projects/free-forest-school/what-we-learned-today.jpg
+    alt: "A boy plays in a river, splashing the camera with water. Free Forest School of Austin. Photo by @what_we_learned_today."
 ---
 
 {% include our_work/project.html %}
