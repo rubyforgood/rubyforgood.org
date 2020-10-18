@@ -1,6 +1,6 @@
 ---
 title: DiaperBase
-image: /assets/img/projects/impact/diaper-base-logo-full.svg
+image: /assets/img/projects/impact/diaper-base-logo.png
 non_profit_partners:
   - name: "Ruby for Good"
     src: https://www.rubyforgood.org

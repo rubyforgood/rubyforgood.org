@@ -1,6 +1,6 @@
 ---
 title: Terrastories
-image: /assets/img/projects/impact/terrastories-logo-full.svg
+image: /assets/img/projects/impact/terrastories-logo.png
 non_profit_partners:
   - name: "Ruby for Good"
     src: https://www.rubyforgood.org

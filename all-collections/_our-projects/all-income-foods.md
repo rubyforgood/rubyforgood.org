@@ -1,6 +1,6 @@
 ---
 title: All Income Foods
-image: /assets/img/projects/impact/all-income-foods-logo.png
+image: /assets/img/projects/impact/snapfresh-logo.png
 non_profit_partners:
   - name: "Ruby for Good"
     src: https://www.rubyforgood.org

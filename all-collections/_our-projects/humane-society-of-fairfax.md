@@ -1,11 +1,11 @@
 ---
 title: Humane Society of Fairfax
-image: /assets/img/projects/impact/humane-society-logo.jpg
+image: /assets/img/projects/impact/hsfc-logo.png
 non_profit_partners:
-  - name: Humane Society of Fairfax
-    src:
+  - name: "Humane Society of Fairfax"
+    src: https://hsfc.org/
 website:
-github_repo:
+github_repo: https://github.com/rubyforgood/hsfc
 years:
   - year: 2015
 categories:
