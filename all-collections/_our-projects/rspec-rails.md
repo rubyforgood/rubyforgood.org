@@ -1,6 +1,6 @@
 ---
 title: RSpec-Rails
-image: /assets/img/projects/impact/rspec_rails_logo.png
+image: /assets/img/projects/impact/rspec-logo.png
 non_profit_partners:
   - name: "RSpec-Rails"
     src: https://github.com/rspec/rspec-rails

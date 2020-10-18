@@ -1,6 +1,6 @@
 ---
 title: Mutual Aid
-image: /assets/img/projects/impact/mutual-aid.png
+image: /assets/img/projects/impact/mutual-aid-logo.png
 non_profit_partners:
   - name: "Ruby for Good"
     src: https://www.rubyforgood.org

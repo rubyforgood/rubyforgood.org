@@ -257,6 +257,7 @@
     autoplayTimeout: 10000,
     autoplaySpeed: 2000,
     margin: 10,
+    autoHeight: true,
     nav: false,
     dots: false,
     responsive: {
