@@ -537,7 +537,7 @@ label {
     cursor: pointer;
     display: inline-block;
     margin: 1rem 0;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 3rem;
     font-size: 1.4rem;
     font-weight: 400;
     letter-spacing: 1px;
@@ -565,7 +565,7 @@ label {
     cursor: pointer;
     display: inline-block;
     margin: 1rem 0;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 3rem;
     font-size: 1.4rem;
     font-weight: 400;
     letter-spacing: 1px;
@@ -2977,45 +2977,50 @@ h3.project-sidebar-header {
 /* ---------------- 20. Our work ---------------- */
 
 .btn-impact {
-    -moz-user-select: none;
-    background-color: #f2454e;
-    color: #fff;
-    border: medium none;
-    border-radius: 0.25rem;
-    cursor: pointer;
-    display: inline-block;
-    margin-bottom: 0;
-    padding: 1.8rem 3.6rem;
-    font-size: 1.2rem;
-    font-weight: 800;
-    letter-spacing: 0.2rem;
-    line-height: 1;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transition: all 0.3s ease 0s;
-    vertical-align: middle;
-    white-space: nowrap;
+  -moz-user-select: none;
+  background-color: #f2454e;
+  color: #fff;
+  border: 2px solid #f2454e;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 1.5rem 3rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  white-space: nowrap;
 }
 
 .btn-sbv {
-    -moz-user-select: none;
-    background-color: #ffdc4b;
-    color: #fff;
-    border: medium none;
-    border-radius: 0.25rem;
-    cursor: pointer;
-    display: inline-block;
-    margin-bottom: 0;
-    padding: 1.8rem 3.6rem;
-    font-size: 1.2rem;
-    font-weight: 800;
-    letter-spacing: 0.2rem;
-    line-height: 1;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transition: all 0.3s ease 0s;
-    vertical-align: middle;
-    white-space: nowrap;
+  -moz-user-select: none;
+  background-color: #fdd14a;
+  color: #fff;
+  border: 2px solid #fdd14a;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 1.5rem 3rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.btn-sbv:hover {
+  background-color: #edbb1f;
+  border: 2px solid #edbb1f;
 }
