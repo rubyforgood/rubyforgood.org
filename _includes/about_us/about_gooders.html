@@ -1,18 +1,12 @@
-{% assign gooders = site.data.about_us.about_gooders %}
-
-<section class="{% if block.bg %}{{ block.bg }}{% endif %} pb-70 pb-100">
+<section class="pb-70{% if block.bg %} {{ block.bg }}{% endif %}">
   <div class="container">
     <div class="row">
-      {% for gooder in gooders %}
-      <div class="col-4 text-center">
-        <img src="{{ site.baseurl }}{{ gooder.gooder_img }}" class="img-fluid">
+      <div class="col-12 col-lg-4">
+        <img src="{{site.baseurl}}/assets/img/theme-stock/about/5.jpg" class="img-fluid pb-30 mx-auto d-block">
       </div><!-- /col-4 -->
-      <div class="col-8 text-center">
-        {% for content in gooder.gooder_content %}
-          <p>{{ content.paragraph }}</p>
-        {% endfor %}
+      <div class="col-12 col-lg-8 text-center">
+        <p>Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
       </div><!-- /col-8 -->
-      {% endfor %}
     </div><!-- /row -->
   </div><!-- /container -->
 </section>
