@@ -1,4 +1,25 @@
-<section class="{% if block.bg %}{{ block.bg }}{% endif %} pb-70 pb-100">
-    <div class="float-container">
-    </div>
+<section class="d-flex flex-row">
+  {% for block in page.blocks %}
+    {% if block.type == "impact" %}
+      <div class="left w-50">
+        <div class="block-header">
+          <h2 class="mb-40">{{ block.title }}</h2>
+        </div>
+        {% for content in block.content %}
+          <p>{{ content.paragraph }}</p>
+        {% endfor %}
+        <button type="button" class="btn-impact">Read More</button>
+      </div>
+    {% elsif block.type == "sbv" %}
+      <div class="right w-50">
+        <div class="block-header">
+          <h2 class="mb-40">{{ block.title }}</h2>
+        </div>
+        {% for content in block.content %}
+          <p>{{ content.paragraph }}</p>
+        {% endfor %}
+        <button type="button" class="btn-sbv">Read More</button>
+      </div>
+    {% endif %}
+  {% endfor %}
 </section>
