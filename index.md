@@ -1,25 +1,25 @@
 ---
 layout: default
 title: Home
-description: 
+description:
 bg: white-bg
-style: 
+style:
 blocks:
   - type: slider
-    title: 
-    description: 
-    bg: 
-    style: 
+    title:
+    description:
+    bg:
+    style:
   - type: overview_columns
-    title: 
-    description: 
+    title:
+    description:
     bg: white-bg
-    style: 
+    style:
   - type: featured_project
     title: Featured Project
     description: Check back regularly to see a newly featured project!
     bg: grey-bg
-    style: 
+    style:
   - type: impact_counter
     title: Impact by the Numbers
     description: See how Ruby for Good produces impactful results.
@@ -29,7 +29,7 @@ blocks:
     title: Our Supporters
     description: Take it from the companies below. These folks recognize the difference we're making and are dedicated to helping us continue our mission. Are you?
     bg: white-bg
-    style: 
+    style:
 ---
 
 {% include mixins/header_custom.html %}

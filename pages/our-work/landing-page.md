@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Our Work
+description:
+bg:
+style:
 permalink: /pages/our-work
 blocks:
   - type: impact

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: About Us
-description: 
+description:
 bg: grey-bg
-style: 
+style:
 permalink: /pages/about-us
 blocks:
   - type: mission_vision_history
