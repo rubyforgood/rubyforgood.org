@@ -8,9 +8,9 @@ permalink: /pages/our-work
 blocks:
   - type: impact
     title: Impact
-    bg: wite-bg
+    bg: white-bg
   - type: skills_based_volunteering
-    title: Skills Based Volunteering
+    title: Skills-based Volunteering
     bg: grey-bg
 ---
 
