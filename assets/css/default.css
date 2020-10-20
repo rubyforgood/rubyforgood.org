@@ -1043,15 +1043,15 @@
 /* Background Color */
 
 .grey-bg {
-    background: #F8F9FA;
+    background: #f8f9fa;
 }
 
 .white-bg {
-    background: #fff !important;
+    background: #ffffff !important;
 }
 
 .black-bg {
-    background: #222;
+    background: #222222;
 }
 
 .theme-bg {
@@ -1059,7 +1059,7 @@
 }
 
 .primary-bg {
-    background: #222;
+    background: #222222;
 }
 
 .green-bg {
@@ -1078,19 +1078,19 @@
 /* Color */
 
 .white-color {
-    color: #fff;
+    color: #ffffff;
 }
 
 .black-color {
-    color: #222;
+    color: #222222;
 }
 
 .theme-color {
-    color: #222;
+    color: #222222;
 }
 
 .primary-color {
-    color: #222;
+    color: #222222;
 }
 
 .z-index {
@@ -1105,7 +1105,7 @@
 }
 
 [data-overlay]::before {
-    background: #000 none repeat scroll 0 0;
+    background: #000000 none repeat scroll 0 0;
     content: "";
     height: 100%;
     left: 0;
