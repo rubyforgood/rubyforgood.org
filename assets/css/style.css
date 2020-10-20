@@ -3135,3 +3135,26 @@ h3.project-sidebar-header {
   background-color: #edbb1f;
   border: 2px solid #edbb1f;
 }
+
+/* Control the left side */
+.left {
+  background-color: #f8f9fa;
+  padding: 7rem 4rem;
+  text-align: left;
+}
+
+/* Control the right side */
+.right {
+  background-image: url("../img/stock/sbv-bg-tinted.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: #222222;
+  overflow: hidden;
+  padding: 7rem 4rem;
+  text-align: right;
+}
+
+.right > .block-header > h2,
+.right > p {
+  color: #ffffff;
+}
