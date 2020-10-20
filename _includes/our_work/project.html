@@ -1,7 +1,9 @@
 <section class="white-bg pt-50 pb-70">
   <div class="container">
 
-    <!-- TODO: Insert photo gallery slider here -->
+    {% if page.slider %}
+      {% include our_work/project_slider.html %}
+    {% endif %}
 
     <div class="row">
   

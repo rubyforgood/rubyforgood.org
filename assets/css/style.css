@@ -25,7 +25,9 @@
 16. ScrollUp
 17. Results
 18. Our Supporters
-19. Our Work
+19. Projects
+20. Project Sliders
+21. Impact
 */
 
 
@@ -2973,54 +2975,110 @@ h3.project-sidebar-header {
     padding-bottom: 0;
 }
 
+/* ---------------- 20. Project Sliders ---------------- */
 
-/* ---------------- 20. Our work ---------------- */
-
-.btn-impact {
-  -moz-user-select: none;
-  background-color: #f2454e;
-  color: #fff;
-  border: 2px solid #f2454e;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  display: inline-block;
-  margin: 1rem 0;
-  padding: 1.5rem 3rem;
-  font-size: 1.4rem;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 1.2;
-  text-align: center;
-  text-transform: uppercase;
-  touch-action: manipulation;
-  transition: all 0.3s ease 0s;
-  vertical-align: middle;
-  white-space: nowrap;
+.project-slider-text {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 3.6rem;
+  position: relative;
+  padding: 0 17rem;
 }
 
-.btn-sbv {
-  -moz-user-select: none;
+.project-slider-text::before {
+  position: absolute;
+  left: 12.5rem;
+  content: "\f10d";
+  font-family: "Font Awesome 5 free";
+  top: 0;
+  font-style: normal;
+  font-size: 2.7rem;
+  color: #f2454e;
+}
+
+.project-slider-text::after {
+  position: absolute;
+  left: auto;
+  right: 12.5rem;
+  content: "\f10e";
+  font-family: "Font Awesome 5 free";
+  bottom: 0;
+  font-style: normal;
+  font-size: 2.7rem;
+  color: #f2454e;
+}
+
+.project-slider-items img {
+  margin-bottom: 3rem;
+}
+
+.project-slider-items h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.project-slider-items span {
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+.project-slider-active.owl-carousel .owl-item img {
+  display: inline-block;
+  width: initial;
+}
+
+.single-item {
+  text-align: center;
+}
+
+.owl-carousel .owl-item .single-item img {
+  display: inline-block;
+  width: 100%;
+}
+
+/* ---------------- 21. Impact ---------------- */
+
+.single-project {
   background-color: #fdd14a;
-  color: #fff;
+  position: relative;
+  width: 25.5rem;
+  height: 25.5rem;
+  overflow: hidden;
+  padding: 2rem;
   border: 2px solid #fdd14a;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  display: inline-block;
-  margin: 1rem 0;
-  padding: 1.5rem 3rem;
-  font-size: 1.4rem;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 1.2;
-  text-align: center;
-  text-transform: uppercase;
-  touch-action: manipulation;
-  transition: all 0.3s ease 0s;
-  vertical-align: middle;
-  white-space: nowrap;
+  border-radius: 2.5%;
+  -webkit-box-shadow: 5px 7px 4px rgb(186, 143, 11);
+  -moz-box-shadow: 5px 7px 4px rgb(186, 143, 11);
+  box-shadow: 5px 7px 4px rgb(186, 143, 11);
 }
 
-.btn-sbv:hover {
-  background-color: #edbb1f;
-  border: 2px solid #edbb1f;
+.project-info {
+  background-color: rgba(242, 69, 78, 0.8);
+  position: absolute;
+  bottom: -12rem;
+  width: 85%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: .5s;
+  padding: 1rem;
+  border: solid 2px #af0b13;
+  border-radius: 3%;
+  -webkit-box-shadow: inset 1px 1px 10px #af0b13, inset -1px -1px 10px #af0b13;
+  -moz-box-shadow: inset 1px 1px 10px #af0b13, inset -1px -1px 10px #af0b13;
+  box-shadow: inset 1px 1px 10px #af0b13, inset -1px -1px 10px #af0b13;
+}
+
+.single-project:hover .project-info {
+  bottom: 2rem;
+}
+
+.project-info h3 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
