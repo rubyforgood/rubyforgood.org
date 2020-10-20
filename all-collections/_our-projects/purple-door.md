@@ -1,37 +1,26 @@
 ---
 title: Purple Door
-image: /assets/img/stock/600x400.png
+image: /assets/img/projects/impact/PDC-Logo-White.png
 non_profit_partners:
   - name: "Ruby for Good"
     src: https://www.rubyforgood.org
-website:
-github_repo:
+website: https://www.purpledoorcoffee.com/
+github_repo: https://github.com/rubyforgood/purple_door-1
 years:
-  - year: 2020
+  - year: 2015
 categories:
-  - category: "inventory management"
-  - category: "women's rights"
   - category: "children & families"
   - category: "advocacy"
-  - category: "conservation"
-  - category: "domestic violence"
-  - category: "extinction prevention"
   - category: "community building"
-  - category: "foster care"
   - category: "youth issues"
 mission:
-  - paragraph: "Tell us about the project!"
-  - paragraph: "Tell us more about the project!"
+  - paragraph: "Purple Door Coffee is a specialty espresso bar and coffee shop in Denver, Colorado that employs teens and young adults who have been homeless and want to leave homelessness behind."
 built_by_rfg:
-  - paragraph: "Tell us about the project!"
-scope_and_impact:
-  - paragraph: "Tell us about the project!"
+  - paragraph: "This application supports the cirriculum used to help employees of Purple Door Coffee"
 
 slider:
-  - src:
-    alt:
-  - src:
-    alt:
+  - src: /assets/img/projects/purple-door-coffee.jpeg
+    alt: "Purple door coffee"
 ---
 
 {% include our_work/project.html %}

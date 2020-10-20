@@ -22,10 +22,15 @@ built_by_rfg:
 scope_and_impact:
 
 slider:
-  - src:
-    alt:
-  - src:
-    alt:
+  - src: /assets/img/projects/coral/coral-380039_1280.jpg
+    alt: "Coral."
+  - src: /assets/img/projects/coral/coral-diver.jpg
+    alt: "Diver with coral."
+  - src: /assets/img/projects/coral/coral-overhead.jpg
+    alt: "Overhead view of coral."
+  - src: /assets/img/projects/coral/coral-yellow.jpg
+    alt: "Yellow coral"
+  
 ---
 
 {% include our_work/project.html %}

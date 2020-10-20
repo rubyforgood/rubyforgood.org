@@ -20,10 +20,14 @@ built_by_rfg:
 scope_and_impact:
 
 slider:
-  - src:
-    alt:
-  - src:
-    alt:
+  - src: /assets/img/projects/habitat/house-construction.jpg
+    alt: "House construction."
+  - src: /assets/img/projects/habitat/house-packing.jpg
+    alt: "Packing up."
+  - src: /assets/img/projects/habitat/house-painting.jpg
+    alt: "Painting house."
+  - src: /assets/img/projects/habitat/scaffolding.jpg
+    alt: "Scaffolding for home improvement."
 ---
 
 {% include our_work/project.html %}

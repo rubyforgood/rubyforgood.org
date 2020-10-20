@@ -17,10 +17,8 @@ built_by_rfg:
 scope_and_impact:
 
 slider:
-  - src:
-    alt:
-  - src:
-    alt:
+  - src: /assets/img/projects/rpsec_logo.png
+    alt: "RSpec Logo"
 ---
 
 {% include our_work/project.html %}

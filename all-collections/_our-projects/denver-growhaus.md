@@ -21,8 +21,6 @@ scope_and_impact:
 slider:
   - src: /assets/img/projects/growhaus-action.jpg
     alt: "GrowHaus in action."
-  - src:
-    alt:
 ---
 
 {% include our_work/project.html %}

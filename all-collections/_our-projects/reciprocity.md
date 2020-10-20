@@ -7,25 +7,16 @@ non_profit_partners:
 website:
 github_repo:
 years:
-  - year: 2020
+  - year: 2018
+  - year: 2019
 categories:
-  - category: "inventory management"
-  - category: "women's rights"
-  - category: "children & families"
-  - category: "advocacy"
-  - category: "conservation"
-  - category: "domestic violence"
-  - category: "extinction prevention"
   - category: "community building"
-  - category: "foster care"
-  - category: "youth issues"
 mission:
-  - paragraph: "Tell us about the project!"
-  - paragraph: "Tell us more about the project!"
+  - paragraph: "Gift economy platform to promote and support activism and civic engagement "
 built_by_rfg:
-  - paragraph: "Tell us about the project!"
+  - paragraph: 
 scope_and_impact:
-  - paragraph: "Tell us about the project!"
+  - paragraph: 
 
 slider:
   - src:
