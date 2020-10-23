@@ -16,7 +16,7 @@ categories:
 mission:
   - paragraph: "Purple Door Coffee is a specialty espresso bar and coffee shop in Denver, Colorado that employs teens and young adults who have been homeless and want to leave homelessness behind."
 built_by_rfg:
-  - paragraph: "This application supports the curriculum used to help employees of Purple Door Coffee"
+  - paragraph: "This application supports the curriculum used to help employees of Purple Door Coffee."
 
 slider:
   - src: /assets/img/projects/purple-door/purple-door-coffee.jpeg

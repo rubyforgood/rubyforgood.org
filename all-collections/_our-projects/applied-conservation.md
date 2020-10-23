@@ -15,9 +15,8 @@ categories:
 mission:
   - paragraph: "An application to help organize and plan reservation projects."
 built_by_rfg:
-  - paragraph:
+  - paragraph: "------ ADD INFO HERE ------"
 scope_and_impact:
-  - paragraph:
 
 slider:
   - src:
