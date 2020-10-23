@@ -3,11 +3,6 @@
     {% assign importance_info = site.data.our_work.sbv | where: "type", "importance" %}
     {% for info in importance_info %}
     <div class="row">
-      <div class="col">
-        <h2 class="mb-20">{{ info.header }}</h2>
-      </div><!-- /col -->
-    </div><!-- /row -->
-    <div class="row">
       <div class="col mb-20">
         {% for content in info.content %}
           <p>{{ content.paragraph }}</p>
