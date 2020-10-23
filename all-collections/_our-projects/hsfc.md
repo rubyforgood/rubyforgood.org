@@ -1,6 +1,6 @@
 ---
 title: Humane Society of Fairfax
-image: /assets/img/projects/impact/hsfc-logo.png
+image: /assets/img/projects/impact-logos/hsfc-logo.png
 non_profit_partners:
   - name: "Humane Society of Fairfax"
     src: https://hsfc.org/

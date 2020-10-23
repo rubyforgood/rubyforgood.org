@@ -1,6 +1,6 @@
 ---
 title: CASA
-image: /assets/img/projects/impact/casa-logo.png
+image: /assets/img/projects/impact-logos/casa-logo.png
 non_profit_partners:
   - name: "Prince George’s County CASA"
     src: https://pgcasa.org/

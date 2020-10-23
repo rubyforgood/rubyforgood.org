@@ -1,6 +1,6 @@
 ---
 title: Voices of Consent
-image: /assets/img/projects/impact/voices-of-consent-logo.png
+image: /assets/img/projects/impact-logos/voices-of-consent-logo.png
 non_profit_partners:
   - name: "Ruby for Good"
     src: https://www.rubyforgood.org

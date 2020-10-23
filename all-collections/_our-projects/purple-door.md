@@ -1,6 +1,6 @@
 ---
 title: Purple Door
-image: /assets/img/projects/impact/PDC-Logo-White.png
+image: /assets/img/projects/impact-logos/purple-door-logo.png
 non_profit_partners:
   - name: "Ruby for Good"
     src: https://www.rubyforgood.org
@@ -16,10 +16,10 @@ categories:
 mission:
   - paragraph: "Purple Door Coffee is a specialty espresso bar and coffee shop in Denver, Colorado that employs teens and young adults who have been homeless and want to leave homelessness behind."
 built_by_rfg:
-  - paragraph: "This application supports the cirriculum used to help employees of Purple Door Coffee"
+  - paragraph: "This application supports the curriculum used to help employees of Purple Door Coffee"
 
 slider:
-  - src: /assets/img/projects/purple-door-coffee.jpeg
+  - src: /assets/img/projects/purple-door/purple-door-coffee.jpeg
     alt: "Purple door coffee"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Denver GrowHaus
-image: /assets/img/projects/impact/growhaus-logo.png
+image: /assets/img/projects/impact-logos/growhaus-logo.png
 non_profit_partners:
   - name: "The GrowHaus"
     src: https://www.thegrowhaus.org/
@@ -19,7 +19,7 @@ built_by_rfg:
 scope_and_impact:
 
 slider:
-  - src: /assets/img/projects/growhaus-action.jpg
+  - src: /assets/img/projects/denver-growhaus/denver-growhaus-planting.jpg
     alt: "GrowHaus in action."
 ---
 

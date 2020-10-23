@@ -1,6 +1,6 @@
 ---
 title: Refugee Restroom
-image: /assets/img/stock/600x400.png
+image: /assets/img/projects/impact-logos/refuge-restrooms-logo.png
 non_profit_partners:
   - name: "Ruby for Good"
     src: https://www.rubyforgood.org

@@ -1,6 +1,6 @@
 ---
 title: Abalone
-image: /assets/img/projects/impact/abalone-logo.png
+image: /assets/img/projects/impact-logos/abalone-analytics-logo.png
 non_profit_partners:
   - name: "Bodega Marine Laboratory"
     src: https://marinescience.ucdavis.edu/bml/about
@@ -26,11 +26,11 @@ scope_and_impact:
   - paragraph: "The abalone app will help Bodega Marine Laboratory and Puget Sound Restoration Fund keep White Abalone and Pinto Abalone from going extinct."
 
 slider:
-  - src: /assets/img/projects/abalone-gary.png
+  - src: /assets/img/projects/abalone-analytics/abalone-gary.png
     alt: "Gary the white abalone, and our mascot."
-  - src: /assets/img/projects/abalone-pinto-tagged.jpg
+  - src: /assets/img/projects/abalone-analytics/abalone-pinto-tagged.jpg
     alt: "Tagged pinto abalone."
-  - src: /assets/img/projects/abalone-lab.jpg
+  - src: /assets/img/projects/abalone-analytics/abalone-lab.jpg
     alt: "Research lab."
 ---
 
