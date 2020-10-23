@@ -1,6 +1,6 @@
 ---
 title: Freeforest
-image: /assets/img/projects/impact/free-forest-school-logo.png
+image: /assets/img/projects/impact-logos/freeforest-logo.png
 non_profit_partners:
   - name: "Free Forest School"
     src: https://www.freeforestschool.org/
@@ -22,21 +22,21 @@ built_by_rfg:
 scope_and_impact:
 
 slider:
-  - src: /assets/img/projects/free-forest-school/boardwalk.jpg
+  - src: /assets/img/projects/freeforest/boardwalk.jpg
     alt: "Kids from HCPP enjoy their field trip while walking on a nature boardwalk."
-  - src: /assets/img/projects/free-forest-school/caitlin-chicago.jpg
+  - src: /assets/img/projects/freeforest/caitlin-chicago.jpg
     alt: "A young girl splashes in the muddy shallows on a creek."
-  - src: /assets/img/projects/free-forest-school/leaves.jpg
+  - src: /assets/img/projects/freeforest/leaves.jpg
     alt: "A child plays in a pile of fall leaves."
-  - src: /assets/img/projects/free-forest-school/log-crossing.jpg
+  - src: /assets/img/projects/freeforest/log-crossing.jpg
     alt: "A girl cautiously crosses a log, acting as a natural balance beam across a creek. Free Forest School of Durango. Photo by Katherine Dudley."
-  - src: /assets/img/projects/free-forest-school/running.jpg
+  - src: /assets/img/projects/freeforest/running.jpg
     alt: "Three children run through the woods."
-  - src: /assets/img/projects/free-forest-school/story-time.jpg
+  - src: /assets/img/projects/freeforest/story-time.jpg
     alt: "Free Forest School director Elizabeth Corinth reading at Circle Time. Image by Homeless Children’s Playtime Project (HCPP)."
-  - src: /assets/img/projects/free-forest-school/turtles.jpg
+  - src: /assets/img/projects/freeforest/turtles.jpg
     alt: "Toddlers investigate a turtle."
-  - src: /assets/img/projects/free-forest-school/what-we-learned-today.jpg
+  - src: /assets/img/projects/freeforest/what-we-learned-today.jpg
     alt: "A boy plays in a river, splashing the camera with water. Free Forest School of Austin. Photo by @what_we_learned_today."
 ---
 

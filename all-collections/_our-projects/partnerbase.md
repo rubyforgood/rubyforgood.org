@@ -1,6 +1,6 @@
 ---
 title: PartnerBase
-image: /assets/img/projects/impact/partner-base-logo.png
+image: /assets/img/projects/impact-logos/partnerbase-logo.png
 non_profit_partners:
   - name: "Ruby for Good"
     src: https://www.rubyforgood.org

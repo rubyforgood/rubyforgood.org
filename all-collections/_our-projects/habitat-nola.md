@@ -1,6 +1,6 @@
 ---
 title: Habitat for Humanity
-image: /assets/img/projects/impact/nola-habitat-logo.png
+image: /assets/img/projects/impact-logos/nola-habitat-logo.png
 non_profit_partners:
   - name: "Habitat for Humanity of New Orleans"
     src: http://www.habitat-nola.org/

@@ -62,6 +62,7 @@
 
       <div class="col-4">
         <ul>
+          {% if page.non_profit_partners %}
           <li class="project-sidebar">
             {% if page.non_profit_partners.size > 1 %}
               <h3 class="project-sidebar-header">Non-Profit Partners:</h3>
@@ -72,6 +73,7 @@
             <p><a href="{{ partner.src }}" target="_blank">{{ partner.name }}</a></p>
             {% endfor %}
           </li>
+          {% endif %}
           <li class="project-sidebar">
             <h3 class="project-sidebar-header">Years Active:</h3>
             {% for num in page.years %}

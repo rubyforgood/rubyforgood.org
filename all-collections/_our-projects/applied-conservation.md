@@ -1,6 +1,6 @@
 ---
 title: Applied Conservation
-image: /assets/img/projects/impact/applied-conservation-logo.png
+image: /assets/img/projects/impact-logos/applied-conservation-logo.png
 non_profit_partners:
   - name: "Applied Conservation"
     src:
@@ -15,9 +15,8 @@ categories:
 mission:
   - paragraph: "An application to help organize and plan reservation projects."
 built_by_rfg:
-  - paragraph:
+  - paragraph: "------ ADD INFO HERE ------"
 scope_and_impact:
-  - paragraph:
 
 slider:
   - src:
