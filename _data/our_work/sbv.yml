@@ -1,7 +1,6 @@
 - type: importance
   bg: grey-bg
   style:
-  header: "Why Skills-based Volunteering?"
   content:
     - paragraph: "Skills-based volunteering gives you an opportunity to help others, make a difference in the world, and find a purpose you can associate with. You can meaningfully connect with your community, feel involved, and contribute to causes that you care about. It is also an opportunity to meet new people, learn and explore interesting new ideas, and make some great friends."
     - paragraph: "On a personal level it is a fantastic way to build and develop new skills, have technical opportunities that you otherwise wouldn't be exposed to, grow your network, and build your developer resume."
