@@ -1,0 +1,23 @@
+<section class="pb-70{% if block.bg %} {{ block.bg }}{% endif %}">
+  <div class="container">
+    {% assign how_info = site.data.join_us.npp | where: "type", "how" %}
+    {% for info in how_info %}
+    {% include mixins/block_header.html %}
+      {% for content in info.content %}
+      <div class="row">
+        {% if content.type == "left" %}
+          <div class="col-6 mb-20">
+            <h2 class="unbold">{{ content.header }}</h2>
+              <p>{{ content.paragraph }}</p>
+          </div><!-- /col-6 -->
+        {% elsif content.type == "right" %}
+          <div class="col-6 mb-20">
+            <h2 class="unbold">{{ content.header }}</h2>
+              <p>{{ content.paragraph }}</p>
+            </div><!-- /col-6 -->
+          {% endif %}
+        </div><!-- /row -->
+      {% endfor %}
+    {% endfor %}
+  </div><!-- /container -->
+</section>

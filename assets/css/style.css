@@ -3165,3 +3165,20 @@ h3.project-sidebar-header {
 .right > p {
   color: #ffffff;
 }
+
+
+/* ---------------- 23. Non-Profit Partners ---------------- */
+
+h2.unbold {
+  font-weight: 400;
+}
+
+ol.npp-content {
+  list-style-type: decimal;
+}
+
+li.npp-content {
+  list-style-type: decimal;
+  list-style-position: outside;
+  padding-left: 1rem;
+}

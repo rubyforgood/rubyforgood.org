@@ -1,0 +1,63 @@
+- type: partner
+  bg: white-bg
+  style:
+  title: "Partner with Us"
+  content:
+    - paragraph: "We build software solutions to help your organization achieve its mission! We bring technologists together to build projects toward effecting large-scale social impact. Inefficient and expensive software solutions are an impediment to efficiency. We want to help develop software solutions, so you can focus on your mission."
+- type: how
+  bg: grey-bg
+  style:
+  title: "How It Works"
+  content:
+    - side: left
+      header: "1. Submit Your Project Idea"
+      text:
+        - paragraph: "After you submit your project, we’ll follow up with a conversation. We’ll get in touch and determine how we can best help you. It may turn out that your best solution is to use something already out there and we’ll help you with that."
+        - paragraph: "Use the button below or email us with questions."
+    - side: right
+      header: "2. Schedule"
+      text:
+        - paragraph: "About 5–6 weeks before the event we’ll find someone suitable to lead a team to build your software and put them in touch with you."
+        - paragraph: "They will meet and drill down with you and what you really need. They will confirm requirements with you and then present them to the team that will be working on your software at our event."
+        - paragraph: "They will meet virtually (Skype, Google Hangouts, etc.) with you during the event to introduce the team and to clarify any questions. Within one month of the event’s completion we will deliver the software to you."
+- type: projects
+  bg: white-bg
+  style:
+  title: "Projects We Build"
+  content:
+    - paragraph: "We excel at figuring out what your biggest pain points are and what kind of tedious repetitive tasks you do. Then we set about automating those tasks so your time can better be spent elsewhere. Our expertise is primarily with building web applications. This means that the kind of projects that we excel at are those that require the recording and sharing of information, collaboration, web-based databases and coordination tools."
+    - paragraph: "These can seem a little vague, especially to non-technically oriented people, but if you are having difficulty sharing, storing or accessing data for your organization, we might be able to help. We can and have built other kinds of software and this is only to give you an idea. We’ll definitely find a way to help!"
+- type: problems
+  bg: white-bg
+  style:
+  title: "Problems We Solve"
+  content:
+    - paragraph:
+    - ordered_list:
+      - li: "Are you recording data with pen/paper and later transferring that data to a computer?"
+      - li: "Do you pass word/excel/text files around with collaborators to share information?"
+      - li: "Are you using software for a project now that wasn’t built for the kind of work you are doing (“making it work” even though it’s super painful)?"
+      - li: "Do you take data entered somewhere, manually manipulate it and send it on elsewhere?"
+      - li: "Do you have databases that require different access levels? For example, a volunteer can record and enter data, a principal researcher can then lock it and prevent further volunteer edits and only allow researchers to edit to protect data integrity, reviewers can see but not edit data, and so on."
+      - li: "Do you use desktop programs to record information so you are locked into doing it from a certain location but it would be more convenient to have it web based so you can see/edit from anywhere?"
+- type: cost
+  bg: white-bg
+  style:
+  title: "Cost"
+  content:
+    - paragraph: "The project development is free! We do this to help the people who are making the world a better place. For the past three years we have also been very fortunate to have received sponsorships from hosting companies to host the projects."
+    - paragraph: "However, there is no guarantee these sponsorships will continue. You may need to find hosting for the project once it is built. We will work with you to find the most affordable solution for your project or to integrate it with your current hosting."
+- type: involvement
+  bg: white-bg
+  style:
+  title: "Your Involvement"
+  content:
+    - paragraph: "In order to build you the best software possible we need your participation so we can understand your needs. We require you to commit to at least two meetings with the person leading your team in the lead up to the event."
+    - paragraph: "You will also need to be available at least once during the event, ideally each day. Your team will coordinate the times. This is necessary because the team building your software will inevitably run into design decisions that will require your input in order to resolve and keep the project moving forward."
+- type: testimonials
+  bg: grey-bg
+  style:
+  title: "Testimonials"
+  content:
+    - paragraph: "Listen to what our amazing partner organizations have to say..."
+    - paragraph: "------ TESTIMONIAL SLIDER ------"

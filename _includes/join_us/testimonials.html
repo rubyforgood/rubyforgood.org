@@ -1,0 +1,15 @@
+<section class="pb-70{% if block.bg %} {{ block.bg }}{% endif %}">
+  <div class="container">
+    {% assign testimonials_info = site.data.join_us.npp | where: "type", "testimonials" %}
+    {% for info in testimonials_info %}
+    {% include mixins/block_header.html %}
+    <div class="row">
+      <div class="col mb-20">
+        {% for content in info.content %}
+          <p class="text-center">{{ content.paragraph }}</p>
+        {% endfor %}
+      </div><!-- /col -->
+    </div><!-- /row -->
+    {% endfor %}
+  </div><!-- /container -->
+</section>
