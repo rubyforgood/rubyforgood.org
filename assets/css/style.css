@@ -3109,6 +3109,12 @@ h3.project-sidebar-header {
   white-space: nowrap;
 }
 
+.btn-impact:hover {
+  background-color: #e41822;
+  color: #ffffff;
+  border: 2px solid #e41822;
+}
+
 .btn-sbv {
   -moz-user-select: none;
   background-color: #fdd14a;
@@ -3133,6 +3139,7 @@ h3.project-sidebar-header {
 
 .btn-sbv:hover {
   background-color: #edbb1f;
+  color: #ffffff;
   border: 2px solid #edbb1f;
 }
 
