@@ -1128,11 +1128,10 @@ label {
 }
 
 .slider-content h1 {
-    font-size: 7.2rem;
-    font-weight: 800;
-    color: #fff;
-    line-height: 1;
-    margin-bottom: 2rem;
+  font-size: 6.8rem;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 2rem;
 }
 
 .slider-content h1 span {
@@ -1140,38 +1139,31 @@ label {
 }
 
 .slider-content p {
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     color: #fff;
     line-height: 2.8rem;
     margin-bottom: 3.5rem;
 }
 
+.slider-padding {
+  padding-bottom: 7.5rem;
+}
+
 .btn-slider {
-    -moz-user-select: none;
-    background-color: #f2454e;
-    color: #fff;
-    border: medium none;
-    border-radius: 0.25rem;
-    cursor: pointer;
-    display: inline-block;
-    margin-bottom: 0;
-    padding: 1.8rem 3.6rem;
-    font-size: 1.2rem;
-    font-weight: 800;
-    letter-spacing: 0.2rem;
-    line-height: 1;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transition: all 0.3s ease 0s;
-    vertical-align: middle;
-    white-space: nowrap;
+  background-color: #f2454e;
+  color: #fff;
+  border: medium none;
+  border-radius: 0.5rem;
+  margin-bottom: 0;
+  padding: 1.8rem 3.6rem;
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 
 .btn-slider:hover {
-    color: #fff;
+  color: #fff;
+  background-color: #e41822;
 }
-
 
 /* Slick Next/Prev Buttons */
 
@@ -1199,8 +1191,8 @@ label {
 }
 
 .slick-arrow:hover {
-    color: #03777e;
-    border-color: #03777e;
+    color: #fdd14a;
+    border-color: #fdd14a;
 }
 
 .slider-three-active .slick-next {
@@ -1239,7 +1231,7 @@ label {
 }
 
 .slider-active .slick-dots li.slick-active button {
-    background-color: #03777e;
+    background-color: #fdd14a;
     outline: 0;
 }
 
