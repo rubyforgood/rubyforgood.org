@@ -3159,8 +3159,13 @@ h3.project-sidebar-header {
 
 /* ---------------- 23. Non-Profit Partners ---------------- */
 
-h2.unbold {
+.unbold {
   font-weight: 400;
+}
+
+h3.unbold {
+  font-size: 2.6rem;
+  margin-bottom: 1.5rem;
 }
 
 ol.npp-content {
