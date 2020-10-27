@@ -6,26 +6,26 @@ bg:
 style:
 permalink: /pages/join-us/non-profit-partners
 blocks:
-  - type: partner-with-us
+  - type: partner
     bg: white-bg
-  - type: how-it-works
+  - type: how
+    title: How It Works
     bg: grey-bg
-  - type: projects-we-build
+  - type: projects
     bg: white-bg
-  - type: problems-we-solve
+  - type: problems
     bg: white-bg
   - type: cost
     bg: white-bg
-  - type: your-involvement
+  - type: involvement
     bg: white-bg
   - type: testimonials
+    title: Testimonials
+    description: Listen to what our amazing partner organizations have to say...
     bg: grey-bg
 ---
 
 {% include mixins/section_header.html %}
 {% for block in page.blocks %}
-  {% if block.title %}
-  {% include mixins/block_header.html %}
-  {% endif %}
   {% include join_us/{{ block.type }}.html %}
 {% endfor %}

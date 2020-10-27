@@ -95,11 +95,11 @@ html {
 }
 
 
-/* Page Title Headers */
+/* Page & Block Title Headers */
 
 .title-header>h2 {
     position: relative;
-    margin-bottom: 2rem;
+    margin: 0 0 3rem;
     font-weight: 300;
     font-size: 4.8rem;
 }
@@ -118,12 +118,9 @@ html {
     padding: 0 2rem;
 }
 
-
-/* Block Title Headers */
-
 .block-header>h2 {
     position: relative;
-    margin-bottom: 2rem;
+    margin: 0 0 3rem;
     font-weight: 300;
     font-size: 3.6rem;
 }
@@ -140,6 +137,14 @@ html {
 
 .block-header>h2>p {
     padding: 0 2rem;
+}
+
+.title-line,
+.block-line {
+  background: #000000;
+  width: 5.5rem;
+  height: 1px;
+  margin: 3rem auto;
 }
 
 
@@ -172,63 +177,63 @@ html {
 
 /* Site palette */
 
-.red-darker {
+.red-salsa-darker {
     color: #af0b13;
 }
 
-.red-dark {
+.red-salsa-dark {
     color: #e41822;
 }
 
-.red {
+.red-salsa {
     color: #f2454e;
 }
 
-.red-light {
+.red-salsa-light {
     color: #fb6971;
 }
 
-.red-lighter {
+.red-salsa-lighter {
     color: #fd9499;
 }
 
-.teal-darker {
+.skobeloff-darker {
     color: #004a4e;
 }
 
-.teal-dark {
+.skobeloff-dark {
     color: #016267;
 }
 
-.teal {
+.skobeloff {
     color: #03777e;
 }
 
-.teal-light {
+.skobeloff-light {
     color: #168f95;
 }
 
-.teal-lighter {
+.skobeloff-lighter {
     color: #34989d;
 }
 
-.yellow-darker {
+.maize-crayola-darker {
     color: #ba8f0b;
 }
 
-.yellow-dark {
+.maize-crayola-dark {
     color: #edbb1f;
 }
 
-.yellow {
+.maize-crayola {
     color: #fdd14a;
 }
 
-.yellow-light {
+.maize-crayola-light {
     color: #fddb6d;
 }
 
-.yellow-lighter {
+.maize-crayola-lighter {
     color: #ffe698;
 }
 
@@ -404,6 +409,20 @@ textarea:focus {
     outline: 0;
 }
 
+a.btn {
+  -moz-user-select: none;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0.2rem;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
 p {
     font-size: 1.4rem;
     font-weight: normal;
@@ -427,7 +446,7 @@ h4,
 h5,
 h6 {
     font-family: 'Poppins', sans-serif;
-    font-size: 5.25rem;
+    font-size: 5.2rem;
     color: #000;
     margin: 0rem;
     font-style: normal;
@@ -447,11 +466,11 @@ h6 a {
 }
 
 h1 {
-    font-size: 6.5rem;
+    font-size: 5.2rem;
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 3.6rem;
     margin: 0 0 4rem;
 }
 
@@ -532,59 +551,38 @@ label {
 /* Button Styles */
 
 .btn-primary {
-    -moz-user-select: none;
-    background-color: #fb6971;
-    color: #fff;
-    border: 2px solid #e41822;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    display: inline-block;
-    margin: 1rem 0;
-    padding: 1.5rem 3rem;
-    font-size: 1.4rem;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 1.2;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transition: all 0.3s ease 0s;
-    vertical-align: middle;
-    white-space: nowrap;
+  background-color: #fb6971;
+  color: #fff;
+  border: 2px solid #e41822;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  padding: 1.5rem 3rem;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 
 .btn-primary:hover {
-    background-color: #e41822;
-    color: #fff;
-    border: 2px solid #e41822;
+  background-color: #e41822;
+  color: #fff;
+  border: 2px solid #e41822;
 }
 
 .btn-secondary {
-    -moz-user-select: none;
-    background-color: #168f95;
-    color: #fff;
-    border: 2px solid #016267;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    display: inline-block;
-    margin: 1rem 0;
-    padding: 1.5rem 3rem;
-    font-size: 1.4rem;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 1.2;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transition: all 0.3s ease 0s;
-    vertical-align: middle;
-    white-space: nowrap;
+  -moz-user-select: none;
+  background-color: #168f95;
+  color: #fff;
+  border: 2px solid #016267;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  padding: 1.5rem 3rem;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 
 .btn-secondary:hover {
-    background-color: #016267;
-    color: #fff;
-    border: 2px solid #016267;
+  background-color: #016267;
+  color: #fff;
+  border: 2px solid #016267;
 }
 
 
@@ -1130,11 +1128,10 @@ label {
 }
 
 .slider-content h1 {
-    font-size: 7.2rem;
-    font-weight: 800;
-    color: #fff;
-    line-height: 1;
-    margin-bottom: 2rem;
+  font-size: 6.8rem;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 2rem;
 }
 
 .slider-content h1 span {
@@ -1142,38 +1139,31 @@ label {
 }
 
 .slider-content p {
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     color: #fff;
     line-height: 2.8rem;
     margin-bottom: 3.5rem;
 }
 
+.slider-padding {
+  padding-bottom: 7.5rem;
+}
+
 .btn-slider {
-    -moz-user-select: none;
-    background-color: #f2454e;
-    color: #fff;
-    border: medium none;
-    border-radius: 0.25rem;
-    cursor: pointer;
-    display: inline-block;
-    margin-bottom: 0;
-    padding: 1.8rem 3.6rem;
-    font-size: 1.2rem;
-    font-weight: 800;
-    letter-spacing: 0.2rem;
-    line-height: 1;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transition: all 0.3s ease 0s;
-    vertical-align: middle;
-    white-space: nowrap;
+  background-color: #f2454e;
+  color: #fff;
+  border: medium none;
+  border-radius: 0.5rem;
+  margin-bottom: 0;
+  padding: 1.8rem 3.6rem;
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 
 .btn-slider:hover {
-    color: #fff;
+  color: #fff;
+  background-color: #e41822;
 }
-
 
 /* Slick Next/Prev Buttons */
 
@@ -1201,8 +1191,8 @@ label {
 }
 
 .slick-arrow:hover {
-    color: #03777e;
-    border-color: #03777e;
+    color: #fdd14a;
+    border-color: #fdd14a;
 }
 
 .slider-three-active .slick-next {
@@ -1241,7 +1231,7 @@ label {
 }
 
 .slider-active .slick-dots li.slick-active button {
-    background-color: #03777e;
+    background-color: #fdd14a;
     outline: 0;
 }
 
@@ -1779,67 +1769,67 @@ label {
 /* ---------------- 9. Testimonial ---------------- */
 
 .client-text {
-    font-size: 1.6rem;
-    line-height: 2.8rem;
-    font-weight: 600;
-    font-style: italic;
-    margin-bottom: 3.6rem;
-    position: relative;
-    padding: 0 17rem;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 3.6rem;
+  position: relative;
+  padding: 0 12.5rem;
 }
 
 .client-text::before {
-    position: absolute;
-    left: 12.5rem;
-    content: "\f10d";
-    font-family: "Font Awesome 5 free";
-    top: 0;
-    font-style: normal;
-    font-size: 2.7rem;
-    color: #f2454e;
+  position: absolute;
+  left: 7.5rem;
+  content: "\f10d";
+  font-family: "Font Awesome 5 free";
+  top: 0;
+  font-style: normal;
+  font-size: 2.7rem;
+  color: #f2454e;
 }
 
 .client-text::after {
-    position: absolute;
-    left: auto;
-    right: 12.5rem;
-    content: "\f10e";
-    font-family: "Font Awesome 5 free";
-    bottom: 0;
-    font-style: normal;
-    font-size: 2.7rem;
-    color: #f2454e;
+  position: absolute;
+  left: auto;
+  right: 7.5rem;
+  content: "\f10e";
+  font-family: "Font Awesome 5 free";
+  bottom: 0;
+  font-style: normal;
+  font-size: 2.7rem;
+  color: #f2454e;
 }
 
 .testimonial-items img {
-    border-radius: 50%;
-    margin-bottom: 3rem;
+  border-radius: 50%;
+  margin-bottom: 3rem;
 }
 
 .testimonial-items h4 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    color: #222;
-    margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 1rem;
 }
 
 .testimonial-items span {
-    font-size: 1.4rem;
-    font-style: italic;
+  font-size: 1.4rem;
+  font-style: italic;
 }
 
 .testimonial-active.owl-carousel .owl-item img {
-    display: inline-block;
-    width: initial;
+  display: inline-block;
+  width: initial;
 }
 
 .single-clients {
-    text-align: center;
+  text-align: center;
 }
 
 .owl-carousel .owl-item .single-clients img {
-    display: inline-block;
-    width: 100%;
+  display: inline-block;
+  width: 100%;
 }
 
 
@@ -3164,4 +3154,26 @@ h3.project-sidebar-header {
 .right > .block-header > h2,
 .right > p {
   color: #ffffff;
+}
+
+
+/* ---------------- 23. Non-Profit Partners ---------------- */
+
+.unbold {
+  font-weight: 400;
+}
+
+h3.unbold {
+  font-size: 2.6rem;
+  margin-bottom: 1.5rem;
+}
+
+ol.npp-content {
+  list-style-type: decimal;
+}
+
+li.npp-content {
+  list-style-type: decimal;
+  list-style-position: outside;
+  padding-left: 1rem;
 }

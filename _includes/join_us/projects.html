@@ -1,7 +1,7 @@
-<section class="pb-70{% if block.bg %} {{ block.bg }}{% endif %}">
+<section class="pt-70 pb-70{% if block.bg %} {{ block.bg }}{% endif %}">
   <div class="container">
-    {% assign cost_info = site.data.join_us.npp | where: "type", "cost" %}
-    {% for info in cost_info %}
+    {% assign projects_info = site.data.join_us.npp | where: "type", "projects" %}
+    {% for info in projects_info %}
     <div class="row">
       <div class="col">
         <h2 class="mb-20 unbold">{{ info.title }}</h2>
