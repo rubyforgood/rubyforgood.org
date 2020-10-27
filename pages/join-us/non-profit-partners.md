@@ -21,6 +21,7 @@ blocks:
     bg: white-bg
   - type: testimonials
     title: Testimonials
+    description: Listen to what our amazing partner organizations have to say...
     bg: grey-bg
 ---
 

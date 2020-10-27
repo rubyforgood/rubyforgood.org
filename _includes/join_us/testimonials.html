@@ -5,9 +5,7 @@
     {% include mixins/block_header.html %}
     <div class="row">
       <div class="col mb-20">
-        {% for content in info.content %}
-          <p class="text-center">{{ content.paragraph }}</p>
-        {% endfor %}
+        {% include join_us/testimonial_slider.html %}
       </div><!-- /col -->
     </div><!-- /row -->
     {% endfor %}

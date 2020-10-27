@@ -1769,67 +1769,67 @@ label {
 /* ---------------- 9. Testimonial ---------------- */
 
 .client-text {
-    font-size: 1.6rem;
-    line-height: 2.8rem;
-    font-weight: 600;
-    font-style: italic;
-    margin-bottom: 3.6rem;
-    position: relative;
-    padding: 0 17rem;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 3.6rem;
+  position: relative;
+  padding: 0 12.5rem;
 }
 
 .client-text::before {
-    position: absolute;
-    left: 12.5rem;
-    content: "\f10d";
-    font-family: "Font Awesome 5 free";
-    top: 0;
-    font-style: normal;
-    font-size: 2.7rem;
-    color: #f2454e;
+  position: absolute;
+  left: 7.5rem;
+  content: "\f10d";
+  font-family: "Font Awesome 5 free";
+  top: 0;
+  font-style: normal;
+  font-size: 2.7rem;
+  color: #f2454e;
 }
 
 .client-text::after {
-    position: absolute;
-    left: auto;
-    right: 12.5rem;
-    content: "\f10e";
-    font-family: "Font Awesome 5 free";
-    bottom: 0;
-    font-style: normal;
-    font-size: 2.7rem;
-    color: #f2454e;
+  position: absolute;
+  left: auto;
+  right: 7.5rem;
+  content: "\f10e";
+  font-family: "Font Awesome 5 free";
+  bottom: 0;
+  font-style: normal;
+  font-size: 2.7rem;
+  color: #f2454e;
 }
 
 .testimonial-items img {
-    border-radius: 50%;
-    margin-bottom: 3rem;
+  border-radius: 50%;
+  margin-bottom: 3rem;
 }
 
 .testimonial-items h4 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    color: #222;
-    margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 1rem;
 }
 
 .testimonial-items span {
-    font-size: 1.4rem;
-    font-style: italic;
+  font-size: 1.4rem;
+  font-style: italic;
 }
 
 .testimonial-active.owl-carousel .owl-item img {
-    display: inline-block;
-    width: initial;
+  display: inline-block;
+  width: initial;
 }
 
 .single-clients {
-    text-align: center;
+  text-align: center;
 }
 
 .owl-carousel .owl-item .single-clients img {
-    display: inline-block;
-    width: 100%;
+  display: inline-block;
+  width: 100%;
 }
 
 
