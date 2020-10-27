@@ -95,11 +95,11 @@ html {
 }
 
 
-/* Page Title Headers */
+/* Page & Block Title Headers */
 
 .title-header>h2 {
     position: relative;
-    margin-bottom: 2rem;
+    margin: 0 0 3rem;
     font-weight: 300;
     font-size: 4.8rem;
 }
@@ -118,12 +118,9 @@ html {
     padding: 0 2rem;
 }
 
-
-/* Block Title Headers */
-
 .block-header>h2 {
     position: relative;
-    margin-bottom: 2rem;
+    margin: 0 0 3rem;
     font-weight: 300;
     font-size: 3.6rem;
 }
@@ -140,6 +137,14 @@ html {
 
 .block-header>h2>p {
     padding: 0 2rem;
+}
+
+.title-line,
+.block-line {
+  background: #000000;
+  width: 5.5rem;
+  height: 1px;
+  margin: 3rem auto;
 }
 
 
@@ -441,7 +446,7 @@ h4,
 h5,
 h6 {
     font-family: 'Poppins', sans-serif;
-    font-size: 5.25rem;
+    font-size: 5.2rem;
     color: #000;
     margin: 0rem;
     font-style: normal;
@@ -461,11 +466,11 @@ h6 a {
 }
 
 h1 {
-    font-size: 6.5rem;
+    font-size: 5.2rem;
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 3.6rem;
     margin: 0 0 4rem;
 }
 
