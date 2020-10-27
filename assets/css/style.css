@@ -404,6 +404,20 @@ textarea:focus {
     outline: 0;
 }
 
+a.btn {
+  -moz-user-select: none;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0.2rem;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
 p {
     font-size: 1.4rem;
     font-weight: normal;
@@ -532,59 +546,38 @@ label {
 /* Button Styles */
 
 .btn-primary {
-    -moz-user-select: none;
-    background-color: #fb6971;
-    color: #fff;
-    border: 2px solid #e41822;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    display: inline-block;
-    margin: 1rem 0;
-    padding: 1.5rem 3rem;
-    font-size: 1.4rem;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 1.2;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transition: all 0.3s ease 0s;
-    vertical-align: middle;
-    white-space: nowrap;
+  background-color: #fb6971;
+  color: #fff;
+  border: 2px solid #e41822;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  padding: 1.5rem 3rem;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 
 .btn-primary:hover {
-    background-color: #e41822;
-    color: #fff;
-    border: 2px solid #e41822;
+  background-color: #e41822;
+  color: #fff;
+  border: 2px solid #e41822;
 }
 
 .btn-secondary {
-    -moz-user-select: none;
-    background-color: #168f95;
-    color: #fff;
-    border: 2px solid #016267;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    display: inline-block;
-    margin: 1rem 0;
-    padding: 1.5rem 3rem;
-    font-size: 1.4rem;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 1.2;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transition: all 0.3s ease 0s;
-    vertical-align: middle;
-    white-space: nowrap;
+  -moz-user-select: none;
+  background-color: #168f95;
+  color: #fff;
+  border: 2px solid #016267;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  padding: 1.5rem 3rem;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 
 .btn-secondary:hover {
-    background-color: #016267;
-    color: #fff;
-    border: 2px solid #016267;
+  background-color: #016267;
+  color: #fff;
+  border: 2px solid #016267;
 }
 
 
