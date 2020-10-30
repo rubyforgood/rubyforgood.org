@@ -27,7 +27,7 @@ blocks:
     style: counter-section
   - type: our_supporters
     title: Who Supports Us
-    description: Take it from the companies below. These folks recognize the difference we're making and are dedicated to helping us continue our mission. Are you?
+    description: Take it from the companies below, who recognize the difference we're making and are dedicated to helping us continue our mission. Are you?
     bg: white-bg
     style:
 ---
