@@ -1,3 +1,6 @@
+- image: assets/img/supporters/microsoft.png
+  name: Microsoft
+  link_to: https://www.microsoft.com/
 - image: assets/img/supporters/1password-slider.png
   name: 1Password
   link_to: https://1password.com/
