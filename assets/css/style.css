@@ -1603,6 +1603,10 @@ label {
     margin-top: 0.7rem;
 }
 
+.counter::after {
+    content: "+"
+}
+
 .single-counter>p {
     color: #ddd;
     font-size: 1.6rem;

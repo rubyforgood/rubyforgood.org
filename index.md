@@ -22,7 +22,7 @@ blocks:
     style:
   - type: impact_counter
     title: Impact by the Numbers
-    description: See how Ruby for Good produces impactful results.
+    description: Our numbers speak for themselves.
     bg: lt-teal-bg
     style: counter-section
   - type: our_supporters

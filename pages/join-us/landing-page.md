@@ -6,3 +6,5 @@ bg:
 style:
 permalink: /pages/join-us
 ---
+
+{% include join_us/landing_page.html %}

@@ -10,6 +10,8 @@
 - text: Join Us
   url: /pages/join-us
   submenu:
+  - text: Join Us
+    url: /pages/join-us
   - text: Non-Profit Partners
     url: /pages/join-us/non-profit-partners
 - text: Donate
