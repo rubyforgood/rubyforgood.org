@@ -5,6 +5,7 @@ non_profit_partners:
   - name: "Ruby for Good"
     src: https://www.rubyforgood.org
 website:
+weblink: https://www.allianceforperiodsupplies.org/
 github_repo:
 years:
   - year: 2020

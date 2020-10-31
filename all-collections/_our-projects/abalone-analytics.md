@@ -1,6 +1,7 @@
 ---
 title: Abalone Analytics
 image: /assets/img/projects/impact-logos/abalone-analytics-logo.png
+weblink: https://restorationfund.org/programs/pintoabalone/
 non_profit_partners:
   - name: "Bodega Marine Laboratory"
     src: https://marinescience.ucdavis.edu/bml/about

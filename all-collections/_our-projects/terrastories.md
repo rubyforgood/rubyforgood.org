@@ -5,6 +5,7 @@ non_profit_partners:
   - name: "Terrastories"
     src: https://terrastories.io/
 website: https://terrastories.io/
+weblink: https://terrastories.io/
 github_repo: https://github.com/Terrastories/terrastories
 years:
   - year: 2020

@@ -1,6 +1,7 @@
 ---
 title: Applied Conservation
 image: /assets/img/projects/impact-logos/applied-conservation-logo.png
+weblink: http://appliedconservation.com/
 non_profit_partners:
   - name: "Applied Conservation"
     src:

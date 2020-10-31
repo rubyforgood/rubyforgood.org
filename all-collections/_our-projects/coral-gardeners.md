@@ -5,6 +5,7 @@ non_profit_partners:
   - name: "Coral Gardeners"
     src: https://www.coralgardeners.org/
 website:
+weblink: https://www.coralgardeners.org/
 github_repo: https://github.com/rubyforgood/coral
 years:
   - year: 2019

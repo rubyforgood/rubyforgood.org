@@ -5,6 +5,7 @@ non_profit_partners:
   - name: "Free Forest School"
     src: https://www.freeforestschool.org/
 website:
+weblink: https://www.freeforestschool.org/
 github_repo:
 years:
   - year: 2020

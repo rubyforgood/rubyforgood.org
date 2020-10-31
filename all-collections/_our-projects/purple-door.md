@@ -5,6 +5,7 @@ non_profit_partners:
   - name: "Ruby for Good"
     src: https://www.rubyforgood.org
 website: https://www.purpledoorcoffee.com/
+weblink: https://www.purpledoorcoffee.com/
 github_repo: https://github.com/rubyforgood/purple_door-1
 years:
   - year: 2015

@@ -5,6 +5,7 @@ non_profit_partners:
   - name: "Prince George’s County CASA"
     src: https://pgcasa.org/
 website: https://casa-qa.herokuapp.com/
+weblink: https://pgcasa.org/
 github_repo: https://github.com/rubyforgood/casa
 year:
   - year: 2020

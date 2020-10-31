@@ -5,6 +5,7 @@ non_profit_partners:
   - name: "Humane Society of Fairfax"
     src: https://hsfc.org/
 website:
+weblink: https://hsfc.org/
 github_repo: https://github.com/rubyforgood/hsfc
 years:
   - year: 2015

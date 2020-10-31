@@ -6,6 +6,7 @@ non_profit_partners:
     src: https://chicagotoollibrary.org/
 website:
 github_repo: https://github.com/rubyforgood/circulate
+weblink: https://chicagotoollibrary.org/
 years:
   - year: 2020
 categories:

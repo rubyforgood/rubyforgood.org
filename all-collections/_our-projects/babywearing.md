@@ -1,6 +1,7 @@
 ---
 title: Babywearing
 image: /assets/img/projects/impact-logos/babywearing-logo.png
+weblink: https://midatlanticbabywearing.org/
 non_profit_partners:
   - name: "Mid-Atlantic Babywearing"
     src:

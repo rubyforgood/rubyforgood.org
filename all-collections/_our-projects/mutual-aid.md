@@ -5,6 +5,7 @@ non_profit_partners:
   - name: "Ruby for Good"
     src: https://www.rubyforgood.org
 website:
+weblink: https://bigdoorbrigade.wordpress.com/
 github_repo:
 years:
   - year: 2020
