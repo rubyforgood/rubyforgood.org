@@ -17,7 +17,7 @@ blocks:
     style:
   - type: featured_project
     title: Featured Project
-    description: Check back regularly to see a newly featured project!
+    description: Check back regularly to see our featured projects!
     bg: grey-bg
     style:
   - type: impact_counter
