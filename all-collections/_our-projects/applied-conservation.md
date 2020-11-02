@@ -1,11 +1,10 @@
 ---
 title: Applied Conservation
 image: /assets/img/projects/impact-logos/applied-conservation-logo.png
-weblink: http://appliedconservation.com/
 non_profit_partners:
   - name: "Applied Conservation"
-    src:
-website:
+    src: http://appliedconservation.com/
+website: http://appliedconservation.com/
 github_repo: https://github.com/rubyforgood/applied-conservation
 years:
   - year: 2019

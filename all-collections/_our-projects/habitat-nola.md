@@ -2,10 +2,9 @@
 title: Habitat for Humanity New Orleans
 image: /assets/img/projects/impact-logos/nola-habitat-logo.png
 non_profit_partners:
-  - name: "Habitat for Humanity of New Orleans"
+  - name: "New Orleans Area Habitat for Humanity"
     src: http://www.habitat-nola.org/
-website:
-weblink: http://www.habitat-nola.org/
+website: http://www.habitat-nola.org/
 github_repo: https://github.com/rubyforgood/habitat_humanity
 years:
   - year: 2018

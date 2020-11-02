@@ -4,9 +4,8 @@ image: /assets/img/projects/impact-logos/circulate-logo.png
 non_profit_partners:
   - name: "Chicago Tool Library"
     src: https://chicagotoollibrary.org/
-website:
+website: https://chicagotoollibrary.org/
 github_repo: https://github.com/rubyforgood/circulate
-weblink: https://chicagotoollibrary.org/
 years:
   - year: 2020
 categories:

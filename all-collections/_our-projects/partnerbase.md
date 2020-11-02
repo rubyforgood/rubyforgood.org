@@ -2,11 +2,10 @@
 title: PartnerBase
 image: /assets/img/projects/impact-logos/partnerbase-logo.png
 non_profit_partners:
-  - name: "Ruby for Good"
-    src: https://www.rubyforgood.org
-website:
-weblink: https://www.allianceforperiodsupplies.org/
-github_repo:
+  - name: "Alliance for Period Supplies"
+    src: https://www.allianceforperiodsupplies.org/
+website: https://www.allianceforperiodsupplies.org/
+github_repo: https://github.com/rubyforgood/partner
 years:
   - year: 2020
 categories:

@@ -3,7 +3,6 @@ title: SnapFresh
 image: /assets/img/projects/impact-logos/snapfresh-logo.png
 non_profit_partners:
 website: http://www.snapfresh.org/
-weblink: http://www.snapfresh.org/
 github_repo: https://github.com/SnapFresh/SnapFresh
 years:
   - year: 2015

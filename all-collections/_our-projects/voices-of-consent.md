@@ -2,8 +2,7 @@
 title: Voices of Consent
 image: /assets/img/projects/impact-logos/voices-of-consent-logo.png
 non_profit_partners:
-website:
-weblink: https://www.facebook.com/voicesofconsent/
+website: https://www.facebook.com/voicesofconsent/
 github_repo: https://github.com/rubyforgood/voices-of-consent
 years:
   - year: 2019

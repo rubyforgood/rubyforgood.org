@@ -4,8 +4,8 @@ image: /assets/img/projects/impact-logos/babywearing-logo.png
 weblink: https://midatlanticbabywearing.org/
 non_profit_partners:
   - name: "Mid-Atlantic Babywearing"
-    src:
-website:
+    src: https://midatlanticbabywearing.org/
+website: https://midatlanticbabywearing.org/
 github_repo: https://github.com/rubyforgood/babywearing
 years:
   - year: 2020

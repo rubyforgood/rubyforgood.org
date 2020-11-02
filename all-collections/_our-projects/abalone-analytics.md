@@ -1,13 +1,12 @@
 ---
 title: Abalone Analytics
 image: /assets/img/projects/impact-logos/abalone-analytics-logo.png
-weblink: https://restorationfund.org/programs/pintoabalone/
 non_profit_partners:
   - name: "Bodega Marine Laboratory"
     src: https://marinescience.ucdavis.edu/bml/about
   - name: "Puget Sound Restoration Fund"
     src: https://restorationfund.org/programs/pintoabalone/
-website: https://abalone-staging.herokuapp.com/
+website: https://abalone-staging.herokuapp.com/about
 github_repo: https://github.com/rubyforgood/abalone
 years:
   - year: 2020

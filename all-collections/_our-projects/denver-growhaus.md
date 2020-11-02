@@ -4,8 +4,7 @@ image: /assets/img/projects/impact-logos/growhaus-logo.png
 non_profit_partners:
   - name: "The GrowHaus"
     src: https://www.thegrowhaus.org/
-website:
-weblink: https://www.thegrowhaus.org/
+website: https://www.thegrowhaus.org/
 github_repo: https://github.com/rubyforgood/growhaus_stats
 years:
   - year: 2015

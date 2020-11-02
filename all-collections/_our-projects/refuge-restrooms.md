@@ -5,7 +5,6 @@ non_profit_partners:
   - name: "REFUGE Restrooms"
     src: https://www.refugerestrooms.org/
 website: https://www.refugerestrooms.org/
-weblink: https://www.refugerestrooms.org/
 github_repo: https://github.com/RefugeRestrooms/refugerestrooms
 years:
   - year: 2019

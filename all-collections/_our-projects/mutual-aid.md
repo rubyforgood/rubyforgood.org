@@ -4,9 +4,8 @@ image: /assets/img/projects/impact-logos/mutual-aid-logo.png
 non_profit_partners:
   - name: "Ruby for Good"
     src: https://www.rubyforgood.org
-website:
-weblink: https://bigdoorbrigade.wordpress.com/
-github_repo:
+website: https://bigdoorbrigade.wordpress.com/
+github_repo: https://github.com/rubyforgood/mutual-aid
 years:
   - year: 2020
 categories:

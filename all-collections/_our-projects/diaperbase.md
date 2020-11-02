@@ -2,10 +2,9 @@
 title: DiaperBase
 image: /assets/img/projects/impact-logos/diaperbase-logo.png
 non_profit_partners:
-  - name: "Ruby for Good"
-    src: https://www.rubyforgood.org
-website: https://diaper.app/
-weblink: https://nationaldiaperbanknetwork.org/
+  - name: "National Diaper Bank Network"
+    src: https://nationaldiaperbanknetwork.org/
+website: https://nationaldiaperbanknetwork.org/
 github_repo: https://github.com/rubyforgood/diaper
 years:
   - year: 2020

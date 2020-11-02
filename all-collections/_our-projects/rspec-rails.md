@@ -3,7 +3,6 @@ title: RSpec-Rails
 image: /assets/img/projects/impact-logos/rspec-logo.png
 non_profit_partners:
 website: https://rspec.info/
-weblink: https://rspec.info/
 github_repo: https://github.com/rspec/rspec-rails
 years:
   - year: 2017

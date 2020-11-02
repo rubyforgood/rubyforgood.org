@@ -4,9 +4,8 @@ image: /assets/img/projects/impact-logos/freeforest-logo.png
 non_profit_partners:
   - name: "Free Forest School"
     src: https://www.freeforestschool.org/
-website:
-weblink: https://www.freeforestschool.org/
-github_repo:
+website: https://www.freeforestschool.org/
+github_repo: https://github.com/rubyforgood/freeforest
 years:
   - year: 2020
   - year: 2019
