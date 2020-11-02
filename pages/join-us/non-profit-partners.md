@@ -6,18 +6,18 @@ bg:
 style:
 permalink: /pages/join-us/non-profit-partners
 blocks:
-  - type: partner
+  - type: partner_with_us
     bg: white-bg
-  - type: how
+  - type: how_it_works
     title: How It Works
     bg: grey-bg
-  - type: projects
+  - type: projects_we_build
     bg: white-bg
-  - type: problems
+  - type: problems_we_solve
     bg: white-bg
   - type: cost
     bg: white-bg
-  - type: involvement
+  - type: your_involvement
     bg: white-bg
   - type: testimonials
     title: Testimonials

@@ -1,8 +1,12 @@
-<section class="pb-70{% if block.bg %} {{ block.bg }}{% endif %}">
+<section class="pt-70 pb-70{% if block.bg %} {{ block.bg }}{% endif %}">
   <div class="container">
     {% assign how_info = site.data.join_us.npp | where: "type", "how" %}
     {% for info in how_info %}
-    {% include mixins/block_header.html %}
+    <div class="row pb-30">
+      <div class="col">
+        <h2 class="mb-20 unbold text-center">{{ info.title }}</h2>
+      </div><!-- /col -->
+    </div><!-- /row -->
     
     {% assign left_info = site.data.join_us.how_it_works | where: "side", "left" %}
     {% assign right_info = site.data.join_us.how_it_works | where: "side", "right" %}
