@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Impact
-description: See how Ruby for Good has made and continues to make a lasting impact on the global community.
+description: We've been honored to work with and help some amazing nonprofits over the years whose work is making a substantive difference in the world. Below is a list of some of the fantastic organizations we've helped throughout the years.
 bg:
 style:
 permalink: /pages/our-work/impact
