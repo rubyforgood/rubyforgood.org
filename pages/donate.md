@@ -6,3 +6,5 @@ bg:
 style:
 permalink: /pages/donate
 ---
+
+{% include donate.html %}
