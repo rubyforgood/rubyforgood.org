@@ -32,23 +32,24 @@
   <div class="container">
     <div class="row">
       <div class="col-12 mb-20">
-      <section class="container">
-        <h1>Recurring Donation</h1>
-        <button data-checkout-mode="subscription" data-price-id="price_1HmQLTFzaTg9zGs0IxKvPI51">
-          Donate $50.00 per month
-        </button>
-        <button data-checkout-mode="subscription" data-price-id="price_1HmQLUFzaTg9zGs0HMlCv1CZ">
-          Donate $25.00 per month
-        </button>
-        <button data-checkout-mode="subscription" data-price-id="price_1HmQLTFzaTg9zGs0ddYeVec2">
-          Donate $10.00 per month
-        </button>
-      </section>
+        <section class="container">
+          <h1>Recurring Donation</h1>
+          <button data-checkout-mode="subscription" data-price-id="price_1HmQLTFzaTg9zGs0IxKvPI51">
+            Donate $50.00 per month
+          </button>
+          <button data-checkout-mode="subscription" data-price-id="price_1HmQLUFzaTg9zGs0HMlCv1CZ">
+            Donate $25.00 per month
+          </button>
+          <button data-checkout-mode="subscription" data-price-id="price_1HmQLTFzaTg9zGs0ddYeVec2">
+            Donate $10.00 per month
+          </button>
+        </section>
+      </div>
+      <div id="error-message"></div>
     </div>
-    <div id="error-message"></div>
   </div>
-</div>
 </section>
+<script src="https://js.stripe.com/v3/"></script>
 <script>
   // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
   var PUBLISHABLE_KEY = 'pk_live_8GGxzNf3baRkezsBLlQwCYwY';
