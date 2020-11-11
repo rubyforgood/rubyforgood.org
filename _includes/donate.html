@@ -1,22 +1,19 @@
-<html lang="en">
+<section class="grey-bg pt-100 pb-20">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-10 col-12 text-center pb-30">
+        <div class="title-header">
+          <h2 class="mb-10">Make A Donation</h2>
+        </div>
+      </div><!-- /col-xl-10 col-12 -->
+    </div><!-- /row -->
+  </div><!-- /container -->
+</section>
 
-<head>
-  <meta charset="utf-8"/>
-  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-  <link rel="stylesheet" href="css/normalize.css"/>
-  <link rel="stylesheet" href="css/global.css"/>
-  <!-- Load Stripe.js on your website. -->
-  <script src="https://js.stripe.com/v3/"></script>
-</head>
-
-<body>
-<div class="sr-root">
-  <div class="sr-main" style="display: flex;">
-    <header class="sr-header">
-      <div class="sr-header__logo"></div>
-    </header>
-    <div class="sr-container">
-      <section class="container">
+<section class="pb-70 grey-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-20">
         <h1>One-time Donation</h1>
         <button data-checkout-mode="payment" data-price-id="price_1HmQLTFzaTg9zGs0ihmA9j05">
           Donate $100.00 once
@@ -27,7 +24,14 @@
         <button data-checkout-mode="payment" data-price-id="price_1HmQLTFzaTg9zGs09pOTURBo">
           Donate $25.00 once
         </button>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="pb-70 grey-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-20">
       <section class="container">
         <h1>Recurring Donation</h1>
         <button data-checkout-mode="subscription" data-price-id="price_1HmQLTFzaTg9zGs0IxKvPI51">
@@ -44,12 +48,12 @@
     <div id="error-message"></div>
   </div>
 </div>
-
+</section>
 <script>
   // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
   var PUBLISHABLE_KEY = 'pk_live_8GGxzNf3baRkezsBLlQwCYwY';
   // Replace with the domain you want your users to be redirected back to after payment
-  var DOMAIN = location.href.replace(/[^/]*$/, '');
+  var DOMAIN = 'designbygia.github.io';
 
   var stripe = Stripe(PUBLISHABLE_KEY);
 
@@ -76,11 +80,10 @@
         .redirectToCheckout({
           mode: mode,
           lineItems: items,
-          successUrl: DOMAIN + 'success.html?session_id={CHECKOUT_SESSION_ID}',
-          cancelUrl: DOMAIN + 'canceled.html?session_id={CHECKOUT_SESSION_ID}',
+          successUrl: DOMAIN + '?session_id={CHECKOUT_SESSION_ID}',
+          cancelUrl: DOMAIN + '?session_id={CHECKOUT_SESSION_ID}',
         })
         .then(handleResult);
     });
   });
 </script>
-</body>
