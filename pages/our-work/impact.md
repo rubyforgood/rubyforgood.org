@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Impact
-description: We've been honored to work with and help some amazing nonprofits over the years whose work is making a substantive difference in the world. Below is a list of some of the fantastic organizations we've helped throughout the years.
+description: We've been honored to work with and help some amazing nonprofits and civic organizations over the years whose work is making a substantive difference in the world. Below is a list of some of the fantastic organizations we've helped throughout the years.
 bg:
 style:
 permalink: /pages/our-work/impact

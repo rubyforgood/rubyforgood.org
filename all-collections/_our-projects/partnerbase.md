@@ -1,6 +1,6 @@
 ---
-title: PartnerBase
-image: /assets/img/projects/impact-logos/partnerbase-logo.png
+title: Alliance For Period Supplies
+image: /assets/img/projects/impact-logos/alliance.png
 non_profit_partners:
   - name: "Alliance for Period Supplies"
     src: https://www.allianceforperiodsupplies.org/
