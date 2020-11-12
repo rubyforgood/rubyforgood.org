@@ -15,19 +15,14 @@ blocks:
     description:
     bg: white-bg
     style:
-  - type: featured_project
-    title: Featured Project
-    description: Check back regularly to see our featured projects!
-    bg: grey-bg
-    style:
   - type: impact_counter
     title: Impact by the Numbers
-    description: Our numbers speak for themselves.
+    description: Numbers don't lie. Here is an unbiased look at our impact so far.
     bg: lt-teal-bg
     style: counter-section
   - type: our_supporters
-    title: Our Supporters
-    description: Take it from the companies below, who recognize the difference we're making and are dedicated to helping us continue our mission. Are you?
+    title: Who Believes In Us
+    description: We are unable to do the amazing work we do without help. We are honored that the companies listed below are supporting us and our mission.
     bg: white-bg
     style:
 ---

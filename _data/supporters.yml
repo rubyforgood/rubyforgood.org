@@ -1,3 +1,12 @@
+- image: assets/img/supporters/power.png
+  name: Power Home Remodeling
+  link_to: https://powerhrg.com/
+- image: assets/img/supporters/bugsnag.png
+  name: Bugsnag
+  link_to: https://www.bugsnag.com/
+- image: assets/img/supporters/skylight.png
+  name: Skylight
+  link_to: https://www.tilde.io/skylight/
 - image: assets/img/supporters/microsoft.png
   name: Microsoft
   link_to: https://www.microsoft.com/
