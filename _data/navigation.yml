@@ -1,5 +1,10 @@
 - text: About Us
   url: /pages/about-us
+  submenu:
+  - text: Our Mission
+    url: /pages/about-us
+  - text: Our Team
+    url: /pages/about-us/our-team
 - text: Our Work
   url: /pages/our-work
   submenu:
