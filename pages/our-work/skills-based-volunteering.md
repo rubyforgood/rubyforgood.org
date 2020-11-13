@@ -15,6 +15,9 @@ blocks:
   - type: approach
     title: Our Approach
     bg: grey-bg
+  - type: success
+    title: Facilitating Success
+    bg: white-bg
 ---
 
 {% include mixins/section_header.html %}

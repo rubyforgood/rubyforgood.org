@@ -9,11 +9,17 @@
   style:
   image: /assets/img/theme-stock/service/4.jpg
   content:
-    - paragraph: "We love organizations like Ovio and Catchafire that aggregate volunteer projects—including some of ours—but we feel there is a better way to facilitate volunteers. We believe that volunteers are able to more fully engage in projects when they are able to connect with the non-profit organizations on a deeper level."
+    - paragraph: "There are a lot of organizations out there that aggregate volunteer projects —including some of ours— but we feel there is a better way to facilitate volunteers and volunteering. We believe that volunteers are able to more fully engage in projects when they are able to connect with the non-profit organizations on a deeper level. Meeting, interacting, and knowing the people and the communities you are helping is what volunteering is all about and that's the crux of what we do."
 - type: approach
   bg: grey-bg
   style:
   image: /assets/img/theme-stock/service/6.jpg
   content:
-    - paragraph: "What differentiates us from other organizations is that while anyone can go find a project to code on, we start all our projects by meeting with a stakeholder representative of the nonprofit we'll be helping. We believe that no one other than the folks themselves—volunteers at diaper banks, animal shelters, foster youth organizations, and the like—are going to be able to better explain the good work they do and how your volunteering is going to make their lives and the people's lives they are serving better. We also believe that after completing your volunteering and hearing again from the non-profit stakeholders amplifies that good feeling and makes the experience all the more impactful."
-    - paragraph: "We even go one step further. As these are nonprofits that we long term relationships with, we follow up on the volunteering done at a future date, generally 3 to 6 months out when they've had time to really take advantage of the software build, and follow up with them again to hear how much of a difference the software has made in their lives. We report that follow up impact to our volunteers so they are able to understand the magnitude of their work."
+    - paragraph: "What differentiates us from other organizations is that while anyone can go find a project to code on, we start all our projects by meeting with a stakeholder representative of the nonprofit we'll be helping. We believe that no one other than the folks themselves; volunteers at diaper banks, animal shelters, foster youth organizations, and the like are going to be able to best explain the life changing work they do and how your volunteering is going to make their lives and the people's lives they are serving better. We also believe that after completing your volunteering and hearing again from the non-profit stakeholders amplifies that good feeling and makes the experience all the more impactful."
+    - paragraph: "We even go one step further. As these are nonprofits that we long term relationships with, we follow up on the volunteering done at a future date, generally 3 to 6 months out when they've had time to really take advantage of the software that has been built, and follow up with them again to hear how much of an impact the software has made in their lives. We report that follow up impact to our volunteers so they are able to understand the magnitude of their work."
+- type: success
+  bg: white-bg
+  style:
+  image: /assets/img/theme-stock/service/2.jpg
+  content:
+    - paragraph: "The organizations we work with are doing some of the most important work there is. So we are invested in your volunteering being a productive, successful, meaningful, and most importantly, a fun experience. We think through all the details, put together information packages with all the information you'll need, collect relevant data for reporting, and have social media playbooks for you, us, and the nonprofits to follow before, during, and after the volunteering to highlight the great work that is being done."
