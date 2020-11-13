@@ -8,7 +8,7 @@ photo: /assets/img/people/sean-marcia.png
 email: sean@rubyforgood.org
 social:
   - link: http://twitter.com/seanmarcia
-    handle: "@RubyforGood"
+    handle: "@seanmarcia"
     icon: twitter
   - link: https://github.com/seanmarcia
     handle: "/seanmarcia"
