@@ -1924,12 +1924,12 @@ label {
     color: #777;
 }
 
-h4.team-member-quote {
-    font-size: 2rem;
-    font-weight: 300;
-    color: #000;
-    text-align: center;
-    letter-spacing: 0.3rem;
+h4.team-member-name {
+  font-size: 3.2rem;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 0.2rem;
+  letter-spacing: 0.3rem;
 }
 
 .team-member-line {
