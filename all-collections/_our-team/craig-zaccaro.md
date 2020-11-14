@@ -29,7 +29,7 @@ facts:
   - fact: "Enjoys film and movies"
     icon: film
   - fact: "Bookworm"
-    icon: fa-book-reader
+    icon: book-reader
 ---
 
 {% include about_us/team_member.html %}
