@@ -1,10 +1,8 @@
 ---
-layout: page
-
 first_name: Polly
 last_name: Schandorf
 position: Director of Projects and Go-Getter
-photo: /assets/img/people/polly_profile_picture.jpg
+photo: /assets/img/people/polly-schandorf.jpg
 email: polly@rubyforgood.org
 social:
   - link: https://twitter.com/N3rdyTeacher
@@ -31,6 +29,5 @@ facts:
   - fact: "Enjoys growing her own food"
     icon: seedling
 ---
-
 
 {% include about_us/team_member.html %}
