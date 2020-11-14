@@ -1936,21 +1936,12 @@ h4.team-member-name {
     border-bottom: 2px solid #f2454e;
 }
 
-h3.team-member-header {
-    position: relative;
-    font-size: 2.4rem;
-    padding-bottom: 0.8rem;
-    letter-spacing: 0.3rem;
-}
-
-.team-member-header::before {
-    content: "{ ";
-    color: #03777e;
-}
-
-.team-member-header::after {
-    content: " }";
-    color: #03777e;
+h3.team-member-position {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #03777e;
+  text-align: center;
+  letter-spacing: 0.3rem;
 }
 
 h5.team-member-contacts {
