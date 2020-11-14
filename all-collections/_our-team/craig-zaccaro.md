@@ -1,4 +1,6 @@
 ---
+layout: page
+
 first_name: Craig
 last_name: Zaccaro
 position: Director of Logistics and Technical Support  
