@@ -1,4 +1,6 @@
 ---
+layout: page
+
 first_name: Polly
 last_name: Schandorf
 position: Director of Projects and Go-Getter

@@ -1,4 +1,6 @@
 ---
+layout: page
+
 first_name: Sean
 last_name: Marcia
 position: Founder and Chief Gooder
