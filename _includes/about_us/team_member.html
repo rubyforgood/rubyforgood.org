@@ -30,7 +30,9 @@
         <!-- Social links -->
         <h5 class="team-member-contacts pb-50">
           {% for platform in page.social %}
-            <a href="{{ platform.link }}"><i class="fab fa-{{ platform.icon }}"></i>&nbsp;&nbsp;{{ platform.handle }}</a>&nbsp;|&nbsp; 
+            {% if platform.link %}
+            <a href="{{ platform.link }}"><i class="fab fa-{{ platform.icon }}"></i>&nbsp;&nbsp;{{ platform.handle }}</a>&nbsp;|&nbsp;
+            {% endif %}
           {% endfor %}
           <a href="mailto:{{ page.email }}"><i class="fas fa-envelope"></i>&nbsp;&nbsp;{{ page.email }}</a>
         </h5>
