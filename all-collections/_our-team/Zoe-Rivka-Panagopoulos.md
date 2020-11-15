@@ -5,7 +5,7 @@ first_name: Zoe
 last_name: Rivka Panagopoulos
 position: Product Manager for CASA
 photo: /assets/img/people/Zoe-Rivka-Panagopoulos.jpg
-email: polly@rubyforgood.org
+email: 
 social:
   - link: https://twitter.com/ZoeRivka
     handle: ZoeRivka
