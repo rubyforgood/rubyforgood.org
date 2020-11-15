@@ -4,7 +4,7 @@ layout: page
 first_name: Craig
 last_name: Zaccaro
 position: Director of Logistics and Technical Support  
-photo: /assets/img/people/craig-zaccaro.png
+photo: /assets/img/people/craig.png
 email: craig@rubyforgood.org
 social:
   - link: http://twitter.com/craigzaccaro

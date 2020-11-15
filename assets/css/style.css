@@ -1100,7 +1100,7 @@ label {
   border-radius: 0.5rem;
   cursor: pointer;
   display: inline-block;
-  margin: 1rem 0 1rem 10rem;
+  margin: 1rem 0 1rem 0;
   padding: 1.5rem 3rem;
   font-size: 1.4rem;
   font-weight: 700;
