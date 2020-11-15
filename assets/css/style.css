@@ -1092,6 +1092,14 @@ label {
     visibility: visible;
 }
 
+.donation-container {
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+    padding: 32px 28px;
+    display: flex;
+    flex-direction: column;
+}
+
 .btn-donate {
   -moz-user-select: none;
   background-color: #f2454e;
