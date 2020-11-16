@@ -16,13 +16,13 @@ blocks:
     bg: white-bg
     style:
   - type: impact_counter
-    title: Impact by the Numbers
-    description: Numbers don't lie. Here is an unbiased look at our impact so far.
+    title: Our Impact Mertics
+    description: We are incredibly proud to share our impact metrics since our founding in 2013.
     bg: lt-teal-bg
     style: counter-section
   - type: our_supporters
-    title: Who Believes In Us
-    description: We are unable to do the amazing work we do without help. We are honored that the companies listed below are supporting us and our mission.
+    title: Our Supporters
+    description: We are privileged to partner with the companies listed below, that partner with us and believe in our mission.
     bg: white-bg
     style:
 ---
