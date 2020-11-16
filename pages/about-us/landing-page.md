@@ -23,10 +23,5 @@ blocks:
     style: 
 ---
 
-{% include mixins/section_header.html %}
-{% for block in page.blocks %}
-  {% if block.title %}
-  {% include mixins/block_header.html %}
-  {% endif %}
-  {% include about_us/{{ block.type }}.html %}
-{% endfor %}
+{% include about_us/landing_page.html %}
+
