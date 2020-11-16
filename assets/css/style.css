@@ -784,6 +784,9 @@ label {
     color: #020d26;
 }
 
+.align-logo {
+    margin-top: -16px;
+}
 
 /* Remove dash on hover */
 
