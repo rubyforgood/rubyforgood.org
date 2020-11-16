@@ -17,7 +17,7 @@ blocks:
     bg: white-bg
     style: 
   - type: about_gooders
-    title: What Is a Gooder?
+    title: Who Is a Gooder?
     description: 
     bg: grey-bg
     style: 
