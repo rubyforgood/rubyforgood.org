@@ -20,6 +20,6 @@
 - type: success
   bg: white-bg
   style:
-  image: /assets/img/theme-stock/service/2.jpg
+  image: /assets/img/stock/success.png
   content:
     - paragraph: "The organizations we work with are doing some of the most important work there is. So we are invested in your volunteering being a productive, successful, meaningful, and most importantly, a fun experience. We think through all the details, put together information packages with all the information you'll need, collect relevant data for reporting, and have social media playbooks for you, us, and the nonprofits to follow before, during, and after the volunteering to highlight the great work that is being done."
