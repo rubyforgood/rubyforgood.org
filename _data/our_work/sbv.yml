@@ -2,8 +2,9 @@
   bg: grey-bg
   style:
   content:
-    - paragraph: "Skills-based volunteering gives you an opportunity to help others, make a difference in the world, and find a purpose you can associate with. You can meaningfully connect with your community, feel involved, and contribute to causes that you care about. It is also an opportunity to meet new people, learn and explore interesting new ideas, and make some great friends."
-    - paragraph: "On a personal level it is a fantastic way to build and develop new skills, have technical opportunities that you otherwise wouldn't be exposed to, grow your network, and build your developer resume."
+    - paragraph: "Skills-based volunteering entails using the skills you specialize in to support the missions of nonprofits, while driving sustainability and building capacity. It is vital since it provides you with an opportunity to support others in a very targeted and specific way, and effect change while making a difference in the world."
+    - paragraph: "Skills-based volunteering enables you to connect with your community, get involved, and contribute to missions that are meaningful to you. Seeking and finding mission-driven work that resonates with you is incredibly gratifying."
+    - paragraph: "It is also an opportunity to meet new people, incubate and explore stimulating new ideas, and build satisfying personal and professional relationships, while pairing with peers, learning from subject matter experts, mentoring fledgling technologists, building and developing new skills, experiencing new technical opportunities, growing your network, and building your resume."
 - type: difference
   bg: white-bg
   style:
