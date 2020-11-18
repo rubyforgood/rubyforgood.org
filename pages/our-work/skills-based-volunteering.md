@@ -10,7 +10,7 @@ blocks:
     title:
     bg: grey-bg
   - type: difference
-    title: How We're Different
+    title: What Makes Us Unique
     bg: white-bg
   - type: approach
     title: Our Approach
