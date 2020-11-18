@@ -3,7 +3,7 @@ layout: page
 
 first_name: Sean
 last_name: Marcia
-position: Founder and Chief Gooder
+position: Founder and CEO
 photo: /assets/img/people/sean-marcia.png
 email: sean@rubyforgood.org
 social:
