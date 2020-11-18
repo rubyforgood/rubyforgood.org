@@ -3072,21 +3072,21 @@ h3.project-sidebar-header {
 /* ---------------- 21. Impact ---------------- */
 
 .single-project {
-  background-color: #fdd14a;
+  background-color: #c0bfbd;
   position: relative;
   width: 25.5rem;
   height: 25.5rem;
   overflow: hidden;
   padding: 2rem;
-  border: 2px solid #fdd14a;
+  border: 2px solid #51a4a1;
   border-radius: 2.5%;
   -webkit-box-shadow: 5px 7px 4px rgb(186, 143, 11);
   -moz-box-shadow: 5px 7px 4px rgb(186, 143, 11);
-  box-shadow: 5px 7px 4px rgb(186, 143, 11);
+  box-shadow: 5px 7px 4px #c0bfbd;
 }
 
 .project-info {
-  background-color: rgba(242, 69, 78, 0.8);
+  background-color: #51a4a1;
   position: absolute;
   bottom: -16rem;
   width: 85%;
@@ -3095,11 +3095,11 @@ h3.project-sidebar-header {
   margin: auto;
   transition: .5s;
   padding: 1rem;
-  border: solid 2px #af0b13;
+  border: solid 2px #03777e;
   border-radius: 3%;
   -webkit-box-shadow: inset 1px 1px 10px #af0b13, inset -1px -1px 10px #af0b13;
   -moz-box-shadow: inset 1px 1px 10px #af0b13, inset -1px -1px 10px #af0b13;
-  box-shadow: inset 1px 1px 10px #af0b13, inset -1px -1px 10px #af0b13;
+  box-shadow: inset 1px 1px 10px #51a4a1, inset -1px -1px 10px #17a2b8;
 }
 
 .single-project:hover .project-info {
