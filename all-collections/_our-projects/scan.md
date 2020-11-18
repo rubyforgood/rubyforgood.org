@@ -1,6 +1,6 @@
 ---
 title: Stop Child Abuse Now
-image: /assets/img/projects/impact-logos/scan.png
+image: /assets/img/projects/impact-logos/scan1.png
 non_profit_partners:
   - name: "Stop Child Abuse Now"
     src: https://www.scanva.org/
