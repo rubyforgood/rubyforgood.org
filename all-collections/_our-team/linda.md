@@ -4,7 +4,7 @@ layout: page
 first_name: Linda
 last_name: Goldstein
 position: Team Lead for CASA
-photo: /assets/img/people/linda.jpg
+photo: /assets/img/people/linda.png
 email: linda@rubyforgood.org
 social:
   - link: https://www.linkedin.com/in/lindagoldstein/
