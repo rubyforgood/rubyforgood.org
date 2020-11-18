@@ -1,6 +1,6 @@
 ---
 title: George Mason University
-image: /assets/img/projects/impact-logos/smsc_logo_v.png
+image: /assets/img/projects/impact-logos/smsc_logo_v1.png
 non_profit_partners:
   - name: "School of Conservation"
     src: https://smconservation.gmu.edu/

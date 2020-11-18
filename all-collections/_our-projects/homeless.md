@@ -1,6 +1,6 @@
 ---
 title: Homeless Children's Playtime Project
-image: /assets/img/projects/impact-logos/playtime.png
+image: /assets/img/projects/impact-logos/playtime1.png
 non_profit_partners:
   - name: "Homeless Children's Playtime Project"
     src: https://playtimeproject.org/

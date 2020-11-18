@@ -1,6 +1,6 @@
 ---
 title: National Diaper Bank Network
-image: /assets/img/projects/impact-logos/ndbn.png
+image: /assets/img/projects/impact-logos/ndbn1.png
 non_profit_partners:
   - name: "National Diaper Bank Network"
     src: https://nationaldiaperbanknetwork.org/

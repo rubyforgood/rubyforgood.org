@@ -1,6 +1,6 @@
 ---
 title: World Wildlife Fund
-image: /assets/img/projects/impact-logos/WWF_logo.svg
+image: /assets/img/projects/impact-logos/wwflogo1.png
 non_profit_partners:
   - name: "World Wildlife Fund"
     src: https://www.wwf.org/

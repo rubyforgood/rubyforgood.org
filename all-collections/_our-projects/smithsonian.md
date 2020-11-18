@@ -1,6 +1,6 @@
 ---
 title: Smithsonian Zoo
-image: /assets/img/projects/impact-logos/smithsonian.png
+image: /assets/img/projects/impact-logos/smithsonian1.png
 non_profit_partners:
   - name: "Smithsonian Zoo"
     src: https://nationalzoo.si.edu/conservation

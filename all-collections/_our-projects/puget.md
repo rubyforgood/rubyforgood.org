@@ -1,6 +1,6 @@
 ---
 title: Puget Sound Restoration Fund
-image: /assets/img/projects/impact-logos/puget.png
+image: /assets/img/projects/impact-logos/puget1.png
 non_profit_partners:
   - name: "Puget Sound Restoration Fund"
     src: https://restorationfund.org/

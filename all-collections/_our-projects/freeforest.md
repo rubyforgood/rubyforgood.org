@@ -1,6 +1,6 @@
 ---
 title: Freeforest
-image: /assets/img/projects/impact-logos/freeforest-logo.png
+image: /assets/img/projects/impact-logos/ffslogo1.png
 non_profit_partners:
   - name: "Free Forest School"
     src: https://www.freeforestschool.org/
