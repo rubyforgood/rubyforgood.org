@@ -2,17 +2,14 @@
 layout: page
 
 first_name: Linda
-last_name: C
+last_name: Goldstein
 position: Team Lead for CASA
 photo: /assets/img/people/linda.jpg
 email: linda@rubyforgood.org
 social:
-  - link: http://twitter.com/
-    handle: "@"
-    icon: twitter
-  - link: https://github.com/
-    handle: "/"
-    icon: github
+  - link: https://www.linkedin.com/in/lindagoldstein/
+    handle: "lindagoldstein"
+    icon: linkedin
 
 write_up:
   - paragraph: "Linda (she/her) is a maintainer of rubyforgood/casa. She does some stuff:
