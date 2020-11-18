@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Impact
-description: We've been honored to work with and help some amazing nonprofits and civic organizations over the years whose work is making a substantive difference in the world. Below is a list of some of the fantastic organizations we've helped throughout the years.
+title: Our Impact
+description: It has been an honor to collaborate with and support several incredible nonprofits and civic organizations over the years, whose work is making a substantive difference in the world. We are so proud to call these remarkable organizations listed below, our partners!
 bg:
 style:
 permalink: /pages/our-work/impact
