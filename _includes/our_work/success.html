@@ -3,16 +3,16 @@
     {% assign success_info = site.data.our_work.sbv | where: "type", "success" %}
     {% for info in success_info %}
     <div class="row">
-      <div class="col-12 col-lg-8">
+      <div class="col-12 col-lg-12">
         {% for content in info.content %}
           <p>{{ content.paragraph }}</p>
         {% endfor %}
         <p class="text-center">
           <a class="btn btn-secondary mx-4 mt-5" href="mailto:info@rubyforgood.org" type="button" target="_blank">Let us organize your next volunteer experience</a></p>
       </div><!-- /col-8 -->
-      <div class="col-12 col-lg-4">
-        <img src="{{site.baseurl}}{{info.image}}" class="img-fluid pb-30 pt-10 mx-auto d-block">
-      </div><!-- /col-4 -->
+<!--      <div class="col-12 col-lg-4">-->
+<!--        <img src="{{site.baseurl}}{{info.image}}" class="img-fluid pb-30 pt-10 mx-auto d-block">-->
+<!--      </div>&lt;!&ndash; /col-4 &ndash;&gt;-->
     </div><!-- /row -->
     {% endfor %}
   </div><!-- /container -->

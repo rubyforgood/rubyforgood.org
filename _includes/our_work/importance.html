@@ -3,11 +3,14 @@
     {% assign importance_info = site.data.our_work.sbv | where: "type", "importance" %}
     {% for info in importance_info %}
     <div class="row">
-      <div class="col mb-20">
+      <div class="col-12 col-lg-4">
+        <img src="{{site.baseurl}}{{info.image}}" class="img-fluid pb-30 pt-10 mx-auto d-block">
+      </div><!-- /col-4 -->
+      <div class="col-12 col-lg-8">
         {% for content in info.content %}
-          <p>{{ content.paragraph }}</p>
+        <p>{{ content.paragraph }}</p>
         {% endfor %}
-      </div><!-- /col -->
+      </div><!-- /col-8 -->
     </div><!-- /row -->
     {% endfor %}
   </div><!-- /container -->

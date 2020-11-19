@@ -1,6 +1,7 @@
 - type: importance
   bg: grey-bg
   style:
+  image: /assets/img/stock/hwd.png
   content:
     - paragraph: "Skills-based volunteering entails using the skills you specialize in to support the missions of nonprofits, while driving sustainability and building capacity. It is vital since it provides you with an opportunity to support others in a very targeted and specific way, and effect change while making a difference in the world."
     - paragraph: "Skills-based volunteering enables you to connect with your community, get involved, and contribute to missions that are meaningful to you. Seeking and finding mission-driven work that resonates with you is incredibly gratifying."
@@ -8,14 +9,14 @@
 - type: difference
   bg: white-bg
   style:
-  image: /assets/img/stock/hwd.png
+  image: /assets/img/stock/approach.png
   content:
     - paragraph: "We believe that volunteers are able to more fully engage in projects when they are able to connect with the nonprofit organizations they are supporting, on a deeper level. Our work is mission-driven and dedicated to uplifting other nonprofits that fulfill essential needs in communities, and it is with that lens that we facilitate meetings and ongoing communication between volunteers and our nonprofit partners, which leads to long-term relationship building."
     - paragraph: "Fostering relationships, creativity, and growth is the foundation of all our volunteer experiences, and also what sets us apart from other organizations that aggregate volunteer projects. Our metrics on volunteer engagement speak volumes, building a picture of gooders that come back time and again, over several years, and become loyal members of our community." 
 - type: approach
   bg: grey-bg
   style:
-  image: /assets/img/stock/approach.png
+  image: /assets/img/stock/success.png
   content:
     - paragraph: "We are centered around driving holistic business process change by leveraging tailored technology solutions that make nonprofit missions sustainable."
     - paragraph: "Our process begins with immersing ourselves in understanding the challenges of our nonprofit partners, and our skills-based volunteering events are no different. We begin all our events by facilitating meetings with stakeholders, since we believe that the individuals who are driving critical missions at diaper banks, animal shelters, foster youth organizations, and conservation groups, to name a few, are best positioned to explain their needs and the impact of your volunteer service. This relationship continues when we wrap up events, as stakeholders use the tools and products built by you and your team, and share their thoughts and gratitude for the efficiencies and impact your work creates."
@@ -23,7 +24,6 @@
 - type: success
   bg: white-bg
   style:
-  image: /assets/img/stock/success.png
   content:
     - paragraph: "We are invested in your volunteering being a productive, successful, and meaningful experience. But most importantly, we want to ensure that you have fun!"
     - paragraph: "We plan all of the logistics and details, put together information packages to set you up for success, and gather relevant data for reporting. We also design social media toolkits for our nonprofit partners, and for you, and work with your Communications team to cross-promote content, and ensure that your work is being highlighted, before, during, and after your time volunteering with us."
