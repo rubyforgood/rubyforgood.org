@@ -3,19 +3,10 @@ layout: page
 
 first_name: Polly
 last_name: Schandorf
-position: Director of Projects and Go-Getter
+list_order: B
+position: Director of Strategic Partnerships
 photo: /assets/img/people/polly.png
-email: polly@rubyforgood.org
-social:
-  - link: https://twitter.com/N3rdyTeacher
-    handle: N3rdyTeacher
-    icon: twitter
-  - link: https://github.com/pollygee
-    handle: pollygee
-    icon: github
-  - link: https://www.linkedin.com/in/psileo
-    handle: psileo
-    icon: linkedin-in
+email: 
 
 write_up:
   - paragraph: "Polly (pronouns she/her/hers) leads the strategic development of partnerships with the nonprofit organizations we serve. She leads event design and execution and lends her expertise to team leads and product managers to foster growth, inclusivity, and community. Polly searches out non-profit organizations for us to work with. She meets with them year-round in order to have work ready to go for our events."

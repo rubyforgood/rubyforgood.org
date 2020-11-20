@@ -3,34 +3,12 @@ layout: page
 
 first_name: Edwin
 last_name: Mak
-position: Technical Project Manager, DiaperBase
+list_order: E
+position: Technical Project Manager, Diaper App
 photo: /assets/img/people/edwin.png
-email: ruby@email.com
+email:
 social:
-  - link: 
-    handle: 
-    icon: facebook-f
-  - link: 
-    handle: 
-    icon: twitter
-  - link: 
-    handle: 
-    icon: github
-  - link: 
-    handle: 
-    icon: linkedin-in
-  - link: 
-    handle: 
-    icon: instagram
-  - link: 
-    handle: 
-    icon: twitch
-  - link: 
-    handle: 
-    icon: dev
-  - link: 
-    handle: 
-    icon: youtube
+
 
 quote: "Taking MINASWAN to heart!"
 

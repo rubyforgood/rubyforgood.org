@@ -3,19 +3,11 @@ layout: page
 
 first_name: Craig
 last_name: Zaccaro
-position: Director of Logistics and Technical Support  
+list_order: C
+position: Director of Technology Innovation 
 photo: /assets/img/people/craig.png
-email: craig@rubyforgood.org
-social:
-  - link: http://twitter.com/craigzaccaro
-    handle: "@craigzaccaro"
-    icon: twitter
-  - link: https://github.com/craigjz
-    handle: "/craigjz"
-    icon: github
-  - link: https://www.linkedin.com/in/craigjz
-    handle: "craigjz"
-    icon: linkedin-in
+email: 
+
 
 write_up:
   - paragraph: "Craig Zaccaro (pronouns he/him/his) has been part of Ruby for Good since 2015, serving as a participant, team lead and, currently, as a member of the organizational team. Craig leads event design and execution, and lends his expertise to team leads and product managers to foster growth and inclusivity. He is also responsible for logistics in support of the in-person, DC-based Ruby for Good events. In addition, Craig provides leadership and technical support on specific software projects. This includes supporting the work of technical leads and product managers, contributing to the architectural design and development of projects and managing support for a project’s life cycle."

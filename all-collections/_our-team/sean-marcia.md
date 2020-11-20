@@ -3,6 +3,7 @@ layout: page
 
 first_name: Sean
 last_name: Marcia
+list_order: A
 position: Founder and CEO
 photo: /assets/img/people/sean-marcia.png
 email: sean@rubyforgood.org

@@ -3,19 +3,11 @@ layout: page
 
 first_name: Zoe
 last_name: Rivka Panagopoulos
-position: Product Manager for CASA
+list_order: D
+position: Product Manager, Court Appointed Special Advocate (CASA)
 photo: /assets/img/people/zoe.png
 email: 
 social:
-  - link: https://twitter.com/ZoeRivka
-    handle: ZoeRivka
-    icon: twitter
-  - link: https://github.com/Zrrrpy
-    handle: Zrrrpy
-    icon: github
-  - link: https://www.linkedin.com/in/psileo
-    handle: zoerivka
-    icon: linkedin-in
 
 quote: Director of Projects and Go-Getter
 
