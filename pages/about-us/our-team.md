@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Our Team
-description: Read below to learn more about our amazing team members who keep things running day in and day out at Ruby for Good.
+description: 
 bg: grey-bg
 ---
 
