@@ -7,24 +7,26 @@
         <h2 class="mb-20 unbold text-center">{{ info.title }}</h2>
       </div><!-- /col -->
     </div><!-- /row -->
-    
+
     {% assign left_info = site.data.join_us.how_it_works | where: "side", "left" %}
     {% assign right_info = site.data.join_us.how_it_works | where: "side", "right" %}
     <div class="row">
 
       {% for left in left_info %}
-      <div class="col-6 mb-20">
+      <div class="col-12 mb-20">
         <h3 class="unbold">{{ left.header }}</h3>
         {% for text in left.text %}
           <p>{{ text.paragraph }}</p>
         {% endfor %}
         <a class="btn btn-primary mx-4 mt-5" href="{{ left.airtable }}" type="button" target="_blank">Submit Your Project</a>
         <a class="btn btn-secondary mx-4 mt-5" href="mailto:{{ left.email }}" type="button" target="_blank">Email Us</a>
-      </div><!-- /col-6 -->
+      </div>
       {% endfor %}
+    </div>
+      <div class="row">
 
       {% for right in right_info %}
-      <div class="col-6 mb-20">
+      <div class="col-12 mb-20">
         <h3 class="unbold">{{ right.header }}</h3>
         {% for text in right.text %}
           <p>{{ text.paragraph }}</p>

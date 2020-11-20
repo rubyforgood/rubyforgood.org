@@ -17,9 +17,10 @@
     - side: right
       header: "2. Schedule"
       text:
-        - paragraph: "About 5–6 weeks before the event we’ll find someone suitable to lead a team to build your software and put them in touch with you."
+        - paragraph: "About 5–6 weeks before one of our events we’ll find someone suitable to lead a team to build your software and put them in touch with you."
         - paragraph: "They will meet and drill down with you and what you really need. They will confirm requirements with you and then present them to the team that will be working on your software at our event."
-        - paragraph: "They will meet virtually (Skype, Google Hangouts, etc.) with you during the event to introduce the team and to clarify any questions. Within one month of the event’s completion we will deliver the software to you."
+        - paragraph: "They will meet virtuallyasdfasdfasdfasdf (Skype, Google Hangouts, etc.) with you during the event to introduce the team and to clarify any questions. Within one month of the event’s completion we will deliver the software to you."
+        - paragraph: "After our event, we'll work with you to put together a core team of people to work with you to continually improve and develop on the software we have built."
 - type: projects
   bg: white-bg
   style:

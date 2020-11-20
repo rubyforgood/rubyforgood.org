@@ -4,6 +4,8 @@ title: Non-Profit Partners
 description:
 bg:
 style:
+pagination:
+  enabled: true
 permalink: /pages/join-us/non-profit-partners
 blocks:
   - type: partner_with_us
@@ -22,10 +24,7 @@ blocks:
   - type: testimonials
     title: Testimonials
     description: Listen to what one of our nonprofit partners has to say about working with us.
-    bg: grey-bg
+    bg: grey-bg    
 ---
 
-{% include mixins/section_header.html %}
-{% for block in page.blocks %}
-  {% include join_us/{{ block.type }}.html %}
-{% endfor %}
+{% include join_us/non-profit-partners.html %}
