@@ -22,7 +22,7 @@ blocks:
     style: counter-section
   - type: our_supporters
     title: Our Supporters
-    description: We are privileged to partner with the companies listed below, that partner with us and believe in our mission.
+    description: We are privileged to partner with the companies listed below, that trust us and believe in our mission.
     bg: white-bg
     style:
 ---
