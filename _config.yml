@@ -121,7 +121,7 @@ pagination:
 
   # The permalink structure for the paginated pages (this can be any level deep)
   #permalink: '/page/:num/' # Pages are index.html inside this folder (default)
-  permalink: '/pages/blog/:num/' # Pages are simple html file
+  permalink: '/blog/:num/' # Pages are simple html file
   #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
 
   # Optional: The title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)

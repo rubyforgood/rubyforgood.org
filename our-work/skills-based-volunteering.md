@@ -4,7 +4,7 @@ title: Why Is Skills-Based Volunteering Important?
 description:
 bg: grey-bg
 style:
-permalink: /pages/our-work/skills-based-volunteering
+permalink: /our-work/skills-based-volunteering
 blocks:
   - type: importance
     title:

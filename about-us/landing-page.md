@@ -4,7 +4,7 @@ title: About Us
 description:
 bg: grey-bg
 style:
-permalink: /pages/about-us
+permalink: /about-us
 blocks:
   - type: mission_vision_history
     title: 

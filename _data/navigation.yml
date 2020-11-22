@@ -1,23 +1,23 @@
 - text: About Us
-  url: /pages/about-us
+  url: /about-us
   submenu:
   - text: Our Mission
-    url: /pages/about-us
+    url: /about-us
   - text: Our Team
-    url: /pages/about-us/our-team
+    url: /about-us/our-team
 - text: Our Work
-  url: /pages/our-work
+  url: /our-work
   submenu:
   - text: What We Do
-    url: /pages/our-work
+    url: /our-work
   - text: Impact
-    url: /pages/our-work/impact
+    url: /our-work/impact
   - text: Skills-Based Volunteering
-    url: /pages/our-work/skills-based-volunteering
+    url: /our-work/skills-based-volunteering
 - text: Join Us
-  url: /pages/join-us
+  url: /join-us
   submenu:
   - text: Get Involved
-    url: /pages/join-us
+    url: /join-us
   - text: Non-Profit Partners
-    url: /pages/join-us/non-profit-partners
+    url: /join-us/non-profit-partners

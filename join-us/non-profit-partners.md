@@ -6,7 +6,7 @@ bg:
 style:
 pagination:
   enabled: true
-permalink: /pages/join-us/non-profit-partners
+permalink: /join-us/non-profit-partners
 blocks:
   - type: partner_with_us
     bg: white-bg

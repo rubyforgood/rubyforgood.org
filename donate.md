@@ -4,7 +4,7 @@ title: Donate
 description:
 bg:
 style:
-permalink: /pages/donate
+permalink: /donate
 ---
 
 {% include donate.html %}
