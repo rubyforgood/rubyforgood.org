@@ -153,7 +153,7 @@ If you use GitHub, please consider a <a href="https://github.com/sponsors/rubyfo
         .redirectToCheckout({
           mode: mode,
           lineItems: items,
-          successUrl: DOMAIN + 'success?session_id={CHECKOUT_SESSION_ID}',
+          successUrl: DOMAIN + '/success?session_id={CHECKOUT_SESSION_ID}',
           cancelUrl: DOMAIN + '?session_id={CHECKOUT_SESSION_ID}',
         })
         .then(handleResult);
