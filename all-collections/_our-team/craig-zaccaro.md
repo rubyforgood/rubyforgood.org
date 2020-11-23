@@ -3,7 +3,7 @@ layout: page
 
 first_name: Craig
 last_name: Zaccaro
-list_order: C
+list_order: E
 position: Director of Technology Innovation 
 photo: /assets/img/people/craig.png
 email: 
