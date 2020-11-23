@@ -1,0 +1,32 @@
+<section class="grey-bg pt-100 pb-20">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-10 col-12 text-center pb-30">
+        <div class="title-header">
+          <h2 class="mb-10">💕 Thank You 💕</h2>
+        </div>
+      </div><!-- /col-xl-10 col-12 -->
+    </div><!-- /row -->
+  </div><!-- /container -->
+</section>
+
+<section class="pb-70 grey-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-20 text-center">
+        <h3>Your donation succeeded</h3>
+        <h4>Checkout Session ID: <span id="session"></span></h4>
+        <p>Your donation is tax deductible, our 501c3 tax id is: 83-2105825</p>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  var urlParams = new URLSearchParams(window.location.search);
+
+  if (urlParams.has("session_id")) {
+    document.getElementById("session").textContent = urlParams.get(
+      "session_id"
+    );
+  }
+</script>
