@@ -1,11 +1,5 @@
 # Ruby for Good New Website
 
-## MVP
-
-The site's content plan is laid out in the [Website Checklist](https://docs.google.com/document/d/1ZZvbiLuzvzCNH8W7reTrJhYAO3GcpO5zMmSONQhvZpw/edit?usp=sharing) document while its technical info is kept in the [Website Specs](https://docs.google.com/document/d/10SFo-rDJr7OXLJTDuEhSWPgmHWc7WUSaoOSd3AMKCzA/edit?usp=sharing) document. We've also created a design system and wireframes in [Figma](https://www.figma.com/@ruby_for_good).
-
-### Assets
-
 #### Stylesheets
 
 - [Bootstrap](https://getbootstrap.com/) (v4.0.0): Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
