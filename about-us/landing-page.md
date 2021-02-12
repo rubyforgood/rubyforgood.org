@@ -24,4 +24,3 @@ blocks:
 ---
 
 {% include about_us/landing_page.html %}
-
