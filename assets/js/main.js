@@ -1,12 +1,11 @@
-(function($) {
-  "use strict";
+(function ($) {
+  'use strict';
 
   // mobile menu
-  $("#mobile-menu").meanmenu({
-    meanMenuContainer: ".mobile-menu",
-    meanScreenWidth: "991"
+  $('#mobile-menu').meanmenu({
+    meanMenuContainer: '.mobile-menu',
+    meanScreenWidth: '991'
   });
-
 
   // sticky
   var wind = $(window);
@@ -21,30 +20,33 @@
   });
 
   // offcanvas menu
-  $(".menu-tigger").on("click", function() {
-    $(".offcanvas-menu,.offcanvas-overly").addClass("active");
+  $('.menu-tigger').on('click', function () {
+    $('.offcanvas-menu,.offcanvas-overly').addClass('active');
     return false;
   });
-  $(".menu-close,.offcanvas-overly").on("click", function() {
-    $(".offcanvas-menu,.offcanvas-overly").removeClass("active");
+  $('.menu-close,.offcanvas-overly').on('click', function () {
+    $('.offcanvas-menu,.offcanvas-overly').removeClass('active');
   });
 
   //   Slider activation
 
   function mainSlider() {
-    var BasicSlider = $(".slider-active");
-    BasicSlider.on("init", function(e, slick) {
-      var $firstAnimatingElements = $(".single-slider:first-child").find(
-        "[data-animation]"
+    var BasicSlider = $('.slider-active');
+    BasicSlider.on('init', function (e, slick) {
+      var $firstAnimatingElements = $('.single-slider:first-child').find(
+        '[data-animation]'
       );
       doAnimations($firstAnimatingElements);
     });
-    BasicSlider.on("beforeChange", function(e, slick, currentSlide, nextSlide) {
-      var $animatingElements = $(
-        '.single-slider[data-slick-index="' + nextSlide + '"]'
-      ).find("[data-animation]");
-      doAnimations($animatingElements);
-    });
+    BasicSlider.on(
+      'beforeChange',
+      function (e, slick, currentSlide, nextSlide) {
+        var $animatingElements = $(
+          '.single-slider[data-slick-index="' + nextSlide + '"]'
+        ).find('[data-animation]');
+        doAnimations($animatingElements);
+      }
+    );
     BasicSlider.slick({
       autoplay: true,
       autoplaySpeed: 10000,
@@ -62,16 +64,16 @@
 
     function doAnimations(elements) {
       var animationEndEvents =
-        "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
-      elements.each(function() {
+        'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+      elements.each(function () {
         var $this = $(this);
-        var $animationDelay = $this.data("delay");
-        var $animationType = "animated " + $this.data("animation");
+        var $animationDelay = $this.data('delay');
+        var $animationType = 'animated ' + $this.data('animation');
         $this.css({
-          "animation-delay": $animationDelay,
-          "-webkit-animation-delay": $animationDelay
+          'animation-delay': $animationDelay,
+          '-webkit-animation-delay': $animationDelay
         });
-        $this.addClass($animationType).one(animationEndEvents, function() {
+        $this.addClass($animationType).one(animationEndEvents, function () {
           $this.removeClass($animationType);
         });
       });
@@ -80,7 +82,7 @@
   mainSlider();
 
   // slider-three
-  $(".slider-three-active").slick({
+  $('.slider-three-active').slick({
     infinite: true,
     autoplay: false,
     autoplaySpeed: 5000,
@@ -127,9 +129,9 @@
   });
 
   // isotope
-  $(".portfolio-active").imagesLoaded(function() {
-    var $grid = $(".portfolio-active").isotope({
-      itemSelector: ".grid-item",
+  $('.portfolio-active').imagesLoaded(function () {
+    var $grid = $('.portfolio-active').isotope({
+      itemSelector: '.grid-item',
       percentPosition: true,
       masonry: {
         // use outer width of grid-sizer for columnWidth
@@ -138,31 +140,29 @@
     });
 
     // filter items on button click
-    $(".portfolio-menu").on("click", "button", function () {
-        var filterValue = $(this).attr("data-filter");
-        $grid.isotope({ filter: filterValue });
+    $('.portfolio-menu').on('click', 'button', function () {
+      var filterValue = $(this).attr('data-filter');
+      $grid.isotope({ filter: filterValue });
     });
   });
 
   //for menu active class
-  $(".portfolio-menu button").on("click", function(event) {
-    $(this)
-      .siblings(".active")
-      .removeClass("active");
-    $(this).addClass("active");
+  $('.portfolio-menu button').on('click', function (event) {
+    $(this).siblings('.active').removeClass('active');
+    $(this).addClass('active');
     event.preventDefault();
   });
 
   // counterUp
 
-  $(".counter").counterUp({
+  $('.counter').counterUp({
     delay: 10,
     time: 1000
   });
 
   // testimonial
 
-  $(".testimonial-active").owlCarousel({
+  $('.testimonial-active').owlCarousel({
     loop: true,
     autoplay: true,
     autoplayTimeout: 10000,
@@ -185,8 +185,8 @@
   });
 
   // portfolio
-  $(".portfolio-active").isotope({
-    itemSelector: ".grid-item",
+  $('.portfolio-active').isotope({
+    itemSelector: '.grid-item',
     percentPosition: true,
     masonry: {
       // use outer width of grid-sizer for columnWidth
@@ -195,20 +195,20 @@
   });
 
   // popup
-  $(".view").magnificPopup({
-    type: "image",
+  $('.view').magnificPopup({
+    type: 'image',
     gallery: {
       enabled: true
     }
   });
 
-  $(".video-view").magnificPopup({
-    type: "iframe"
+  $('.video-view').magnificPopup({
+    type: 'iframe'
   });
 
   // clients
 
-  $(".clients-active").owlCarousel({
+  $('.clients-active').owlCarousel({
     loop: true,
     nav: false,
     autoplay: true,
@@ -243,9 +243,8 @@
   //   animationOutSpeed: 1000, // Animation out speed (ms)
   //   scrollText: '<span class="lnr lnr-chevron-up"></span>' // Text for element
   // });
-  
-  if($("#search-input").length >0){
-    
+
+  if ($('#search-input').length > 0) {
     var sjs = SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
@@ -255,7 +254,7 @@
 
   // project
 
-  $(".project-slider-active").owlCarousel({
+  $('.project-slider-active').owlCarousel({
     loop: true,
     autoplay: true,
     autoplayTimeout: 10000,
@@ -276,5 +275,4 @@
       }
     }
   });
-  
 })(jQuery);
