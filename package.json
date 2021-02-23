@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^8.0.0",
+    "prettier": "^2.2.1",
+    "stylelint": "^13.11.0",
+    "stylelint-config-prettier": "^8.0.2"
+  },
+  "scripts": {
+    "stylelint-check": "stylelint-config-prettier-check"
+  }
+}

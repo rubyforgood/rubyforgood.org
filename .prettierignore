@@ -1,13 +1,18 @@
+# Specific files
+_layouts/default.html
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+_config.yml
+
+# Usual suspects
 vendor
 .DS_Store
 .idea
 /node_modules
 yarn.lock
-
-_config.yml
+package-lock.json
+Gemfile.lock
 .ruby-version
 CNAME
