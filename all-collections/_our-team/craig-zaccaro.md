@@ -4,10 +4,9 @@ layout: page
 first_name: Craig
 last_name: Zaccaro
 list_order: E
-position: Director of Technology Innovation 
+position: Director of Technology Innovation
 photo: /assets/img/people/craig.png
-email: 
-
+email:
 
 write_up:
   - paragraph: "Craig Zaccaro, pronouns he, him, his, serves as the Director of Technology Innovation. Craig leads event design and execution, and lends his expertise to team leads and product managers to foster growth and inclusivity. He spearheads the technology frameworks of both our in-person and virtual events and conferences. He also provides leadership, thought partnership, and technical support to teams and technical leads on specific software projects, which includes supporting the work of technical leads and product managers, contributing to the architectural design and development of projects, and managing support for the entire life cycle of projects."
