@@ -1,5 +1,7 @@
 # Specific files
 _layouts/default.html
+assets/css/*.min.css
+assets/js/*.min.js
 _site
 .sass-cache
 .jekyll-cache
