@@ -1,24 +1,32 @@
 <section class="pb-70{% if block.bg %} {{ block.bg }}{% endif %}">
   <div class="container">
-    {% assign problems_info = site.data.join_us.npp | where: "type", "problems" %}
+    {% assign problems_info = site.data.join_us.npp | where: "type", "problems"
+    %}
+    <!-- prettier-ignore -->
     {% for info in problems_info %}
     <div class="row">
       <div class="col">
         <h2 class="mb-20 unbold text-right">{{ info.title }}</h2>
-      </div><!-- /col -->
-    </div><!-- /row -->
+      </div>
+      <!-- /col -->
+    </div>
+    <!-- /row -->
     <div class="row">
       <div class="col mb-20">
         {% for content in info.content %}
-          <ol class="npp-content">
-            {% assign list = content.ordered_list %}
-            {% for item in list %}
-              <li class="npp-content">{{ item.li }}</li>
-            {% endfor %}
-          </ol>
+        <ol class="npp-content">
+          {% assign list = content.ordered_list %}
+          <!-- prettier-ignore -->
+          {% for item in list %}
+          <li class="npp-content">{{ item.li }}</li>
+          {% endfor %}
+        </ol>
         {% endfor %}
-      </div><!-- /col -->
-    </div><!-- /row -->
+      </div>
+      <!-- /col -->
+    </div>
+    <!-- /row -->
     {% endfor %}
-  </div><!-- /container -->
+  </div>
+  <!-- /container -->
 </section>
