@@ -24,7 +24,7 @@ blocks:
   - type: testimonials
     title: Testimonials
     description: Listen to what one of our nonprofit partners has to say about working with us.
-    bg: grey-bg    
+    bg: grey-bg
 ---
 
 {% include join_us/non-profit-partners.html %}

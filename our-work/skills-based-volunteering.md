@@ -22,8 +22,8 @@ blocks:
 
 {% include mixins/section_header.html %}
 {% for block in page.blocks %}
-  {% if block.title %}
-  {% include mixins/block_header.html %}
-  {% endif %}
-  {% include our_work/{{ block.type }}.html %}
+{% if block.title %}
+{% include mixins/block_header.html %}
+{% endif %}
+{% include our_work/{{ block.type }}.html %}
 {% endfor %}
