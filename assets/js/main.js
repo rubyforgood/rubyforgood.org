@@ -211,7 +211,7 @@
   $(".clients-active").owlCarousel({
     loop: true,
     nav: true,
-    autoplay: false,
+    autoplay: true,
     navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     responsive: {
       0: {
@@ -244,9 +244,9 @@
   //   animationOutSpeed: 1000, // Animation out speed (ms)
   //   scrollText: '<span class="lnr lnr-chevron-up"></span>' // Text for element
   // });
-  
+
   if($("#search-input").length >0){
-    
+
     var sjs = SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
@@ -277,5 +277,5 @@
       }
     }
   });
-  
+
 })(jQuery);

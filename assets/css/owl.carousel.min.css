@@ -14,13 +14,13 @@
   display: block !important;
   outline-style: none !important;
 }
-.owl-prev { 
-  left: -30px;
+.owl-prev {
+  left: -4em;
 }
-.owl-next { 
-  right: -30px;   
+.owl-next {
+  right: -4em;
 }
 .owl-prev i, .owl-next i {
-  transform : scale(2,3); 
-  color: #02777E;
+  transform : scale(1.3,2.5);
+  color: #03777E;
 }
