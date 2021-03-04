@@ -19,6 +19,7 @@ white-logo: "/assets/img/logos/white-logo.png"
 special-logo: "/assets/img/logos/special-logo.png"
 mailchimp_list: "https://rubyforgood.us8.list-manage.com/subscribe/post?u=2eec95e401f96687d14f4af24&amp;id=65f831bb77"
 mailchimp_input_name: "b_2eec95e401f96687d14f4af24_65f831bb77"
+cover_image: "/assets/img/theme-stock/bg/page-title.jpg"
 
 # permalink: "/:title"
 
@@ -31,7 +32,6 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-archives
 
-cover_image: "/assets/img/theme-stock/bg/page-title.jpg"
 
 
 # Collections
