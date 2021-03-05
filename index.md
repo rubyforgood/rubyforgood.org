@@ -28,6 +28,7 @@ blocks:
 ---
 
 {% include mixins/header_custom.html %}
+
 <main>
   {% for block in page.blocks %}
     {% if block.title %}

@@ -5,8 +5,27 @@ description: It has been an honor to collaborate with and serve several incredib
 bg:
 style:
 permalink: /our-work/impact
-filters: [A to Z, Z to A, Most recent commit, Creation date (old to new), Creation date (new to old)]
-categories: [inventory management, women's rights, children & families, advocacy, conservation, domestic violence, extinction prevention, community building, foster care, youth issues]
+filters:
+  [
+    A to Z,
+    Z to A,
+    Most recent commit,
+    Creation date (old to new),
+    Creation date (new to old),
+  ]
+categories:
+  [
+    inventory management,
+    women's rights,
+    children & families,
+    advocacy,
+    conservation,
+    domestic violence,
+    extinction prevention,
+    community building,
+    foster care,
+    youth issues,
+  ]
 ---
 
 {% include mixins/section_header.html %}

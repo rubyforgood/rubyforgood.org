@@ -2,16 +2,21 @@
   <div class="container">
     <div class="row">
       {% assign statements = site.data.about_us.mission_vision_history %}
+      <!-- prettier-ignore -->
       {% for statement in statements %}
       <div class="col-3 text-center">
         <h2>{{ statement.title }}</h2>
-      </div><!-- /col-3 -->
+      </div>
+      <!-- /col-3 -->
       <div class="col-9 mb-20">
         {% for description in statement.description %}
-          <p>{{ description.paragraph }}</p>
+        <p>{{ description.paragraph }}</p>
         {% endfor %}
-      </div><!-- /col-9 -->
+      </div>
+      <!-- /col-9 -->
       {% endfor %}
-    </div><!-- /row -->
-  </div><!-- /container -->
+    </div>
+    <!-- /row -->
+  </div>
+  <!-- /container -->
 </section>

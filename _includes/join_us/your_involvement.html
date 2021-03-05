@@ -1,19 +1,26 @@
 <section class="pb-70{% if block.bg %} {{ block.bg }}{% endif %}">
   <div class="container">
-    {% assign involvement_info = site.data.join_us.npp | where: "type", "involvement" %}
+    {% assign involvement_info = site.data.join_us.npp | where: "type",
+    "involvement" %}
+    <!-- prettier-ignore -->
     {% for info in involvement_info %}
     <div class="row">
       <div class="col">
         <h2 class="mb-20 unbold text-right">{{ info.title }}</h2>
-      </div><!-- /col -->
-    </div><!-- /row -->
+      </div>
+      <!-- /col -->
+    </div>
+    <!-- /row -->
     <div class="row">
       <div class="col mb-20">
         {% for content in info.content %}
-          <p>{{ content.paragraph }}</p>
+        <p>{{ content.paragraph }}</p>
         {% endfor %}
-      </div><!-- /col -->
-    </div><!-- /row -->
+      </div>
+      <!-- /col -->
+    </div>
+    <!-- /row -->
     {% endfor %}
-  </div><!-- /container -->
+  </div>
+  <!-- /container -->
 </section>

@@ -4,11 +4,10 @@ layout: page
 first_name: Edwin
 last_name: Mak
 list_order: B
-position: Technical Project Manager, Human Essentials 
+position: Technical Project Manager, Human Essentials
 photo: /assets/img/people/edwin.png
 email:
 social:
-
 
 quote: "Taking MINASWAN to heart!"
 

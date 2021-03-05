@@ -6,7 +6,7 @@ last_name: Rivka Panagopoulos
 list_order: C
 position: Product Manager, Court Appointed Special Advocate (CASA)
 photo: /assets/img/people/zoe.png
-email: 
+email:
 social:
 
 quote: Director of Projects and Go-Getter
@@ -17,8 +17,6 @@ write_up:
   - paragraph: "As a former CASA volunteer, Zoe remains dedicated to improving the lives of youth in the foster care system across America. One day, she hopes to serve as a foster or adoptive parent herself. In the meantime, she keeps herself busy as a foster parent to senior dogs."
 
 facts:
-
 ---
-
 
 {% include about_us/team_member.html %}

@@ -1,53 +1,64 @@
 <section class="team-area grey-bg pt-50 pb-100">
   <div class="container">
-
     <!-- Team Member Name -->
     <div class="row justify-content-center">
       <div class="col-lg-6 col-lg-offset-3 mx-auto team-member-line pb-10">
-        <h4 class="team-member-name">{{ page.first_name }} {{ page.last_name }}</h4>
-      </div><!-- /col-lg-6 col-lg-offset-3 -->
-    </div><!-- /row -->
+        <h4 class="team-member-name">
+          {{ page.first_name }} {{ page.last_name }}
+        </h4>
+      </div>
+      <!-- /col-lg-6 col-lg-offset-3 -->
+    </div>
+    <!-- /row -->
 
     <div class="row pt-50">
       <div class="col">
-
         <div class="container-fluid bio-box float-right">
           <div class="row justify-content-center">
-
             <!-- Bio Image -->
             <div class="col-12">
-              <img src="{{ page.photo }}" class="img-fluid" alt="{{ page.first_name }} {{ page.last_name }}">
-            </div><!-- /inner-col-7 -->
-        
-            <!-- Facts -->
-<!--            <div class="col-5 text-center">-->
-<!--              <h4 class="team-member-facts">More than meets the eye</h4>-->
-<!--              {% for info in page.facts %}-->
-<!--                <p><i class="fas fa-{{ info.icon }}"></i><br/>{{ info.fact }}</p>-->
-<!--              {% endfor %}-->
-<!--            </div>&lt;!&ndash; /inner-col-5 &ndash;&gt;-->
+              <img
+                src="{{ page.photo }}"
+                class="img-fluid"
+                alt="{{ page.first_name }} {{ page.last_name }}"
+              />
+            </div>
+            <!-- /inner-col-7 -->
 
-          </div><!-- /inner-row -->
-        </div><!-- /inner-container -->
+            <!-- Facts -->
+            <!--            <div class="col-5 text-center">-->
+            <!--              <h4 class="team-member-facts">More than meets the eye</h4>-->
+            <!--              {% for info in page.facts %}-->
+            <!--                <p><i class="fas fa-{{ info.icon }}"></i><br/>{{ info.fact }}</p>-->
+            <!--              {% endfor %}-->
+            <!--            </div>&lt;!&ndash; /inner-col-5 &ndash;&gt;-->
+          </div>
+          <!-- /inner-row -->
+        </div>
+        <!-- /inner-container -->
 
         <!-- Bio Content -->
         <h3 class="team-member-position">{{ page.position }}</h3>
         {% for content in page.write_up %}
-          <p>{{ content.paragraph }}</p>
+        <p>{{ content.paragraph }}</p>
         {% endfor %}
 
         <!-- Social links -->
         <h5 class="team-member-contacts pt-20 pb-50">
           {% for platform in page.social %}
-            {% if platform.link %}
-              <a href="{{ platform.link }}"><i class="fab fa-{{ platform.icon }}"></i>&nbsp;&nbsp;{{ platform.handle }}</a>&nbsp;|&nbsp;
-            {% endif %}
-          {% endfor %}
-<!--          <a href="mailto:{{ page.email }}"><i class="fas fa-envelope"></i>&nbsp;&nbsp;{{ page.email }}</a>-->
+          <!-- prettier-ignore -->
+          {% if platform.link %}
+          <a href="{{ platform.link }}">
+            <i class="fab fa-{{ platform.icon }}"></i>
+            &nbsp;&nbsp;{{ platform.handle }}
+          </a>
+          &nbsp;|&nbsp; {% endif %} {% endfor %}
+          <!--          <a href="mailto:{{ page.email }}"><i class="fas fa-envelope"></i>&nbsp;&nbsp;{{ page.email }}</a>-->
         </h5>
-
-      </div><!-- /outer-col -->
-    </div><!-- /outer-row -->
-
-  </div><!-- /outer-container -->
+      </div>
+      <!-- /outer-col -->
+    </div>
+    <!-- /outer-row -->
+  </div>
+  <!-- /outer-container -->
 </section>

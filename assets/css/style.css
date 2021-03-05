@@ -4,7 +4,6 @@
   Version: 1.0
 */
 
-
 /* CSS Index
 -----------------------------------
 0. Custom Meg Styling
@@ -31,9 +30,7 @@
 22. Our Work
 */
 
-
 /* ---------------- 0. Custom Meg Styling ---------------- */
-
 
 /* Set font for responsiveness 
 ------------------------------
@@ -43,7 +40,6 @@ Most browsers set their default font size to 1.6rem, so if we set ours at 62.5% 
 html {
   font-size: 62.5%;
 }
-
 
 /* Icon styling for overview-columns section */
 
@@ -57,7 +53,7 @@ html {
   font-size: 3.42857rem;
   width: 3.42857rem;
   height: 3.42857rem;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #03777e;
   border: 3px solid #51a4a1;
   display: inline-block;
@@ -94,48 +90,47 @@ html {
   margin-left: 7.3rem;
 }
 
-
 /* Page & Block Title Headers */
 
-.title-header>h2 {
+.title-header > h2 {
   position: relative;
   margin: 0 0 3rem;
   font-weight: 300;
   font-size: 4.8rem;
 }
 
-.title-header>h2::before {
+.title-header > h2::before {
   content: "{ ";
   color: #03777e;
 }
 
-.title-header>h2::after {
+.title-header > h2::after {
   content: " }";
   color: #03777e;
 }
 
-.title-header>h2>p {
+.title-header > h2 > p {
   padding: 0 2rem;
 }
 
-.block-header>h2 {
+.block-header > h2 {
   position: relative;
   margin: 0 0 3rem;
   font-weight: 300;
   font-size: 3.6rem;
 }
 
-.block-header>h2::before {
+.block-header > h2::before {
   content: "{ ";
   color: #03777e;
 }
 
-.block-header>h2::after {
+.block-header > h2::after {
   content: " }";
   color: #03777e;
 }
 
-.block-header>h2>p {
+.block-header > h2 > p {
   padding: 0 2rem;
 }
 
@@ -146,7 +141,6 @@ html {
   height: 1px;
   margin: 3rem auto;
 }
-
 
 /* Logo colors */
 
@@ -173,7 +167,6 @@ html {
 .white {
   color: #ffffff;
 }
-
 
 /* Site palette */
 
@@ -237,130 +230,129 @@ html {
   color: #ffe698;
 }
 
-
 /* ---------------- 1. Theme Default CSS ---------------- */
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 900;
-  src: url('../fonts/Poppins-Black.ttf') format('truetype');
+  src: url("../fonts/Poppins-Black.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: italic;
   font-weight: 900;
-  src: url('../fonts/Poppins-BlackItalic.ttf') format('truetype');
+  src: url("../fonts/Poppins-BlackItalic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 800;
-  src: url('../fonts/Poppins-ExtraBold.ttf') format('truetype');
+  src: url("../fonts/Poppins-ExtraBold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: italic;
   font-weight: 800;
-  src: url('../fonts/Poppins-ExtraBoldItalic.ttf') format('truetype');
+  src: url("../fonts/Poppins-ExtraBoldItalic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+  src: url("../fonts/Poppins-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: italic;
   font-weight: 700;
-  src: url('../fonts/Poppins-BoldItalic.ttf') format('truetype');
+  src: url("../fonts/Poppins-BoldItalic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  src: url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+  src: url("../fonts/Poppins-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: italic;
   font-weight: 600;
-  src: url('../fonts/Poppins-SemiBoldItalic.ttf') format('truetype');
+  src: url("../fonts/Poppins-SemiBoldItalic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  src: url('../fonts/Poppins-Medium.ttf') format('truetype');
+  src: url("../fonts/Poppins-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: italic;
   font-weight: 500;
-  src: url('../fonts/Poppins-MediumItalic.ttf') format('truetype');
+  src: url("../fonts/Poppins-MediumItalic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+  src: url("../fonts/Poppins-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-  src: url('../fonts/Poppins-Light.ttf') format('truetype');
+  src: url("../fonts/Poppins-Light.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: italic;
   font-weight: 300;
-  src: url('../fonts/Poppins-LightItalic.ttf') format('truetype');
+  src: url("../fonts/Poppins-LightItalic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 200;
-  src: url('../fonts/Poppins-ExtraLight.ttf') format('truetype');
+  src: url("../fonts/Poppins-ExtraLight.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: italic;
   font-weight: 200;
-  src: url('../fonts/Poppins-ExtraLightItalic.ttf') format('truetype');
+  src: url("../fonts/Poppins-ExtraLightItalic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 100;
-  src: url('../fonts/Poppins-Thin.ttf') format('truetype');
+  src: url("../fonts/Poppins-Thin.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: italic;
   font-weight: 100;
-  src: url('../fonts/Poppins-ThinItalic.ttf') format('truetype');
+  src: url("../fonts/Poppins-ThinItalic.ttf") format("truetype");
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 1.6rem;
@@ -372,15 +364,15 @@ body {
 }
 
 .f-left {
-  float: left
+  float: left;
 }
 
 .f-right {
-  float: right
+  float: right;
 }
 
 .fix {
-  overflow: hidden
+  overflow: hidden;
 }
 
 a {
@@ -445,7 +437,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 5.2rem;
   color: #000;
   margin: 0rem;
@@ -544,9 +536,8 @@ label {
 }
 
 .separator {
-  border-top: 1px solid #f2f2f2
+  border-top: 1px solid #f2f2f2;
 }
-
 
 /* Button Styles */
 
@@ -585,7 +576,6 @@ label {
   border: 2px solid #016267;
 }
 
-
 /* ---------------- 2. Header ---------------- */
 
 .header-cta {
@@ -621,7 +611,7 @@ label {
 .top-social-links i {
   display: inline-block;
   padding: 1.3rem 0;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .top-btn {
@@ -637,7 +627,6 @@ label {
   font-weight: 600;
   display: inline-block;
 }
-
 
 /* Call to Action */
 
@@ -663,7 +652,6 @@ label {
 .header-single-cta span {
   font-size: 1.4rem;
 }
-
 
 /* Menu Area */
 
@@ -735,7 +723,7 @@ label {
   width: 24rem;
   opacity: 0;
   visibility: hidden;
-  transition: .3s;
+  transition: 0.3s;
   border-top: 3px solid #f2454e;
   border-right: 1px solid rgba(0, 0, 0, 0.12);
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
@@ -788,9 +776,7 @@ label {
   margin-top: -16px;
 }
 
-
 /* Remove dash on hover */
-
 
 /* .main-menu ul li .sub-menu li a::before {
 	position: absolute;
@@ -812,8 +798,8 @@ label {
   opacity: 1;
 } */
 
-.main-menu ul li:hover>a {
-  color: #f2454e
+.main-menu ul li:hover > a {
+  color: #f2454e;
 }
 
 .menu-active {
@@ -835,7 +821,7 @@ label {
   background-color: #000;
   display: block;
   margin-bottom: 0.5rem;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .menu-icon.second-menu-icon .menu-tigger span {
@@ -870,7 +856,7 @@ label {
   position: fixed;
   top: 0;
   width: 100%;
-  box-shadow: 0 0 6rem 0 rgba(0, 0, 0, .07);
+  box-shadow: 0 0 6rem 0 rgba(0, 0, 0, 0.07);
   z-index: 9999;
   -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
@@ -884,7 +870,6 @@ label {
 .transparent-bg.sticky {
   background-color: #111;
 }
-
 
 /* Search Modal */
 
@@ -926,7 +911,7 @@ label {
 }
 
 #search-modal {
-  background-color: rgba(23, 26, 33, .95);
+  background-color: rgba(23, 26, 33, 0.95);
 }
 
 #search-modal .modal-dialog {
@@ -960,7 +945,7 @@ label {
   width: 100%;
   font-size: 3.6rem;
   border: none;
-  border-bottom: 3px solid rgba(255, 255, 255, .1);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.1);
   background: 0 0;
   color: #fff;
   padding-bottom: 1.2rem;
@@ -981,13 +966,12 @@ label {
   right: 0;
   margin-bottom: 3px;
   font-size: 3rem;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   background: 0 0;
   border: none;
   cursor: pointer;
   top: 1.1rem;
 }
-
 
 /* Off Canvas Menu */
 
@@ -1000,18 +984,18 @@ label {
   background-color: #00081b;
   top: 0;
   padding: 3rem;
-  transition: .5s;
+  transition: 0.5s;
   transform: translateX(100%);
 }
 
 .offcanvas-menu.active {
-  transform: translateX(0)
+  transform: translateX(0);
 }
 
 .menu-close i {
   font-size: 1.8rem;
   color: #fff;
-  transition: .3s;
+  transition: 0.3s;
   cursor: pointer;
 }
 
@@ -1036,7 +1020,7 @@ label {
 }
 
 .offcanvas-menu ul li:hover a {
-  color: #f2454e
+  color: #f2454e;
 }
 
 .side-social a {
@@ -1088,11 +1072,11 @@ label {
   z-index: 9;
   opacity: 0;
   visibility: hidden;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .offcanvas-overly.active {
-  opacity: .5;
+  opacity: 0.5;
   visibility: visible;
 }
 
@@ -1132,7 +1116,6 @@ label {
   border: 2px solid #e41822;
 }
 
-
 /* ---------------- 3. Slider ---------------- */
 
 .slider-bg {
@@ -1148,7 +1131,7 @@ label {
   width: 100%;
   height: 100%;
   background-color: #000;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .slider-two-bg {
@@ -1164,7 +1147,7 @@ label {
   width: 100%;
   height: 100%;
   background-color: #000;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .slider-content h1 {
@@ -1205,7 +1188,6 @@ label {
   background-color: #e41822;
 }
 
-
 /* Slick Next/Prev Buttons */
 
 .slider-three-active .slick-arrow {
@@ -1218,7 +1200,7 @@ label {
   color: #fff;
   font-weight: 800;
   z-index: 99;
-  transition: .5s;
+  transition: 0.5s;
   opacity: 0;
   border: 1px solid #ddd;
   height: 4.5rem;
@@ -1245,7 +1227,6 @@ label {
   display: inline-block;
   position: relative;
 }
-
 
 /* Slick Dots */
 
@@ -1276,7 +1257,6 @@ label {
   outline: 0;
 }
 
-
 /* ---------------- 4. About ---------------- */
 
 .theme-section-title h2 {
@@ -1295,7 +1275,7 @@ label {
   margin-bottom: 2.3rem;
   text-transform: capitalize;
   font-weight: 700;
-  line-height: .9;
+  line-height: 0.9;
 }
 
 .about-info-text p {
@@ -1337,7 +1317,7 @@ label {
   background-size: cover;
   background-position: center center;
   background-attachment: local;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .features-wrap:hover h4,
@@ -1365,15 +1345,13 @@ label {
   padding-top: 1.5rem;
 }
 
-
 /* ---------------- 5. Service ---------------- */
 
 .services-box {
   /* border: 1px solid #e6e6e6; */
-  transition: .3s;
+  transition: 0.3s;
   box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.1);
 }
-
 
 /* .services-box:hover {} */
 
@@ -1407,7 +1385,7 @@ label {
 .services-box a.btn {
   padding: 1.1rem 1.5rem;
   font-size: 1.3rem;
-  transition: all .5s;
+  transition: all 0.5s;
   border: 1px solid #f2454e;
   background: none;
   color: #f2454e;
@@ -1418,7 +1396,6 @@ label {
   border: 1px solid #000;
   color: #fff;
 }
-
 
 /* .services-active{} */
 
@@ -1468,7 +1445,7 @@ label {
 
 .owl-carousel .owl-item img {
   display: block;
-  width: 100%
+  width: 100%;
 }
 
 .cta-area {
@@ -1528,7 +1505,6 @@ label {
 .sidebar-link ul li a:hover {
   color: #222;
 }
-
 
 /* .sidebar-download{} */
 
@@ -1615,7 +1591,6 @@ label {
   width: 100%;
 }
 
-
 /* ---------------- 7. Counter ---------------- */
 
 .counter-area {
@@ -1624,8 +1599,8 @@ label {
   background-attachment: fixed;
 }
 
-.counter-section.block-header>h2+p,
-.counter-section.block-header>h2 {
+.counter-section.block-header > h2 + p,
+.counter-section.block-header > h2 {
   color: #fff;
 }
 
@@ -1637,7 +1612,7 @@ label {
 .counter {
   color: #fff;
   display: block;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 3.6rem;
   font-weight: 700;
   margin-bottom: 0;
@@ -1645,10 +1620,10 @@ label {
 }
 
 .counter::after {
-  content: "+"
+  content: "+";
 }
 
-.single-counter>p {
+.single-counter > p {
   color: #ddd;
   font-size: 1.6rem;
   margin: 0;
@@ -1659,7 +1634,6 @@ label {
 .lt-teal-bg {
   background-color: #51a4a1;
 }
-
 
 /* ---------------- 8. Portfolio ---------------- */
 
@@ -1675,7 +1649,7 @@ label {
 .portfolio-wrapper:hover .portfolio-thumb::before,
 .portfolio-wrapper:hover .portfolio-thumb::after,
 .portfolio-wrapper:hover .view i {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .portfolio-wrapper:hover .portfolio-content {
@@ -1688,9 +1662,8 @@ label {
 }
 
 .portfolio-thumb img {
-  transition: .3s;
+  transition: 0.3s;
 }
-
 
 /* .portfolio-thumb img{} */
 
@@ -1707,8 +1680,8 @@ label {
   width: 100%;
   background-color: #000;
   opacity: 0;
-  transition: .3s;
-  z-index: 9
+  transition: 0.3s;
+  z-index: 9;
 }
 
 .portfolio-thumb::after {
@@ -1720,7 +1693,7 @@ label {
   bottom: 1rem;
   border: 2px solid #f2454e;
   opacity: 0;
-  transition: .5s;
+  transition: 0.5s;
   z-index: 99;
 }
 
@@ -1734,7 +1707,7 @@ label {
   font-size: 2.4rem;
   transform: translateY(-50%);
   color: #f2454e;
-  transition: .3s;
+  transition: 0.3s;
   opacity: 0;
 }
 
@@ -1742,16 +1715,16 @@ label {
   position: absolute;
   bottom: 3rem;
   left: 3rem;
-  transition: .3s ease;
+  transition: 0.3s ease;
   z-index: 9;
   color: #fff;
   transform: translateY(160%);
-  z-index: 999
+  z-index: 999;
 }
 
 .portfolio-content h5 {
   color: #fff;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .portfolio-content h5:hover a {
@@ -1769,8 +1742,8 @@ label {
   cursor: pointer;
 }
 
-.portfolio-menu>button:hover,
-.portfolio-menu>button.active {
+.portfolio-menu > button:hover,
+.portfolio-menu > button.active {
   color: #f2454e;
 }
 
@@ -1801,7 +1774,7 @@ label {
 
 .project-desc p {
   margin: 0;
-  letter-spacing: .0.8rem;
+  letter-spacing: 0.8rem;
 }
 
 .related-project-title.theme-section-title p {
@@ -1809,7 +1782,6 @@ label {
   width: 60%;
   margin: 0 auto 6rem;
 }
-
 
 /* ---------------- 9. Testimonial ---------------- */
 
@@ -1877,7 +1849,6 @@ label {
   width: 100%;
 }
 
-
 /* ---------------- 10. Team ---------------- */
 
 .single-team {
@@ -1899,11 +1870,11 @@ label {
   left: 0;
   top: 0;
   opacity: 0;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .single-team:hover .team-img::before {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .team-img img {
@@ -1918,7 +1889,7 @@ label {
   left: 0;
   right: 0;
   margin: auto;
-  transition: .5s;
+  transition: 0.5s;
   padding: 1rem 0;
   border: solid 2px #f2454e;
 }
@@ -1968,9 +1939,9 @@ h5.team-member-contacts i {
   padding-bottom: 1rem;
 }
 
-h5.team-member-contacts>a:hover>i.fas,
-h5.team-member-contacts>a:hover>i.fab,
-h5.team-member-contacts>a:hover>i.far {
+h5.team-member-contacts > a:hover > i.fas,
+h5.team-member-contacts > a:hover > i.fab,
+h5.team-member-contacts > a:hover > i.far {
   color: #fdd14a;
   transition: all 0.3s ease-out 0s;
 }
@@ -1988,7 +1959,6 @@ h4.team-member-facts {
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
-
 
 /* ---------------- 11. Footer ---------------- */
 
@@ -2054,7 +2024,7 @@ h4.team-member-facts {
   display: block;
   font-size: 2rem;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 2rem;
 }
 
@@ -2073,17 +2043,17 @@ h4.team-member-facts {
   background-color: #f2454e;
 }
 
-.footer-social-icon a:hover>i {
+.footer-social-icon a:hover > i {
   line-height: 4.4rem;
   border: solid 2px #fdd14a;
 }
 
 .facebook-bg {
-  background-color: #1977F2;
+  background-color: #1977f2;
 }
 
 .twitter-bg {
-  background-color: #27A1F2;
+  background-color: #27a1f2;
 }
 
 .github-bg {
@@ -2091,27 +2061,27 @@ h4.team-member-facts {
 }
 
 .linkedin-bg {
-  background-color: #2867B1;
+  background-color: #2867b1;
 }
 
 .twitch-bg {
-  background-color: #9146FF;
+  background-color: #9146ff;
 }
 
 .pinterest-bg {
-  background-color: #E61D28;
+  background-color: #e61d28;
 }
 
 .instagram-bg {
-  background-color: #C04181;
+  background-color: #c04181;
 }
 
 .google-bg {
-  background-color: #DD4B39;
+  background-color: #dd4b39;
 }
 
 .reddit-bg {
-  background-color: #F04922;
+  background-color: #f04922;
 }
 
 .footer-widget-heading h3 {
@@ -2156,8 +2126,8 @@ h4.team-member-facts {
 .subscribe-form input {
   width: 100%;
   padding: 1.6rem 2.8rem;
-  background-color: #2E2E2E;
-  border: 1px solid #2E2E2E;
+  background-color: #2e2e2e;
+  border: 1px solid #2e2e2e;
   color: #fff;
 }
 
@@ -2190,7 +2160,6 @@ h4.team-member-facts {
 .copyright-text p a {
   color: #03777e;
 }
-
 
 /* ---------------- 12. Breadcrumb ---------------- */
 
@@ -2245,10 +2214,9 @@ h4.team-member-facts {
   color: #c5c5c5;
 }
 
-.breadcrumb>.active {
+.breadcrumb > .active {
   color: #888;
 }
-
 
 /* ---------------- 13. Contact ---------------- */
 
@@ -2309,7 +2277,6 @@ h4.team-member-facts {
   padding: 1.2rem 3.4rem;
 }
 
-
 /* ---------------- 14. Blog ---------------- */
 
 .blog-wrapper {
@@ -2319,11 +2286,11 @@ h4.team-member-facts {
 }
 
 .home-blog-wrapper {
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .blog-wrapper.home-blog-wrapper:hover {
-  box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, .12);
+  box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, 0.12);
 }
 
 .blog-thumb {
@@ -2420,7 +2387,6 @@ h4.team-member-facts {
   font-weight: 600;
 }
 
-
 /* Sidebar */
 
 .widget {
@@ -2451,7 +2417,6 @@ h4.team-member-facts {
   width: 5rem;
 }
 
-
 /* Sidebar Form */
 
 .sidebar-form form {
@@ -2471,7 +2436,7 @@ h4.team-member-facts {
 .sidebar-form form input::-moz-placeholder {
   color: #999;
   font-size: 1.2rem;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .sidebar-form form button {
@@ -2564,7 +2529,6 @@ h4.team-member-facts {
   margin-bottom: 0;
 }
 
-
 /* .widget-social{} */
 
 .widget-social a {
@@ -2603,7 +2567,6 @@ h4.team-member-facts {
   opacity: 0.8;
 }
 
-
 /* .sidebar-link{} */
 
 .sidebar-link li {
@@ -2641,7 +2604,7 @@ h4.team-member-facts {
 }
 
 .instagram-link {
-  margin: 0 -0.5rem
+  margin: 0 -0.5rem;
 }
 
 .instagram-link li {
@@ -2651,9 +2614,7 @@ h4.team-member-facts {
   width: 33.33%;
 }
 
-
 /* .instagram-link li a{} */
-
 
 /* .sidebar-tad{} */
 
@@ -2680,7 +2641,6 @@ h4.team-member-facts {
   color: #fff;
 }
 
-
 /* Blog Column */
 
 .blog-column .blog-title {
@@ -2693,13 +2653,11 @@ h4.team-member-facts {
   line-height: 1.5;
 }
 
-
 /* .pagination-col{} */
 
 .pagination-col .pagination {
   margin-top: 0;
 }
-
 
 /* Blog Details */
 
@@ -2728,7 +2686,7 @@ blockquote {
   width: 100%;
 }
 
-.blog-post-tag>a {
+.blog-post-tag > a {
   border: 1px solid #ededed;
   color: #444;
   display: inline-block;
@@ -2736,31 +2694,30 @@ blockquote {
   padding: 1rem;
 }
 
-.blog-post-tag>a:hover {
+.blog-post-tag > a:hover {
   background-color: #f2454e;
   border-color: #f2454e;
   color: #fff;
 }
 
-.blog-share-icon>span {
+.blog-share-icon > span {
   color: #595959;
   font-size: 1.5rem;
 }
 
-.blog-share-icon>a {
+.blog-share-icon > a {
   color: #595959;
   font-size: 1.5rem;
   margin: 0 0.8rem;
 }
 
-.blog-share-icon>a:hover {
+.blog-share-icon > a:hover {
   color: #f2454e;
 }
 
 .blog-share-icon {
   margin-top: 0.8rem;
 }
-
 
 /* Blog Comments */
 
@@ -2774,13 +2731,13 @@ blockquote {
   padding-left: 3rem;
 }
 
-.avatar-name>h5 {
+.avatar-name > h5 {
   float: left;
   font-size: 1.4rem;
   font-weight: 700;
 }
 
-.avatar-name>span {
+.avatar-name > span {
   color: #646464;
   float: right;
   font-size: 1.2rem;
@@ -2799,14 +2756,14 @@ blockquote {
   padding-left: 13rem;
 }
 
-.comments-text>p {
+.comments-text > p {
   color: #646464;
   font-size: 1.4rem;
   line-height: 2.4rem;
   margin-bottom: 2.5rem;
 }
 
-.comments-text>a {
+.comments-text > a {
   border: 1px solid #ddd;
   color: #444;
   display: inline-block;
@@ -2816,12 +2773,11 @@ blockquote {
   text-transform: uppercase;
 }
 
-.comments-text>a:hover {
+.comments-text > a:hover {
   background-color: #f2454e;
   border-color: #f2454e;
   color: #fff;
 }
-
 
 /* .post-comments-form {} */
 
@@ -2841,9 +2797,7 @@ blockquote {
   width: 100%;
 }
 
-
 /* .post-comments-form button{} */
-
 
 /* ---------------- 15. Pagination ---------------- */
 
@@ -2864,18 +2818,18 @@ blockquote {
   margin: 0;
 }
 
-.pagination ul>li {
+.pagination ul > li {
   display: inline-block;
   margin-right: 2px;
 }
 
-.pagination ul>li>a,
-.pagination ul>li>span {
-  float: none
+.pagination ul > li > a,
+.pagination ul > li > span {
+  float: none;
 }
 
-.pagination ul>li>a {
-  background-color: #FFF;
+.pagination ul > li > a {
+  background-color: #fff;
   font-size: 1.4rem;
   color: #3b3b3b;
   font-weight: 700;
@@ -2884,20 +2838,18 @@ blockquote {
   border: 1px solid #ddd;
 }
 
-
 /* .pagination ul > li:first-child > a, .pagination ul > li:last-child > a {} */
 
-.pagination ul>li>a:hover,
-.pagination ul>li>a:focus,
-.pagination ul>.active>a,
-.pagination ul>.active>span {
+.pagination ul > li > a:hover,
+.pagination ul > li > a:focus,
+.pagination ul > .active > a,
+.pagination ul > .active > span {
   color: #fff;
   background-color: #f2454e;
   border-color: #f2454e;
   outline: 0;
   box-shadow: none;
 }
-
 
 /* ---------------- 16. ScrollUp ---------------- */
 
@@ -2921,7 +2873,6 @@ blockquote {
   color: #fdd14a;
 }
 
-
 /* ---------------- 17. Results ---------------- */
 
 #results-container {
@@ -2940,20 +2891,16 @@ blockquote {
   font-weight: 600;
 }
 
-
 /* ---------------- 18. Our Supporters ---------------- */
-
 
 /* https://kenwheeler.github.io/slick/ */
 
-
 /* https://github.com/kenwheeler/slick/ */
-
 
 /* ---------------- 19. Projects ---------------- */
 
-.project-header+p+ul,
-.project-header+ul>li {
+.project-header + p + ul,
+.project-header + ul > li {
   padding: 0 2rem;
 }
 
@@ -2996,11 +2943,10 @@ h3.project-sidebar-header {
   letter-spacing: 0.3rem;
 }
 
-.project-sidebar>p {
+.project-sidebar > p {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-
 
 /* ---------------- 20. Project Sliders ---------------- */
 
@@ -3067,7 +3013,6 @@ h3.project-sidebar-header {
   width: 100%;
 }
 
-
 /* ---------------- 21. Impact ---------------- */
 
 .single-project {
@@ -3092,7 +3037,7 @@ h3.project-sidebar-header {
   left: 0;
   right: 0;
   margin: auto;
-  transition: .5s;
+  transition: 0.5s;
   padding: 1rem;
   border: solid 2px #03777e;
   border-radius: 3%;
@@ -3110,7 +3055,6 @@ h3.project-sidebar-header {
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
-
 
 /* ---------------- 22. Our Work ---------------- */
 
@@ -3170,7 +3114,6 @@ h3.project-sidebar-header {
   border: 2px solid #edbb1f;
 }
 
-
 /* Control the left side */
 
 .left {
@@ -3178,7 +3121,6 @@ h3.project-sidebar-header {
   padding: 7rem 4rem;
   text-align: left;
 }
-
 
 /* Control the right side */
 
@@ -3192,11 +3134,10 @@ h3.project-sidebar-header {
   text-align: right;
 }
 
-.right>.block-header>h2,
-.right>p {
+.right > .block-header > h2,
+.right > p {
   color: #ffffff;
 }
-
 
 /* ---------------- 23. Non-Profit Partners ---------------- */
 

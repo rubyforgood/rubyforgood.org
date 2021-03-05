@@ -1,17 +1,26 @@
 <section class="pb-70{% if block.bg %} {{ block.bg }}{% endif %}">
   <div class="container">
-    {% assign difference_info = site.data.our_work.sbv | where: "type", "difference" %}
+    {% assign difference_info = site.data.our_work.sbv | where: "type",
+    "difference" %}
+    <!-- prettier-ignore -->
     {% for info in difference_info %}
     <div class="row">
       <div class="col-12 col-lg-8">
         {% for content in info.content %}
-          <p>{{ content.paragraph }}</p>
+        <p>{{ content.paragraph }}</p>
         {% endfor %}
-      </div><!-- /col-8 -->
+      </div>
+      <!-- /col-8 -->
       <div class="col-12 col-lg-4">
-        <img src="{{site.baseurl}}{{info.image}}" class="img-fluid pb-30 pt-10 mx-auto d-block">
-      </div><!-- /col-4 -->
-    </div><!-- /row -->
+        <img
+          src="{{site.baseurl}}{{info.image}}"
+          class="img-fluid pb-30 pt-10 mx-auto d-block"
+        />
+      </div>
+      <!-- /col-4 -->
+    </div>
+    <!-- /row -->
     {% endfor %}
-  </div><!-- /container -->
+  </div>
+  <!-- /container -->
 </section>
