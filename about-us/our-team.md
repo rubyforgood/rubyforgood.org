@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Our Team
-description: 
+description:
 bg: grey-bg
 ---
 

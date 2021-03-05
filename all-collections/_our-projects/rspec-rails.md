@@ -6,7 +6,7 @@ website: https://rspec.info/
 github_repo: https://github.com/rspec/rspec-rails
 years:
   - year: 2017
-categories: 
+categories:
   - category: "open source"
 mission:
   - paragraph: "RSpec is a testing framework commonly used in Ruby on Rails."

@@ -2,10 +2,16 @@
   <div class="row">
     <div class="clients-active owl-carousel">
       {% assign supporters = site.data.supporters | sort_natural: "name" %}
-      {% for supporter in supporters %}
+      <!-- prettier-ignore -->
+      {%for supporter in supporters %}
       <div class="col-12">
         <div class="single-clients">
-          <a href="{{ supporter.link_to }}"><img src="{{ site.baseurl }}/{{ supporter.image }}" alt="{{ supporter.name }}"></a>
+          <a href="{{ supporter.link_to }}">
+            <img
+              src="{{ site.baseurl }}/{{ supporter.image }}"
+              alt="{{ supporter.name }}"
+            />
+          </a>
         </div>
       </div>
       {% endfor %}

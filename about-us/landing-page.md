@@ -7,21 +7,20 @@ style:
 permalink: /about-us
 blocks:
   - type: mission_vision_history
-    title: 
-    description: 
+    title:
+    description:
     bg: grey-bg
-    style: 
+    style:
   - type: core_values
     title: Core Values
-    description: 
+    description:
     bg: white-bg
-    style: 
+    style:
   - type: about_gooders
     title: Who Is a Gooder?
-    description: 
+    description:
     bg: grey-bg
-    style: 
+    style:
 ---
 
 {% include about_us/landing_page.html %}
-

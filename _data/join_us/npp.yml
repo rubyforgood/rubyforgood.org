@@ -35,12 +35,12 @@
   content:
     - paragraph:
     - ordered_list:
-      - li: "Are you recording data with pen/paper and later transferring that data to a computer?"
-      - li: "Do you pass word/excel/text files around with collaborators to share information?"
-      - li: "Are you using software for a project now that wasn’t built for the kind of work you are doing (“making it work” even though it’s super painful)?"
-      - li: "Do you take data entered somewhere, manually manipulate it and send it on elsewhere?"
-      - li: "Do you have databases that require different access levels? For example, a volunteer can record and enter data, a principal researcher can then lock it and prevent further volunteer edits and only allow researchers to edit to protect data integrity, reviewers can see but not edit data, and so on."
-      - li: "Do you use desktop programs to record information so you are locked into doing it from a certain location but it would be more convenient to have it web based so you can see/edit from anywhere?"
+        - li: "Are you recording data with pen/paper and later transferring that data to a computer?"
+        - li: "Do you pass word/excel/text files around with collaborators to share information?"
+        - li: "Are you using software for a project now that wasn’t built for the kind of work you are doing (“making it work” even though it’s super painful)?"
+        - li: "Do you take data entered somewhere, manually manipulate it and send it on elsewhere?"
+        - li: "Do you have databases that require different access levels? For example, a volunteer can record and enter data, a principal researcher can then lock it and prevent further volunteer edits and only allow researchers to edit to protect data integrity, reviewers can see but not edit data, and so on."
+        - li: "Do you use desktop programs to record information so you are locked into doing it from a certain location but it would be more convenient to have it web based so you can see/edit from anywhere?"
 - type: cost
   bg: white-bg
   style:

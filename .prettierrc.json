@@ -1,0 +1,14 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "htmlWhitespaceSensitivity": "ignore",
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "singleQuote": true,
+        "trailingComma": "none"
+      }
+    }
+  ]
+}

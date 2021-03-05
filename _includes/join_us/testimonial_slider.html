@@ -2,22 +2,31 @@
   <div class="container">
     <div class="testimonial-active owl-carousel">
       {% assign testimonials = site.data.join_us.testimonials %}
+      <!-- prettier-ignore -->
       {% for testimonial in testimonials %}
       <div class="single-item testimonial-items text-center">
         <div class="row">
           <div class="col-lg-3 col-12">
-            <img src="{{site.baseurl}}{{testimonial.src}}" class="img-fluid" alt="{{ testimonial.alt }}">
+            <img
+              src="{{site.baseurl}}{{testimonial.src}}"
+              class="img-fluid"
+              alt="{{ testimonial.alt }}"
+            />
             <h4>{{ testimonial.name }}</h4>
             <span>{{ testimonial.title }}</span>
-          </div><!-- /col-3 -->
+          </div>
+          <!-- /col-3 -->
           <div class="col-lg-9 col-12 client-text">
             {% for content in testimonial.content %}
             <p>{{ content.paragraph }}</p>
             {% endfor %}
-          </div><!-- /col-9 -->
-        </div><!-- /row -->
+          </div>
+          <!-- /col-9 -->
+        </div>
+        <!-- /row -->
       </div>
       {% endfor %}
     </div>
-  </div><!-- /container -->
+  </div>
+  <!-- /container -->
 </section>

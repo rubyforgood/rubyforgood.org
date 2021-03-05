@@ -1,94 +1,103 @@
 <section class="white-bg pt-50 pb-70">
   <div class="container">
-
-    {% if page.slider %}
-      {% include our_work/project_slider.html %}
-    {% endif %}
+    {% if page.slider %} {% include our_work/project_slider.html %} {% endif %}
 
     <div class="row">
-  
       <div class="col-8">
         <h1 class="project-header text-center">{{ page.title }}</h1>
 
         <h2 class="project-header">Mission</h2>
         {% for content in page.mission %}
-          <p>{{ content.paragraph }}</p>
-          {% if content.list %}
-            <ul>
-              {% assign list = content.list %}
-              {% for item in list %}
-                <li class="project-content">{{ item.li }}</li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        {% endfor %}
+        <p>{{ content.paragraph }}</p>
+        {% if content.list %}
+        <ul>
+          {% assign list = content.list %} {% for item in list %}
+          <li class="project-content">{{ item.li }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %} {% endfor %}
 
         <h2 class="project-header">Built by Ruby for Good</h2>
         {% for content in page.built_by_rfg %}
-          <p>{{ content.paragraph }}</p>
-          {% if content.list %}
-            <ul>
-              {% assign list = content.list %}
-              {% for item in list %}
-                <li class="project-content">{{ item.li }}</li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        {% endfor %}
-
-        {% if page.scope_and_impact %}
-          <h2 class="project-header">Scope and Impact</h2>
-          {% for content in page.scope_and_impact %}
-            <p>{{ content.paragraph }}</p>
-            {% if content.list %}
-              <ul>
-                {% assign list = content.list %}
-                {% for item in list %}
-                  <li class="project-content">{{ item.li }}</li>
-                {% endfor %}
-              </ul>
-            {% endif %}
+        <p>{{ content.paragraph }}</p>
+        {% if content.list %}
+        <ul>
+          {% assign list = content.list %} {% for item in list %}
+          <li class="project-content">{{ item.li }}</li>
           {% endfor %}
-        {% endif %}
-
+        </ul>
+        {% endif %} {% endfor %}
+        <!-- prettier-ignore -->
+        {% if page.scope_and_impact %}
+        <h2 class="project-header">Scope and Impact</h2>
+        {% for content in page.scope_and_impact %}
+        <p>{{ content.paragraph }}</p>
+        {% if content.list %}
+        <ul>
+          {% assign list = content.list %} {% for item in list %}
+          <li class="project-content">{{ item.li }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %} {% endfor %} {% endif %}
+        <!-- prettier-ignore -->
         {% if page.website %}
-          <a class="btn btn-primary mx-4 mt-5" href="{{ page.website }}" type="button" target="_blank">Website</a>
+        <a
+          class="btn btn-primary mx-4 mt-5"
+          href="{{ page.website }}"
+          type="button"
+          target="_blank"
+        >
+          Website
+        </a>
         {% endif %}
-
+        <!-- prettier-ignore -->
         {% if page.github_repo %}
-          <a class="btn btn-secondary mx-4 mt-5" href="{{ page.github_repo }}" type="button" target="_blank">GitHub</a>
+        <a
+          class="btn btn-secondary mx-4 mt-5"
+          href="{{ page.github_repo }}"
+          type="button"
+          target="_blank"
+        >
+          GitHub
+        </a>
         {% endif %}
-      </div><!-- /col-8 -->
+      </div>
+      <!-- /col-8 -->
 
       <div class="col-4">
         <ul>
           {% if page.non_profit_partners %}
           <li class="project-sidebar">
             {% if page.non_profit_partners.size > 1 %}
-              <h3 class="project-sidebar-header">Non-Profit Partners:</h3>
+            <h3 class="project-sidebar-header">Non-Profit Partners:</h3>
             {% else %}
-              <h3 class="project-sidebar-header">Non-Profit Partner:</h3>
+            <h3 class="project-sidebar-header">Non-Profit Partner:</h3>
             {% endif %}
+            <!-- prettier-ignore -->
             {% for partner in page.non_profit_partners %}
-            <p><a href="{{ partner.src }}" target="_blank">{{ partner.name }}</a></p>
+            <p>
+              <a href="{{ partner.src }}" target="_blank">{{ partner.name }}</a>
+            </p>
             {% endfor %}
           </li>
           {% endif %}
           <li class="project-sidebar">
             <h3 class="project-sidebar-header">Years Active:</h3>
             {% for num in page.years %}
-              <p>{{ num.year }}</p>
+            <p>{{ num.year }}</p>
             {% endfor %}
           </li>
           <li class="project-sidebar">
             <h3 class="project-sidebar-header">Project Categories:</h3>
             {% for cat in page.categories %}
-              <p>{{ cat.category }}</p>
+            <p>{{ cat.category }}</p>
             {% endfor %}
           </li>
         </ul>
-      </div><!-- /col-4 -->
-  
-    </div><!-- /row -->
-  </div><!-- /container -->
+      </div>
+      <!-- /col-4 -->
+    </div>
+    <!-- /row -->
+  </div>
+  <!-- /container -->
 </section>
