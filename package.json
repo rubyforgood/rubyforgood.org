@@ -31,7 +31,7 @@
   },
   "lint-staged": {
     "assets/js/*": [
-      "npm run lint:ts",
+      "npm run lint:js",
       "git add"
     ],
     "assets/css/*": [
@@ -47,7 +47,8 @@
     "lint-staged": ">=10",
     "prettier": "^2.2.1",
     "stylelint": "^13.11.0",
-    "stylelint-config-prettier": "^8.0.2"
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0"
   },
   "dependencies": {
     "acorn-jsx": "^5.3.1",
