@@ -1,12 +1,12 @@
-# Specific files
-_layouts/default.html
-assets/css/*.min.css
-assets/js/*.min.js
+# Specific files and filetypes
+*min.css
+*min.js
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 _config.yml
+_layouts/default.html
 
 # Usual suspects
 vendor

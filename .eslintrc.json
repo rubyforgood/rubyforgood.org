@@ -10,6 +10,7 @@
     "ecmaVersion": 6,
     "sourceType": "module"
   },
+  "ignorePatterns": "*min.js",
   "rules": {
     "curly": ["error", "all"],
     "no-tabs": ["error", { "allowIndentationTabs": true }],

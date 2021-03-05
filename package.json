@@ -19,8 +19,8 @@
     "build": "bundle exec jekyll build",
     "debug": "bundle exec jekyll serve --profile",
     "doctor": "bundle exec jekyll doctor",
-    "lint:js": "eslint 'assets/js/*' --fix",
-    "lint:style": "stylelint \"assets/css/*\" --fix",
+    "lint:js": "eslint './assets/js/*.js' --fix",
+    "lint:style": "stylelint \"./assets/css/*.css\" --fix",
     "stylelint-check": "stylelint-config-prettier-check",
     "format": "prettier --write ."
   },
@@ -30,14 +30,16 @@
     }
   },
   "lint-staged": {
-    "assets/js/*": [
-      "npm run lint:js",
-      "git add"
-    ],
-    "assets/css/*": [
-      "npm run lint:style",
-      "git add"
-    ]
+    "linters": {
+      "!(*min).js": [
+        "npm run lint:js --",
+        "git add"
+      ],
+      "!(*min).css": [
+        "npm run lint:style --",
+        "git add"
+      ]
+    }
   },
   "devDependencies": {
     "eslint": "^7.20.0",
