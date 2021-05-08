@@ -17,29 +17,116 @@
     "test": "bundle exec jekyll serve --livereload",
     "blog-preview": "bundle exec jekyll serve --drafts --future --livereload",
     "build": "bundle exec jekyll build",
-    "debug": "bundle exec jekyll serve --profile",
     "doctor": "bundle exec jekyll doctor",
-    "lint:js": "eslint './assets/js/*.js' --fix",
-    "lint:style": "stylelint \"./assets/css/*.css\" --fix",
+    "lint:js": "eslint \"**/*.js\" --cache --fix",
+    "lint:style": "stylelint \"**/*.css\" --fix",
     "stylelint-check": "stylelint-config-prettier-check",
     "format": "prettier --write ."
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+  "stylelint": {
+    "extends": [
+      "stylelint-config-standard",
+      "stylelint-config-prettier"
+    ],
+    "rules": {
+      "no-descending-specificity": null,
+      "declaration-block-single-line-max-declarations": null
+    },
+    "ignoreFiles": [
+      "assets/**/*.min.css",
+      "assets/**/*.min.js",
+      "*.js",
+      "*.json",
+      "_site",
+      "_site/**",
+      ".sass-cache",
+      ".jekyll-cache",
+      ".jekyll-metadata",
+      "_config.yml",
+      "_layouts/default.html",
+      "node_modules/**"
+    ]
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true,
+      "es2017": true
+    },
+    "plugins": [
+      "prettier"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "prettier"
+    ],
+    "rules": {
+      "curly": [
+        "error",
+        "all"
+      ],
+      "no-tabs": [
+        "error",
+        {
+          "allowIndentationTabs": true
+        }
+      ],
+      "no-console": "off",
+      "semi": "warn",
+      "prettier/prettier": [
+        "error",
+        {},
+        {
+          "usePrettierrc": false
+        }
+      ],
+      "arrow-body-style": "off",
+      "prefer-arrow-callback": "off"
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaVersion": 8,
+      "sourceType": "module",
+      "allowImportExportEverywhere": true,
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "ignorePatterns": [
+      "assets/**/*.min.css",
+      "assets/**/*.min.js",
+      "*.css",
+      "*.json",
+      "_site",
+      "_site/**",
+      ".sass-cache",
+      ".jekyll-cache",
+      ".jekyll-metadata",
+      "_config.yml",
+      "_layouts/default.html",
+      "node_modules/**"
+    ]
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "useTabs": false,
+    "htmlWhitespaceSensitivity": "ignore",
+    "overrides": [
+      {
+        "files": "**/*.js",
+        "excludeFiles": "**/*.min.js",
+        "options": {
+          "singleQuote": true,
+          "trailingComma": "none",
+          "semi": false
+        }
+      }
+    ]
   },
   "lint-staged": {
-    "linters": {
-      "!(*min).js": [
-        "npm run lint:js --",
-        "git add"
-      ],
-      "!(*min).css": [
-        "npm run lint:style --",
-        "git add"
-      ]
-    }
+    "*.js": "eslint --cache --fix",
+    "*.css": "stylelint --fix"
   },
   "devDependencies": {
     "eslint": "^7.20.0",
