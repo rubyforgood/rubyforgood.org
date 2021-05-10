@@ -19,9 +19,9 @@
     "build": "bundle exec jekyll build",
     "doctor": "bundle exec jekyll doctor",
     "lint:js": "eslint \"**/*.js\" --cache --fix",
-    "lint:style": "stylelint \"**/*.css\" --fix",
+    "lint:style": "stylelint \"**/*.{css,less,sass,scss}\" --fix",
+    "lint:text": "stylelint \"**/*.{html,md,markdown}\" --fix",
     "stylelint-check": "stylelint-config-prettier-check",
-    "format": "prettier --write .",
     "prepare": "husky install"
   },
   "stylelint": {
@@ -127,7 +127,7 @@
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
-    "*.css": "stylelint --fix"
+    "*.{css,less,sass,scss,html,md,markdown}": "stylelint --fix"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
