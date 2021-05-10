@@ -28,6 +28,7 @@
 20. Project Sliders
 21. Impact
 22. Our Work
+23. Icons
 */
 
 /* ---------------- 0. Custom Meg Styling ---------------- */
@@ -53,7 +54,7 @@ html {
   font-size: 3.42857rem;
   width: 3.42857rem;
   height: 3.42857rem;
-  color: #ffffff;
+  color: #fff;
   background-color: #03777e;
   border: 3px solid #51a4a1;
   display: inline-block;
@@ -67,7 +68,7 @@ html {
   transition: color 0.3s linear;
 }
 
-.iconText .icon-text-circle i:before {
+.iconText .icon-text-circle i::before {
   margin: 0;
 }
 
@@ -136,7 +137,7 @@ html {
 
 .title-line,
 .block-line {
-  background: #000000;
+  background: #000;
   width: 5.5rem;
   height: 1px;
   margin: 3rem auto;
@@ -165,7 +166,7 @@ html {
 }
 
 .white {
-  color: #ffffff;
+  color: #fff;
 }
 
 /* Site palette */
@@ -178,9 +179,9 @@ html {
   color: #e41822;
 }
 
-.red-salsa {
+/* .red-salsa {
   color: #f2454e;
-}
+} */
 
 .red-salsa-light {
   color: #fb6971;
@@ -198,9 +199,9 @@ html {
   color: #016267;
 }
 
-.skobeloff {
+/* .skobeloff {
   color: #03777e;
-}
+} */
 
 .skobeloff-light {
   color: #168f95;
@@ -218,9 +219,9 @@ html {
   color: #edbb1f;
 }
 
-.maize-crayola {
+/* .maize-crayola {
   color: #fdd14a;
-}
+} */
 
 .maize-crayola-light {
   color: #fddb6d;
@@ -351,6 +352,20 @@ html {
   src: url("../fonts/Poppins-ThinItalic.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: solid;
+  font-weight: 900;
+  src: url("../fonts/fa-solid-900.svg") format("svg");
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: brands;
+  font-weight: 400;
+  src: url("../fonts/fa-brands-400.svg") format("svg");
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
@@ -388,13 +403,12 @@ a {
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
-.footer -menu li a:hover {
+.footer menu li a:hover {
   color: #51a4a1;
   text-decoration: none;
 }
 
 a:focus,
-input:focus,
 input:focus,
 textarea,
 textarea:focus {
@@ -440,7 +454,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-size: 5.2rem;
   color: #000;
-  margin: 0rem;
+  margin: 0;
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
@@ -485,8 +499,8 @@ h6 {
 }
 
 ul {
-  margin: 0rem;
-  padding: 0rem;
+  margin: 0;
+  padding: 0;
 }
 
 li {
@@ -524,13 +538,13 @@ label {
 }
 
 *::-moz-placeholder {
-  color: #555555;
+  color: #555;
   font-size: 1.4rem;
   opacity: 1;
 }
 
 *::placeholder {
-  color: #555555;
+  color: #555;
   font-size: 1.4rem;
   opacity: 1;
 }
@@ -643,8 +657,7 @@ label {
 }
 
 .header-single-cta h3 i {
-  margin-right: 3px !important;
-  margin: 0;
+  margin: 0 0 0 3px;
   float: unset;
   font-size: 1.6rem;
 }
@@ -698,12 +711,12 @@ label {
 }
 
 .main-menu.second-menu ul li a {
-  color: #ffffff;
+  color: #fff;
   padding: 2.2rem 0;
 }
 
 .main-menu.second-menu ul li:hover a {
-  color: #ffffff;
+  color: #fff;
 }
 
 .transparent-menu ul li a {
@@ -857,10 +870,10 @@ label {
   top: 0;
   width: 100%;
   box-shadow: 0 0 6rem 0 rgba(0, 0, 0, 0.07);
-  z-index: 9999;
-  -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   -webkit-box-shadow: 0 1rem 1.5rem rgba(25, 25, 25, 0.1);
+  z-index: 9999;
+  animation: 300ms ease-in-out 0s normal none 1 running fadeindown;
+  -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeindown;
 }
 
 .sticky .logo-area {
@@ -918,21 +931,21 @@ label {
   position: absolute;
   top: 50%;
   left: 50%;
+  border: none;
+  outline: 0;
+  transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  border: none;
-  outline: 0;
 }
 
 #search-modal .modal-dialog .modal-content {
   background: 0 0;
+  border: none;
+  box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-  box-shadow: none;
-  border: none;
 }
 
 #search-modal .modal-dialog .modal-content form {
@@ -950,7 +963,7 @@ label {
   color: #fff;
   padding-bottom: 1.2rem;
   padding-right: 4rem;
-  z-index: 9999999;
+  z-index: 9999;
 }
 
 #search-modal .modal-dialog .modal-content form input::-moz-placeholder {
@@ -1112,7 +1125,7 @@ label {
 
 .btn-donate:hover {
   background-color: #e41822;
-  color: #ffffff;
+  color: #fff;
   border: 2px solid #e41822;
 }
 
@@ -1195,7 +1208,6 @@ label {
   top: 50%;
   background: no-repeat;
   padding: 0;
-  border: 0;
   left: 5rem;
   color: #fff;
   font-weight: 800;
@@ -1356,8 +1368,7 @@ label {
 /* .services-box:hover {} */
 
 .services-content {
-  padding: 2rem;
-  padding-top: 0rem;
+  padding: 0 2rem 2rem 2rem;
 }
 
 .services-img {
@@ -1495,7 +1506,7 @@ label {
 }
 
 .sidebar-link ul li a {
-  color: #777777;
+  color: #777;
   font-weight: 500;
   display: block;
   line-height: 1;
@@ -1524,7 +1535,7 @@ label {
   border: 1px solid #e1e1e1;
   display: block;
   padding: 1.5rem 3rem;
-  color: #777777;
+  color: #777;
   font-size: 1.7rem;
 }
 
@@ -1561,7 +1572,7 @@ label {
 
 .test-name h5 {
   font-size: 1.6rem;
-  color: #555555;
+  color: #555;
   margin-bottom: 0;
   margin-top: 3px;
 }
@@ -1716,7 +1727,6 @@ label {
   bottom: 3rem;
   left: 3rem;
   transition: 0.3s ease;
-  z-index: 9;
   color: #fff;
   transform: translateY(160%);
   z-index: 999;
@@ -1798,12 +1808,10 @@ label {
 .client-text::before {
   position: absolute;
   left: 7.5rem;
-  content: "\f10d";
-  font-family: "Font Awesome 5 free";
   top: 0;
-  font-style: normal;
   font-size: 2.7rem;
   color: #f2454e;
+  content: "\f10d";
 }
 
 .client-text::after {
@@ -1811,9 +1819,7 @@ label {
   left: auto;
   right: 7.5rem;
   content: "\f10e";
-  font-family: "Font Awesome 5 free";
   bottom: 0;
-  font-style: normal;
   font-size: 2.7rem;
   color: #f2454e;
 }
@@ -1911,7 +1917,7 @@ label {
 h4.team-member-name {
   font-size: 3.2rem;
   text-align: center;
-  color: #000000;
+  color: #000;
   padding-bottom: 0.2rem;
   letter-spacing: 0.3rem;
 }
@@ -2057,7 +2063,7 @@ h4.team-member-facts {
 }
 
 .github-bg {
-  background-color: #000000;
+  background-color: #000;
 }
 
 .linkedin-bg {
@@ -2195,7 +2201,7 @@ h4.team-member-facts {
   display: inline-block;
 }
 
-.breadcrumb li:last-child a:before {
+.breadcrumb li:last-child a::before {
   display: none;
 }
 
@@ -2261,7 +2267,7 @@ h4.team-member-facts {
   border: 2px solid #eee;
   box-shadow: none;
   padding: 0.7rem 2rem;
-  color: #999999;
+  color: #999;
 }
 
 .contact-form textarea {
@@ -2269,7 +2275,7 @@ h4.team-member-facts {
   border: 2px solid #eee;
   box-shadow: none;
   padding: 0.7rem 2rem;
-  color: #999999;
+  color: #999;
   height: 15rem;
 }
 
@@ -2328,6 +2334,7 @@ h4.team-member-facts {
 
 .link-box a {
   color: #555;
+  font-weight: 600;
 }
 
 .link-box a:hover {
@@ -2375,16 +2382,12 @@ h4.team-member-facts {
   width: 0.5rem;
 }
 
-.meta-info ul li:first-child:before {
+.meta-info ul li:first-child::before {
   display: none;
 }
 
 .blog-thumb img {
   width: 100%;
-}
-
-.link-box a {
-  font-weight: 600;
 }
 
 /* Sidebar */
@@ -2964,9 +2967,7 @@ h3.project-sidebar-header {
   position: absolute;
   left: 12.5rem;
   content: "\f10d";
-  font-family: "Font Awesome 5 free";
   top: 0;
-  font-style: normal;
   font-size: 2.7rem;
   color: #f2454e;
 }
@@ -2976,9 +2977,7 @@ h3.project-sidebar-header {
   left: auto;
   right: 12.5rem;
   content: "\f10e";
-  font-family: "Font Awesome 5 free";
   bottom: 0;
-  font-style: normal;
   font-size: 2.7rem;
   color: #f2454e;
 }
@@ -3082,7 +3081,7 @@ h3.project-sidebar-header {
 
 .btn-impact:hover {
   background-color: #e41822;
-  color: #ffffff;
+  color: #fff;
   border: 2px solid #e41822;
 }
 
@@ -3110,7 +3109,7 @@ h3.project-sidebar-header {
 
 .btn-sbv:hover {
   background-color: #edbb1f;
-  color: #ffffff;
+  color: #fff;
   border: 2px solid #edbb1f;
 }
 
@@ -3128,7 +3127,7 @@ h3.project-sidebar-header {
   background-image: url("../img/stock/sbv-bg-tinted.jpg");
   background-position: center;
   background-size: cover;
-  background-color: #222222;
+  background-color: #222;
   overflow: hidden;
   padding: 7rem 4rem;
   text-align: right;
@@ -3136,7 +3135,7 @@ h3.project-sidebar-header {
 
 .right > .block-header > h2,
 .right > p {
-  color: #ffffff;
+  color: #fff;
 }
 
 /* ---------------- 23. Non-Profit Partners ---------------- */
@@ -3158,4 +3157,25 @@ li.npp-content {
   list-style-type: decimal;
   list-style-position: outside;
   padding-left: 1rem;
+}
+
+/* ---------------- 23. Icons ---------------- */
+
+.icon::before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block; 
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+}
+
+.icon-solid::before {
+  font-family: "Font Awesome 5 Free", sans-serif;
+  font-weight: 900;
+}
+
+.icon-brand::before {
+  font-family: "Font Awesome 5 Brands", sans-serif;
+  font-weight: 400;
 }
