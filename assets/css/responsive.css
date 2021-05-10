@@ -80,7 +80,7 @@
     padding: 0 10px;
   }
   .theme-section-title.service-title p {
-    padding: 0 0px;
+    padding: 0 0;
   }
   .single-cta i {
     margin-top: 6px;
@@ -151,9 +151,6 @@
   }
   .logo img {
     margin-top: 20px;
-  }
-  .slider-content h1 {
-    font-size: 40px;
   }
   .slider-content p {
     font-size: 14px;
@@ -262,6 +259,7 @@
     width: 100%;
   }
 }
+
 /* SM Small Device :550px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .about-info-text h2 {

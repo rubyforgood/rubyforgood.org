@@ -1,6 +1,6 @@
 /* Deafult Margin & Padding */
 
-/*-- Margin Top --*/
+/* -- Margin Top -- */
 
 .mt-5 {
   margin-top: 0.5rem;
@@ -162,7 +162,7 @@
   margin-top: 20rem;
 }
 
-/*-- Margin Bottom --*/
+/* -- Margin Bottom -- */
 
 .mb-5 {
   margin-bottom: 0.5rem;
@@ -324,10 +324,10 @@
   margin-bottom: 20rem;
 }
 
-/*-- Margin Left --*/
+/* -- Margin Left -- */
 
 .ml-0 {
-  margin-left: 0rem;
+  margin-left: 0;
 }
 
 .ml-5 {
@@ -352,10 +352,6 @@
 
 .ml-30 {
   margin-left: 3rem;
-}
-
-.ml-35 {
-  margin-left: 3.5rem;
 }
 
 .ml-35 {
@@ -414,10 +410,10 @@
   margin-left: 10rem;
 }
 
-/*-- Margin Right --*/
+/* -- Margin Right -- */
 
 .mr-0 {
-  margin-right: 0rem;
+  margin-right: 0;
 }
 
 .mr-5 {
@@ -442,10 +438,6 @@
 
 .mr-30 {
   margin-right: 3rem;
-}
-
-.mr-35 {
-  margin-right: 3.5rem;
 }
 
 .mr-35 {
@@ -504,7 +496,7 @@
   margin-right: 10rem;
 }
 
-/*-- Padding Top --*/
+/* -- Padding Top -- */
 
 .pt-5 {
   padding-top: 0.5rem;
@@ -666,7 +658,7 @@
   padding-top: 20rem;
 }
 
-/*-- Padding Bottom --*/
+/* -- Padding Bottom -- */
 
 .pb-5 {
   padding-bottom: 0.5rem;
@@ -828,10 +820,10 @@
   padding-bottom: 20rem;
 }
 
-/*-- Padding Left --*/
+/* -- Padding Left -- */
 
 .pl-0 {
-  padding-left: 0rem;
+  padding-left: 0;
 }
 
 .pl-5 {
@@ -856,10 +848,6 @@
 
 .pl-30 {
   padding-left: 3rem;
-}
-
-.pl-35 {
-  padding-left: 3.5rem;
 }
 
 .pl-35 {
@@ -918,10 +906,10 @@
   padding-left: 10rem;
 }
 
-/*-- Padding Right --*/
+/* -- Padding Right -- */
 
 .pr-0 {
-  padding-right: 0rem;
+  padding-right: 0;
 }
 
 .pr-5 {
@@ -946,10 +934,6 @@
 
 .pr-30 {
   padding-right: 3rem;
-}
-
-.pr-35 {
-  padding-right: 3.5rem;
 }
 
 .pr-35 {
@@ -1037,11 +1021,11 @@
 }
 
 .white-bg {
-  background: #ffffff !important;
+  background: #fff !important;
 }
 
 .black-bg {
-  background: #222222;
+  background: #222;
 }
 
 .theme-bg {
@@ -1049,7 +1033,7 @@
 }
 
 .primary-bg {
-  background: #222222;
+  background: #222;
 }
 
 .green-bg {
@@ -1067,19 +1051,19 @@
 /* Color */
 
 .white-color {
-  color: #ffffff;
+  color: #fff;
 }
 
 .black-color {
-  color: #222222;
+  color: #222;
 }
 
 .theme-color {
-  color: #222222;
+  color: #222;
 }
 
 .primary-color {
-  color: #222222;
+  color: #222;
 }
 
 .z-index {
@@ -1093,7 +1077,7 @@
 }
 
 [data-overlay]::before {
-  background: #000000 none repeat scroll 0 0;
+  background: #000 none repeat scroll 0 0;
   content: "";
   height: 100%;
   left: 0;
