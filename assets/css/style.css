@@ -42,6 +42,12 @@ html {
   font-size: 62.5%;
 }
 
+/* Linearicons styling */
+
+.lnr {
+  font-size: 2rem;
+}
+
 /* Icon styling for overview-columns section */
 
 .iconText .icon-text-circle {
