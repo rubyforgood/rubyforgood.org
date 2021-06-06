@@ -258,6 +258,9 @@
   .comments-avatar img {
     width: 100%;
   }
+  .title-header > h2 {
+    font-size: 3.8rem;
+  }
 }
 
 /* SM Small Device :550px. */
