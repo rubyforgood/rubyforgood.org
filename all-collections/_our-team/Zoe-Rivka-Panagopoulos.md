@@ -4,7 +4,7 @@ layout: page
 first_name: Zoe
 last_name: Rivka Panagopoulos
 list_order: C
-position: Product Manager, Court Appointed Special Advocate (CASA)
+position: Product Manager, CASA
 photo: /assets/img/people/zoe.png
 email:
 social:
