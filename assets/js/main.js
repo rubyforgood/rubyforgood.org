@@ -46,7 +46,7 @@
     });
     BasicSlider.slick({
       autoplay: true,
-      autoplaySpeed: 10000,
+      autoplaySpeed: 25000,
       fade: true,
       prevArrow:
         '<button type="button" class="slick-prev"><i class="icofont-long-arrow-left"></i>Prev</button>',
@@ -82,7 +82,7 @@
   $(".slider-three-active").slick({
     infinite: true,
     autoplay: false,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 25000,
     speed: 400,
     dots: false,
     slidesToShow: 1,
