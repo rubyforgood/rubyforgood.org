@@ -454,6 +454,7 @@ textarea:focus {
 }
 
 a.btn {
+  user-select: none;
   -moz-user-select: none;
   cursor: pointer;
   display: inline-block;
@@ -611,6 +612,7 @@ label {
 }
 
 .btn-secondary {
+  user-select: none;
   -moz-user-select: none;
   background-color: #168f95;
   color: #fff;
@@ -1140,6 +1142,7 @@ label {
 }
 
 .btn-donate {
+  user-select: none;
   -moz-user-select: none;
   background-color: #f2454e;
   color: #fff;
@@ -1165,6 +1168,35 @@ label {
   background-color: #e41822;
   color: #fff;
   border: 2px solid #e41822;
+}
+
+.btn-event {
+  user-select: none;
+  -moz-user-select: none;
+  background-color: #168f95;
+  color: #fff;
+  border: 2px solid #168f95;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: inline-block;
+  margin: 1rem 0 1rem 2rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.btn-event:hover {
+  background-color: #03777e;
+  color: #fff;
+  border: 2px solid #03777e;
 }
 
 /* ---------------- 3. Slider ---------------- */
@@ -2147,7 +2179,6 @@ h4.team-member-facts {
 }
 
 .footer-widget ul li {
-  display: inline-block;
   float: left;
   width: 50%;
   margin-bottom: 1.2rem;
@@ -2515,7 +2546,6 @@ h4.team-member-facts {
 }
 
 .sidebar-rc-post .rc-post-thumb {
-  display: inline-block;
   float: left;
   height: 7rem;
   overflow: hidden;
@@ -2550,7 +2580,6 @@ h4.team-member-facts {
 
 .widget-date {
   color: #777;
-  display: inline-block;
   float: left;
   font-size: 1.2rem;
   line-height: 1;
@@ -3096,6 +3125,7 @@ h3.project-sidebar-header {
 /* ---------------- 22. Our Work ---------------- */
 
 .btn-impact {
+  user-select: none;
   -moz-user-select: none;
   background-color: #f2454e;
   color: #fff;
@@ -3124,6 +3154,7 @@ h3.project-sidebar-header {
 }
 
 .btn-sbv {
+  user-select: none;
   -moz-user-select: none;
   background-color: #fdd14a;
   color: #fff;
