@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Register
+title: Schedule
 description:
 bg: grey-bg
 style:
-permalink: /events/register
+permalink: /events/schedule
 blocks:
   - type: 
     title: 
@@ -13,4 +13,4 @@ blocks:
     style:
 ---
 
-{% include events/register.html %}
+{% include events/schedule.html %}
