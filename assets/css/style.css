@@ -74,6 +74,21 @@ li.bulleted {
   list-style-type: disc;
 }
 
+/* CoC list styling */
+
+ul.coc {
+  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+  list-style-position: outside;
+  list-style-type: disc;
+}
+
+li.coc {
+  margin-left: 2rem;
+  list-style-position: outside;
+  list-style-type: disc;
+}
+
 /* Linearicons styling */
 
 .lnr {
