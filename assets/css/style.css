@@ -42,6 +42,38 @@ html {
   font-size: 62.5%;
 }
 
+/* Ordered list styling */
+
+ol.numbered {
+  list-style: decimal;
+}
+
+li.numbered {
+  list-style: decimal;
+}
+
+/* Indented list styling */
+
+ul.indented {
+  list-style-position: outside;
+  margin-left: 1rem;
+}
+
+li.indented {
+  list-style-position: outside;
+  margin-left: 1rem;
+}
+
+/* Bulleted list styling */
+
+ul.bulleted {
+  list-style-type: disc;
+}
+
+li.bulleted {
+  list-style-type: disc;
+}
+
 /* Linearicons styling */
 
 .lnr {
