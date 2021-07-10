@@ -4,7 +4,7 @@ layout: page
 first_name: Meg
 last_name: Gutshall
 list_order: H
-position: Open Source Advocate and Welcome Wagoner
+position: Open-Source Community Advocate
 photo: /assets/img/people/meg-gutshall.png
 
 write_up:
