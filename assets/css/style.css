@@ -3278,6 +3278,7 @@ div.row.faq {
 
 h3.faq-title {
   padding-bottom: 1rem;
+  line-height: 4rem;
   text-decoration: underline;
   text-decoration-color: #f2454e;
   text-decoration-thickness: 4px;
