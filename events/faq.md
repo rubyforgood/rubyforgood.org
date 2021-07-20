@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Faq
+title: FAQ
 description:
 bg: grey-bg
 style:
