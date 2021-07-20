@@ -29,6 +29,7 @@
 21. Impact
 22. Our Work
 23. Icons
+24. Events
 */
 
 /* ---------------- 0. Custom Meg Styling ---------------- */
@@ -40,108 +41,6 @@ Most browsers set their default font size to 1.6rem, so if we set ours at 62.5% 
 
 html {
   font-size: 62.5%;
-}
-
-/* Ordered list styling */
-
-ol.numbered {
-  list-style: decimal;
-}
-
-li.numbered {
-  list-style: decimal;
-}
-
-/* Indented list styling */
-
-ul.indented {
-  list-style-position: outside;
-  margin-left: 1rem;
-}
-
-li.indented {
-  list-style-position: outside;
-  margin-left: 1rem;
-}
-
-/* Bulleted list styling */
-
-ul.bulleted {
-  list-style-type: disc;
-}
-
-li.bulleted {
-  list-style-type: disc;
-}
-
-/* CoC list styling */
-
-ul.coc {
-  margin-bottom: 1.5rem;
-  margin-left: 2rem;
-  list-style-position: outside;
-  list-style-type: disc;
-}
-
-li.coc {
-  margin-left: 2rem;
-  list-style-position: outside;
-  list-style-type: disc;
-}
-
-/* Linearicons styling */
-
-.lnr {
-  font-size: 2rem;
-}
-
-/* Icon styling for overview-columns section */
-
-.iconText .icon-text-circle {
-  text-align: center;
-}
-
-.iconText .icon-text-circle i {
-  box-sizing: content-box;
-  margin-bottom: 2.5rem;
-  font-size: 3.42857rem;
-  width: 3.42857rem;
-  height: 3.42857rem;
-  color: #fff;
-  background-color: #03777e;
-  border: 3px solid #51a4a1;
-  display: inline-block;
-  padding: 3rem;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  -moz-transition: color 0.3s linear;
-  -o-transition: color 0.3s linear;
-  -webkit-transition: color 0.3s linear;
-  transition: color 0.3s linear;
-}
-
-.iconText .icon-text-circle i::before {
-  margin: 0;
-}
-
-.iconText .icon-text-circle h3 {
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.iconText .icon-text-simple i {
-  font-size: 3.42857rem;
-  float: left;
-  color: #e0e0e0;
-  width: 4.8rem;
-  height: 4.8rem;
-  text-align: center;
-}
-
-.iconText .icon-text-simple h3,
-.iconText .icon-text-simple p {
-  margin-left: 7.3rem;
 }
 
 /* Page & Block Title Headers */
@@ -3262,4 +3161,122 @@ li.npp-content {
 .icon-brand::before {
   font-family: "Font Awesome 5 Brands", sans-serif;
   font-weight: 400;
+}
+
+/* Linearicons styling */
+
+.lnr {
+  font-size: 2rem;
+}
+
+/* Icon styling for overview-columns section */
+
+.iconText .icon-text-circle {
+  text-align: center;
+}
+
+.iconText .icon-text-circle i {
+  box-sizing: content-box;
+  margin-bottom: 2.5rem;
+  font-size: 3.42857rem;
+  width: 3.42857rem;
+  height: 3.42857rem;
+  color: #fff;
+  background-color: #03777e;
+  border: 3px solid #51a4a1;
+  display: inline-block;
+  padding: 3rem;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+  -webkit-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+}
+
+.iconText .icon-text-circle i::before {
+  margin: 0;
+}
+
+.iconText .icon-text-circle h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.iconText .icon-text-simple i {
+  font-size: 3.42857rem;
+  float: left;
+  color: #e0e0e0;
+  width: 4.8rem;
+  height: 4.8rem;
+  text-align: center;
+}
+
+.iconText .icon-text-simple h3,
+.iconText .icon-text-simple p {
+  margin-left: 7.3rem;
+}
+
+/* ---------------- 24. Events ---------------- */
+
+/* Ordered list styling */
+
+ol.numbered {
+  list-style: decimal;
+}
+
+li.numbered {
+  list-style: decimal;
+}
+
+/* Indented list styling */
+
+ul.indented {
+  list-style-position: outside;
+  margin-left: 1rem;
+}
+
+li.indented {
+  list-style-position: outside;
+  margin-left: 1rem;
+}
+
+/* Bulleted list styling */
+
+ul.bulleted {
+  list-style-type: disc;
+}
+
+li.bulleted {
+  list-style-type: disc;
+}
+
+/* CoC list styling */
+
+ul.coc {
+  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+  list-style-position: outside;
+  list-style-type: disc;
+}
+
+li.coc {
+  margin-left: 2rem;
+  list-style-position: outside;
+  list-style-type: disc;
+}
+
+/* FAQ styling */
+
+div.row.faq {
+  margin-bottom: 2.25rem;
+}
+
+h3.faq-title {
+  padding-bottom: 1rem;
+  text-decoration: underline;
+  text-decoration-color: #f2454e;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 0.3em;
 }
