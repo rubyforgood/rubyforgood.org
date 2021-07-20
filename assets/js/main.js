@@ -46,7 +46,7 @@
     });
     BasicSlider.slick({
       autoplay: true,
-      autoplaySpeed: 10000,
+      autoplaySpeed: 20000,
       fade: true,
       prevArrow:
         '<button type="button" class="slick-prev"><i class="icofont-long-arrow-left"></i>Prev</button>',
@@ -79,51 +79,51 @@
   mainSlider();
 
   // slider-three
-  $(".slider-three-active").slick({
-    infinite: true,
-    autoplay: false,
-    autoplaySpeed: 5000,
-    speed: 400,
-    dots: false,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    prevArrow:
-      '<button type="button" class="slick-prev"><span class="lnr lnr-chevron-left"></span></button>',
-    nextArrow:
-      '<button type="button" class="slick-next"><span class="lnr lnr-chevron-right"></span></button>',
-    arrows: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false,
-        },
-      },
-      {
-        breakpoint: 767,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false,
-          arrows: false,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false,
-          arrows: false,
-        },
-      },
-    ],
-  });
+  // $(".slider-three-active").slick({
+  //   infinite: true,
+  //   autoplay: false,
+  //   autoplaySpeed: 20000,
+  //   speed: 400,
+  //   dots: false,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  //   prevArrow:
+  //     '<button type="button" class="slick-prev"><span class="lnr lnr-chevron-left"></span></button>',
+  //   nextArrow:
+  //     '<button type="button" class="slick-next"><span class="lnr lnr-chevron-right"></span></button>',
+  //   arrows: true,
+  //   responsive: [
+  //     {
+  //       breakpoint: 1024,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1,
+  //         infinite: true,
+  //         dots: false,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 767,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1,
+  //         infinite: true,
+  //         dots: false,
+  //         arrows: false,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 480,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1,
+  //         infinite: true,
+  //         dots: false,
+  //         arrows: false,
+  //       },
+  //     },
+  //   ],
+  // });
 
   // isotope
   $(".portfolio-active").imagesLoaded(function () {
