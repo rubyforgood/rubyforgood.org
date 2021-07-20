@@ -3223,6 +3223,7 @@ li.npp-content {
 /* Ordered list styling */
 
 ol.numbered {
+  margin-bottom: 1.5rem;
   list-style: decimal;
 }
 
@@ -3233,18 +3234,20 @@ li.numbered {
 /* Indented list styling */
 
 ul.indented {
-  list-style-position: outside;
+  margin-bottom: 1.5rem;
   margin-left: 1rem;
+  list-style-position: outside;
 }
 
 li.indented {
-  list-style-position: outside;
   margin-left: 1rem;
+  list-style-position: outside;
 }
 
 /* Bulleted list styling */
 
 ul.bulleted {
+  margin-bottom: 1.5rem;
   list-style-type: disc;
 }
 
