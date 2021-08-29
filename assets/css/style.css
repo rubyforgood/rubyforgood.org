@@ -3289,15 +3289,15 @@ h3.faq-title {
   text-underline-offset: 0.3em;
 }
 
-div.faq a > i.fas,
-div.faq a > i.fab,
-div.faq a > i.far {
+div.faq a>i.fas,
+div.faq a>i.fab,
+div.faq a>i.far {
   color: #f2454e;
 }
 
-div.faq a:hover > i.fas,
-div.faq a:hover > i.fab,
-div.faq a:hover > i.far {
+div.faq a:hover>i.fas,
+div.faq a:hover>i.fab,
+div.faq a:hover>i.far {
   color: #fdd14a;
   transition: all 0.2s ease-out 0s;
 }
