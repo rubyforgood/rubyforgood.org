@@ -264,6 +264,11 @@
   .title-header > h2 {
     font-size: 3.8rem;
   }
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+    grid-column-gap: 2vw;
+    grid-row-gap: 3vw;
+  }
 }
 
 /* SM Small Device :550px. */

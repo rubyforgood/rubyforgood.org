@@ -1,29 +1,20 @@
 <section class="pb-70">
-  <div class="container">
-    <div class="row">
-      {% assign projects = site.our-projects | sort: "title" | reverse %}
-      <!-- prettier-ignore -->
-      {% for project in projects %}
-      <div class="col-6 col-md-4 col-lg-3 mb-30">
-        <div class="single-project">
-          <a href="{{ project.website }}" target="_blank">
-            <div class="project-img">
-              <img
-                src="{{site.baseurl}}{{ project.image }}"
-                alt="{{ project.title }}"
-                class="img-fluid mx-auto d-block"
-              />
-            </div>
-            <div class="project-info text-center">
-              <h3>{{ project.title }}</h3>
-            </div>
-          </a>
-        </div>
+  <div class="projects-grid container">
+    {% assign projects = site.our-projects | sort: "title" | reverse %}
+    <!-- prettier-ignore -->
+    {% for project in projects %}
+    <a href="{{ project.website }}" class="single-project" target="_blank">
+      <div class="project-img">
+        <img
+          src="{{site.baseurl}}{{ project.image }}"
+          alt="{{ project.title }}"
+          class="img-fluid mx-auto d-block"
+        />
       </div>
-      <!-- /col-3 col-md-6 -->
-      {% endfor %}
-    </div>
-    <!-- /row -->
+      <div class="project-info text-center">
+        <h3>{{ project.title }}</h3>
+      </div>
+    </a>
+    {% endfor %}
   </div>
-  <!-- /container -->
 </section>
