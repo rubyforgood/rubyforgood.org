@@ -48,84 +48,6 @@
       "node_modules/**"
     ]
   },
-  "eslintConfig": {
-    "env": {
-      "browser": true,
-      "node": true,
-      "es6": true,
-      "es2017": true,
-      "jquery": true
-    },
-    "plugins": [
-      "prettier"
-    ],
-    "extends": [
-      "eslint:recommended",
-      "prettier"
-    ],
-    "rules": {
-      "curly": [
-        "error",
-        "all"
-      ],
-      "no-tabs": [
-        "error",
-        {
-          "allowIndentationTabs": true
-        }
-      ],
-      "no-console": "off",
-      "semi": "warn",
-      "prettier/prettier": [
-        "error",
-        {},
-        {
-          "usePrettierrc": false
-        }
-      ],
-      "arrow-body-style": "off",
-      "prefer-arrow-callback": "off"
-    },
-    "parser": "babel-eslint",
-    "parserOptions": {
-      "ecmaVersion": 8,
-      "sourceType": "module",
-      "allowImportExportEverywhere": true,
-      "ecmaFeatures": {
-        "jsx": true
-      }
-    },
-    "ignorePatterns": [
-      "assets/**/*.min.css",
-      "assets/**/*.min.js",
-      "*.css",
-      "*.json",
-      "_site",
-      "_site/**",
-      ".sass-cache",
-      ".jekyll-cache",
-      ".jekyll-metadata",
-      "_config.yml",
-      "_layouts/default.html",
-      "node_modules/**"
-    ]
-  },
-  "prettier": {
-    "tabWidth": 2,
-    "useTabs": false,
-    "htmlWhitespaceSensitivity": "ignore",
-    "overrides": [
-      {
-        "files": "**/*.js",
-        "excludeFiles": "**/*.min.js",
-        "options": {
-          "singleQuote": true,
-          "trailingComma": "none",
-          "semi": false
-        }
-      }
-    ]
-  },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{css,less,sass,scss,html,md,markdown}": "stylelint --fix"
@@ -133,13 +55,18 @@
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/eslint-parser": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "prettier": "2.2.1",
     "stylelint": "13.13.1",
     "stylelint-config-prettier": "8.0.2",
     "stylelint-config-standard": "^22.0.0"
+  },
+  "dependencies": {
+    "core-js": "^3.17.2"
   }
 }
