@@ -1,0 +1,20 @@
+# The node_modules directory is ignored by default.
+
+**/*.min.css # Revist
+**/*.min.js # Revist
+*.js
+*.json
+_site
+_site/**
+_config.yml
+_layouts/default.html
+babel.config.js
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.eslintcache
+.eslintignore
+.gitignore
+.prettierrc
+.ruby-version
+.tool-versions
