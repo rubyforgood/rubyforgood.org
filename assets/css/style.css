@@ -3000,6 +3000,8 @@ h3.project-sidebar-header {
   position: relative;
   width: 25.5rem;
   height: 25.5rem;
+  max-width: 100%;
+  max-height: 44vw;
   overflow: hidden;
   padding: 2rem;
   border: 2px solid #51a4a1;
@@ -3018,7 +3020,7 @@ h3.project-sidebar-header {
   right: 0;
   margin: auto;
   transition: 0.5s;
-  padding: 1rem;
+  padding: 1rem min(1vw, 1rem);
   border: solid 2px #03777e;
   border-radius: 3%;
   -webkit-box-shadow: inset 1px 1px 10px #af0b13, inset -1px -1px 10px #af0b13;
@@ -3032,7 +3034,7 @@ h3.project-sidebar-header {
 
 .project-info h3 {
   color: #fff;
-  font-size: 2rem;
+  font-size: min(3.5vw, 2rem);
   margin-bottom: 0.5rem;
 }
 
@@ -3147,7 +3149,7 @@ li.npp-content {
 .icon::before {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  display: inline-block; 
+  display: inline-block;
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
@@ -3285,15 +3287,15 @@ h3.faq-title {
   text-underline-offset: 0.3em;
 }
 
-div.faq a>i.fas,
-div.faq a>i.fab,
-div.faq a>i.far {
+div.faq a > i.fas,
+div.faq a > i.fab,
+div.faq a > i.far {
   color: #f2454e;
 }
 
-div.faq a:hover>i.fas,
-div.faq a:hover>i.fab,
-div.faq a:hover>i.far {
+div.faq a:hover > i.fas,
+div.faq a:hover > i.fab,
+div.faq a:hover > i.far {
   color: #fdd14a;
   transition: all 0.2s ease-out 0s;
 }
