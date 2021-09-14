@@ -9,3 +9,4 @@ _site/**
 _config.yml
 _layouts/default.html
 babel.config.js
+.eslintrc.js
