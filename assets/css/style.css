@@ -2999,7 +2999,7 @@ h3.project-sidebar-header {
   background-color: #c0bfbd;
   position: relative;
   width: 25.5rem;
-  height: 25.5rem;
+  height: auto;
   max-width: 100%;
   max-height: 44vw;
   overflow: hidden;
