@@ -52,7 +52,7 @@
   {% if page.post_image %}
     <meta content="{{ page.post_image }}" property="og:image">
   {% else %}
-    <meta content="{{ site.cover_image }}" property="og:image">
+    <meta content="{{ site.social_share_image }}" property="og:image">
   {% endif %}
 
   {% if page.date %}
@@ -81,7 +81,7 @@
     <meta name="twitter:image" content="{{ site.url }}{{ page.post_image }}">
   {% else %}
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="{{ site.cover_image }}">
+    <meta name="twitter:image" content="{{ site.social_share_image }}">
   {% endif %}
   <!-- End Twitter cards -->
 
