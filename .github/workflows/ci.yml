@@ -1,0 +1,22 @@
+name: CI
+
+on: [push]
+
+jobs:
+  verify:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Set up Ruby and run bundle install
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7.1
+          bundler-cache: true
+      - name: Show Ruby version
+        run: ruby -v
+      - name: npm install
+        run: npm install
+      - name: npm run test
+        run: npm run test
