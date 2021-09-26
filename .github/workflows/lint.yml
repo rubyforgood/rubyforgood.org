@@ -20,7 +20,7 @@ jobs:
         run: npm install
       # - name: JS
       #   run: npm run lint:js     // Applies to JS files only
-      - name: Style
-        run: npm run lint:style  // Applies to CSS, Less, Sass, and SCSS files
+      # - name: Style
+      #   run: npm run lint:style  // Applies to CSS, Less, Sass, and SCSS files
       - name: text
         run: npm run lint:text   // Applies to HTML and Markdown files
