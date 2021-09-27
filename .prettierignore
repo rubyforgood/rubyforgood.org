@@ -1,13 +1,10 @@
-# The node_modules directory is ignored by default.
-
-**/*.min.css # Revist
-**/*.min.js # Revist
-*.js
-*.json
+*.min.*
 _site
 _site/**
 _config.yml
 _layouts/default.html
+node_modules/
+vendor
 babel.config.js
 .sass-cache
 .jekyll-cache
@@ -18,3 +15,5 @@ babel.config.js
 .prettierrc
 .ruby-version
 .tool-versions
+.DS_Store
+.idea
