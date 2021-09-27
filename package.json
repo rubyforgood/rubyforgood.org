@@ -1,7 +1,7 @@
 {
   "name": "rubyforgood.org",
   "description": "Contributors are welcome to take on open issues that are marked \"help wanted\"! Please comment on the issue if you need more clarity/information or DM @meg-gutshall on the Ruby for Good Slack.",
-  "author": "",
+  "author": "Ruby for Good Team",
   "license": "ISC",
   "main": "index.js",
   "version": "1.0.0",
@@ -14,19 +14,26 @@
   },
   "homepage": "https://github.com/rubyforgood/rubyforgood.org#readme",
   "scripts": {
-    "test": "bundle exec jekyll serve --livereload",
+    "preview": "bundle exec jekyll serve --livereload",
     "blog-preview": "bundle exec jekyll serve --drafts --future --livereload",
     "build": "bundle exec jekyll build",
     "doctor": "bundle exec jekyll doctor",
     "lint:js": "eslint \"**/*.js\" --cache --fix",
-    "lint:style": "stylelint \"**/*.{css,less,sass,scss}\" --fix",
-    "lint:text": "stylelint \"**/*.{html,md,markdown}\" --fix",
-    "stylelint-check": "stylelint-config-prettier-check",
+    "lint:style": "stylelint \"**/*.{css,scss}\" --fix",
+    "lint:text": "stylelint \"**/*.{html,md}\" --fix",
+    "rule-check": "stylelint-config-prettier-check",
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.{css,less,sass,scss,html,md,markdown}": "stylelint --fix"
+    "*.js": [
+      "eslint --cache --fix"
+    ],
+    "*.{css,scss,html,md}": [
+      "stylelint --fix"
+    ],
+    "*.{js,json,css,scss,html,md}": [
+      "prettier --write"
+    ]
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
