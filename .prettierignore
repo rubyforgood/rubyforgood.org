@@ -1,4 +1,5 @@
-*.min.*
+assets/**/*.min.css
+assets/**/*.min.js
 _site
 _site/**
 _config.yml
@@ -10,9 +11,10 @@ babel.config.js
 .jekyll-cache
 .jekyll-metadata
 .eslintcache
-.eslintignore
+.eslintrc.js
+.stylelintrc
+.prettierrc.js
 .gitignore
-.prettierrc
 .ruby-version
 .tool-versions
 .DS_Store
