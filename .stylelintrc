@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-sass-guidelines",
+    "stylelint-config-prettier"
+  ],
+  "ignoreFiles": ["**/*.min.css", "/node_modules"],
+  "rules": {
+    "no-descending-specificity": null,
+    "declaration-block-single-line-max-declarations": null
+  }
+}

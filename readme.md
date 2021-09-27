@@ -8,9 +8,16 @@ When submitting your pull request, please submit to the `dev` branch as this is 
 
 ### Getting Started
 
-Fork this repository and clone it down to your computer. Create a new branch that describes what you're working on.
+Fork this repository and clone it down to your computer. Create a new branch that describes what you're working on. Then, run `bundle install` and `npm install` to make sure you have all the gems and packages you need.
 
-We built this site using Jekyll and it's hosted via GitHub pages. We used ruby 2.7.1 and bundler 2.1.4 on the initial build and dot files are included for both rbenv and asdf ruby managers. Lastly run `npm install` to make sure you have all the packages needed.
+We built this site using Jekyll and it's hosted via GitHub pages. We used Ruby with Bundler on the initial build and have since added NodeJS. We've included dot files that support both rbenv (.ruby-version) and asdf (.tool-versions) ruby managers for your convenience.
+
+#### Tool Versioning
+
+- Ruby 2.7.1
+- Bundler 2.1.4
+- NodeJS 16.1.0
+- NPM 7.22.0
 
 ### Useful Commands
 
