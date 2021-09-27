@@ -18,20 +18,24 @@
     "blog-preview": "bundle exec jekyll serve --drafts --future --livereload",
     "build": "bundle exec jekyll build",
     "doctor": "bundle exec jekyll doctor",
-    "lint:js": "eslint \"**/*.js\" --cache --fix",
-    "lint:style": "stylelint \"**/*.{css,scss}\" --fix",
-    "lint:text": "stylelint \"**/*.{html,md}\" --fix",
+    "lint:js": "eslint \"./assets/**/*.js\" --cache --fix",
+    "lint:style": "stylelint \"./assets/**/*.{css,scss}\" --fix",
+    "lint:text": "stylelint \"*.{html,md}\" --fix",
     "rule-check": "stylelint-config-prettier-check",
     "prepare": "husky install"
   },
+  "eslintIgnore": ["./babel.config.js", "./.eslintrc.js", "assets/**/*.min.js"],
   "lint-staged": {
-    "*.js": [
-      "eslint --cache --fix"
+    "./assets/**/*.js": [
+      "eslint --cache --fix",
+      "prettier --write"
     ],
-    "*.{css,scss,html,md}": [
-      "stylelint --fix"
+    "./assets/**/*.{css,scss}": [
+      "stylelint --fix",
+      "prettier --write"
     ],
-    "*.{js,json,css,scss,html,md}": [
+    "**/*.{html,md}": [
+      "stylelint --fix",
       "prettier --write"
     ]
   },
