@@ -10,25 +10,26 @@
   .wrapper-box.wrapper-padding {
     padding: 0;
   }
-
   .md-margin {
     margin-top: 50px;
   }
-  blockquote::before {
-    left: 40px;
-  }
-  blockquote::after {
-    right: 40px;
-  }
   blockquote {
     padding: 0 85px;
+    &::after {
+      right: 40px;
+    }
+    &::before {
+      left: 40px;
+    }
   }
-  .team-info h3 {
-    font-size: 16px;
-    margin-bottom: 2px;
-  }
-  .team-info span {
-    font-size: 12px;
+  .team-info {
+    h3 {
+      font-size: 16px;
+      margin-bottom: 2px;
+    }
+    span {
+      font-size: 12px;
+    }
   }
   .theme-section-title.service-title p {
     padding: 0 100px;
@@ -58,11 +59,13 @@
   .logo img {
     margin-top: 20px;
   }
-  .slider-content h1 {
-    font-size: 54px;
-  }
-  .slider-content p {
-    font-size: 15px;
+  .slider-content {
+    h1 {
+      font-size: 54px;
+    }
+    p {
+      font-size: 15px;
+    }
   }
   .slider-bg {
     height: 600px;
@@ -70,14 +73,14 @@
   .about-img img {
     width: 100%;
   }
-  blockquote::before {
-    display: none;
-  }
-  blockquote::after {
-    display: none;
-  }
   blockquote {
     padding: 0 10px;
+    &::after {
+      right: none;
+    }
+    &::before {
+      left: none;
+    }
   }
   .theme-section-title.service-title p {
     padding: 0;
@@ -85,11 +88,13 @@
   .single-cta i {
     margin-top: 6px;
   }
-  .cta-text h4 {
-    font-size: 18px;
-  }
-  .cta-text span {
-    font-size: 12px;
+  .cta-text {
+    h4 {
+      font-size: 18px;
+    }
+    span {
+      font-size: 12px;
+    }
   }
   .footer-pattern img {
     width: 100%;
@@ -101,8 +106,13 @@
   .contact-form-title p {
     width: 70%;
   }
-  .call-to-action a {
-    padding: 18px 30px;
+  .call-to-action {
+    a {
+      padding: 18px 30px;
+    }
+    h3 {
+      font-size: 26px;
+    }
   }
   .related-project-title.theme-section-title p {
     padding: 0;
@@ -113,16 +123,13 @@
   }
   .client-text {
     padding: 0;
-  }
-  .client-text::before,
-  .client-text::after {
-    display: none;
+    &::before,
+    &::after {
+      display: none;
+    }
   }
   .menu-margin-bottom {
     margin-bottom: 0;
-  }
-  .call-to-action h3 {
-    font-size: 26px;
   }
   .sm-mt {
     margin-top: 60px;
@@ -173,24 +180,26 @@
   .portfolio-thumb img {
     width: 100%;
   }
-  blockquote::before {
-    display: none;
-  }
-  blockquote::after {
-    display: none;
-  }
   blockquote {
     padding: 0;
+    &::after {
+      right: none;
+    }
+    &::before {
+      left: none;
+    }
   }
   .footer-pattern img {
     width: 100%;
   }
-  .about-info-text h2 {
-    font-size: 24px;
-  }
-  .about-info-text p {
-    font-size: 14px;
-    padding: 0;
+  .about-info-text {
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 14px;
+      padding: 0;
+    }
   }
   .contact-form-title p {
     width: 100%;
@@ -208,10 +217,10 @@
   .client-text {
     font-size: 14px;
     padding: 0;
-  }
-  .client-text::before,
-  .client-text::after {
-    display: none;
+    &::before,
+    &::after {
+      display: none;
+    }
   }
   .white-text h3 {
     font-size: 30px;
@@ -251,12 +260,12 @@
     float: none;
     margin-bottom: 20px;
     width: 83px;
+    img {
+      width: 100%;
+    }
   }
   .comments-text {
     padding-left: 0;
-  }
-  .comments-avatar img {
-    width: 100%;
   }
   .block-header > h2 {
     font-size: 2.6rem;
@@ -287,9 +296,9 @@
   .comments-avatar {
     float: left;
     width: 103px;
-  }
-  .comments-avatar img {
-    width: 100%;
+    img {
+      width: 100%;
+    }
   }
   .comments-text {
     overflow: hidden;
