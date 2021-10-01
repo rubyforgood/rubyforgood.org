@@ -80,7 +80,7 @@
     padding: 0 10px;
   }
   .theme-section-title.service-title p {
-    padding: 0 0;
+    padding: 0;
   }
   .single-cta i {
     margin-top: 6px;
@@ -95,8 +95,8 @@
     width: 100%;
   }
   .about-info-text p {
-    padding: 0;
     font-size: 16px;
+    padding: 0;
   }
   .contact-form-title p {
     width: 70%;
@@ -189,8 +189,8 @@
     font-size: 24px;
   }
   .about-info-text p {
-    padding: 0;
     font-size: 14px;
+    padding: 0;
   }
   .contact-form-title p {
     width: 100%;
@@ -206,8 +206,8 @@
     display: none;
   }
   .client-text {
-    padding: 0;
     font-size: 14px;
+    padding: 0;
   }
   .client-text::before,
   .client-text::after {
@@ -249,8 +249,8 @@
   }
   .comments-avatar {
     float: none;
-    width: 83px;
     margin-bottom: 20px;
+    width: 83px;
   }
   .comments-text {
     padding-left: 0;
