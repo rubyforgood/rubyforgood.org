@@ -7,6 +7,9 @@
   "ignoreFiles": ["**/*.min.css", "/node_modules"],
   "rules": {
     "no-descending-specificity": null,
-    "declaration-block-single-line-max-declarations": null
+    "declaration-block-single-line-max-declarations": null,
+    "selector-no-qualifying-type": [true, {"ignore": ["class"]}],
+    "selector-max-compound-selectors": 4,
+    "max-nesting-depth": 4
   }
 }
