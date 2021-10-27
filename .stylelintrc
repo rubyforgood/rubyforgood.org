@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-sass-guidelines",
+    "stylelint-config-prettier"
+  ],
+  "ignoreFiles": ["**/*.min.css", "/node_modules"],
+  "rules": {
+    "no-descending-specificity": null,
+    "declaration-block-single-line-max-declarations": null,
+    "selector-no-qualifying-type": [true, {"ignore": ["class"]}],
+    "selector-max-compound-selectors": 4,
+    "max-nesting-depth": 4,
+    "selector-max-id": 2
+  },
+  "overrides": [
+    {
+      "files": ["**/*.scss"],
+      "customSyntax": "postcss-scss"
+    },
+    {
+      "files": ["**/*.html"],
+      "customSyntax": "postcss-html"
+    }
+  ]
+}
