@@ -43,17 +43,17 @@
     "@babel/core": "^7.15.5",
     "@babel/eslint-parser": "^7.15.4",
     "@babel/preset-env": "^7.15.4",
-    "eslint": "^7.32.0",
+    "eslint": "8.1.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-unicorn": "^36.0.0",
+    "eslint-plugin-unicorn": "^37.0.1",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
-    "prettier": "2.2.1",
-    "stylelint": "13.13.1",
-    "stylelint-config-prettier": "8.0.2",
+    "prettier": "2.4.1",
+    "stylelint": "14.0.1",
+    "stylelint-config-prettier": "9.0.3",
     "stylelint-config-sass-guidelines": "^8.0.0",
-    "stylelint-config-standard": "^22.0.0"
+    "stylelint-config-standard": "^23.0.0"
   },
   "dependencies": {
     "core-js": "^3.17.2"
