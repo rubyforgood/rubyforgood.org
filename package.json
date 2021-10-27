@@ -24,7 +24,11 @@
     "rule-check": "stylelint-config-prettier-check",
     "prepare": "husky install"
   },
-  "eslintIgnore": ["./babel.config.js", "./.eslintrc.js", "assets/**/*.min.js"],
+  "eslintIgnore": [
+    "./babel.config.js",
+    "./.eslintrc.js",
+    "assets/**/*.min.js"
+  ],
   "lint-staged": {
     "./assets/**/*.js": [
       "eslint --cache --fix",
@@ -49,6 +53,8 @@
     "eslint-plugin-unicorn": "^37.0.1",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
+    "postcss": "^8.3.11",
+    "postcss-scss": "^4.0.1",
     "prettier": "2.4.1",
     "stylelint": "14.0.1",
     "stylelint-config-prettier": "9.0.3",
