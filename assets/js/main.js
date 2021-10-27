@@ -49,7 +49,7 @@
     })
     BasicSlider.slick({
       autoplay: true,
-      autoplaySpeed: 20000,
+      autoplaySpeed: 20_000,
       fade: true,
       prevArrow:
         '<button type="button" class="slick-prev"><i class="icofont-long-arrow-left"></i>Prev</button>',
@@ -169,7 +169,7 @@
   $('.testimonial-active').owlCarousel({
     loop: true,
     autoplay: true,
-    autoplayTimeout: 10000,
+    autoplayTimeout: 10_000,
     autoplaySpeed: 2000,
     margin: 10,
     autoHeight: true,
@@ -246,7 +246,7 @@
   })
 
   // $.scrollUp({
-  //   scrollName: "scrollUp", // Element ID
+  //   scrollName: "scroll-up", // Element ID
   //   topDistance: "300", // Distance from top before showing element (px)
   //   topSpeed: 300, // Speed back to top (ms)
   //   animation: "fade", // Fade, slide, none
@@ -268,7 +268,7 @@
   $('.project-slider-active').owlCarousel({
     loop: true,
     autoplay: true,
-    autoplayTimeout: 10000,
+    autoplayTimeout: 10_000,
     autoplaySpeed: 2000,
     margin: 10,
     autoHeight: true,
