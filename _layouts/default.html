@@ -57,7 +57,7 @@
 
   {% if page.date %}
     <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-  {% endif %}	
+  {% endif %}
   <!-- End Facebook Open Graph -->
 
   <!-- Twitter cards -->
@@ -68,7 +68,7 @@
     <meta name="twitter:title" content="{{ page.title }}">
   {% else %}
     <meta name="twitter:title" content="{{ site.title }}">
-  {% endif %}	
+  {% endif %}
 
   {% if page.description %}
     <meta name="twitter:description" content="{{ page.description }}">
@@ -93,7 +93,7 @@
       {{site.title}}
     {% endif %}
   </title>
-  
+
   <!-- Favicon Image Asset Path -->
   <link rel="icon" href="{{site.baseurl}}/assets/img/favicon.png">
 
@@ -101,52 +101,52 @@
   <!-- The most popular front-end framework for developing responsive, mobile first projects on the web -->
   <!-- https://getbootstrap.com/ -->
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/bootstrap.min.css">
-  
+
   <!-- Font Awesome -- Icon Font CDN Script Tag -->
   <!-- The web's most popular icon set and toolkit -->
   <!-- https://fontawesome.com/ -->
   <script src="https://kit.fontawesome.com/df383da397.js" crossorigin="anonymous"></script>
-  
+
   <!-- Linearicons -- Icon Font CDN Script Tag -->
   <!-- Ultra crisp line icons with integrity -->
   <!-- https://linearicons.com/ -->
   <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-  
+
   <!-- slick -- CSS CDN Script Tag -->
   <!-- The last carousel you'll ever need -->
   <!-- https://github.com/kenwheeler/slick -->
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/slick.css">
-  
+
   <!-- OwlCarousel2 (DEPRECATED) -- CSS CDN Script Tag -->
   <!-- Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider -->
   <!-- https://github.com/OwlCarousel2/OwlCarousel2 -->
   <!-- TODO: Switch to slick (https://github.com/kenwheeler/slick) or Tiny Slider 2 (https://github.com/ganlanyuan/tiny-slider) -->
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/owl.carousel.min.css">
-  
+
   <!-- Animate.css -- CSS CDN Script Tag -->
   <!-- Plug and play, app-like animations for your websites and web apps -->
   <!-- https://github.com/animate-css/animate.css -->
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/animate.min.css">
-  
+
   <!-- Magnific Popup -- CSS CDN Script Tag -->
   <!-- Lightbox and modal dialog plugin -->
   <!-- https://github.com/dimsemenov/Magnific-Popup -->
   <!-- TODO: Repo is not maintained. See if we need to find an alternate plug-in. -->
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/magnific-popup.css">
-  
+
   <!-- MeanMenu -- Local CSS Asset File -->
   <!-- A responsive menu plug-in -->
   <!-- https://github.com/meanthemes/meanMenu -->
   <!-- TODO: Repo is not maintained. See if we need to find an alternate plug-in. -->
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/meanmenu.css">
-  
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/meanmenu.scss">
+
   <!-- Custom Local CSS Asset Files -->
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/default.css">
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
-  
+
   <!-- Custom Local CSS Asset File -->
   <!-- Predetermined responsive styling for specific devices -->
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/responsive.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/responsive.scss">
 
 </head>
 
@@ -163,50 +163,50 @@
   <script src="{{site.baseurl}}/assets/js/jquery-1.12.4.min.js"></script>
   <script src="{{site.baseurl}}/assets/js/popper.min.js"></script>
   <script src="{{site.baseurl}}/assets/js/bootstrap.min.js"></script>
-  
+
   <!-- slick -- JS CDN Script Tag -->
   <!-- The last carousel you'll ever need -->
   <!-- https://github.com/kenwheeler/slick -->
   <script src="{{site.baseurl}}/assets/js/slick.min.js"></script>
-  
+
   <!-- Isotope -- JS CDN Script Tag -->
   <!-- Filter and sort magical layouts -->
   <!-- https://github.com/metafizzy/isotope -->
   <script src="{{site.baseurl}}/assets/js/isotope.pkgd.min.js"></script>
-  
+
   <!-- imagesLoaded -- JS CDN Script Tag -->
   <!-- You images done yet or what? -->
   <!-- https://github.com/desandro/imagesloaded -->
   <script src="{{site.baseurl}}/assets/js/imagesloaded.pkgd.min.js"></script>
-  
+
   <!-- Waypoints -- JS CDN Script Tag -->
   <!-- Easily execute a function when you scroll to an element -->
   <!-- https://github.com/imakewebthings/waypoints -->
   <script src="{{site.baseurl}}/assets/js/jquery.waypoints.min.js"></script>
-  
+
   <!-- Counter-Up -- Local JS Asset File -->
   <!-- A lightweight jQuery plugin that counts up to a targeted number when the number becomes visible -->
   <!-- https://github.com/bfintal/Counter-Up -->
   <script src="{{site.baseurl}}/assets/js/jquery.counterup.min.js"></script>
-  
+
   <!-- OwlCarousel2 (DEPRECATED) -- JS CDN Script Tag -->
   <!-- Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider -->
   <!-- https://github.com/OwlCarousel2/OwlCarousel2 -->
   <!-- TODO: Switch to slick (https://github.com/kenwheeler/slick) or Tiny Slider 2 (https://github.com/ganlanyuan/tiny-slider) -->
   <script src="{{site.baseurl}}/assets/js/owl.carousel.min.js"></script>
-  
+
   <!-- MeanMenu -- Local JS Asset File -->
   <!-- A responsive menu plug-in -->
   <!-- https://github.com/meanthemes/meanMenu -->
   <!-- TODO: Repo is not maintained. See if we need to find an alternate plug-in. -->
   <script src="{{site.baseurl}}/assets/js/jquery.meanmenu.min.js"></script>
-  
+
   <!-- Magnific Popup -- JS CDN Script Tag -->
   <!-- Lightbox and modal dialog plugin -->
   <!-- https://github.com/dimsemenov/Magnific-Popup -->
   <!-- TODO: Repo is not maintained. See if we need to find an alternate plug-in. -->
   <script src="{{site.baseurl}}/assets/js/jquery.magnific-popup.min.js"></script>
-  
+
   <!-- ScrollUp -- JS CDN Script Tag -->
   <!-- A jQuery plugin to create a customizable 'Scroll to top' feature that will work with any website, with ease -->
   <!-- https://github.com/markgoodyear/scrollup -->
