@@ -21,6 +21,10 @@
     {
       "files": ["**/*.html"],
       "customSyntax": "postcss-html"
+    },
+    {
+      "files": ["**/*.md", "**/*.markdown"],
+      "customSyntax": "postcss-markdown"
     }
   ]
 }
