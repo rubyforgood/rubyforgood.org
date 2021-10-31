@@ -1,4 +1,5 @@
 **/*.min.css
+**/*.md
 node_modules/
 _site
 _site/**
