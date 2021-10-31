@@ -44,9 +44,11 @@ If you'd like to lint your code before you stage it, you can do so with the
 following commands:
 
 ```bash
+npm run lint        // Lints all files (i.e. corrects them syntactically for this codebase)
 npm run lint:js     // Applies to JS files only
-npm run lint:style  // Applies to CSS, Less, Sass, and SCSS files
-npm run lint:text   // Applies to HTML and Markdown files
+npm run lint:style  // Applies to CSS and SCSS files only
+npm run lint:text   // Applies to Markdown files only
+npm run prettier    // Formats and styles all files
 ```
 
 You will not be able to successfully commit your work until all errors are
