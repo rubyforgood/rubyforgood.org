@@ -11,7 +11,9 @@ categories:
   - category: "community building"
   - category: "youth issues"
 mission:
-  - paragraph: "SnapFresh helps you find the closest places that accept EBT cards (Food Stamps/SNAP). We use Yelp to try and show the healthier places first."
+  - paragraph:
+      "SnapFresh helps you find the closest places that accept EBT cards (Food
+      Stamps/SNAP). We use Yelp to try and show the healthier places first."
 built_by_rfg:
   - paragraph: "------ ADD INFO HERE ------"
 scope_and_impact:

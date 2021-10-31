@@ -54,4 +54,7 @@ cleared.
 
 ## Going Deeper
 
-Please see our newly created [Ruby for Good Website Wiki](https://github.com/rubyforgood/rubyforgood.org/wiki) to learn more about the project! Content will be continually added there. Also keep an eye out for project boards in the future!
+Please see our newly created
+[Ruby for Good Website Wiki](https://github.com/rubyforgood/rubyforgood.org/wiki)
+to learn more about the project! Content will be continually added there. Also
+keep an eye out for project boards in the future!

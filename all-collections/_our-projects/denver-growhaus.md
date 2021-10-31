@@ -13,9 +13,13 @@ categories:
   - category: "advocacy"
   - category: "youth issues"
 mission:
-  - paragraph: "The GrowHaus’ food distribution programs offer healthy and affordable food options."
+  - paragraph:
+      "The GrowHaus’ food distribution programs offer healthy and affordable
+      food options."
 built_by_rfg:
-  - paragraph: "A statistics recording and tracking application made for the folks at The GrowHaus."
+  - paragraph:
+      "A statistics recording and tracking application made for the folks at The
+      GrowHaus."
 scope_and_impact:
 
 slider:

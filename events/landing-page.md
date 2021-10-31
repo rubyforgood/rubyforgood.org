@@ -6,10 +6,10 @@ bg: grey-bg
 style:
 permalink: /events
 blocks:
-  - type: 
-    title: 
+  - type:
+    title:
     description:
-    bg: 
+    bg:
     style:
 ---
 

@@ -20,9 +20,21 @@ categories:
   - category: "foster care"
   - category: "youth issues"
 mission:
-  - paragraph: "Mutual aid groups are community groups that member-led, member-organized, and open to all to participate in. Mutual aid participants work together to figure out strategies and resources to meet each others' needs, such as food, housing, medical care, and disaster relief.  Typically one member requests something and they are matched with a member who wishes to contribute that very thing."
+  - paragraph:
+      "Mutual aid groups are community groups that member-led, member-organized,
+      and open to all to participate in. Mutual aid participants work together
+      to figure out strategies and resources to meet each others' needs, such as
+      food, housing, medical care, and disaster relief.  Typically one member
+      requests something and they are matched with a member who wishes to
+      contribute that very thing."
 built_by_rfg:
-  - paragraph: "Many people working in mutual aid were overwhelmed by requests early this year due to the COVID pandemic. Some of these groups were relying on dispatchers to match up people who could help each other. These dispatchers were in turn relying on spreadsheets, and the spreadsheets grew to be unmanageable. We've created an app to support this work, currently used by seven mutual aid groups in cities across the country."
+  - paragraph:
+      "Many people working in mutual aid were overwhelmed by requests early this
+      year due to the COVID pandemic. Some of these groups were relying on
+      dispatchers to match up people who could help each other. These
+      dispatchers were in turn relying on spreadsheets, and the spreadsheets
+      grew to be unmanageable. We've created an app to support this work,
+      currently used by seven mutual aid groups in cities across the country."
 scope_and_impact:
 
 slider:

@@ -6,10 +6,10 @@ bg: grey-bg
 style:
 permalink: /events/team-leads
 blocks:
-  - type: 
-    title: 
+  - type:
+    title:
     description:
-    bg: 
+    bg:
     style:
 ---
 

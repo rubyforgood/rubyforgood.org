@@ -17,12 +17,16 @@ blocks:
     style:
   - type: impact_counter
     title: Our Impact Metrics
-    description: We are incredibly proud to share our impact metrics since our founding in 2013.
+    description:
+      We are incredibly proud to share our impact metrics since our founding in
+      2013.
     bg: grey-bg
     style: counter-section
   - type: our_supporters
     title: Our Supporters
-    description: We are privileged to partner with the companies listed below, that trust us and believe in our mission.
+    description:
+      We are privileged to partner with the companies listed below, that trust
+      us and believe in our mission.
     bg: white-bg
     style:
 ---

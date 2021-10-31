@@ -11,7 +11,9 @@ categories:
 mission:
   - paragraph: "RSpec is a testing framework commonly used in Ruby on Rails."
 built_by_rfg:
-  - paragraph: "Ruby for Good had a team helping work on this open source project during our event."
+  - paragraph:
+      "Ruby for Good had a team helping work on this open source project during
+      our event."
 scope_and_impact:
 
 slider:

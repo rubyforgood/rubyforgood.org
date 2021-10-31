@@ -174,30 +174,30 @@
 <script src="https://js.stripe.com/v3/"></script>
 <script>
   // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
-  var PUBLISHABLE_KEY = "pk_live_8GGxzNf3baRkezsBLlQwCYwY";
+  var PUBLISHABLE_KEY = "pk_live_8GGxzNf3baRkezsBLlQwCYwY"
   // Replace with the domain you want your users to be redirected back to after payment
-  var DOMAIN = "https://rubyforgood.org";
+  var DOMAIN = "https://rubyforgood.org"
 
-  var stripe = Stripe(PUBLISHABLE_KEY);
+  var stripe = Stripe(PUBLISHABLE_KEY)
 
   // Handle any errors from Checkout
   var handleResult = function (result) {
     if (result.error) {
-      var displayError = document.getElementById("error-message");
-      displayError.textContent = result.error.message;
+      var displayError = document.getElementById("error-message")
+      displayError.textContent = result.error.message
     }
-  };
+  }
 
   document.querySelectorAll("button").forEach(function (button) {
     button.addEventListener("click", function (e) {
-      var mode = e.target.dataset.checkoutMode;
-      var priceId = e.target.dataset.priceId;
+      var mode = e.target.dataset.checkoutMode
+      var priceId = e.target.dataset.priceId
       var items = [
         {
           price: priceId,
           quantity: 1,
         },
-      ];
+      ]
 
       // Make the call to Stripe.js to redirect to the checkout page
       // with the sku or plan ID.
@@ -208,7 +208,7 @@
           successUrl: DOMAIN + `/success?session_id={CHECKOUT_SESSION_ID}`,
           cancelUrl: DOMAIN + `?session_id={CHECKOUT_SESSION_ID}`,
         })
-        .then(handleResult);
-    });
-  });
+        .then(handleResult)
+    })
+  })
 </script>

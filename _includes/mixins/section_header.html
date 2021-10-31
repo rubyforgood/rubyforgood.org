@@ -2,7 +2,16 @@
   <div class="container">
     <div class="row justify-content-center">
       <div
-        class="col-xl-10 col-12 text-center{% unless page.description %} pb-30{% endunless %}"
+        class="
+          col-xl-10 col-12
+          text-center{%
+          unless
+          page.description
+          %}
+          pb-30{%
+          endunless
+          %}
+        "
       >
         <div
           class="title-header {% if title.style %}{{ title.style }}{% endif %}"
