@@ -39,7 +39,7 @@
       "npm run prettier"
     ],
     "**/*.md": [
-      "npm run lint-markdown",
+      "npm run lint-md",
       "npm run prettier"
     ]
   },
