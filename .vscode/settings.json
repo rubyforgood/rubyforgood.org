@@ -1,0 +1,11 @@
+{
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "postcss.validate": false,
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "stylelint.enable": true,
+  "stylelint.validate": ["css", "postcss"]
+}

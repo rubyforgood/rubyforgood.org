@@ -7,23 +7,22 @@ description: > # this means to ignore newlines until "baseurl:"
   Making the world gooder.
 baseurl: '' # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
-# facebook_url: 
+# facebook_url:
 twitter_url: https://twitter.com/RubyforGood
 github_url: https://github.com/rubyforgood/
-# pinterest_url: 
+# pinterest_url:
 linkedin_url: https://www.linkedin.com/company/ruby-for-good/
-# instagram_url: 
+# instagram_url:
 twitch_url: https://www.twitch.tv/rubyforgood
-classic-logo: "/assets/img/logos/classic-logo.png"
-white-logo: "/assets/img/logos/white-logo.png"
-special-logo: "/assets/img/logos/special-logo.png"
-mailchimp_list: "https://rubyforgood.us8.list-manage.com/subscribe/post?u=2eec95e401f96687d14f4af24&amp;id=65f831bb77"
-mailchimp_input_name: "b_2eec95e401f96687d14f4af24_65f831bb77"
-cover_image: "/assets/img/theme-stock/bg/page-title.jpg"
-social_share_image: "/assets/img/stock/hero44.jpg"
+classic-logo: '/assets/img/logos/classic-logo.png'
+white-logo: '/assets/img/logos/white-logo.png'
+special-logo: '/assets/img/logos/special-logo.png'
+mailchimp_list: 'https://rubyforgood.us8.list-manage.com/subscribe/post?u=2eec95e401f96687d14f4af24&amp;id=65f831bb77'
+mailchimp_input_name: 'b_2eec95e401f96687d14f4af24_65f831bb77'
+cover_image: '/assets/img/theme-stock/bg/page-title.jpg'
+social_share_image: '/assets/img/stock/hero44.jpg'
 
 # permalink: "/:title"
-
 
 # Build settings
 markdown: kramdown
@@ -32,8 +31,22 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
+  - jekyll-postcss
 
-
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - postcss.config.js
+  - netlify.toml
+  - .gitignore
+  - .ruby-version
+  - .tool-versions
 
 # Collections
 collections_dir: all-collections
@@ -55,7 +68,7 @@ collections:
 defaults:
   # Blog Post Defaults
   - scope:
-      path: "_posts"
+      path: '_posts'
       type: posts
     values:
       layout: post
@@ -71,7 +84,7 @@ defaults:
   #     share: true
   # Non-Profit Partners Defaults
   - scope:
-      path: "_non-profit-partners"
+      path: '_non-profit-partners'
       type: non-profit-partners
     values:
       layout: page
@@ -79,7 +92,7 @@ defaults:
       share: false
   # Our Board Defaults
   - scope:
-      path: "_our-board"
+      path: '_our-board'
       type: our-board
     values:
       layout: page
@@ -87,7 +100,7 @@ defaults:
       share: false
   # Our Projects Defaults
   - scope:
-      path: "_our-projects"
+      path: '_our-projects'
       type: our-projects
     values:
       layout: page
@@ -95,20 +108,18 @@ defaults:
       share: false
   # Our Team Defaults
   - scope:
-      path: "_our-team"
+      path: '_our-team'
       type: our-team
     values:
       layout: page
       comments: false
       share: false
 
-
 ########################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
 pagination:
-  
-  # Site-wide kill switch, disabled here it doesn't run at all 
+  # Site-wide kill switch, disabled here it doesn't run at all
   enabled: true
 
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination page
@@ -130,7 +141,7 @@ pagination:
 
   # Limit how many paginated pages to create (default: 0, means all)
   limit: 0
-  
+
   # Optional: Defines the field that the posts should be sorted on (omit to default to 'date')
   sort_field: 'date'
 
@@ -144,11 +155,11 @@ pagination:
   tag: ''
 
   # Optional: The default locale to use, omit to disable (depends on a field 'locale' to be specified in the posts, in reality this can be any value, suggested are the Microsoft locale-codes (e.g. en_US, en_GB) or simply the ISO-639 language code)
-  locale: '' 
+  locale: ''
 
- # Optional: Omit or set both before and after to zero to disable. 
- # Controls how the pagination trail for the paginated pages look like. 
-  trail: 
+  # Optional: Omit or set both before and after to zero to disable.
+  # Controls how the pagination trail for the paginated pages look like.
+  trail:
     before: 2
     after: 2
 
@@ -173,4 +184,4 @@ jekyll-archives:
 feed:
   collections:
     posts:
-      path: "/index.xml"
+      path: '/index.xml'
