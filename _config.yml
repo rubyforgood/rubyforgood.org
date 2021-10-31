@@ -26,7 +26,6 @@ social_share_image: '/assets/img/stock/hero44.jpg'
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
