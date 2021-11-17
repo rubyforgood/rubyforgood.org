@@ -281,6 +281,9 @@
     right: 0;
     text-align: center;
   }
+  .slash {
+    display: none;
+  }
 }
 
 /* SM Small Device :550px. */
