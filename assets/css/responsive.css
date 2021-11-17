@@ -130,11 +130,6 @@
   .sticky {
     position: static;
   }
-  h3.team-member-position {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
 }
 
 /* Extra small Device. */
@@ -276,6 +271,15 @@
   }
   .bio-box {
     max-width: 100%;
+  }
+  h3.team-member-position {
+    position: absolute;
+    top: -36px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
   }
 }
 
