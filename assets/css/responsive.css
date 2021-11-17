@@ -130,10 +130,20 @@
   .sticky {
     position: static;
   }
+  h3.team-member-position {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
 
 /* Extra small Device. */
 @media (max-width: 767px) {
+  h5.team-member-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
   .header-top.blue-bg {
     padding: 10px 0;
   }
@@ -263,6 +273,9 @@
   }
   .title-header > h2 {
     font-size: 3.8rem;
+  }
+  .bio-box {
+    max-width: 100%;
   }
 }
 
