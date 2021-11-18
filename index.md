@@ -31,7 +31,7 @@ blocks:
     style:
 ---
 
-{% include mixins/header_custom.html %}
+{% include mixins/main_header.html %}
 
 <main>
   {% for block in page.blocks %}
