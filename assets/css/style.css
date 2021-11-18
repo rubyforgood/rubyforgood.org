@@ -602,6 +602,53 @@ label {
   font-size: 1.4rem;
 }
 
+/* Navbar */
+
+.navbar-brand > img {
+  max-width: 200px;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.nav-link {
+  color: #020d26;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  line-height: 3.2rem;
+  padding: 3.5rem 0;
+  text-transform: uppercase;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #f2454e;
+}
+
+.dropdown-item {
+  color: #020d26;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.navbar-toggler {
+  border: 1px solid #f2454e;
+}
+
+span.navbar-toggler-icon > i.fas.fa-bars {
+  color: #f2454e;
+  font-size: 2rem;
+}
+
 /* Menu Area */
 
 .menu-area {
