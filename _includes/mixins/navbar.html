@@ -1,0 +1,51 @@
+<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="{{site.url}}">
+    <img src="{{site.classic-logo}}" class="img-fluid" alt="{{site.title}}" />
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      {% for link in site.data.navigation %} {% assign active = nil %}
+      <!-- prettier-ignore -->
+      {% for sublink in link.submenu %} {% if page.url contains sublink.url %}
+      {% assign active = 'active' %} {% endif %} {% endfor %}
+      <!-- prettier-ignore -->
+      {% if page.url contains link.url %} {% assign active = 'active' %} {% endif %}
+
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="{{link.url}}"
+          id="navbarDropdown{{link.text | join ``}}"
+          role="button"
+          data-toggle="dropdown"
+          aria-expanded="false"
+        >
+          {{link.text}}{% if link.submenu %}
+          <i class="fas fa-angle-down"></i>
+          {% endif %}
+        </a>
+        {% if link.submenu %}
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          {% for sublink in link.submenu %}
+          <a class="dropdown-item" href="{{sublink.url}}">{{sublink.text}}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    <a href="/donate" class="btn btn-donate">Donate</a>
+  </div>
+</nav>

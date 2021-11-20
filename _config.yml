@@ -22,16 +22,6 @@ mailchimp_input_name: 'b_2eec95e401f96687d14f4af24_65f831bb77'
 cover_image: '/assets/img/theme-stock/bg/page-title.jpg'
 social_share_image: '/assets/img/stock/hero44.jpg'
 
-# permalink: "/:title"
-
-# Build settings
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-paginate-v2
-  - jekyll-archives
-  - jekyll-postcss
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list to override the default setting.
 exclude:
@@ -46,6 +36,21 @@ exclude:
   - .gitignore
   - .ruby-version
   - .tool-versions
+
+# Assets
+sass:
+  sass_dir: _sass
+  implementation: sass-embedded
+
+# permalink: "/:title"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-archives
+  - jekyll-postcss
 
 # Collections
 collections_dir: all-collections
