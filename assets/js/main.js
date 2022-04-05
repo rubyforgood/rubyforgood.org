@@ -1,6 +1,4 @@
 ;(function ($) {
-  'use strict'
-
   // mobile menu
 
   $('#mobile-menu').meanmenu({
