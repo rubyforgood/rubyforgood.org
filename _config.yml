@@ -6,7 +6,7 @@ copyright_name: Ruby for Good
 description: > # this means to ignore newlines until "baseurl:"
   Making the world gooder.
 baseurl: '' # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://rubyforgood.org/" # the base hostname & protocol for your site
 # facebook_url:
 twitter_url: https://twitter.com/RubyforGood
 github_url: https://github.com/rubyforgood/

@@ -12,7 +12,6 @@
         "ignoreAtRules": ["apply", "variants", "responsive", "screen"]
       }
     ],
-    "declaration-block-trailing-semicolon": "always",
     "no-descending-specificity": null,
     "no-invalid-double-slash-comments": true,
     "declaration-block-single-line-max-declarations": null,

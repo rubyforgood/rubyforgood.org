@@ -7,15 +7,4 @@ _layouts/default.html
 node_modules/
 vendor
 babel.config.js
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-.eslintcache
-.eslintrc.js
-.stylelintrc
-.prettierrc.js
-.gitignore
-.ruby-version
-.tool-versions
-.DS_Store
-.idea
+.*
