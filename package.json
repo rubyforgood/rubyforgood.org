@@ -18,26 +18,25 @@
     "blog-preview": "bundle exec jekyll serve --drafts --future --livereload",
     "build": "bundle exec jekyll build",
     "doctor": "bundle exec jekyll doctor",
-    "lint": "run-s lint:*",
-    "lint:style": "npm run lint-style '**/*.{css,scss}'",
-    "lint-style": "stylelint --fix",
-    "lint:md": "npm run lint-markdown '**/*.md'",
-    "lint-md": "markdownlint --fix",
     "rule-check": "stylelint-config-prettier-check",
     "prettier": "prettier --write '**/*.{js,css,scss,html,md}'",
     "prepare": "husky install"
   },
   "lint-staged": {
-    "**/*.js": [
-      "npm run prettier"
+    "**/*.css": [
+      "stylelint --fix",
+      "prettier --write"
     ],
-    "**/*.{css,scss}": [
-      "npm run lint-style",
-      "npm run prettier"
+    "**/*.scss": [
+      "stylelint --syntax=scss --fix",
+      "prettier --write"
     ],
     "**/*.md": [
-      "npm run lint-md",
-      "npm run prettier"
+      "markdownlint --fix",
+      "prettier --write"
+    ],
+    "**/*.js": [
+      "prettier --write"
     ]
   },
   "devDependencies": {
