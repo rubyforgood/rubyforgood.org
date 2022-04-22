@@ -1,6 +1,0 @@
-**/*.min.js
-babel.config.js
-postcss.config.js
-.prettierrc.js
-.eslintrc.js
-assets/**/*.min.js
