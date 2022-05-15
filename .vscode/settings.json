@@ -7,5 +7,15 @@
     "*.css": "postcss"
   },
   "stylelint.enable": true,
-  "stylelint.validate": ["css", "postcss"]
+  "stylelint.validate": [
+    "css",
+    "postcss"
+  ],
+  "cSpell.words": [
+    "Adina",
+    "Brassey",
+    "Kemper",
+    "Rudo",
+    "Thon"
+  ]
 }
