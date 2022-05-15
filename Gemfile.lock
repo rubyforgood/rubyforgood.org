@@ -291,6 +291,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-paginate-v2
   jekyll-postcss
+  jekyll-redirect-from
   jekyll-sass-converter
   jekyll-tagging
   minima (~> 2.0)

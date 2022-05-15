@@ -17,8 +17,8 @@
 - text: Join Us
   url: /join-us
   submenu:
-    - text: Railsconf
-      url: /railsconf
+    - text: Events
+      url: /events
     - text: Get Involved
       url: /join-us
     - text: Non-Profit Partners
