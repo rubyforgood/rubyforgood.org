@@ -28,6 +28,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - docs
   - package.json
   - package-lock.json
   - README.md
@@ -51,6 +52,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-archives
   - jekyll-postcss
+  - jekyll-redirect-from
 
 # Collections
 collections_dir: all-collections
