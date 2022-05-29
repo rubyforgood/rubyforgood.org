@@ -344,7 +344,7 @@ body {
 
 a {
   color: #03777e;
-  outline: medium none;
+  text-decoration: underline;
   transition: all 0.3s ease-out 0s;
 }
 
@@ -353,7 +353,7 @@ a:hover,
 .portfolio-cat a:hover,
 .footer menu li a:hover {
   color: #51a4a1;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:focus,
@@ -369,6 +369,7 @@ a.btn {
   letter-spacing: 0.2rem;
   line-height: 1.2;
   text-align: center;
+  text-decoration: none;
   text-transform: uppercase;
   touch-action: manipulation;
   transition: all 0.3s ease 0s;
@@ -619,6 +620,7 @@ label {
   letter-spacing: 0.3rem;
   line-height: 3.2rem;
   padding: 3.5rem 0;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -633,6 +635,7 @@ label {
   font-weight: 700;
   letter-spacing: 0.3rem;
   padding: 1rem 1.5rem;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
