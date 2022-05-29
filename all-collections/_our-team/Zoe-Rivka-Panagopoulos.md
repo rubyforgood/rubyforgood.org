@@ -30,7 +30,7 @@ write_up:
       and serves as a management tool for staff supervisors overseeing volunteer
       activity. The application is currently being piloted by CASA: Prince
       George’s County, in Maryland. Zoe has extensive experience in civic tech,
-      and currently works as a digital consultant in the nonprofit space. She
+      and currently works as a digital consultant in the non-profit space. She
       has served large petition platforms such as Change.org, and small,
       innovative startups such as Brigade, now a part of Countable."
   - paragraph:

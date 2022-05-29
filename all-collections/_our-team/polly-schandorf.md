@@ -12,12 +12,12 @@ write_up:
   - paragraph:
       "Polly Schandorf, pronouns she, her, hers, serves as the Director of
       Strategic Partnerships, leading the strategic development of partnerships
-      with our nonprofit partners. She leads event design and execution and
-      lends her expertise to team leads and product managers to foster growth,
-      inclusivity, and community. Polly is primarily responsible for determining
-      barriers to sustained programmatic participation, retention, and
-      partnerships that center around people from historically marginalized and
-      oppressed communities."
+      with our non-profit organizations. She leads event design and execution
+      and lends her expertise to team leads and product managers to foster
+      growth, inclusivity, and community. Polly is primarily responsible for
+      determining barriers to sustained programmatic participation, retention,
+      and partnerships that center around people from historically marginalized
+      and oppressed communities."
   - paragraph:
       "Polly was a teacher for over a decade and always had a passion for
       technology. Coding Python was a hobby for a while, so transitioning to

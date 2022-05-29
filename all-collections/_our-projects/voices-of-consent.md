@@ -15,7 +15,7 @@ categories:
   - category: "youth issues"
 mission:
   - paragraph:
-      "Voices of Consent is a nonprofit organization whose goal is to support
+      "Voices of Consent is a non-profit organization whose goal is to support
       survivors after a traumatic experience. Locally based, this nonprofit
       operates in 42 states to help survivors. In the aftermath of a traumatic
       event, Voices of Consent sends a box to a survivor who requests one."

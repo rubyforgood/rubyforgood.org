@@ -24,8 +24,8 @@ blocks:
   - type: testimonials
     title: Testimonials
     description:
-      Listen to what one of our nonprofit partners has to say about working with
-      us.
+      Listen to what one of our non-profit organizations has to say about
+      working with us.
     bg: grey-bg
 ---
 
