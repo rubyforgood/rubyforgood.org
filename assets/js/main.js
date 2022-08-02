@@ -223,19 +223,24 @@
     ],
     responsive: {
       0: {
-        items: 2
+        items: 2,
+        nav: false
       },
       320: {
-        items: 2
+        items: 2,
+        nav: false
       },
       480: {
-        items: 3
+        items: 3,
+        nav: false
       },
       767: {
-        items: 4
+        items: 4,
+        nav: false
       },
       991: {
-        items: 4
+        items: 4,
+        nav: false
       },
       1000: {
         items: 4
