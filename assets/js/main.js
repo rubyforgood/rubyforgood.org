@@ -32,32 +32,28 @@
   //   Slider activation
 
   function mainSlider() {
-    var BasicSlider = $('.slider-active')
-    BasicSlider.on('init', function () {
+    var $BasicSlider = $('.slider-active')
+    $BasicSlider.on('ready.flickity', function () {
       var $firstAnimatingElements = $('.single-slider:first-child').find(
         '[data-animation]'
       )
       doAnimations($firstAnimatingElements)
     })
-    BasicSlider.on('beforeChange', function (nextSlide) {
-      var $animatingElements = $(
-        '.single-slider[data-slick-index="' + nextSlide + '"]'
-      ).find('[data-animation]')
+    $BasicSlider.on('change.flickity', function () {
+      var index = $BasicSlider.data('flickity').selectedIndex
+      var $animatingElements = $(`.single-slider[slide-index=${index}]`).find(
+        '[data-animation]'
+      )
       doAnimations($animatingElements)
     })
-    BasicSlider.slick({
-      autoplay: true,
-      autoplaySpeed: 20_000,
-      fade: true,
-      prevArrow:
-        '<button type="button" class="slick-prev"><i class="icofont-long-arrow-left"></i>Prev</button>',
-      nextArrow:
-        '<button type="button" class="slick-next"><i class="icofont-long-arrow-right"></i>Next</button>',
-      arrows: false,
-      dots: true,
-      responsive: [
-        { breakpoint: 767, settings: { dots: false, arrows: false } }
-      ]
+
+    $BasicSlider.flickity({
+      cellAlign: 'left',
+      contain: false,
+      percentPosition: false,
+      prevNextButtons: false,
+      autoPlay: true,
+      fade: true
     })
 
     function doAnimations(elements) {
@@ -79,53 +75,6 @@
   }
   mainSlider()
 
-  // slider-three
-  // $(".slider-three-active").slick({
-  //   infinite: true,
-  //   autoplay: false,
-  //   autoplaySpeed: 20000,
-  //   speed: 400,
-  //   dots: false,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   prevArrow:
-  //     '<button type="button" class="slick-prev"><span class="lnr lnr-chevron-left"></span></button>',
-  //   nextArrow:
-  //     '<button type="button" class="slick-next"><span class="lnr lnr-chevron-right"></span></button>',
-  //   arrows: true,
-  //   responsive: [
-  //     {
-  //       breakpoint: 1024,
-  //       settings: {
-  //         slidesToShow: 1,
-  //         slidesToScroll: 1,
-  //         infinite: true,
-  //         dots: false,
-  //       },
-  //     },
-  //     {
-  //       breakpoint: 767,
-  //       settings: {
-  //         slidesToShow: 1,
-  //         slidesToScroll: 1,
-  //         infinite: true,
-  //         dots: false,
-  //         arrows: false,
-  //       },
-  //     },
-  //     {
-  //       breakpoint: 480,
-  //       settings: {
-  //         slidesToShow: 1,
-  //         slidesToScroll: 1,
-  //         infinite: true,
-  //         dots: false,
-  //         arrows: false,
-  //       },
-  //     },
-  //   ],
-  // });
-
   // isotope
 
   $('.portfolio-active').imagesLoaded(function () {
@@ -134,7 +83,6 @@
       percentPosition: true,
       masonry: {
         // use outer width of grid-sizer for columnWidth
-
         columnWidth: 1
       }
     })
@@ -164,26 +112,14 @@
 
   // testimonial
 
-  $('.testimonial-active').owlCarousel({
-    loop: true,
-    autoplay: true,
-    autoplayTimeout: 10_000,
-    autoplaySpeed: 2000,
-    margin: 10,
-    autoHeight: true,
-    nav: false,
-    dots: false,
-    responsive: {
-      0: {
-        items: 1
-      },
-      600: {
-        items: 1
-      },
-      1000: {
-        items: 1
-      }
-    }
+  $('.testimonial-active').flickity({
+    cellAlign: 'left',
+    contain: false,
+    percentPosition: false,
+    prevNextButtons: false,
+    autoPlay: true,
+    wrapAround: true,
+    pageDots: false
   })
 
   // portfolio
@@ -193,7 +129,6 @@
     percentPosition: true,
     masonry: {
       // use outer width of grid-sizer for columnWidth
-
       columnWidth: 1
     }
   })
@@ -213,39 +148,14 @@
 
   // clients
 
-  $('.clients-active').owlCarousel({
-    loop: true,
-    nav: true,
-    autoplay: true,
-    navText: [
-      '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-      '<i class="fa fa-angle-right" aria-hidden="true"></i>'
-    ],
-    responsive: {
-      0: {
-        items: 2,
-        nav: false
-      },
-      320: {
-        items: 2,
-        nav: false
-      },
-      480: {
-        items: 3,
-        nav: false
-      },
-      767: {
-        items: 4,
-        nav: false
-      },
-      991: {
-        items: 4,
-        nav: false
-      },
-      1000: {
-        items: 4
-      }
-    }
+  $('.clients-active').flickity({
+    cellAlign: 'left',
+    contain: false,
+    percentPosition: false,
+    autoPlay: true,
+    pageDots: false,
+    wrapAround: true,
+    prevNextButtons: true
   })
 
   // $.scrollUp({
@@ -268,25 +178,12 @@
 
   // project
 
-  $('.project-slider-active').owlCarousel({
-    loop: true,
-    autoplay: true,
-    autoplayTimeout: 10_000,
-    autoplaySpeed: 2000,
-    margin: 10,
-    autoHeight: true,
-    nav: false,
-    dots: false,
-    responsive: {
-      0: {
-        items: 1
-      },
-      600: {
-        items: 1
-      },
-      1000: {
-        items: 1
-      }
-    }
+  $('.project-slider-active').flickity({
+    cellAlign: 'left',
+    contain: false,
+    percentPosition: false,
+    autoPlay: true,
+    pageDots: true,
+    prevNextButtons: true
   })
 })(jQuery)

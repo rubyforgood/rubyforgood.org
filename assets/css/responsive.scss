@@ -173,6 +173,11 @@
   .sticky {
     position: static;
   }
+
+  .flickity-prev-next-button.next,
+  .flickity-prev-next-button.previous {
+    display: none;
+  }
 }
 
 /* Extra small Device. */
@@ -348,6 +353,15 @@
 
   .title-header > h2 {
     font-size: 3.8rem;
+  }
+
+  .clients-active {
+    padding: 2rem;
+  }
+
+  .flickity-prev-next-button.next,
+  .flickity-prev-next-button.previous {
+    display: none;
   }
 }
 

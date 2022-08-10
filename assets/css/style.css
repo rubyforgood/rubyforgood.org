@@ -1138,6 +1138,7 @@ span.navbar-toggler-icon > i.fas.fa-bars {
   background-position: center center;
   background-size: cover;
   height: 81rem;
+  width: 100%;
   position: relative;
 }
 
@@ -1204,72 +1205,22 @@ span.navbar-toggler-icon > i.fas.fa-bars {
   color: #fff;
 }
 
-/* Slick Next/Prev Buttons */
+/* Flickit Dots */
 
-.slider-three-active .slick-arrow {
-  background: no-repeat;
-  border: 1px solid #ddd;
-  color: #fff;
-  font-size: 1.8rem;
-  font-weight: 800;
-  height: 4.5rem;
-  left: 5rem;
-  opacity: 0%;
-  padding: 0;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: 0.5s;
-  width: 3.5rem;
-  z-index: 99;
-}
-
-.slider-three-active:hover .slick-arrow {
-  opacity: 100%;
-}
-
-.slick-arrow:hover {
-  border-color: #fdd14a;
-  color: #fdd14a;
-}
-
-.slider-three-active .slick-next {
-  left: auto;
-  right: 5rem;
-}
-
-.slider-three-active .slick-arrow i {
-  display: inline-block;
-  position: relative;
-}
-
-/* Slick Dots */
-
-.slider-active .slick-dots li {
-  display: inline-block;
-}
-
-.slider-active .slick-dots {
+.flickity-page-dots {
   bottom: 2.5rem;
-  left: 0;
-  position: absolute;
-  right: 0;
-  text-align: center;
 }
 
-.slider-active .slick-dots li button {
-  background-color: #fff;
-  border: 0;
-  height: 3px;
-  margin: 0 0.5rem;
-  padding: 0;
-  text-indent: -9999px;
+.flickity-page-dots .dot {
+  height: 0.18rem;
   width: 2.5rem;
+  border-radius: 0;
+  background-color: #fff;
+  opacity: 1;
 }
 
-.slider-active .slick-dots li.slick-active button {
+.flickity-page-dots .dot.is-selected {
   background-color: #fdd14a;
-  outline: 0;
 }
 
 /* ---------------- 4. About ---------------- */
@@ -1845,7 +1796,7 @@ span.navbar-toggler-icon > i.fas.fa-bars {
   font-style: italic;
 }
 
-.testimonial-active.owl-carousel .owl-item img {
+.testimonial-active img {
   display: inline-block;
   width: initial;
 }
@@ -1854,7 +1805,7 @@ span.navbar-toggler-icon > i.fas.fa-bars {
   text-align: center;
 }
 
-.owl-carousel .owl-item .single-clients img {
+.single-clients img {
   display: inline-block;
   width: 100%;
 }
@@ -2894,9 +2845,44 @@ blockquote {
 
 /* ---------------- 18. Our Supporters ---------------- */
 
-/* https://kenwheeler.github.io/slick/ */
+.clients-active {
+  width: 100%;
+  height: 100%;
+  margin: 3rem;
+}
 
-/* https://github.com/kenwheeler/slick/ */
+.container-single-clients {
+  width: 19rem;
+  margin-right: 3.5rem;
+}
+
+.single-clients img {
+  width: 100%;
+  height: 100%;
+}
+
+.flickity-button {
+  background: none;
+}
+
+.flickity-button-icon {
+  fill: #03777e;
+}
+
+.flickity-prev-next-button.previous {
+  left: -45px;
+  top: 50%;
+}
+
+.flickity-prev-next-button.next {
+  right: -50px;
+  top: 50%;
+}
+
+.flickity-button:focus {
+  outline: none;
+  box-shadow: none;
+}
 
 /* ---------------- 19. Projects ---------------- */
 
@@ -2996,7 +2982,7 @@ h3.project-sidebar-header {
   font-style: italic;
 }
 
-.project-slider-active.owl-carousel .owl-item img {
+.project-slider-active img {
   display: inline-block;
   width: initial;
 }
@@ -3005,7 +2991,7 @@ h3.project-sidebar-header {
   text-align: center;
 }
 
-.owl-carousel .owl-item .single-item img {
+.single-item img {
   display: inline-block;
   width: 100%;
 }
