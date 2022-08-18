@@ -117,7 +117,7 @@
     contain: false,
     percentPosition: false,
     prevNextButtons: false,
-    autoPlay: 5000,
+    autoPlay: 2000,
     wrapAround: true,
     pageDots: false
   })
@@ -152,7 +152,7 @@
     cellAlign: 'left',
     contain: false,
     percentPosition: false,
-    autoPlay: true,
+    autoPlay: 5000,
     pageDots: false,
     wrapAround: true,
     prevNextButtons: true
