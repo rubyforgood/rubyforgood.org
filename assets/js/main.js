@@ -52,7 +52,7 @@
       contain: false,
       percentPosition: false,
       prevNextButtons: false,
-      autoPlay: 20000,
+      autoPlay: 10000,
       fade: true
     })
 
