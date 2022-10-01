@@ -4,7 +4,6 @@
     "stylelint-config-sass-guidelines",
     "stylelint-config-prettier"
   ],
-  "processors": ["stylelint-processor-ignore-front-matter"],
   "rules": {
     "at-rule-no-unknown": [
       true,
