@@ -6,7 +6,7 @@ We love open source contributors! Feel free to take on open issues that are
 marked `help wanted` or open new issues. Please comment on the issue to be
 assigned to work on it as well as if you need more clarification. You can also
 reach out to @meg-gutshall via the
-[Ruby for Good Slack](https://join.slack.com/t/rubyforgood/shared_invite/zt-1kfeimohe-KL~~~6Lkof7G94_7Ojd_Hw).
+[Ruby for Good Slack](https://rubyforgood.herokuapp.com/).
 
 When submitting your pull request, please submit to the `dev` branch as this is
 our working branch.
