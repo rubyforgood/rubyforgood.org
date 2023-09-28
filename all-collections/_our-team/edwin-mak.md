@@ -3,7 +3,7 @@ layout: page
 
 first_name: Edwin
 last_name: Mak
-list_order: B
+list_order: F
 position: Technical Project Manager, Human Essentials
 photo: /assets/img/people/edwin.png
 email:
