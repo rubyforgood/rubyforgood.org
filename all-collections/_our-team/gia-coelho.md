@@ -10,12 +10,11 @@ email: gia@rubyforgood.org
 
 write_up:
   - paragraph:
-      "As a product design practice lead and mentor, I focus on building teams, design practices, and products through a human-centered approach.
-      Championing a multidisciplinary approach, in a design landscape that is in constant flux, driven by evolving technologies and user behaviors,
-      my core principle remains steadfast: putting humans at the heart of all design decisions, with an emphasis on empathy. "
+      "Gia Coelho, pronouns she, her, hers, leads the Ruby for Good product design practice, focusing on a human-centered approach, and collaborating with designers in all phases of the design process to foster creativity, innovation, and a user-centric mindset. She has shaped the practice into one that emphasizes inclusivity, empathy, accessibility, and designs onboarding programs to help level up new designers. "
   - paragraph:
-      "Gia has led the design and development of several successful teams and products, working closely with cross-functional teams, including
-      developers and product managers, and liaising with stakeholders and business leads. I have also contributed to several open-source projects via GitHub."
+      "She has led the design and development of several successful teams and products, working closely with cross-functional teams, including developers and product managers, and liaising with stakeholders and business leads."
+- paragraph:
+      "She cares deeply about open source for social impact and was a speaker on the subject at RailsConf 2022. Her passions include wildlife conservation, writing, culinary adventures, and creating mixed media art."
     
 ---
 
