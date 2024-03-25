@@ -1,0 +1,11 @@
+printWidth: 100
+semi: false
+bracketSameLine: true
+proseWrap: "always"
+overrides:
+  - files: "**/*.js"
+    excludeFiles: "**/*.min.js"
+    options:
+      singleQuote: true
+      bracketSameLine: false
+      trailingComma: "none"
