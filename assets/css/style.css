@@ -483,7 +483,7 @@ label {
 *::placeholder {
   color: #555;
   font-size: 1.4rem;
-  opacity: 100%;
+  opacity: 1;
 }
 
 .separator {
@@ -605,12 +605,13 @@ label {
 
 /* Navbar */
 
-.navbar-brand > img {
-  max-width: 200px;
+ul.navbar-nav {
+  justify-content: space-around;
+  width: 100%;
 }
 
-.nav-item {
-  margin-left: 2rem;
+.navbar-brand > img {
+  max-width: 200px;
 }
 
 .nav-link {
@@ -720,7 +721,7 @@ span.navbar-toggler-icon > i.fas.fa-bars {
   border-right: 1px solid rgb(0 0 0 / 12%);
   border-top: 3px solid #f2454e;
   left: 0;
-  opacity: 0%;
+  opacity: 0;
   position: absolute;
   top: 110%;
   transition: 0.3s;
@@ -734,7 +735,7 @@ span.navbar-toggler-icon > i.fas.fa-bars {
 }
 
 .main-menu ul li:hover .sub-menu {
-  opacity: 100%;
+  opacity: 1;
   top: 100%;
   visibility: visible;
 }
@@ -811,7 +812,7 @@ span.navbar-toggler-icon > i.fas.fa-bars {
 
 .menu-active::before,
 .menu-active::after {
-  opacity: 100% !important;
+  opacity: 1 !important;
 }
 
 .menu-icon .menu-tigger span {
@@ -1054,7 +1055,7 @@ span.navbar-toggler-icon > i.fas.fa-bars {
   background-color: #000;
   height: 100%;
   left: 0;
-  opacity: 0%;
+  opacity: 0;
   position: fixed;
   top: 0;
   transition: 0.3s;
@@ -1064,7 +1065,7 @@ span.navbar-toggler-icon > i.fas.fa-bars {
 }
 
 .offcanvas-overly.active {
-  opacity: 50%;
+  opacity: 0.5;
   visibility: visible;
 }
 
@@ -1087,7 +1088,7 @@ span.navbar-toggler-icon > i.fas.fa-bars {
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 1.2;
-  margin: 1rem 0 1rem 2rem;
+  margin: 1rem 0 1rem 1.5rem;
   padding: 1.5rem 2rem;
   text-align: center;
   text-transform: uppercase;
@@ -1115,7 +1116,7 @@ span.navbar-toggler-icon > i.fas.fa-bars {
   font-weight: 700;
   letter-spacing: 0.2px;
   line-height: 1.2;
-  margin: 1rem 0 1rem 2rem;
+  margin: 1rem 0 1rem 1.5rem;
   padding: 1.5rem 2rem;
   text-align: center;
   text-transform: uppercase;
@@ -1138,15 +1139,15 @@ span.navbar-toggler-icon > i.fas.fa-bars {
   background-position: center center;
   background-size: cover;
   height: 81rem;
-  width: 100%;
   position: relative;
+  width: 100%;
 }
 
 .slider-bg::before {
   background-color: #000;
   content: "";
   height: 100%;
-  opacity: 70%;
+  opacity: 0.7;
   position: absolute;
   width: 100%;
 }
@@ -1162,7 +1163,7 @@ span.navbar-toggler-icon > i.fas.fa-bars {
   background-color: #000;
   content: "";
   height: 100%;
-  opacity: 70%;
+  opacity: 0.7;
   position: absolute;
   width: 100%;
 }
@@ -1212,11 +1213,11 @@ span.navbar-toggler-icon > i.fas.fa-bars {
 }
 
 .flickity-page-dots .dot {
-  height: 0.18rem;
-  width: 2.5rem;
-  border-radius: 0;
   background-color: #fff;
+  border-radius: 0;
+  height: 0.18rem;
   opacity: 1;
+  width: 2.5rem;
 }
 
 .flickity-page-dots .dot.is-selected {
@@ -1615,7 +1616,7 @@ span.navbar-toggler-icon > i.fas.fa-bars {
 .portfolio-wrapper:hover .portfolio-thumb::before,
 .portfolio-wrapper:hover .portfolio-thumb::after,
 .portfolio-wrapper:hover .view i {
-  opacity: 80%;
+  opacity: 0.8;
 }
 
 .portfolio-wrapper:hover .portfolio-content {
@@ -1642,7 +1643,7 @@ span.navbar-toggler-icon > i.fas.fa-bars {
   content: "";
   height: 100%;
   left: 0;
-  opacity: 0%;
+  opacity: 0;
   position: absolute;
   top: 0;
   transition: 0.3s;
@@ -1655,7 +1656,7 @@ span.navbar-toggler-icon > i.fas.fa-bars {
   bottom: 1rem;
   content: "";
   left: 1rem;
-  opacity: 0%;
+  opacity: 0;
   position: absolute;
   right: 1rem;
   top: 1rem;
@@ -1667,7 +1668,7 @@ span.navbar-toggler-icon > i.fas.fa-bars {
   color: #f2454e;
   font-size: 2.4rem;
   left: 0;
-  opacity: 0%;
+  opacity: 0;
   position: absolute;
   right: 0;
   text-align: center;
@@ -1805,11 +1806,6 @@ span.navbar-toggler-icon > i.fas.fa-bars {
   text-align: center;
 }
 
-.single-clients img {
-  display: inline-block;
-  width: 100%;
-}
-
 /* ---------------- 10. Team ---------------- */
 
 .single-team {
@@ -1827,7 +1823,7 @@ span.navbar-toggler-icon > i.fas.fa-bars {
   content: "";
   height: 100%;
   left: 0;
-  opacity: 0%;
+  opacity: 0;
   position: absolute;
   top: 0;
   transition: 0.5s;
@@ -1835,7 +1831,7 @@ span.navbar-toggler-icon > i.fas.fa-bars {
 }
 
 .single-team:hover .team-img::before {
-  opacity: 70%;
+  opacity: 0.7;
 }
 
 .team-img img {
@@ -2392,7 +2388,7 @@ h4.team-member-facts {
 .sidebar-form form input::placeholder {
   color: #999;
   font-size: 1.2rem;
-  opacity: 50%;
+  opacity: 0.5;
 }
 
 .sidebar-form form button {
@@ -2518,7 +2514,7 @@ h4.team-member-facts {
 }
 
 .widget-social a:hover {
-  opacity: 80%;
+  opacity: 0.8;
 }
 
 /* .sidebar-link{} */
@@ -2846,19 +2842,20 @@ blockquote {
 /* ---------------- 18. Our Supporters ---------------- */
 
 .clients-active {
-  width: 100%;
   height: 100%;
   margin: 3rem;
+  width: 100%;
 }
 
 .container-single-clients {
-  width: 19rem;
   margin-right: 3.5rem;
+  width: 19rem;
 }
 
 .single-clients img {
-  width: 100%;
+  display: inline-block;
   height: 100%;
+  width: 100%;
 }
 
 .flickity-button {
@@ -2880,8 +2877,8 @@ blockquote {
 }
 
 .flickity-button:focus {
-  outline: none;
   box-shadow: none;
+  outline: none;
 }
 
 /* ---------------- 19. Projects ---------------- */
@@ -3022,7 +3019,7 @@ h3.project-sidebar-header {
   box-shadow: inset 1px 1px 10px #51a4a1, inset -1px -1px 10px #17a2b8;
   left: 0;
   margin: auto;
-  padding: 1rem min(1vw, 1rem);
+  padding: 1rem math.min(1vw, 1rem);
   position: absolute;
   right: 0;
   transition: 0.5s;
@@ -3035,7 +3032,7 @@ h3.project-sidebar-header {
 
 .project-info h3 {
   color: #fff;
-  font-size: min(3.5vw, 2rem);
+  font-size: math.min(3.5vw, 2rem);
   margin-bottom: 0.5rem;
 }
 

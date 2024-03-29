@@ -15,7 +15,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav">
       {% for link in site.data.navigation %} {% assign active = nil %}
       <!-- prettier-ignore -->
       {% for sublink in link.submenu %} {% if page.url contains sublink.url %}
