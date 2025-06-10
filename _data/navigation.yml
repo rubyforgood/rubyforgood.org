@@ -21,3 +21,14 @@
       url: /join-us
     - text: Non-Profit Partners
       url: /join-us/non-profit-partners
+- text: Events
+  url: /events
+  submenu:
+    - text: Ruby for Good 2025
+      url: /events
+    - text: Event Schedule
+      url: /events/schedule
+    - text: Team Lead Guide
+      url: /events/team-leads
+    - text: Event FAQ
+      url: /events/faq
