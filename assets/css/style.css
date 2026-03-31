@@ -34,6 +34,28 @@ Version: 1.0
 
 /* ---------------- 0. Custom Meg Styling ---------------- */
 
+[href="#main-content"] {
+  background: #03777e;
+  border-radius: 0 0 0.5rem;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 30%);
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+/* Hide skip link when it's not focused */
+[href="#main-content"]:not(:focus) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 /* Set font for responsiveness
 ------------------------------
 Most browsers set their default font size to 1.6rem, so if we set ours at 62.5% of that it will come out to 10px. From there, it's a lot easier to calculate rem sizing. Plus if someone changes their default browser settings, our site is coded to respond to it automatically.
