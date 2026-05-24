@@ -1,0 +1,54 @@
+<div class="announce">
+  <span class="dot" aria-hidden="true"></span>
+  <span>// Ruby for Good 2026 — Sharpsburg, MD · Aug 27–30</span>
+  <a href="https://ti.to/codeforgood/rubyforgood">Register on Tito →</a>
+</div>
+<header class="site-header">
+  <div class="wrap">
+    <nav class="nav" aria-label="Primary">
+      <a href="/" class="brand" aria-label="Ruby for Good — home">
+        <svg class="gem" viewBox="0 0 32 32" aria-hidden="true">
+          <defs>
+            <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#FF3D5C"/>
+              <stop offset="55%" stop-color="#C8102E"/>
+              <stop offset="100%" stop-color="#7A0C1A"/>
+            </linearGradient>
+          </defs>
+          <path d="M8 4 L24 4 L30 13 L16 30 L2 13 Z" fill="url(#g)" stroke="#1A1413" stroke-width="1.1" stroke-linejoin="round"/>
+          <path d="M8 4 L13 13 L2 13 Z M24 4 L19 13 L30 13 Z M13 13 L19 13 L16 30 Z M8 4 L13 13 L19 13 L24 4 Z" fill="none" stroke="#1A1413" stroke-width="0.8" stroke-linejoin="round" opacity="0.55"/>
+        </svg>
+        Ruby for Good
+      </a>
+      <ul class="nav-links" id="primary-menu">
+        <li><a href="/our-work">Our work</a></li>
+        <li><a href="/our-work/impact">Impact</a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/about-us">About</a></li>
+        <li><a href="/join-us">Get involved</a></li>
+      </ul>
+      <div class="nav-cta nav-cta-desktop">
+        <a href="/donate" class="btn btn-ruby">Donate
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+      </button>
+    </nav>
+  </div>
+</header>
+<script>
+  (function(){
+    var t = document.querySelector('.nav-toggle');
+    var hdr = document.querySelector('.site-header');
+    if(!t) return;
+    t.addEventListener('click', function(){
+      var open = hdr.classList.toggle('nav-open');
+      t.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    document.querySelectorAll('.nav-links a').forEach(function(a){
+      a.addEventListener('click', function(){ hdr.classList.remove('nav-open'); t.setAttribute('aria-expanded','false'); });
+    });
+  })();
+</script>
