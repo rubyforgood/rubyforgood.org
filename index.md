@@ -1,6 +1,43 @@
 ---
-layout: home
+layout: default
 title: Home
-description: Ruby for Good is a community of developers, designers, and organizers building open-source software for the nonprofits doing the world's most important work.
-permalink: /
+description:
+bg: white-bg
+style:
+blocks:
+  - type: slider
+    title:
+    description:
+    bg:
+    style:
+  - type: overview_columns
+    title:
+    description:
+    bg: white-bg
+    style:
+  - type: impact_counter
+    title: Our Impact Metrics
+    description:
+      We are incredibly proud to share our impact metrics since our founding in
+      2013.
+    bg: grey-bg
+    style: counter-section
+  - type: our_supporters
+    title: Our Supporters
+    description:
+      We are privileged to partner with the companies listed below, that trust
+      us and believe in our mission.
+    bg: white-bg
+    style:
 ---
+
+{% include mixins/main_header.html %}
+
+<main>
+  {% for block in page.blocks %}
+    {% if block.title %}
+    {% include mixins/block_header.html %}
+    {% endif %}
+    {% include home/{{ block.type }}.html %}
+  {% endfor %}
+</main>
