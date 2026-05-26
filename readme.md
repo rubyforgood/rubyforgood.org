@@ -21,10 +21,10 @@ managers (.npmrc, .node-version, .ruby-version, .tool-versions) for your conveni
 
 ### Tool Versioning
 
-- Ruby 2.7.4
-- Bundler 2.1.4
-- NodeJS 16.1.0
-- npm 7.11.2
+- Ruby 3.4.8
+- Bundler 2.6+
+- Node.js 22.20.0 (LTS)
+- npm 10+
 
 ## Useful Commands
 
