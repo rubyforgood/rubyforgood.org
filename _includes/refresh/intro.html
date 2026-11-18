@@ -1,0 +1,8 @@
+<header class="rg-intro">
+  <div class="rg-wrap rg-section">
+    <p class="rg-kicker">{{ page.title }}</p>
+    <h1 class="rg-title">{{ page.headline }}</h1>
+    <p class="rg-lead">{{ page.description }}</p>
+    {% if page.action %}<div class="rg-actions"><a class="rg-button" href="{{ page.action_url }}">{{ page.action }} <span aria-hidden="true">→</span></a></div>{% endif %}
+  </div>
+</header>

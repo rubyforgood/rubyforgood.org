@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<section class="rg-hero">
+  <div class="rg-wrap rg-hero-grid">
+    <div class="rg-hero-copy">
+      <p class="rg-kicker"><span class="rg-gem-dot" aria-hidden="true">◆</span> The community impact report</p>
+      <h1>Small commits. <em>Lasting ripples.</em></h1>
+      <p class="rg-lead">A diaper bank fills an order. An advocate has more time with a child. That’s what counts when volunteers build software that nonprofits can keep using.</p>
+      <div class="rg-actions">
+        <a class="rg-button" href="{{ '/our-work/impact' | relative_url }}">Explore our impact <span aria-hidden="true">→</span></a>
+        <a class="rg-text-link" href="{{ '/donate' | relative_url }}">Support the work</a>
+      </div>
+    </div>
+    <div class="rg-ripple-art">
+      <div class="rg-orbits" aria-hidden="true"></div>
+      <div class="rg-ripple-number"><span>{{ site.data.impact[0].value }}</span><b>{{ site.data.impact[0].label }}</b></div>
+    </div>
+  </div>
+</section>
+{% include refresh/impact.html %}
+{% include refresh/paths.html %}
+{% include refresh/projects.html %}
+<section class="rg-wrap rg-supporters">
+  <details>
+    <summary>Meet the supporters who make this possible</summary>
+    <ul>{% for supporter in site.data.supporters %}<li><a href="{{ supporter.link_to }}">{{ supporter.name }}</a></li>{% endfor %}</ul>
+  </details>
+</section>

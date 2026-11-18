@@ -1,11 +1,11 @@
 ---
-layout: page
+title: Gia Coelho
 
 first_name: Gia
 last_name: Coelho
 list_order: B
 position: Director of Design
-photo: /assets/img/people/gia.png
+photo: /assets/img/people/portraits/gia.jpg
 email: gia@rubyforgood.org
 
 write_up:

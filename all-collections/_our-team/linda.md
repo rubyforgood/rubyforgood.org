@@ -1,11 +1,11 @@
 ---
-layout: page
+title: Linda Goldstein
 
 first_name: Linda
 last_name: Goldstein
 list_order: G
 position: Tech Lead, CASA
-photo: /assets/img/people/linda.png
+photo: /assets/img/people/portraits/linda.jpg
 email: linda@rubyforgood.org
 
 write_up:

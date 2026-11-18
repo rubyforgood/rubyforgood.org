@@ -32,6 +32,9 @@ To run the website locally, type `npm run preview` in your terminal and navigate
 [http://127.0.0.1:4000/](http://127.0.0.1:4000/) to see the site in your browser. A reload will be
 triggered every time you change the code in you editor.
 
+The site uses the Ripple Effect design and self-hosted Figtree, the default sans in the
+[Ruby for Good design system](https://github.com/rubyforgood/designsystem/blob/main/tokens/theme.css).
+
 We have also implemented some tools that check the files for syntax issues and autocorrect them
 whenever possible. These are called linters and they will automatically check any files you have
 staged for a commit.

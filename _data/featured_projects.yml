@@ -1,0 +1,18 @@
+- name: Human Essentials
+  field: Basic needs
+  description: Diaper and essentials banks track supplies, fill requests, and get families what they need.
+  href: https://github.com/rubyforgood/human-essentials
+  link: Explore Human Essentials on GitHub
+  symbol: box
+- name: CASA
+  field: Foster care
+  description: Volunteer advocates log visits and prepare court reports so they can spend more time supporting children.
+  href: /our-projects/casa
+  link: Read the CASA story
+  symbol: heart
+- name: SkillRx
+  field: Health education
+  description: Health workers can access medical training materials even when an internet connection is out of reach.
+  href: https://github.com/rubyforgood/skillrx
+  link: Explore SkillRx on GitHub
+  symbol: book

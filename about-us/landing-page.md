@@ -1,26 +1,10 @@
 ---
-layout: page
+layout: default
 title: About Us
-description:
-bg: grey-bg
-style:
+headline: Who’s a gooder? You could be.
+description: A gooder is anyone who shares their time, skills, or resources with a community. We make free software for nonprofits and a place for people to learn by building it together.
 permalink: /about-us
-blocks:
-  - type: mission_vision_history
-    title:
-    description:
-    bg: grey-bg
-    style:
-  - type: core_values
-    title: Core Values
-    description:
-    bg: white-bg
-    style:
-  - type: about_gooders
-    title: Who Is a Gooder?
-    description:
-    bg: grey-bg
-    style:
 ---
 
+{% include refresh/intro.html %}
 {% include about_us/landing_page.html %}

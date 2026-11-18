@@ -1,11 +1,11 @@
 ---
-layout: page
+title: Meg Gutshall
 
 first_name: Meg
 last_name: Gutshall
 list_order: H
 position: Open-Source Community Advocate
-photo: /assets/img/people/meg-gutshall.png
+photo: /assets/img/people/portraits/meg-gutshall.jpg
 
 write_up:
   - paragraph:

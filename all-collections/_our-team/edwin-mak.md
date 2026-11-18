@@ -1,11 +1,11 @@
 ---
-layout: page
+title: Edwin Mak
 
 first_name: Edwin
 last_name: Mak
 list_order: F
 position: Technical Project Manager, Human Essentials
-photo: /assets/img/people/edwin.png
+photo: /assets/img/people/portraits/edwin.jpg
 email:
 social:
 

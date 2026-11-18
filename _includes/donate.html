@@ -179,7 +179,7 @@
     }
   }
 
-  document.querySelectorAll("button").forEach(function (button) {
+  document.querySelectorAll("button[data-checkout-mode][data-price-id]").forEach(function (button) {
     button.addEventListener("click", function (e) {
       var mode = e.target.dataset.checkoutMode
       var priceId = e.target.dataset.priceId

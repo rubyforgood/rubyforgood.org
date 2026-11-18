@@ -1,154 +1,34 @@
-<!DOCTYPE HTML>
+{%- assign legacy = false -%}
+{%- if page.layout == 'page' or page.layout == 'page_without_breadcrumbs' -%}{%- assign legacy = true -%}{%- endif -%}
+<!doctype html>
 <html lang="en">
-
 <head>
-  <!-- Start meta -->
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="
-    {% if page.description %}
-      {{ page.description | strip_html | strip_newlines | truncate: 160 }}
-    {% else %}
-      {{ site.description }}
-    {% endif %}
-  ">
-  <meta name="keywords" content="
-    {% if page.keywords %}
-      {{ page.keywords}}
-    {% else %}
-      {{ site.keywords }}
-    {% endif %}
-  ">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} · {{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | strip_html | strip_newlines | escape }}">
   {% feed_meta %}
-  <!-- End meta -->
-
   {% include head/fb_open_graph.html %}
   {% include head/twitter_cards.html %}
-
-  <!-- Site Title -->
-  <title>
-    {% if page.title %}
-      Ruby for Good - {{page.title}}
-    {% else %}
-      {{site.title}}
-    {% endif %}
-  </title>
-
-  <!-- Favicon Image Asset Path -->
-  <link rel="icon" href="/assets/img/favicon.png">
-
-  <!-- Bootstrap -- CSS CDN Script Tag -->
-  <!-- The most popular front-end framework for developing responsive, mobile first projects on the web -->
-  <!-- https://getbootstrap.com/ -->
-  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-
-  <!-- Font Awesome -- Icon Font CDN Script Tag -->
-  <!-- The web's most popular icon set and toolkit -->
-  <!-- https://fontawesome.com/ -->
-  <script src="https://kit.fontawesome.com/df383da397.js" crossorigin="anonymous"></script>
-
-  <!-- Linearicons -- Icon Font CDN Script Tag -->
-  <!-- Ultra crisp line icons with integrity -->
-  <!-- https://linearicons.com/ -->
-  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-
-  <!-- Flickity -- CSS CDN Script Tag -->
-  <!-- Touch, responsive, flickable carousels -->
-  <!-- https://flickity.metafizzy.co/ -->
-  <link rel="stylesheet" href="/assets/css/flickity.min.css">
-
-  <!-- Animate.css -- CSS CDN Script Tag -->
-  <!-- Plug and play, app-like animations for your websites and web apps -->
-  <!-- https://github.com/animate-css/animate.css -->
-  <link rel="stylesheet" href="/assets/css/animate.min.css">
-
-  <!-- Magnific Popup -- CSS CDN Script Tag -->
-  <!-- Lightbox and modal dialog plugin -->
-  <!-- https://github.com/dimsemenov/Magnific-Popup -->
-  <!-- TODO: Repo is not maintained. See if we need to find an alternate plug-in. -->
-  <link rel="stylesheet" href="/assets/css/magnific-popup.css">
-
-  <!-- MeanMenu -- Local CSS Asset File -->
-  <!-- A responsive menu plug-in -->
-  <!-- https://github.com/meanthemes/meanMenu -->
-  <!-- TODO: Repo is not maintained. See if we need to find an alternate plug-in. -->
-  <link rel="stylesheet" href="/assets/css/meanmenu.scss">
-
-  <!-- Custom Local CSS Asset Files -->
-  <link rel="stylesheet" href="/assets/css/default.css">
-  <link rel="stylesheet" href="/assets/css/style.css">
-
-  <!-- Custom Local CSS Asset File -->
-  <!-- Predetermined responsive styling for specific devices -->
-  <link rel="stylesheet" href="/assets/css/responsive.scss">
-
+  <link rel="icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
+  <link rel="preload" href="{{ '/assets/fonts/figtree/figtree-latin-wght-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  {% if legacy %}
+    <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url }}">
+    <script defer src="https://kit.fontawesome.com/df383da397.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    {% assign legacy_css = 'flickity.min.css,animate.min.css,magnific-popup.css,meanmenu.scss,default.css,style.css,responsive.scss' | split: ',' %}
+    {% for file in legacy_css %}<link rel="stylesheet" href="{{ '/assets/css/' | append: file | relative_url }}">{% endfor %}
+  {% endif %}
+  <link rel="stylesheet" href="{{ '/assets/css/refresh.css' | relative_url }}">
 </head>
-
-<body>
-
-  {{content}}
-
+<body{% if legacy %} class="rg-legacy"{% endif %}>
+  <a class="rg-skip" href="#main-content">Skip to content</a>
+  {% include mixins/main_header.html %}
+  <main id="main-content" tabindex="-1">{{ content }}</main>
   {% include mixins/footer.html %}
-
-  <!-- Bootstrap -- Optional JS CDN Script Tag -->
-  <!-- The most popular front-end framework for developing responsive, mobile first projects on the web -->
-  <!-- https://getbootstrap.com/ -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="/assets/js/jquery-1.12.4.min.js"></script>
-  <script src="/assets/js/popper.min.js"></script>
-  <script src="/assets/js/bootstrap.min.js"></script>
-
-
-  <!-- Isotope -- JS CDN Script Tag -->
-  <!-- Filter and sort magical layouts -->
-  <!-- https://github.com/metafizzy/isotope -->
-  <script src="/assets/js/isotope.pkgd.min.js"></script>
-
-  <!-- imagesLoaded -- JS CDN Script Tag -->
-  <!-- You images done yet or what? -->
-  <!-- https://github.com/desandro/imagesloaded -->
-  <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
-
-  <!-- Waypoints -- JS CDN Script Tag -->
-  <!-- Easily execute a function when you scroll to an element -->
-  <!-- https://github.com/imakewebthings/waypoints -->
-  <script src="/assets/js/jquery.waypoints.min.js"></script>
-
-  <!-- Counter-Up -- Local JS Asset File -->
-  <!-- A lightweight jQuery plugin that counts up to a targeted number when the number becomes visible -->
-  <!-- https://github.com/bfintal/Counter-Up -->
-  <script src="/assets/js/jquery.counterup.min.js"></script>
-
-  <!-- Flickity -- JS CDN Script Tag -->
-  <!-- Touch, responsive, flickable carousels -->
-  <!-- https://flickity.metafizzy.co/ -->
-  <script src="/assets/js/flickity.pkgd.min.js"></script>
-
-  <!-- MeanMenu -- Local JS Asset File -->
-  <!-- A responsive menu plug-in -->
-  <!-- https://github.com/meanthemes/meanMenu -->
-  <!-- TODO: Repo is not maintained. See if we need to find an alternate plug-in. -->
-  <script src="/assets/js/jquery.meanmenu.min.js"></script>
-
-  <!-- Magnific Popup -- JS CDN Script Tag -->
-  <!-- Lightbox and modal dialog plugin -->
-  <!-- https://github.com/dimsemenov/Magnific-Popup -->
-  <!-- TODO: Repo is not maintained. See if we need to find an alternate plug-in. -->
-  <script src="/assets/js/jquery.magnific-popup.min.js"></script>
-
-  <!-- ScrollUp -- JS CDN Script Tag -->
-  <!-- A jQuery plugin to create a customizable 'Scroll to top' feature that will work with any website, with ease -->
-  <!-- https://github.com/markgoodyear/scrollup -->
-  <!-- TODO: Repo is not maintained. See if we need to find an alternate plug-in. -->
-
-  <!-- Simple Jekyll Search -- JS CDN Script Tag -->
-  <!-- Simple Jekyll site search using javascript and json -->
-  <!-- https://github.com/christian-fei/simple-jekyll-search -->
-  <script src="/assets/js/simple-jekyll-search.min.js"></script>
-
-  <!-- Custom Local JS Asset File -->
-  <script src="/assets/js/main.js"></script>
+  {% if legacy %}
+    {% assign legacy_js = 'jquery-1.12.4.min.js,popper.min.js,bootstrap.min.js,isotope.pkgd.min.js,imagesloaded.pkgd.min.js,jquery.waypoints.min.js,jquery.counterup.min.js,flickity.pkgd.min.js,jquery.meanmenu.min.js,jquery.magnific-popup.min.js,simple-jekyll-search.min.js,main.js' | split: ',' %}
+    {% for file in legacy_js %}<script src="{{ '/assets/js/' | append: file | relative_url }}"></script>{% endfor %}
+  {% endif %}
 </body>
-
 </html>

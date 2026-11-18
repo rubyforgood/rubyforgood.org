@@ -1,9 +1,7 @@
 ---
-layout: page
+layout: default
 title: Our Team
-description:
-bg: grey-bg
+description: From designing the first screen to maintaining software for years, these are the people working alongside our volunteers and nonprofit partners.
 ---
 
-{% include mixins/section_header.html %}
 {% include about_us/team_members.html %}

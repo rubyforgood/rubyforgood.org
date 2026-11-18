@@ -1,16 +1,8 @@
 ---
-layout: page
-title: FAQ
-description:
-bg: grey-bg
-style:
+layout: default
+title: Retreat FAQ archive
+description: Registration and scholarship applications for the past retreat are closed.
 permalink: /events/faq
-blocks:
-  - type:
-    title:
-    description:
-    bg:
-    style:
 ---
 
-{% include events/faq.html %}
+{% include events/closed.html %}

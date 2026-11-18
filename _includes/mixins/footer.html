@@ -1,71 +1,28 @@
-<footer class="footer-section">
-  <div class="container">
-    <div class="footer-content pt-50 pb-30">
-      <div class="footer-pattern">
-        <img
-          src="/assets/img/theme-stock/footer/footer_map.png"
-          class="img-fluid"
-          alt="world map"
-        />
+<footer class="rg-footer">
+  <div class="rg-wrap">
+    <div class="rg-footer-grid">
+      <div>
+        <a class="rg-brand" href="{{ '/' | relative_url }}"><img src="{{ site.white-logo | relative_url }}" alt="Ruby for Good home" width="134" height="58" loading="lazy"></a>
+        <p>Free software for nonprofits.<br>Built by people who care.</p>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       </div>
-      <div class="row">
-        <div class="col-xl-4 col-lg-4 mb-50">
-          <div class="footer-widget">
-            <div class="footer-logo">
-              <a href="{{ site.url }}">
-                <img
-                  src="{{ site.white-logo }}"
-                  class="img-fluid align-logo"
-                  alt="{{ site.title }}"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-          <div class="footer-social-icon">
-            <div class="footer-widget-heading">
-              <h3>Stay Connected</h3>
-            </div>
-            <a href="{{ site.twitter_url }}"><i class="fab fa-twitter"></i></a>
-            <a href="{{ site.linkedin_url }}">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="{{ site.github_url }}"><i class="fab fa-github"></i></a>
-            <a href="{{ site.twitch_url }}"><i class="fab fa-twitch"></i></a>
-          </div>
-          <br />
-          <div class="footer-widget-heading">
-            <h3>Contact Us</h3>
-          </div>
-          <div class="mb-25">
-            <p class="white">
-              <a
-                href="mailto:info@rubyforgood.org"
-                class="white"
-                target="_blank"
-              >
-                info@rubyforgood.org
-              </a>
-            </p>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-          <div class="footer-widget">
-            <div class="footer-widget-heading">
-              <h3>Subscribe</h3>
-            </div>
-            <div class="footer-text mb-25">
-              <p>
-                Get the latest updates, early notice for event registrations,
-                and other Ruby for Good news!
-              </p>
-            </div>
-            {% include mixins/subscribe.html %}
-          </div>
-        </div>
+      <nav aria-label="More about Ruby for Good">
+        <h2>Explore</h2>
+        {% for link in site.data.navigation %}{% for sublink in link.submenu %}
+          <a href="{{ sublink.url | relative_url }}">{{ sublink.text }}</a>
+        {% endfor %}{% endfor %}
+      </nav>
+      <div>
+        <h2>Stay in the loop</h2>
+        <p>Get project stories and ways to lend a hand.</p>
+        {% include mixins/subscribe.html %}
       </div>
     </div>
+    <div class="rg-colophon">
+      <span>Making the world gooder since 2013.</span>
+      <div><a href="{{ '/code-of-conduct' | relative_url }}">Code of conduct</a>
+      <a href="{{ site.github_url }}">GitHub</a> <a href="{{ site.linkedin_url }}">LinkedIn</a>
+      <a href="{{ site.twitter_url }}">X / Twitter</a> <a href="{{ site.twitch_url }}">Twitch</a></div>
+    </div>
   </div>
-  {% include mixins/copyright_bar.html %}
 </footer>

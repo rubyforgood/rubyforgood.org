@@ -1,5 +1,13 @@
-<header>
-  <div id="sticky-header" class="menu-area">
-    <div class="container">{% include mixins/navbar.html %}</div>
+<header class="rg-header">
+  <div class="rg-wrap rg-header-inner">
+    <a class="rg-brand" href="{{ '/' | relative_url }}">
+      <img src="{{ site.classic-logo | relative_url }}" alt="Ruby for Good home" width="112" height="49">
+    </a>
+    <nav class="rg-nav" aria-label="Main navigation">
+      {% for link in site.data.navigation %}
+        <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.text }}</a>
+      {% endfor %}
+    </nav>
+    <a class="rg-button rg-donate" href="{{ '/donate' | relative_url }}"><span aria-hidden="true">♥</span> Donate</a>
   </div>
 </header>

@@ -1,11 +1,11 @@
 ---
-layout: page
+title: Sean Marcia
 
 first_name: Sean
 last_name: Marcia
 list_order: A
-position: Founder and CEO
-photo: /assets/img/people/sean-marcia.png
+position: Founder
+photo: /assets/img/people/portraits/sean-marcia.jpg
 email: sean@rubyforgood.org
 social:
   - link: http://twitter.com/seanmarcia

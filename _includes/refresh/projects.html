@@ -1,0 +1,15 @@
+<section class="rg-wrap rg-section">
+  <p class="rg-kicker">Project shelf</p>
+  <div class="rg-section-head"><h2>Built with nonprofits.</h2><a class="rg-text-link" href="{{ '/our-work/impact' | relative_url }}">Meet our partners <span aria-hidden="true">→</span></a></div>
+  <div class="rg-cards">
+    {% for project in site.data.featured_projects %}
+      <article class="rg-project">
+        <div class="rg-project-meta"><span class="rg-icon">{% include refresh/symbol.svg name=project.symbol %}</span><span>{{ project.field }}</span></div>
+        <h3>{{ project.name }}</h3>
+        <p>{{ project.description }}</p>
+        {% assign first = project.href | slice: 0 %}
+        <a class="rg-text-link" href="{% if first == '/' %}{{ project.href | relative_url }}{% else %}{{ project.href }}{% endif %}">{{ project.link }} <span aria-hidden="true">↗</span></a>
+      </article>
+    {% endfor %}
+  </div>
+</section>

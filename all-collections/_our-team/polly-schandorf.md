@@ -1,11 +1,11 @@
 ---
-layout: page
+title: Polly Schandorf
 
 first_name: Polly
 last_name: Schandorf
 list_order: D
 position: Director of Strategic Partnerships
-photo: /assets/img/people/polly.png
+photo: /assets/img/people/portraits/polly.jpg
 email:
 
 write_up:

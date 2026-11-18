@@ -6,8 +6,8 @@
   description: "We truly value the generosity of our contributors that make the work of Ruby for Good possible. We believe in supporting them with meaningful and ongoing opportunities for impact, growth, and leadership, and enable them to reach their full potential, uplifting them in their careers and academic pursuits, and engaging them through their contributions."
   shape: icon-text-circle
   icon: far fa-handshake
-- title: Commitment to Our non-profit organizations
-  description: "Our non-profit organization organizations serve critical missions in the most marginalized communities nationwide. We believe in the vitality of their work and bolster their efforts and effectiveness by providing open source solutions that increase efficiency and drive impact."
+- title: Commitment to Our Nonprofit Partners
+  description: "Our partners know their communities best. We listen to their needs and build open-source tools that help them spend more time on their missions."
   shape: icon-text-circle
   icon: fas fa-gift
 - title: Communication

@@ -1,6 +1,8 @@
 # Site settings
 
 title: Ruby for Good
+baseurl: ""
+repository: rubyforgood/rubyforgood.org
 email: info@rubyforgood.org
 copyright_name: Ruby for Good
 description: > # this means to ignore newlines
@@ -113,10 +115,10 @@ defaults:
       share: false
   # Our Team Defaults
   - scope:
-      path: '_our-team'
+      path: ''
       type: our-team
     values:
-      layout: page
+      layout: default
       comments: false
       share: false
 

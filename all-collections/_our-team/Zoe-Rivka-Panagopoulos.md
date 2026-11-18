@@ -1,11 +1,11 @@
 ---
-layout: page
+title: Zoe Rivka Panagopoulos
 
 first_name: Zoe
 last_name: Rivka Panagopoulos
 list_order: C
 position: Product Manager, CASA
-photo: /assets/img/people/zoe.png
+photo: /assets/img/people/portraits/zoe.jpg
 email:
 social:
 

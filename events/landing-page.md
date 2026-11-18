@@ -1,16 +1,8 @@
 ---
-layout: page
-title: Events
-description:
-bg: grey-bg
-style:
+layout: default
+title: Retreat archive
+description: The retreat has ended. Our volunteer projects continue year-round.
 permalink: /events
-blocks:
-  - type:
-    title:
-    description:
-    bg:
-    style:
 ---
 
-{% include events/landing_page.html %}
+{% include events/closed.html %}

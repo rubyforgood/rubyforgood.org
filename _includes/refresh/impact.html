@@ -1,0 +1,8 @@
+<section class="rg-impact" aria-label="Community impact since 2013">
+  <div class="rg-wrap rg-stats">
+    <div class="rg-metric-intro"><span class="rg-kicker">Since 2013</span><h2>Good, in numbers.</h2></div>
+    {% for stat in site.data.impact %}
+      <p><strong>{{ stat.value }}</strong><span>{{ stat.label }}</span></p>
+    {% endfor %}
+  </div>
+</section>

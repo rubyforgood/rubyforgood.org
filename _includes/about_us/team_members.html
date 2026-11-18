@@ -1,29 +1,23 @@
-<section class="team-area grey-bg pb-70">
-  <div class="container">
-    <div class="row">
-      {% assign team-members = site.our-team | sort: "list_order" %}
-      <!-- prettier-ignore -->
-      {% for team-member in team-members %}
-      <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
-        <div class="single-team text-center">
-          <a href="{{ team-member.url }}">
-            <div class="team-img">
-              <img
-                src="{{ team-member.photo }}"
-                alt="{{ team-member.first_name }} {{ team-member.last_name }}"
-              />
-            </div>
-            <div class="team-info">
-              <h3>{{ team-member.first_name }} {{ team-member.last_name }}</h3>
-              <span>{{ team-member.position }}</span>
-            </div>
-          </a>
-        </div>
-      </div>
-      <!-- /col-xl-3 col-lg-3 col-md-6 -->
-      {% endfor %}
-    </div>
-    <!-- /row -->
+<header class="rg-team-banner">
+  <div class="rg-wrap">
+    <p class="rg-kicker">About Ruby for Good</p>
+    <h1 class="rg-title">Meet our team.</h1>
+    <p class="rg-lead">{{ page.description }}</p>
   </div>
-  <!-- /container -->
-</section>
+</header>
+
+{% assign members = site.our-team | sort: 'list_order' %}
+<ul class="rg-wrap rg-team-list" aria-label="Team members">
+  {% for member in members %}
+    <li>
+      <a class="rg-person-card" href="{{ member.url | relative_url }}">
+        <img class="rg-portrait" src="{{ member.photo | relative_url }}" alt="" width="144" height="144">
+        <div class="rg-person-label">
+          <h2>{{ member.first_name }} {{ member.last_name }}</h2>
+          <p>{{ member.position }}</p>
+        </div>
+        <span class="rg-profile-arrow" aria-hidden="true">→</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
