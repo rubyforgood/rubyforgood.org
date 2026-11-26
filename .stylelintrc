@@ -5,6 +5,14 @@
     "stylelint-config-sass-guidelines",
     "stylelint-config-prettier"
   ],
+  "overrides": [
+    {
+      "files": ["**/*.css"],
+      "rules": {
+        "scss/no-global-function-names": null
+      }
+    }
+  ],
   "rules": {
     "at-rule-no-unknown": [
       true,
